@@ -1,6 +1,7 @@
 import fetch from "node-fetch";
 import { config, newsSources } from "./config.js";
 import sanitizeHtml from "sanitize-html";
+import { chromium } from "playwright";
 
 interface Article {
   title: string;
@@ -246,73 +247,122 @@ function sanitizeNewsHtml(html: string, baseUrl: string): string {
 
 export async function scrapeNews(): Promise<Article[]> {
   const articles: Article[] = [];
+  const browser = await chromium.launch();
+  const context = await browser.newContext({
+    userAgent:
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    viewport: { width: 1920, height: 1080 },
+    deviceScaleFactor: 2,
+    hasTouch: false,
+    isMobile: false,
+    locale: "en-US",
+    timezoneId: "America/New_York",
+    permissions: ["geolocation"],
+    javaScriptEnabled: true,
+  });
 
-  for (const source of newsSources) {
-    try {
-      const response = await fetch(source.url);
-      const html = await response.text();
+  try {
+    for (const source of newsSources) {
+      try {
+        const page = await context.newPage();
 
-      // Sanitize HTML before sending to AI
-      const sanitizedHtml = sanitizeNewsHtml(html, source.url);
+        // Set a longer timeout for navigation
+        page.setDefaultTimeout(60000);
 
-      // Use OpenRouter AI to extract articles from the HTML
-      const extractionResponse = await fetch(
-        "https://openrouter.ai/api/v1/chat/completions",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${config.OPENROUTER_API_KEY}`,
-            "HTTP-Referer":
-              "https://github.com/sjoerdbeentjes/personal-reporter",
-          },
-          body: JSON.stringify({
-            model: scrapeModel,
-            response_format: {
-              type: "json_schema",
-              json_schema: {
-                name: "news_articles",
-                strict: true,
-                schema: {
-                  type: "object",
-                  properties: {
-                    articles: {
-                      type: "array",
-                      items: {
-                        type: "object",
-                        properties: {
-                          title: {
-                            type: "string",
-                            description: "The article title",
+        // Add common browser headers
+        await page.setExtraHTTPHeaders({
+          Accept:
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+          "Accept-Language": "en-US,en;q=0.9",
+          "Sec-Ch-Ua":
+            '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+          "Sec-Ch-Ua-Mobile": "?0",
+          "Sec-Ch-Ua-Platform": '"macOS"',
+        });
+
+        // Navigate with less strict conditions
+        await page.goto(source.url, {
+          waitUntil: "domcontentloaded",
+          timeout: 60000,
+        });
+
+        // Wait for some content to be visible
+        try {
+          await page.waitForSelector(
+            "article, .article, .post, main, .content",
+            { timeout: 10000 }
+          );
+        } catch (e) {
+          // Continue even if we can't find these specific selectors
+          console.log(
+            `Warning: Could not find main content selectors for ${source.name}`
+          );
+        }
+
+        const html = await page.content();
+        await page.close();
+
+        // Sanitize HTML before sending to AI
+        const sanitizedHtml = sanitizeNewsHtml(html, source.url);
+
+        // Use OpenRouter AI to extract articles from the HTML
+        const extractionResponse = await fetch(
+          "https://openrouter.ai/api/v1/chat/completions",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${config.OPENROUTER_API_KEY}`,
+              "HTTP-Referer":
+                "https://github.com/sjoerdbeentjes/personal-reporter",
+            },
+            body: JSON.stringify({
+              model: scrapeModel,
+              response_format: {
+                type: "json_schema",
+                json_schema: {
+                  name: "news_articles",
+                  strict: true,
+                  schema: {
+                    type: "object",
+                    properties: {
+                      articles: {
+                        type: "array",
+                        items: {
+                          type: "object",
+                          properties: {
+                            title: {
+                              type: "string",
+                              description: "The article title",
+                            },
+                            url: {
+                              type: "string",
+                              description: "Full URL of the article",
+                            },
+                            content: {
+                              type: "string",
+                              description:
+                                "Brief excerpt or summary of the article content",
+                            },
+                            category: {
+                              type: "string",
+                              description: "Category or topic of the article",
+                            },
                           },
-                          url: {
-                            type: "string",
-                            description: "Full URL of the article",
-                          },
-                          content: {
-                            type: "string",
-                            description:
-                              "Brief excerpt or summary of the article content",
-                          },
-                          category: {
-                            type: "string",
-                            description: "Category or topic of the article",
-                          },
+                          required: ["title", "url", "content", "category"],
+                          additionalProperties: false,
                         },
-                        required: ["title", "url", "content", "category"],
-                        additionalProperties: false,
                       },
                     },
+                    required: ["articles"],
+                    additionalProperties: false,
                   },
-                  required: ["articles"],
-                  additionalProperties: false,
                 },
               },
-            },
-            messages: [
-              {
-                role: "user",
-                content: `You are a web scraping assistant. Extract news articles from the following HTML content from ${source.name}. Return the data in a structured format.
+              messages: [
+                {
+                  role: "user",
+                  content: `You are a web scraping assistant. Extract news articles from the following HTML content from ${source.name}. Return the data in a structured format.
 
 The HTML content is:
 ${sanitizedHtml}
@@ -322,49 +372,52 @@ Extract up to 10 most prominent articles. For each article, provide:
 2. The full URL (if relative, convert to absolute using base URL: ${source.url})
 3. A brief excerpt or summary of the content
 4. The most appropriate category for the article (e.g., Technology, Politics, Business, etc.)`,
-              },
-            ],
-          }),
-        }
-      );
-
-      if (!extractionResponse.ok) {
-        throw new Error(
-          `OpenRouter API error: ${extractionResponse.statusText}`
+                },
+              ],
+            }),
+          }
         );
+
+        if (!extractionResponse.ok) {
+          throw new Error(
+            `OpenRouter API error: ${extractionResponse.statusText}`
+          );
+        }
+
+        const result = (await extractionResponse.json()) as OpenRouterResponse;
+
+        // Get generation details
+        const details = await getGenerationDetails(result.id);
+        trackCosts(`Scraping ${source.name}`, details);
+        console.log(`Scraping cost for ${source.name}:`, {
+          cost: details.total_cost,
+          model: details.model,
+          tokens: {
+            prompt: details.tokens_prompt,
+            completion: details.tokens_completion,
+          },
+          latency: details.latency,
+        });
+
+        const extractedData = JSON.parse(
+          result.choices[0].message.content
+        ) as ExtractedArticles;
+
+        articles.push(
+          ...extractedData.articles.map((article) => ({
+            ...article,
+            source: source.name,
+          }))
+        );
+      } catch (error) {
+        console.error(`Error scraping ${source.name}:`, error);
       }
-
-      const result = (await extractionResponse.json()) as OpenRouterResponse;
-
-      // Get generation details
-      const details = await getGenerationDetails(result.id);
-      trackCosts(`Scraping ${source.name}`, details);
-      console.log(`Scraping cost for ${source.name}:`, {
-        cost: details.total_cost,
-        model: details.model,
-        tokens: {
-          prompt: details.tokens_prompt,
-          completion: details.tokens_completion,
-        },
-        latency: details.latency,
-      });
-
-      const extractedData = JSON.parse(
-        result.choices[0].message.content
-      ) as ExtractedArticles;
-
-      articles.push(
-        ...extractedData.articles.map((article) => ({
-          ...article,
-          source: source.name,
-        }))
-      );
-    } catch (error) {
-      console.error(`Error scraping ${source.name}:`, error);
     }
-  }
 
-  return articles;
+    return articles;
+  } finally {
+    await browser.close();
+  }
 }
 
 export async function summarizeArticles(
