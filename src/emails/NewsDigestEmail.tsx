@@ -92,7 +92,7 @@ const styles = {
     maxWidth: "680px",
   },
   header: {
-    marginBottom: "32px",
+    marginBottom: "",
     textAlign: "center" as const,
   },
   brandText: {
@@ -137,9 +137,7 @@ const styles = {
     color: "#333333",
     fontFamily: '"Times New Roman", Times, serif',
   },
-  categorySection: {
-    marginBottom: "32px",
-  },
+  categorySection: {},
   categoryTitle: {
     color: "#1a1a1a",
     fontSize: "28px",
