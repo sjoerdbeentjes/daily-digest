@@ -289,7 +289,7 @@ export async function scrapeNews(): Promise<Article[]> {
         // Wait for some content to be visible
         try {
           await page.waitForSelector(
-            "article, .article, .post, main, .content",
+            "article, .article, .post, main, .content, table",
             { timeout: 10000 }
           );
         } catch (e) {
