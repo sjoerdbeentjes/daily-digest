@@ -92,7 +92,7 @@ const styles = {
     maxWidth: "680px",
   },
   header: {
-    marginBottom: "64px",
+    marginBottom: "32px",
     textAlign: "center" as const,
   },
   brandText: {
@@ -127,16 +127,9 @@ const styles = {
     fontFamily: '"Times New Roman", Times, serif',
   },
   introSection: {
-    marginBottom: "64px",
+    marginBottom: "40px",
     borderBottom: "1px solid #e0e0e0",
-    paddingBottom: "48px",
-  },
-  greeting: {
-    fontSize: "24px",
-    marginBottom: "32px",
-    fontStyle: "italic",
-    fontFamily: '"Times New Roman", Times, serif',
-    lineHeight: "1.4",
+    paddingBottom: "24px",
   },
   introText: {
     fontSize: "18px",
@@ -145,7 +138,7 @@ const styles = {
     fontFamily: '"Times New Roman", Times, serif',
   },
   categorySection: {
-    marginBottom: "64px",
+    marginBottom: "32px",
   },
   categoryTitle: {
     color: "#1a1a1a",
