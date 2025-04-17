@@ -48,10 +48,6 @@ export const newsSources = [
     url: "https://9to5mac.com",
   },
   {
-    name: "The Next Web",
-    url: "https://thenextweb.com",
-  },
-  {
     name: "Axios",
     url: "https://axios.com",
   },
