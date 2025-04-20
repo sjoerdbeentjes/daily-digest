@@ -9,6 +9,7 @@ import {
   Link,
   Hr,
   Heading,
+  Font,
 } from "@react-email/components";
 
 interface NewsCategory {
@@ -25,16 +26,38 @@ interface NewsCategory {
 interface NewsDigestEmailProps {
   date: string;
   categories: NewsCategory[];
+  introText: string;
 }
 
 export const NewsDigestEmail: React.FC<NewsDigestEmailProps> = ({
   date = new Date().toLocaleDateString(),
   categories = [],
+  introText = "Here's your daily news digest.",
 }) => {
   return (
     <Html>
       <Head>
         <title>{`Daily News Digest - ${date}`}</title>
+        <Font
+          fontFamily="Alegreya"
+          fallbackFontFamily="serif"
+          webFont={{
+            url: "https://fonts.gstatic.com/s/alegreya/v35/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNG9hU4-6qj.woff2",
+            format: "woff2",
+          }}
+          fontWeight={400}
+          fontStyle="normal"
+        />
+        <Font
+          fontFamily="Playfair Display"
+          fallbackFontFamily="serif"
+          webFont={{
+            url: "https://fonts.gstatic.com/s/playfairdisplay/v36/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtM.woff2",
+            format: "woff2",
+          }}
+          fontWeight={400}
+          fontStyle="normal"
+        />
       </Head>
       <Body style={styles.main}>
         <Container style={styles.container}>
@@ -44,6 +67,11 @@ export const NewsDigestEmail: React.FC<NewsDigestEmailProps> = ({
               DAILY NEWS DIGEST
             </Heading>
             <Text style={styles.date}>{date}</Text>
+          </Section>
+
+          {/* Intro Section */}
+          <Section style={styles.introSection}>
+            <Text style={styles.introText}>{introText}</Text>
           </Section>
 
           {/* Content Sections */}
@@ -82,7 +110,7 @@ export default NewsDigestEmail;
 
 const styles = {
   main: {
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
     backgroundColor: "#ffffff",
     color: "#1a1a1a",
   },
@@ -97,34 +125,31 @@ const styles = {
   },
   brandText: {
     fontSize: "28px",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Alegreya", "Times New Roman", Times, serif',
     marginBottom: "32px",
     fontStyle: "italic",
-    letterSpacing: "0.03em",
   },
   title: {
     color: "#bf4600",
     fontSize: "64px",
     fontWeight: "400",
-    letterSpacing: "0.05em",
     margin: "0",
     lineHeight: "1.1",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Alegreya", "Times New Roman", Times, serif',
   },
   issueNumber: {
     fontSize: "36px",
     color: "#1a1a1a",
     margin: "24px 0",
     fontWeight: "300",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Alegreya", "Times New Roman", Times, serif',
   },
   date: {
     color: "#666666",
     fontSize: "16px",
     margin: "24px 0",
     textTransform: "uppercase" as const,
-    letterSpacing: "0.2em",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
   },
   introSection: {
     marginBottom: "40px",
@@ -135,7 +160,7 @@ const styles = {
     fontSize: "18px",
     lineHeight: "1.6",
     color: "#333333",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
   },
   categorySection: {},
   categoryTitle: {
@@ -144,8 +169,7 @@ const styles = {
     fontWeight: "400",
     margin: "48px 0 32px",
     textTransform: "uppercase" as const,
-    letterSpacing: "0.15em",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Alegreya", "Times New Roman", Times, serif',
   },
   commentary: {
     color: "#333333",
@@ -153,7 +177,7 @@ const styles = {
     lineHeight: "1.6",
     margin: "24px 0",
     fontStyle: "italic",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
   },
   articleContainer: {
     marginBottom: "32px",
@@ -166,7 +190,7 @@ const styles = {
     lineHeight: "1.4",
     display: "block",
     marginBottom: "12px",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
     transition: "color 0.2s ease",
     ":hover": {
       color: "#666666",
@@ -177,14 +201,14 @@ const styles = {
     fontSize: "16px",
     margin: "8px 0",
     fontStyle: "italic",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
   },
   summaryText: {
     color: "#333333",
     fontSize: "18px",
     lineHeight: "1.6",
     margin: "16px 0",
-    fontFamily: '"Times New Roman", Times, serif',
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
   },
   divider: {
     margin: "48px 0",
@@ -201,7 +225,6 @@ const styles = {
     fontSize: "16px",
     margin: "24px 0",
     fontStyle: "italic",
-    fontFamily: '"Times New Roman", Times, serif',
-    letterSpacing: "0.05em",
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
   },
 } as const;

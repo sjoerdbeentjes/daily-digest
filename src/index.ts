@@ -15,7 +15,10 @@ async function main() {
     const summary = await summarizeArticles(articles);
 
     console.log("Sending email...");
-    await sendNewsletter(summary);
+    await sendNewsletter({
+      introText: summary.introText,
+      categories: summary.categories,
+    });
 
     console.log("Newsletter sent successfully!");
   } catch (error) {

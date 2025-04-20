@@ -22,6 +22,11 @@ export interface NewsCategory {
   commentary?: string;
 }
 
+export interface NewsDigestResult {
+  introText: string;
+  categories: NewsCategory[];
+}
+
 interface OpenRouterResponse {
   id: string;
   choices: Array<{
@@ -245,8 +250,195 @@ function sanitizeNewsHtml(html: string, baseUrl: string): string {
   });
 }
 
-export async function scrapeNews(): Promise<Article[]> {
+async function scrapeNewsSource(
+  source: (typeof newsSources)[0],
+  context: any
+): Promise<Article[]> {
+  const page = await context.newPage();
   const articles: Article[] = [];
+
+  try {
+    // Set a longer timeout for navigation
+    page.setDefaultTimeout(60000);
+
+    // Add common browser headers
+    await page.setExtraHTTPHeaders({
+      Accept:
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Sec-Ch-Ua":
+        '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua-Platform": '"macOS"',
+    });
+
+    // Navigate with less strict conditions
+    await page.goto(source.url, {
+      waitUntil: "domcontentloaded",
+      timeout: 60000,
+    });
+
+    // Wait for some content to be visible
+    try {
+      await page.waitForSelector(
+        "article, .article, .post, main, .content, table",
+        { timeout: 10000 }
+      );
+    } catch (e) {
+      console.log(
+        `Warning: Could not find main content selectors for ${source.name}`
+      );
+    }
+
+    const html = await page.content();
+
+    // Sanitize HTML before sending to AI
+    const sanitizedHtml = sanitizeNewsHtml(html, source.url);
+
+    // Use OpenRouter AI to extract articles from the HTML
+    const extractionResponse = await fetch(
+      "https://openrouter.ai/api/v1/chat/completions",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${config.OPENROUTER_API_KEY}`,
+          "HTTP-Referer": "https://github.com/sjoerdbeentjes/personal-reporter",
+        },
+        body: JSON.stringify({
+          model: scrapeModel,
+          response_format: {
+            type: "json_schema",
+            json_schema: {
+              name: "news_articles",
+              strict: true,
+              schema: {
+                type: "object",
+                properties: {
+                  articles: {
+                    type: "array",
+                    items: {
+                      type: "object",
+                      properties: {
+                        title: {
+                          type: "string",
+                          description: "The article title",
+                        },
+                        url: {
+                          type: "string",
+                          description: "Full URL of the article",
+                        },
+                        content: {
+                          type: "string",
+                          description:
+                            "Brief excerpt or summary of the article content",
+                        },
+                        category: {
+                          type: "string",
+                          description: "Category or topic of the article",
+                        },
+                      },
+                      required: ["title", "url", "content", "category"],
+                      additionalProperties: false,
+                    },
+                  },
+                },
+                required: ["articles"],
+                additionalProperties: false,
+              },
+            },
+          },
+          messages: [
+            {
+              role: "user",
+              content: `You are an expert web scraper specializing in news content extraction. Extract substantive news articles from the following HTML content from ${source.name}. Return the data in a structured format.
+
+The HTML content is:
+${sanitizedHtml}
+
+Extract up to 10 of the most significant and substantive articles, focusing on quality over quantity. For each article, provide:
+1. The precise article title, preserving its original wording
+2. The full URL (if relative, convert to absolute using base URL: ${source.url})
+3. A concise, informative summary of the content (100-150 words) that captures the essential information in journalistic style
+4. The most specific and appropriate category for the article - be precise rather than using broad categories (e.g., "AI Ethics" rather than just "Technology")
+
+IMPORTANT:
+- Focus on extracting complete, standalone articles rather than snippets or teasers
+- Include only actual news content, avoiding advertisements, sponsored content, or links to other sections
+- For each article, ensure the content summary provides genuine information value, not just metadata
+- If the article content seems truncated or incomplete, indicate this in the summary`,
+            },
+          ],
+        }),
+      }
+    );
+
+    if (!extractionResponse.ok) {
+      throw new Error(`OpenRouter API error: ${extractionResponse.statusText}`);
+    }
+
+    const result = (await extractionResponse.json()) as OpenRouterResponse;
+
+    // Get generation details
+    const details = await getGenerationDetails(result.id);
+    trackCosts(`Scraping ${source.name}`, details);
+    console.log(`Scraping cost for ${source.name}:`, {
+      cost: details.total_cost,
+      model: details.model,
+      tokens: {
+        prompt: details.tokens_prompt,
+        completion: details.tokens_completion,
+      },
+      latency: details.latency,
+    });
+
+    const extractedData = JSON.parse(
+      result.choices[0].message.content
+    ) as ExtractedArticles;
+
+    articles.push(
+      ...extractedData.articles.map((article) => ({
+        ...article,
+        source: source.name,
+      }))
+    );
+
+    return articles;
+  } catch (error) {
+    console.error(`Error scraping ${source.name}:`, error);
+    return [];
+  } finally {
+    await page.close();
+  }
+}
+
+// Helper function to process sources in batches
+async function processBatch(
+  sources: typeof newsSources,
+  context: any,
+  batchSize: number
+): Promise<Article[]> {
+  const results: Article[] = [];
+
+  for (let i = 0; i < sources.length; i += batchSize) {
+    const batch = sources.slice(i, i + batchSize);
+    const batchPromises = batch.map((source) =>
+      scrapeNewsSource(source, context)
+    );
+
+    const batchResults = await Promise.all(batchPromises);
+    results.push(...batchResults.flat());
+
+    // Add a small delay between batches to avoid rate limiting
+    if (i + batchSize < sources.length) {
+      await sleep(1000);
+    }
+  }
+
+  return results;
+}
+
+export async function scrapeNews(): Promise<Article[]> {
   const browser = await chromium.launch();
   const context = await browser.newContext({
     userAgent:
@@ -262,158 +454,8 @@ export async function scrapeNews(): Promise<Article[]> {
   });
 
   try {
-    for (const source of newsSources) {
-      try {
-        const page = await context.newPage();
-
-        // Set a longer timeout for navigation
-        page.setDefaultTimeout(60000);
-
-        // Add common browser headers
-        await page.setExtraHTTPHeaders({
-          Accept:
-            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-          "Accept-Language": "en-US,en;q=0.9",
-          "Sec-Ch-Ua":
-            '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
-          "Sec-Ch-Ua-Mobile": "?0",
-          "Sec-Ch-Ua-Platform": '"macOS"',
-        });
-
-        // Navigate with less strict conditions
-        await page.goto(source.url, {
-          waitUntil: "domcontentloaded",
-          timeout: 60000,
-        });
-
-        // Wait for some content to be visible
-        try {
-          await page.waitForSelector(
-            "article, .article, .post, main, .content, table",
-            { timeout: 10000 }
-          );
-        } catch (e) {
-          // Continue even if we can't find these specific selectors
-          console.log(
-            `Warning: Could not find main content selectors for ${source.name}`
-          );
-        }
-
-        const html = await page.content();
-        await page.close();
-
-        // Sanitize HTML before sending to AI
-        const sanitizedHtml = sanitizeNewsHtml(html, source.url);
-
-        // Use OpenRouter AI to extract articles from the HTML
-        const extractionResponse = await fetch(
-          "https://openrouter.ai/api/v1/chat/completions",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              Authorization: `Bearer ${config.OPENROUTER_API_KEY}`,
-              "HTTP-Referer":
-                "https://github.com/sjoerdbeentjes/personal-reporter",
-            },
-            body: JSON.stringify({
-              model: scrapeModel,
-              response_format: {
-                type: "json_schema",
-                json_schema: {
-                  name: "news_articles",
-                  strict: true,
-                  schema: {
-                    type: "object",
-                    properties: {
-                      articles: {
-                        type: "array",
-                        items: {
-                          type: "object",
-                          properties: {
-                            title: {
-                              type: "string",
-                              description: "The article title",
-                            },
-                            url: {
-                              type: "string",
-                              description: "Full URL of the article",
-                            },
-                            content: {
-                              type: "string",
-                              description:
-                                "Brief excerpt or summary of the article content",
-                            },
-                            category: {
-                              type: "string",
-                              description: "Category or topic of the article",
-                            },
-                          },
-                          required: ["title", "url", "content", "category"],
-                          additionalProperties: false,
-                        },
-                      },
-                    },
-                    required: ["articles"],
-                    additionalProperties: false,
-                  },
-                },
-              },
-              messages: [
-                {
-                  role: "user",
-                  content: `You are a web scraping assistant. Extract news articles from the following HTML content from ${source.name}. Return the data in a structured format.
-
-The HTML content is:
-${sanitizedHtml}
-
-Extract up to 10 most prominent articles. For each article, provide:
-1. The article title
-2. The full URL (if relative, convert to absolute using base URL: ${source.url})
-3. A brief excerpt or summary of the content
-4. The most appropriate category for the article (e.g., Technology, Politics, Business, etc.)`,
-                },
-              ],
-            }),
-          }
-        );
-
-        if (!extractionResponse.ok) {
-          throw new Error(
-            `OpenRouter API error: ${extractionResponse.statusText}`
-          );
-        }
-
-        const result = (await extractionResponse.json()) as OpenRouterResponse;
-
-        // Get generation details
-        const details = await getGenerationDetails(result.id);
-        trackCosts(`Scraping ${source.name}`, details);
-        console.log(`Scraping cost for ${source.name}:`, {
-          cost: details.total_cost,
-          model: details.model,
-          tokens: {
-            prompt: details.tokens_prompt,
-            completion: details.tokens_completion,
-          },
-          latency: details.latency,
-        });
-
-        const extractedData = JSON.parse(
-          result.choices[0].message.content
-        ) as ExtractedArticles;
-
-        articles.push(
-          ...extractedData.articles.map((article) => ({
-            ...article,
-            source: source.name,
-          }))
-        );
-      } catch (error) {
-        console.error(`Error scraping ${source.name}:`, error);
-      }
-    }
-
+    // Process sources in batches of 3 to maintain reasonable concurrency
+    const articles = await processBatch(newsSources, context, 3);
     return articles;
   } finally {
     await browser.close();
@@ -422,15 +464,23 @@ Extract up to 10 most prominent articles. For each article, provide:
 
 export async function summarizeArticles(
   articles: Article[]
-): Promise<NewsCategory[]> {
-  const prompt = `You are a professional newsletter curator. Analyze the following articles and create a structured digest with the following requirements:
+): Promise<NewsDigestResult> {
+  const prompt = `You are an experienced journalist and newsletter editor crafting a high-quality daily digest. Analyze the following articles and create a newsletter with:
 
-1. Group articles by topic/theme into categories
-2. For each category:
-   - Provide a category name
-   - Add a brief, insightful commentary about the theme
-   - Include relevant articles with their titles and optional 1-2 sentence summaries
-   - Provide max. 3 articles per category
+1. Write a concise, compelling intro paragraph (2-3 sentences) that captures today's key themes using journalistic language
+2. Group articles into meaningful categories, avoiding generic labels like "Technology News" - be specific about the subject matter
+3. For each category:
+   - Create an engaging, specific category name
+   - Write a brief, insightful commentary (1-2 sentences) that provides context or analysis on the topic
+   - Include the most relevant articles (max 3 per category)
+   - For each article, provide a crisp, journalistic summary of 1-2 sentences that captures the key information
+
+IMPORTANT RULES:
+- Use clear, journalistic language that is accessible but not simplistic - avoid corporate jargon and overly academic terms
+- Ensure a consistent tone throughout the newsletter that feels like a quality news publication
+- Ensure each article appears only ONCE in the entire digest - NO duplicate articles across categories
+- If multiple articles cover the same news story or event, only include the most comprehensive one
+- Prioritize quality of insights over quantity of articles
 
 Articles to process:
 ${articles
@@ -469,6 +519,10 @@ URL: ${a.url}
             schema: {
               type: "object",
               properties: {
+                introText: {
+                  type: "string",
+                  description: "Brief, engaging intro text for the digest",
+                },
                 categories: {
                   type: "array",
                   items: {
@@ -516,7 +570,7 @@ URL: ${a.url}
                   },
                 },
               },
-              required: ["categories"],
+              required: ["introText", "categories"],
               additionalProperties: false,
             },
           },
@@ -549,19 +603,22 @@ URL: ${a.url}
   try {
     // OpenRouter returns the content as a string that needs to be parsed
     const parsedContent = JSON.parse(result.choices[0].message.content);
-    return parsedContent.categories as NewsCategory[];
+    return parsedContent as NewsDigestResult;
   } catch (error) {
     console.error("Error parsing AI response:", error);
     // Fallback to a single category if parsing fails
-    return [
-      {
-        category: "Today's News",
-        articles: articles.map((a) => ({
-          title: a.title,
-          url: a.url,
-          source: a.source,
-        })),
-      },
-    ];
+    return {
+      introText: "Here's your daily news digest.",
+      categories: [
+        {
+          category: "Today's News",
+          articles: articles.map((a) => ({
+            title: a.title,
+            url: a.url,
+            source: a.source,
+          })),
+        },
+      ],
+    };
   }
 }

@@ -16,14 +16,19 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-export async function sendNewsletter(
-  categories: NewsCategory[]
-): Promise<void> {
+export async function sendNewsletter({
+  introText,
+  categories,
+}: {
+  introText: string;
+  categories: NewsCategory[];
+}): Promise<void> {
   const date = format(new Date(), "MMMM do, yyyy");
   const emailHtml = render(
     React.createElement(NewsDigestEmail, {
       date,
       categories,
+      introText,
     })
   );
 
