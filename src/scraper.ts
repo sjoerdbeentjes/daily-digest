@@ -359,7 +359,7 @@ ${sanitizedHtml}
 Extract up to 10 of the most significant and substantive articles, focusing on quality over quantity. For each article, provide:
 1. The precise article title, preserving its original wording
 2. The full URL (if relative, convert to absolute using base URL: ${source.url})
-3. A concise, informative summary of the content (100-150 words) that captures the essential information in journalistic style
+3. A concise, informative summary of the content (100-150 words) that captures the essential information
 4. The most specific and appropriate category for the article - be precise rather than using broad categories (e.g., "AI Ethics" rather than just "Technology")
 
 IMPORTANT:
@@ -467,17 +467,16 @@ export async function summarizeArticles(
 ): Promise<NewsDigestResult> {
   const prompt = `You are an experienced journalist and newsletter editor crafting a high-quality daily digest. Analyze the following articles and create a newsletter with:
 
-1. Write a concise, compelling intro paragraph (2-3 sentences) that captures today's key themes using journalistic language
+1. Write a concise, compelling intro paragraph (2-3 sentences) that captures today's key themes
 2. Group articles into meaningful categories, avoiding generic labels like "Technology News" - be specific about the subject matter
 3. For each category:
    - Create an engaging, specific category name
    - Write a brief, insightful commentary (1-2 sentences) that provides context or analysis on the topic
    - Include the most relevant articles (max 3 per category)
-   - For each article, provide a crisp, journalistic summary of 1-2 sentences that captures the key information
+   - For each article, provide a crisp summary of 1-2 sentences that captures the key information
 
 IMPORTANT RULES:
-- Use clear, journalistic language that is accessible but not simplistic - avoid corporate jargon and overly academic terms
-- Ensure a consistent tone throughout the newsletter that feels like a quality news publication
+- Use clear language that is accessible but not simplistic - avoid corporate jargon and overly academic terms
 - Ensure each article appears only ONCE in the entire digest - NO duplicate articles across categories
 - If multiple articles cover the same news story or event, only include the most comprehensive one
 - Prioritize quality of insights over quantity of articles
