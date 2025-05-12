@@ -465,23 +465,16 @@ export async function scrapeNews(): Promise<Article[]> {
 export async function summarizeArticles(
   articles: Article[]
 ): Promise<NewsDigestResult> {
-  const prompt = `You are an experienced journalist and newsletter editor crafting a high-quality daily digest. Analyze the following articles and create a newsletter with:
+  const prompt = `You are a news summarization assistant. Your task is to generate a daily news digest from the provided articles. Follow these rules strictly:
 
-1. Write a concise, compelling intro paragraph (2-3 sentences) that captures today's key themes
-2. Group articles into meaningful categories, avoiding generic labels like "Technology News" - be specific about the subject matter
-3. For each category:
-   - Create an engaging, specific category name
-   - Write a brief, insightful commentary (1-2 sentences) that provides context or analysis on the topic
-   - Include the most relevant articles (max 3 per category)
-   - For each article, provide a crisp summary of 1-2 sentences that captures the key information
+1. Write a brief introductory paragraph (2-3 sentences) that factually lists the main topics covered in the articles, without any analysis, interpretation, or commentary.
+2. Group the articles into categories based on their subject matter. Use clear, factual category names (e.g., "Sports", "Elections", "Technology", "Business", "International Relations").
+3. For each category, do NOT provide any commentary or analysis—just list the articles.
+4. For each article, provide a summary of 1-2 sentences that only states the main facts or events reported in the article. Do not include any analysis, interpretation, speculation, or commentary. Do not use phrases like "exploring", "emphasizing", "highlighting", "raising questions", or similar analytical language. Only summarize what the article says.
+5. Do not repeat articles in multiple categories.
+6. If multiple articles cover the same event, only include the most comprehensive one.
 
-IMPORTANT RULES:
-- Use clear language that is accessible but not simplistic - avoid corporate jargon and overly academic terms
-- Ensure each article appears only ONCE in the entire digest - NO duplicate articles across categories
-- If multiple articles cover the same news story or event, only include the most comprehensive one
-- Prioritize quality of insights over quantity of articles
-
-Articles to process:
+Here are the articles to process:
 ${articles
   .map(
     (a) => `
