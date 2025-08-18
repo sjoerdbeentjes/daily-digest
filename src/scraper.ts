@@ -93,8 +93,8 @@ const costTracker: CostTracker = {
   operations: [],
 };
 
-const scrapeModel = "openai/gpt-4.1-nano";
-const summarizeModel = "openai/gpt-4.1-nano";
+const scrapeModel = "openai/gpt-5-nano";
+const summarizeModel = "openai/gpt-5-nano";
 
 function trackCosts(operation: string, details: GenerationDetails) {
   costTracker.totalCost += details.total_cost;
