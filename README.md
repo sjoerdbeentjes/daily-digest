@@ -1,12 +1,15 @@
 # Personal News Reporter
 
-An AI-powered news aggregator that sends daily email digests of your favorite news sources. The digest is automatically generated every morning at 6:00 AM (Amsterdam time) using GitHub Actions.
+An AI-powered news aggregator that sends daily email digests of your favorite news sources. The digest is automatically generated every morning at 6:00 AM (Amsterdam time) using GitHub Actions. Each digest is also hosted online with an RSS feed for easy subscription.
 
 ## Features
 
 - Scrapes configured news sources for latest articles
 - Uses OpenRouter AI with structured outputs to summarize and organize articles by topic
 - Sends beautifully formatted HTML email digests
+- **Hosts each digest online** with individual HTML pages
+- **Provides RSS feed** for digest subscription
+- **Maintains digest archive** with search-friendly index page
 - Runs automatically via GitHub Actions
 - Configurable news sources and email settings
 
@@ -26,11 +29,16 @@ An AI-powered news aggregator that sends daily email digests of your favorite ne
    EMAIL_FROM=sender@example.com
    EMAIL_TO=recipient@example.com
    OPENROUTER_API_KEY=your-openrouter-api-key
+   SITE_URL=https://yourusername.github.io/daily-digest
    ```
 
 4. Configure your news sources in `src/config.ts`
 
-5. Add the following secrets to your GitHub repository:
+5. **Enable GitHub Pages** in your repository settings:
+   - Go to Settings → Pages
+   - Set Source to "GitHub Actions"
+
+6. Add the following secrets to your GitHub repository:
    - `SMTP_HOST`
    - `SMTP_PORT`
    - `SMTP_USER`
@@ -38,6 +46,20 @@ An AI-powered news aggregator that sends daily email digests of your favorite ne
    - `EMAIL_FROM`
    - `EMAIL_TO`
    - `OPENROUTER_API_KEY`
+
+## Hosted Digest Features
+
+Once set up, your daily digests will be available online:
+
+- **Archive Page**: `https://yourusername.github.io/daily-digest/` - Browse all past digests
+- **RSS Feed**: `https://yourusername.github.io/daily-digest/rss.xml` - Subscribe to new digests
+- **Individual Digests**: `https://yourusername.github.io/daily-digest/digests/YYYY-MM-DD.html` - Direct links to specific digests
+
+The system automatically:
+- Generates HTML versions of each email digest
+- Updates the RSS feed with new entries
+- Maintains an archive index page
+- Deploys everything to GitHub Pages
 
 ## Local Development
 

@@ -7,6 +7,9 @@ dist/
 # Environment variables
 .env
 
+# Generated files (except digests-data.json which needs to be tracked)
+public/
+
 # Logs
 *.log
 npm-debug.log*

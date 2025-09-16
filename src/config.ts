@@ -14,6 +14,9 @@ const configSchema = z.object({
 
   // OpenRouter API key for AI processing
   OPENROUTER_API_KEY: z.string(),
+
+  // Hosting configuration
+  SITE_URL: z.string().optional().default("https://sjoerdbeentjes.github.io/daily-digest"),
 });
 
 export const config = configSchema.parse(process.env);
