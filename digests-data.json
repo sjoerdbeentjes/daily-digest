@@ -1,297 +1,459 @@
 [
   {
     "date": "September 17th, 2025",
-    "introText": "Topics today include AI policy and tech regulation (Meta’s new super PAC, OpenAI restrictions for under-18 users, TikTok uncertainties), major tech-platform updates and investments (Xbox PC app, Google/Apple search and Wallet features, UK AI supercomputer funding), space science funding and Mars findings (NASA budget concerns, Mars habitability clues), and global politics and conflict developments (EU-Russia oil sanctions, Gaza invasion), alongside culture, sports, and notable business news.",
+    "introText": "This daily digest covers updates on Apple hardware and software, and AI/technology platforms; startup funding and tech business deals; autonomous mobility and transportation; health tech and regulatory developments; global politics and policy; European and Dutch news; culture and entertainment; energy and climate news; security and legal matters; and sports.",
     "categories": [
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Apple & Consumer Tech",
+        "commentary": "Updates on Apple devices, operating systems, chargers, and ecosystem services.",
         "articles": [
           {
-            "title": "Meta created its own super PAC to politically kneecap its AI rivals",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/778767/meta-mark-zuckerberg-super-pac-kneecap-ai-rivals-california",
+            "title": "The Apple Watch SE 3 is the one to buy",
+            "url": "https://www.theverge.com/smartwatch-review/778037/apple-watch-se-3-review-battery-specs-watchos-26-smartwatch-wearable",
             "source": "The Verge",
-            "summary": "Meta formed a political action committee to influence AI policy and public debate, aiming to counter competitors in AI ecosystems."
+            "summary": "Verge says the Apple Watch SE 3 offers strong value with improved efficiency and longer battery life, running watchOS 26; suitable for first-time buyers and budget-conscious shoppers."
+          },
+          {
+            "title": "Apple Watch hypertension alerts cleared by FDA for new and old watches",
+            "url": "https://www.theverge.com/news/776942/apple-watch-hypertension-feature-cleared-by-fda",
+            "source": "The Verge",
+            "summary": "FDA clearance extends hypertension alerts to older and newer Apple Watch models, enabling monitoring of blood pressure trends and flagging potential hypertension as part of Apple’s health signals strategy."
+          },
+          {
+            "title": "Apple’s new iPhone charger is a (second) of its kind",
+            "url": "https://www.theverge.com/news/777883/apple-charger-usb-pd-3-2-avs-dynamic",
+            "source": "The Verge",
+            "summary": "Article explains USB-C PD 3.2 charging approach, device compatibility, and potential improvements in charging speeds within Apple’s ecosystem."
+          },
+          {
+            "title": "AirPods Pro 3 review: tripling down on a good thing",
+            "url": "https://www.theverge.com/headphone-review/777798/airpods-pro-3-review-active-noise-cancelling-live-translation-headphones",
+            "source": "The Verge",
+            "summary": "AirPods Pro 3 offer improved sound, fit, noise cancellation, and live translation, with better battery life and call quality."
+          },
+          {
+            "title": "iOS 26 with Apple’s Liquid Glass redesign is out now",
+            "url": "https://www.theverge.com/news/777466/apple-ios-26-launch-iphone-liquid-glass-update",
+            "source": "The Verge",
+            "summary": "iOS 26 launches with Liquid Glass redesign; describes navigation changes, feature updates, and initial performance impressions."
+          },
+          {
+            "title": "Apple Vision Pro gains support for digital prism correction",
+            "url": "https://9to5mac.com/2025/09/16/apple-vision-pro-gains-support-for-digital-prism-correction/",
+            "source": "9to5Mac",
+            "summary": "Vision Pro now allows software-based prism correction by entering prism values in settings, improving comfort for users with prism prescriptions."
+          },
+          {
+            "title": "Apple’s Wallet app has key new feature for saved credit cards in iOS 26",
+            "url": "https://9to5mac.com/2025/09/16/apples-wallet-app-has-key-new-feature-for-saved-credit-cards-in-ios-26/",
+            "source": "9to5Mac",
+            "summary": "iOS 26 expands how saved cards work in Wallet, enabling broader use across apps and stores and tightening integration with Apple services."
+          },
+          {
+            "title": "Almost a week in, the iPhone Air doesn’t look like a pre-order hit",
+            "url": "https://9to5mac.com/2025/09/16/iphone-air-pre-order-availability/",
+            "source": "9to5Mac",
+            "summary": "Delivery estimates show iPhone Air largely available at launch, with some variants experiencing longer waits due to allocation."
+          },
+          {
+            "title": "Review: Apple Watch Ultra 3 delivers off-grid connectivity as Series 11 extends battery",
+            "url": "https://9to5mac.com/2025/09/16/review-apple-watch-ultra-3-series-11/",
+            "source": "9to5Mac",
+            "summary": "Ultra 3 highlights off-grid satellite connectivity and longer battery life tied to Series 11 improvements."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Technology, AI & Digital Platforms",
+        "commentary": "News on platforms, AI, software tooling, and how digital services are evolving.",
         "articles": [
           {
-            "title": "The right wing is creating a society of snitches",
-            "url": "https://www.theverge.com/policy/778972/right-wing-harassment-firings-charlie-kirk",
+            "title": "YouTube is inching closer to becoming a shopping channel",
+            "url": "https://www.theverge.com/news/779472/youtube-monetization-features-ai-tagging-dynamic-ads",
             "source": "The Verge",
-            "summary": "Conservative actors use online harassment and high-profile firings to pressure platforms and employers to discipline critics, focusing on Charlie Kirk and moderation policy implications."
+            "summary": "YouTube adds monetization tools including AI-assisted tagging and dynamic ads to boost product discovery and creator earnings."
+          },
+          {
+            "title": "Gemini tops the App Store thanks to new AI image model, Nano Banana",
+            "url": "https://techcrunch.com/2025/09/16/gemini-tops-the-app-store-thanks-to-new-ai-image-model-nano-banana/",
+            "source": "TechCrunch",
+            "summary": "Gemini’s Nano Banana AI image model boosts app performance and engagement on the App Store."
+          },
+          {
+            "title": "Google rolls out new Windows desktop app with Spotlight-like search tool",
+            "url": "https://techcrunch.com/2025/09/16/google-rolls-out-new-windows-desktop-app-with-spotlight-like-search-tool/",
+            "source": "TechCrunch",
+            "summary": "Google launches a Windows desktop app with a Spotlight-inspired search experience integrating Google services."
+          },
+          {
+            "title": "CodeRabbit raises $60M, valuing the 2-year-old AI code review startup at $550M",
+            "url": "https://techcrunch.com/2025/09/16/coderabbit-raises-60m-valuing-the-2-year-old-ai-code-review-startup-at-550m/",
+            "source": "TechCrunch",
+            "summary": "CodeRabbit raises $60 million at a $550 million valuation to expand its AI-driven code review platform."
+          },
+          {
+            "title": "D-ID acquires Berlin-based video startup Simpleshow",
+            "url": "https://techcrunch.com/2025/09/16/d-id-acquires-berlin-based-video-startup-simpleshow/",
+            "source": "TechCrunch",
+            "summary": "D-ID acquires Simpleshow to broaden its AI-powered video capabilities and product integration."
+          },
+          {
+            "title": "Robinhood plans to launch a startups fund open to all retail investors",
+            "url": "https://techcrunch.com/2025/09/16/robinhood-plans-to-launch-a-startups-fund-open-to-all-retail-investors/",
+            "source": "TechCrunch",
+            "summary": "Robinhood plans a startup fund accessible to all retail investors to participate in early-stage funding."
+          },
+          {
+            "title": "The 9 most sought-after startups from YC Demo Day",
+            "url": "https://techcrunch.com/2025/09/15/the-9-most-sought-after-startups-from-yc-demo-day/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch profiles the nine startups deemed most attractive from YC Demo Day, highlighting traction and potential."
+          },
+          {
+            "title": "Silicon Valley bets big on environments to train AI agents",
+            "url": "https://techcrunch.com/2025/09/16/silicon-valley-bets-big-on-environments-to-train-ai-agents/",
+            "source": "TechCrunch",
+            "summary": "Explores simulated environments and synthetic data used to train AI agents, enabling rapid iteration and safer testing."
+          },
+          {
+            "title": "OpenAI will apply new restrictions to ChatGPT users under 18",
+            "url": "https://techcrunch.com/2025/09/16/openai-will-apply-new-restrictions-to-chatgpt-users-under-18/",
+            "source": "TechCrunch",
+            "summary": "OpenAI introduces age-based restrictions on ChatGPT usage for users under 18 for safety and compliance."
+          },
+          {
+            "title": "Al Gore on China’s climate rise: ‘I would not have seen this coming’",
+            "url": "https://techcrunch.com/2025/09/16/al-gore-on-chinas-climate-rise-i-would-not-have-seen-this-coming/",
+            "source": "TechCrunch",
+            "summary": "Al Gore discusses shifts in China’s climate landscape and implications for global energy policy."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Can Luigi Mangione get too big to jail?",
-            "url": "https://www.theverge.com/report/779351/luigi-mangione-hearing-new-york-social-media-ecosystem",
-            "source": "The Verge",
-            "summary": "A Verge report on Mangione’s online influence and related legal cases, examining enforcement and accountability in digital activism."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Microsoft Xbox PC app adds Steam games and access to other stores",
-            "url": "https://www.theverge.com/news/778627/microsoft-xbox-pc-app-stream-integration-stores-update",
-            "source": "The Verge",
-            "summary": "The Xbox PC app now supports Steam games and other storefronts, enabling cross-ecosystem play and broader catalog access."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Autonomous Mobility & Transportation",
+        "commentary": "News about self-driving tech, airport mobility, and related regulatory milestones.",
         "articles": [
           {
             "title": "Waymo gets green light for airport service in San Francisco",
             "url": "https://www.theverge.com/news/779039/waymo-sfo-airport-permit-robotaxi",
             "source": "The Verge",
-            "summary": "Waymo authorized to operate its robotaxi service at San Francisco International Airport, expanding autonomous transport options."
+            "summary": "Waymo receives permit to operate robotaxi service at San Francisco International Airport, with designated terminals and safety requirements."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Microsoft trumps Google with $30 billion investment in the UK",
-            "url": "https://www.theverge.com/news/778881/microsoft-uk-investment-ai-supercomputer",
-            "source": "The Verge",
-            "summary": "Microsoft announces a $30 billion investment in the UK to develop a premier AI supercomputer and accelerate AI research."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Health, Public Health & Safety",
+        "commentary": "Updates on health tech, disease prevention, and safety standards.",
         "articles": [
           {
             "title": "Apple Watch hypertension alerts cleared by FDA for new and old watches",
-            "url": "https://www.theverge.com/science/776942/apple-watch-hypertension-feature-cleared-by-fda",
+            "url": "https://www.theverge.com/news/776942/apple-watch-hypertension-feature-cleared-by-fda",
             "source": "The Verge",
-            "summary": "FDA clearance granted for Apple Watch hypertension alerts on both new and older models."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
+            "summary": "FDA clearance extends hypertension alerts to older and newer Apple Watch models, enabling health trend monitoring."
+          },
           {
-            "title": "NASA found clues of life on Mars, but budget cuts threaten future missions",
-            "url": "https://www.theverge.com/nasa/776554/nasa-mars-jezero-crater-budget-cuts",
-            "source": "The Verge",
-            "summary": "Mars research yielded clues about past habitability, but NASA budget cuts threaten future missions."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
+            "title": "Denmark close to wiping out cancer-causing HPV strains after vaccine roll-out",
+            "url": "https://www.gavi.org/vaccineswork/denmark-close-wiping-out-leading-cancer-causing-hpv-strains-after-vaccine-roll-out",
+            "source": "Gavi",
+            "summary": " Denmark’s HPV vaccination program shows substantial declines in high-risk HPV strains post-rollout."
+          },
           {
-            "title": "Google’s Windows desktop app brings a Spotlight-like search bar to PC",
-            "url": "https://www.theverge.com/news/778940/google-app-windows-launch",
-            "source": "The Verge",
-            "summary": "Google’s Windows app adds a Spotlight-like search bar to access Google services from the PC."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "YouTube is inching closer to becoming a shopping channel",
-            "url": "https://www.theverge.com/news/778693/youtube-monetization-features-ai-tagging-dynamic-ads",
-            "source": "The Verge",
-            "summary": "YouTube expanding monetization with AI-assisted tagging and dynamic ads to boost revenue."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Google rolls out new Windows desktop app with Spotlight-like search tool",
-            "url": "https://techcrunch.com/2025/09/16/google-rolls-out-new-windows-desktop-app-with-spotlight-like-search-tool/",
+            "title": "OpenAI restrictions to ChatGPT users under 18",
+            "url": "https://techcrunch.com/2025/09/16/openai-will-apply-new-restrictions-to-chatgpt-users-under-18/",
             "source": "TechCrunch",
-            "summary": "Google launches a Windows desktop app with a Spotlight-like search feature and deep integration with Google services."
+            "summary": "OpenAI imposes age-based restrictions on under-18 usage to improve safety and compliance."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Politics, Policy & International Affairs",
+        "commentary": "Coverage of domestic politics, international diplomacy, and policy developments.",
         "articles": [
           {
-            "title": "Gemini tops the App Store thanks to new AI image model, Nano Banana",
-            "url": "https://techcrunch.com/2025/09/16/gemini-tops-the-app-store-thanks-to-new-ai-image-model-nano-banana/",
-            "source": "TechCrunch",
-            "summary": "Gemini’s Nano Banana model boosts app store rankings and usage for AI-powered imaging."
+            "title": "Trump Invokes Kirk’s Killing in Justifying Measures to Silence Opponents",
+            "url": "https://www.nytimes.com/2025/09/16/us/politics/trump-kirk-free-speech-hate-speech-left.html",
+            "source": "The New York Times",
+            "summary": "Trump and allies push policy measures targeting perceived opponents amid controversial events surrounding Charlie Kirk."
+          },
+          {
+            "title": "Suspect Faces Aggravated Murder Charge, and Death Penalty",
+            "url": "https://www.nytimes.com/2025/09/16/us/politics/kirk-shooting-suspect-charges",
+            "source": "The New York Times",
+            "summary": "Live coverage indicates the suspect faces aggravated murder charges and possible death penalty in the Kirk shooting case."
+          },
+          {
+            "title": "Obama Says the Nation Is in a ‘Political Crisis’",
+            "url": "https://www.nytimes.com/2025/09/17/us/politics/obama-trump-unity.html",
+            "source": "The New York Times",
+            "summary": "Obama warns of polarization and democratic norms erosion, calling for civic engagement and common ground."
+          },
+          {
+            "title": "Bondi Prompts Broad Backlash After Saying She’ll Target ‘Hate Speech’",
+            "url": "https://www.nytimes.com/2025/09/16/us/politics/pam-bondi-hate-speech-charlie-kirk.html",
+            "source": "The New York Times",
+            "summary": "Backlash over AG’s pledge to target hate speech and concerns about civil liberties."
+          },
+          {
+            "title": "Kash Patel Plays the Familiar Role of Pugilist at a Senate Hearing",
+            "url": "https://www.nytimes.com/2025/09/16/us/politics/kash-patel-senate-hearing-fbi.html",
+            "source": "The New York Times",
+            "summary": "Kash Patel adopts a combative stance during a Senate hearing on FBI-national security matters."
+          },
+          {
+            "title": "Democrats Oppose Stopgap Bill, Raising Odds of a Shutdown",
+            "url": "https://www.nytimes.com/2025/09/16/us/politics/dems-stopgap-bill-shutdown.html",
+            "source": "The New York Times",
+            "summary": "Democrats oppose a stopgap funding measure, warning of a government shutdown risk."
+          },
+          {
+            "title": "What to Know About Trump’s State Visit to the U.K.",
+            "url": "https://www.nytimes.com/2025/09/16/world/europe/trump-state-visit-uk-king-charles.html",
+            "source": "The New York Times",
+            "summary": "Overview of Trump’s state visit to the U.K., including schedule and diplomatic context."
+          },
+          {
+            "title": "Israeli Ground Forces Move Into Gaza City, Sowing Chaos",
+            "url": "https://www.nytimes.com/2025/09/16/world/middleeast/gaza-city-israel-invasion.html",
+            "source": "The New York Times",
+            "summary": "Report on Israeli forces entering Gaza City amid escalation and humanitarian concerns."
+          },
+          {
+            "title": "Trump’s Laissez-Faire Stance Gives Netanyahu Free Pass for Gaza Escalation",
+            "url": "https://www.nytimes.com/2025/09/16/world/middleeast/trump-netanyahu-gaza-escalation.html",
+            "source": "The New York Times",
+            "summary": "Analysis of President Trump’s stance and its effect on U.S.-Israel relations amid Gaza escalation."
+          },
+          {
+            "title": "4 arrested after Trump, Epstein images beamed onto Windsor Castle",
+            "url": "https://www.axios.com/2025/09/17/trump-uk-visit-protests-epstein-windsor-castle-arrests",
+            "source": "Axios",
+            "summary": "Protests near Windsor Castle lead to arrests after images of Trump and Epstein are projected at a royal event."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Europe & Dutch News",
+        "commentary": "News from and about Europe and the Netherlands.",
         "articles": [
           {
-            "title": "What to know about TikTok’s uncertain future in the US and the people who want to buy it",
-            "url": "https://techcrunch.com/2025/09/16/what-to-know-about-tiktoks-uncertain-future-in-the-us-and-the-people-who-want-to-buy-it/",
-            "source": "TechCrunch",
-            "summary": "Article outlines regulatory and political uncertainties around TikTok’s US status and profiles potential buyers."
+            "title": "Hoofdverdachte in zaak-Maddie McCann vrijgelaten uit gevangenis",
+            "url": "https://nos.nl/artikel/2582835-hoofdverdachte-in-zaak-maddie-mccann-vrijgelaten-uit-gevangenis",
+            "source": "NOS",
+            "summary": "Main suspect in the Madeleine McCann case is released from custody due to a lack of legal grounds to hold him."
+          },
+          {
+            "title": "Gevangenismedewerkers thuis belaagd: drie explosies en een zware mishandeling",
+            "url": "https://nos.nl/artikel/2582837-gevangenismedewerkers-thuis-belaagd-drie-explosies-en-een-zware-mishandeling",
+            "source": "NOS",
+            "summary": "Security incidents against prison staff include home assaults, explosions, and serious assault."
+          },
+          {
+            "title": "Veiling Downton Abbey-kostuums en rekwisieten levert bijna 2 miljoen euro op",
+            "url": "https://nos.nl/artikel/2582806-veiling-downton-abbey-kostuums-en-rekwisieten-levert-bijna-2-miljoen-euro-op",
+            "source": "NOS",
+            "summary": "Auction of Downton Abbey costumes and props raises about €2 million, far above expectations."
+          },
+          {
+            "title": "Van Langen en Coe zien gouden toekomst Laros: 'Alle ingrediënten van een kampioen'",
+            "url": "https://nos.nl/artikel/2582813-van-langen-en-coe-zien-gouden-toekomst-laros-alle-ingredienten-van-een-kampioen",
+            "source": "NOS",
+            "summary": "Dutch commentators laud Niels Laros as having the ingredients of a champion in middle-distance running."
+          },
+          {
+            "title": "Teleurstelling bij PSV na beroerde start in Europa: 'Ging een hoop niet goed'",
+            "url": "https://nos.nl/artikel/2582792-teleurstelling-bij-psv-na-beroerde-start-in-europa-ging-een-hoop-niet-goed",
+            "source": "NOS",
+            "summary": "PSV begins Champions League with disappointing start; experts cite tactical and form issues."
+          },
+          {
+            "title": "Ongemakkelijk bezoek van nieuwe Poolse president aan Berlijn",
+            "url": "https://nos.nl/artikel/2582776-ongemakkelijk-bezoek-van-nieuwe-poolse-president-aan-berlijn",
+            "source": "NOS",
+            "summary": "Tense EU-level diplomacy as Poland’s new president visits Berlin amid security and historical restitution discussions."
+          },
+          {
+            "title": "Zeker vijftig Sudanezen omgekomen bij brand op Middellandse Zee",
+            "url": "https://nos.nl/artikel/2582781-zeker-vijftig-sudanezen-omgekomen-bij-brand-op-middellandse-zee",
+            "source": "NOS",
+            "summary": "At least 50 migrants die after a fire on a vessel off the Libyan coast; rescue operations continue."
+          },
+          {
+            "title": "Trump-show rolt Engeland binnen: rode loper, koninklijke wijn en techdeals",
+            "url": "https://nos.nl/artikel/2582784-trump-show-rolt-engeland-binnen-rode-loper-koninklijke-wijn-en-techdeals",
+            "source": "NOS",
+            "summary": "Trump’s visit to the U.K. features ceremonial welcome, potential tech deals, and diplomatic discussions."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Culture, Entertainment & Media",
+        "commentary": "News on culture, arts, and media industry events.",
         "articles": [
           {
-            "title": "D-ID acquires Berlin-based video startup Simpleshow",
-            "url": "https://techcrunch.com/2025/09/16/d-id-acquires-berlin-based-video-startup-simpleshow/",
-            "source": "TechCrunch",
-            "summary": "D-ID acquires Simpleshow to combine AI video capabilities with animation tools."
+            "title": "Veiling Downton Abbey-kostuums en rekwisieten levert bijna 2 miljoen euro op",
+            "url": "https://nos.nl/artikel/2582806-veiling-downton-abbey-kostuums-en-rekwisieten-levert-bijna-2-miljoen-euro-op",
+            "source": "NOS",
+            "summary": "Auction of Downton Abbey costumes and props yields nearly €2 million, far exceeding expectations."
+          },
+          {
+            "title": "De openbare biecht van acteur Charlie Sheen: hoe je van falen een loopbaan maakt",
+            "url": "https://nrc.nl/nieuws/2025/09/16/charlie-sheen-hoe-je-van-falen-een-loopbaan-maakt-a4906294",
+            "source": "NRC",
+            "summary": "Netflix documentaire and memoir reflect on Sheen’s career after personal turmoil and public missteps."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Sports",
+        "commentary": "Updates on European and global sports results and commentary.",
+        "articles": [
+          {
+            "title": "Van Langen en Coe zien gouden toekomst Laros: 'Alle ingrediënten van een kampioen'",
+            "url": "https://nos.nl/artikel/2582813-van-langen-en-coe-zien-gouden-toekomst-laros-alle-ingredienten-van-een-kampioen",
+            "source": "NOS",
+            "summary": "Former champions praise Dutch runner Laros as possessing all ingredients of a champion."
+          },
+          {
+            "title": "Teleurstelling bij PSV na beroerde start in Europa: 'Ging een hoop niet goed'",
+            "url": "https://nos.nl/artikel/2582792-teleurstelling-bij-psv-na-beroerde-start-in-europa-ging-een-hoop-niet-goed",
+            "source": "NOS",
+            "summary": "PSV’s disappointing European start with tactical and performance issues discussed by experts."
+          }
+        ]
+      },
+      {
+        "category": "Crime, Law & Justice",
+        "commentary": "Recent legal cases, sentencing, and law enforcement news.",
+        "articles": [
+          {
+            "title": "Rechter VS: moord op topman zorgverzekeraar is geen terrorisme",
+            "url": "https://nos.nl/artikel/2582793-rechter-vs-moord-op-topman-zorgverzekeraar-is-geen-terrorisme",
+            "source": "NOS",
+            "summary": "US judge rules the murder of a health insurer executive is not terrorism."
+          },
+          {
+            "title": "Openbaar Ministerie eist 14 jaar en tbs na doden en wegmaken lichaam sekswerker",
+            "url": "https://nos.nl/artikel/2582785-openbaar-ministerie-eist-14-jaar-en-tbs-na-doden-en-wegmaken-lichaam-sekswerker",
+            "source": "NOS",
+            "summary": "Public Prosecutor seeks 14 years and compulsory treatment in a case involving homicide and disposal of a sex worker’s body."
+          },
+          {
+            "title": "Celstraf van zes maanden voor Palestijnse Mahmoud A., die Israëlische Maccabi-supporter mishandelde",
+            "url": "https://nrc.nl/nieuws/2025/09/16/celstraf-van-zes-maanden-voor-palestijnse-mahmoud-a-die-israelische-maccabi-supporter-mishandelde-a4906353",
+            "source": "NRC",
+            "summary": "Palestinian Mahmoud A. sentenced to six months for assaulting an Israeli Maccabi supporter; reduced responsibility due to trauma and intellectual disability."
+          }
+        ]
+      },
+      {
+        "category": "Energy, Environment & Climate",
+        "commentary": " news on energy policy, climate issues and environmental topics.",
+        "articles": [
+          {
+            "title": "Von der Leyen wil uitfaseren Russische olie- en gasimport versnellen na gesprek met Trump",
+            "url": "https://nrc.nl/nieuws/2025/09/17/von-der-leyen-wil-uitfaseren-russische-olie-en-gasimport-versnellen-na-gesprek-met-trump-a4906385",
+            "source": "NRC",
+            "summary": "EU aims to speed up phasing out Russian oil and gas imports following talks with Trump; targets include stopping Russian gas contracts by Jan 1, 2026 and ending Russian oil imports by end of 2027."
+          },
+          {
+            "title": "Al Gore on China’s climate rise: ‘I would not have seen this coming’",
+            "url": "https://techcrunch.com/2025/09/16/al-gore-on-chinas-climate-rise-i-would-not-have-seen-this-coming/",
+            "source": "TechCrunch",
+            "summary": "Gore discusses unexpected developments in China’s climate landscape and global energy policy implications."
+          },
+          {
+            "title": "Denmark close to wiping out cancer-causing HPV strains after vaccine roll-out",
+            "url": "https://www.gavi.org/vaccineswork/denmark-close-wiping-out-leading-cancer-causing-hpv-strains-after-vaccine-roll-out",
+            "source": "Gavi",
+            "summary": "HPV vaccination rollout correlated with declines in high-risk HPV types, reducing cancer risk."
+          }
+        ]
+      },
+      {
+        "category": "Security & Cybersecurity",
+        "commentary": "Incidents and updates on cyber threats, malware, and security best practices.",
         "articles": [
           {
             "title": "Shai-Hulud malware attack: Tinycolor and over 40 NPM packages compromised",
-            "url": "https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised",
+            "url": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
             "source": "Hacker News",
-            "summary": "Malware attack compromised Tinycolor and more than 40 npm packages."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Scammed out of $130K via fake Google call, spoofed Google email and auth sync",
-            "url": "https://bewildered.substack.com/p/i-was-scammed-out-of-130000-and-google",
-            "source": "Hacker News",
-            "summary": "A scam caused the loss of $130,000 through fake Google calls and spoofed emails."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
+            "summary": "Supply-chain attack compromised Tinycolor and 40+ npm packages, illustrating dependency-rooted security risks."
+          },
           {
             "title": "Things you can do with a Software Defined Radio (2024)",
             "url": "https://blinry.org/50-things-with-sdr/",
             "source": "Hacker News",
-            "summary": "An article listing 50 potential uses for Software Defined Radio."
+            "summary": "List of 50 practical SDR use-cases, from basic listening to ADS-B decoding and spectrum analysis."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Culture, Entertainment & Media",
+        "commentary": "Cultural industry and media-related developments.",
         "articles": [
           {
-            "title": "Waymo has received our pilot permit allowing for commercial operations at SFO",
-            "url": "https://waymo.com/blog/#short-all-systems-go-at-sfo-waymo-has-received-our-pilot-permit",
-            "source": "Hacker News",
-            "summary": "Waymo received a pilot permit for commercial operations at San Francisco International Airport."
+            "title": "NRC bespreekt de opmerkelijkste passages uit de Troonrede",
+            "url": "https://nrc.nl/nieuws/2025/09/16/wat-zei-de-koning-in-de-troonrede-en-wat-betekent-het-a4906219",
+            "source": "NRC",
+            "summary": "NRC analyzes notable Troonrede passages, including Kierkegaard quote, for potential policy guidance."
+          },
+          {
+            "title": "De openbare biecht van acteur Charlie Sheen: hoe je van falen een loopbaan maakt",
+            "url": "https://nrc.nl/nieuws/2025/09/16/charlie-sheen-hoe-je-van-falen-een-loopbaan-maakt-a4906294",
+            "source": "NRC",
+            "summary": "Netflix documentary and autobiography explore Sheen’s reflections on failure, fame, and career resilience."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "Education & Public Policy",
+        "commentary": "News on governance, budgeting and public sector policy.",
         "articles": [
           {
-            "title": "Denmark close to wiping out cancer-causing HPV strains after vaccine roll-out",
-            "url": "https://www.gavi.org/vaccineswork/denmark-close-wiping-out-leading-cancer-causing-hpv-strains-after-vaccine-roll-out",
-            "source": "Hacker News",
-            "summary": "Denmark nearing eradication of cancer-causing HPV strains following vaccine rollout."
+            "title": "Tweed Kamer in debat over begroting: worden de Algemene Beschouwingen het eerste verkiezingsdebat?",
+            "url": "https://nrc.nl/nieuws/2025/09/17/tweede-kamer-in-debat-over-begroting-worden-de-algemene-beschouwingen-het-eerste-verkiezingsdebat-a4906326",
+            "source": "NRC",
+            "summary": "Parliament discusses the budget; the debates may shape the election agenda and priorities."
+          },
+          {
+            "title": "Een klein kreupel kabinet zoekt nederig steun, en de partijen zijn al op vrijersvoeten",
+            "url": "https://nrc.nl/nieuws/2025/09/16/deze-begroting-laat-de-onthutsende-stilstand-zien-die-den-haag-in-de-greep-heeft-a4906301",
+            "source": "NRC",
+            "summary": "Analyses a fragile government relying on cross-party support amid budget talks and upcoming elections."
+          },
+          {
+            "title": "Deze begroting laat de onthutsende stilstand zien die Den Haag in de greep heeft",
+            "url": "https://nrc.nl/nieuws/2025/09/16/deze-begroting-laat-de-onthutsende-stilstand-zien-die-den-haag-in-de-greep-heeft-a4906301",
+            "source": "NRC",
+            "summary": "Examines limited new policy and fiscal pressures shaping investments in schools, healthcare and infrastructure."
           }
         ]
       },
       {
-        "category": "Technology",
-        "commentary": "",
+        "category": "International & Security Policy",
+        "commentary": "Global policy and security-related developments.",
         "articles": [
           {
-            "title": "September 15, 2025: The Day the Industry Admitted AI Subscriptions Don't Work",
-            "url": "https://blog.kilocode.ai/p/why-ai-subscriptions-cannot-work",
-            "source": "Hacker News",
-            "summary": "Industry acknowledges that AI subscription models do not work."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
+            "title": "What to Know About Trump’s State Visit to the U.K.",
+            "url": "https://www.nytimes.com/2025/09/16/world/europe/trump-state-visit-uk-king-charles.html",
+            "source": "The New York Times",
+            "summary": "Overview of Trump’s state visit to the U.K., including schedule and diplomatic context."
+          },
           {
-            "title": "How to make the Framework Desktop run even quieter",
-            "url": "https://noctua.at/en/how-to-make-the-framework-desktop-run-even-quieter",
-            "source": "Hacker News",
-            "summary": "Guide on reducing noise from Framework Desktop."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
+            "title": "Israelian Ground Forces Move Into Gaza City, Sowing Chaos",
+            "url": "https://www.nytimes.com/2025/09/16/world/middleeast/gaza-city-israel-invasion.html",
+            "source": "The New York Times",
+            "summary": "Israeli ground invasion into Gaza City described amid escalation and humanitarian concerns."
+          },
           {
-            "title": "I built my own phone because innovation is sad rn [video]",
-            "url": "https://www.youtube.com/watch?v=qy_9w_c2ub0",
-            "source": "Hacker News",
-            "summary": "Video about building a personal phone due to perceived innovation shortcomings."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Irssi: IRC Client in a Docker Image",
-            "url": "https://hub.docker.com/_/irssi",
-            "source": "Hacker News",
-            "summary": "Irssi IRC client packaged in a Docker image."
-          }
-        ]
-      },
-      {
-        "category": "Technology",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Plugin System",
-            "url": "https://iina.io/plugins/",
-            "source": "Hacker News",
-            "summary": "Overview of a plugin system."
+            "title": "Trump’s Laissez-Faire Stance Gives Netanyahu Free Pass for Gaza Escalation",
+            "url": "https://www.nytimes.com/2025/09/16/world/middleeast/trump-netanyahu-gaza-escalation.html",
+            "source": "The New York Times",
+            "summary": "Analysis of Trump’s stance and its impact on U.S.-Israel relations amid Gaza escalation."
           }
         ]
       }
     ],
-    "timestamp": 1758082487112
+    "timestamp": 1758099049058
   }
 ]
