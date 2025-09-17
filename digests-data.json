@@ -1,1 +1,297 @@
-[]
+[
+  {
+    "date": "September 17th, 2025",
+    "introText": "Topics today include AI policy and tech regulation (Meta’s new super PAC, OpenAI restrictions for under-18 users, TikTok uncertainties), major tech-platform updates and investments (Xbox PC app, Google/Apple search and Wallet features, UK AI supercomputer funding), space science funding and Mars findings (NASA budget concerns, Mars habitability clues), and global politics and conflict developments (EU-Russia oil sanctions, Gaza invasion), alongside culture, sports, and notable business news.",
+    "categories": [
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Meta created its own super PAC to politically kneecap its AI rivals",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/778767/meta-mark-zuckerberg-super-pac-kneecap-ai-rivals-california",
+            "source": "The Verge",
+            "summary": "Meta formed a political action committee to influence AI policy and public debate, aiming to counter competitors in AI ecosystems."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "The right wing is creating a society of snitches",
+            "url": "https://www.theverge.com/policy/778972/right-wing-harassment-firings-charlie-kirk",
+            "source": "The Verge",
+            "summary": "Conservative actors use online harassment and high-profile firings to pressure platforms and employers to discipline critics, focusing on Charlie Kirk and moderation policy implications."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Can Luigi Mangione get too big to jail?",
+            "url": "https://www.theverge.com/report/779351/luigi-mangione-hearing-new-york-social-media-ecosystem",
+            "source": "The Verge",
+            "summary": "A Verge report on Mangione’s online influence and related legal cases, examining enforcement and accountability in digital activism."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Microsoft Xbox PC app adds Steam games and access to other stores",
+            "url": "https://www.theverge.com/news/778627/microsoft-xbox-pc-app-stream-integration-stores-update",
+            "source": "The Verge",
+            "summary": "The Xbox PC app now supports Steam games and other storefronts, enabling cross-ecosystem play and broader catalog access."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Waymo gets green light for airport service in San Francisco",
+            "url": "https://www.theverge.com/news/779039/waymo-sfo-airport-permit-robotaxi",
+            "source": "The Verge",
+            "summary": "Waymo authorized to operate its robotaxi service at San Francisco International Airport, expanding autonomous transport options."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Microsoft trumps Google with $30 billion investment in the UK",
+            "url": "https://www.theverge.com/news/778881/microsoft-uk-investment-ai-supercomputer",
+            "source": "The Verge",
+            "summary": "Microsoft announces a $30 billion investment in the UK to develop a premier AI supercomputer and accelerate AI research."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Apple Watch hypertension alerts cleared by FDA for new and old watches",
+            "url": "https://www.theverge.com/science/776942/apple-watch-hypertension-feature-cleared-by-fda",
+            "source": "The Verge",
+            "summary": "FDA clearance granted for Apple Watch hypertension alerts on both new and older models."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "NASA found clues of life on Mars, but budget cuts threaten future missions",
+            "url": "https://www.theverge.com/nasa/776554/nasa-mars-jezero-crater-budget-cuts",
+            "source": "The Verge",
+            "summary": "Mars research yielded clues about past habitability, but NASA budget cuts threaten future missions."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Google’s Windows desktop app brings a Spotlight-like search bar to PC",
+            "url": "https://www.theverge.com/news/778940/google-app-windows-launch",
+            "source": "The Verge",
+            "summary": "Google’s Windows app adds a Spotlight-like search bar to access Google services from the PC."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "YouTube is inching closer to becoming a shopping channel",
+            "url": "https://www.theverge.com/news/778693/youtube-monetization-features-ai-tagging-dynamic-ads",
+            "source": "The Verge",
+            "summary": "YouTube expanding monetization with AI-assisted tagging and dynamic ads to boost revenue."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Google rolls out new Windows desktop app with Spotlight-like search tool",
+            "url": "https://techcrunch.com/2025/09/16/google-rolls-out-new-windows-desktop-app-with-spotlight-like-search-tool/",
+            "source": "TechCrunch",
+            "summary": "Google launches a Windows desktop app with a Spotlight-like search feature and deep integration with Google services."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Gemini tops the App Store thanks to new AI image model, Nano Banana",
+            "url": "https://techcrunch.com/2025/09/16/gemini-tops-the-app-store-thanks-to-new-ai-image-model-nano-banana/",
+            "source": "TechCrunch",
+            "summary": "Gemini’s Nano Banana model boosts app store rankings and usage for AI-powered imaging."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "What to know about TikTok’s uncertain future in the US and the people who want to buy it",
+            "url": "https://techcrunch.com/2025/09/16/what-to-know-about-tiktoks-uncertain-future-in-the-us-and-the-people-who-want-to-buy-it/",
+            "source": "TechCrunch",
+            "summary": "Article outlines regulatory and political uncertainties around TikTok’s US status and profiles potential buyers."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "D-ID acquires Berlin-based video startup Simpleshow",
+            "url": "https://techcrunch.com/2025/09/16/d-id-acquires-berlin-based-video-startup-simpleshow/",
+            "source": "TechCrunch",
+            "summary": "D-ID acquires Simpleshow to combine AI video capabilities with animation tools."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Shai-Hulud malware attack: Tinycolor and over 40 NPM packages compromised",
+            "url": "https://www.stepsecurity.io/blog/ctrl-tinycolor-and-40-npm-packages-compromised",
+            "source": "Hacker News",
+            "summary": "Malware attack compromised Tinycolor and more than 40 npm packages."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Scammed out of $130K via fake Google call, spoofed Google email and auth sync",
+            "url": "https://bewildered.substack.com/p/i-was-scammed-out-of-130000-and-google",
+            "source": "Hacker News",
+            "summary": "A scam caused the loss of $130,000 through fake Google calls and spoofed emails."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Things you can do with a Software Defined Radio (2024)",
+            "url": "https://blinry.org/50-things-with-sdr/",
+            "source": "Hacker News",
+            "summary": "An article listing 50 potential uses for Software Defined Radio."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Waymo has received our pilot permit allowing for commercial operations at SFO",
+            "url": "https://waymo.com/blog/#short-all-systems-go-at-sfo-waymo-has-received-our-pilot-permit",
+            "source": "Hacker News",
+            "summary": "Waymo received a pilot permit for commercial operations at San Francisco International Airport."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Denmark close to wiping out cancer-causing HPV strains after vaccine roll-out",
+            "url": "https://www.gavi.org/vaccineswork/denmark-close-wiping-out-leading-cancer-causing-hpv-strains-after-vaccine-roll-out",
+            "source": "Hacker News",
+            "summary": "Denmark nearing eradication of cancer-causing HPV strains following vaccine rollout."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "September 15, 2025: The Day the Industry Admitted AI Subscriptions Don't Work",
+            "url": "https://blog.kilocode.ai/p/why-ai-subscriptions-cannot-work",
+            "source": "Hacker News",
+            "summary": "Industry acknowledges that AI subscription models do not work."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "How to make the Framework Desktop run even quieter",
+            "url": "https://noctua.at/en/how-to-make-the-framework-desktop-run-even-quieter",
+            "source": "Hacker News",
+            "summary": "Guide on reducing noise from Framework Desktop."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "I built my own phone because innovation is sad rn [video]",
+            "url": "https://www.youtube.com/watch?v=qy_9w_c2ub0",
+            "source": "Hacker News",
+            "summary": "Video about building a personal phone due to perceived innovation shortcomings."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Irssi: IRC Client in a Docker Image",
+            "url": "https://hub.docker.com/_/irssi",
+            "source": "Hacker News",
+            "summary": "Irssi IRC client packaged in a Docker image."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Plugin System",
+            "url": "https://iina.io/plugins/",
+            "source": "Hacker News",
+            "summary": "Overview of a plugin system."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758082487112
+  }
+]
