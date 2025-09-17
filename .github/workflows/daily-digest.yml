@@ -25,6 +25,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          # Ensure we get the latest commits including any recent digest data updates
+          fetch-depth: 0
+      
+      - name: Ensure latest digest data is available
+        run: |
+          echo "Current digest data file status:"
+          if [ -f "digests-data.json" ]; then
+            echo "digests-data.json exists with $(jq length digests-data.json) entries"
+            echo "Last modified: $(stat -c %y digests-data.json)"
+          else
+            echo "digests-data.json does not exist, will be created"
+          fi
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -55,13 +67,36 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add digests-data.json
-          git diff --staged --quiet || git commit -m "Update digest data - $(date +'%Y-%m-%d')"
-          git push
+          # Check if there are any changes to commit
+          if ! git diff --staged --quiet; then
+            echo "Changes detected in digest data, committing..."
+            git commit -m "Update digest data - $(date +'%Y-%m-%d')"
+            git push
+            echo "Successfully committed and pushed digest data"
+            echo "Updated digest data now contains $(jq length digests-data.json) entries"
+          else
+            echo "No changes to digest data detected"
+          fi
       
       - name: Upload artifacts for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      
+      - name: Verify generated files contain historical data
+        run: |
+          if [ -f "public/rss.xml" ]; then
+            RSS_ITEMS=$(grep -c "<item>" public/rss.xml || echo "0")
+            echo "RSS feed contains $RSS_ITEMS items"
+          fi
+          if [ -f "public/index.html" ]; then
+            INDEX_ITEMS=$(grep -c 'class="digest-item"' public/index.html || echo "0")
+            echo "Index page contains $INDEX_ITEMS digest items"
+          fi
+          if [ -d "public/digests" ]; then
+            DIGEST_FILES=$(find public/digests -name "*.html" | wc -l)
+            echo "Generated $DIGEST_FILES individual digest pages"
+          fi
       
       - name: Deploy to GitHub Pages
         id: deployment

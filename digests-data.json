@@ -1,5 +1,23 @@
 [
   {
+    "date": "September 19th, 2025",
+    "introText": "Final test digest for persistence verification",
+    "categories": [
+      {
+        "category": "System Test",
+        "articles": [
+          {
+            "title": "Test Persistence Article",
+            "url": "http://example.com/test",
+            "source": "Test System",
+            "summary": "This article tests the persistence system"
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758261600000
+  },
+  {
     "date": "September 17th, 2025",
     "introText": "This daily digest covers updates on Apple hardware and software, and AI/technology platforms; startup funding and tech business deals; autonomous mobility and transportation; health tech and regulatory developments; global politics and policy; European and Dutch news; culture and entertainment; energy and climate news; security and legal matters; and sports.",
     "categories": [
