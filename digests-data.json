@@ -19,351 +19,351 @@
   },
   {
     "date": "September 17th, 2025",
-    "introText": "Today's digest covers Apple product reviews and new devices, major AI policy and industry developments, and key business, geopolitical, and security news. It also highlights health and climate updates, entertainment headlines, and notable legal cases.",
+    "introText": "This digest covers technology and AI developments, major geopolitical events including the Gaza conflict and US-China tech tensions, and economics and markets. It also highlights Dutch politics and notable cultural obituaries.",
     "categories": [
       {
-        "category": "Technology & Gadgets",
-        "commentary": "",
+        "category": "Technology",
+        "commentary": "Technology product news, AI, robotics, and software updates.",
         "articles": [
-          {
-            "title": "Apple iPhone Air review: statement piece",
-            "url": "https://www.theverge.com/tech/779588/apple-iphone-air-review-battery-camera",
-            "source": "The Verge",
-            "summary": "Verge reviews the iPhone Air focusing on thin design tradeoffs; discusses impact on battery life, heat, and camera, and whether the thinner chassis changes user experience."
-          },
           {
             "title": "The iPhone 17 is the one to get this year",
             "url": "https://www.theverge.com/tech/779568/iphone-17-review-apple-best-features",
             "source": "The Verge",
-            "summary": "Verge argues iPhone 17 offers best balance of features, performance, and value; discusses design, camera, battery life, processor, and ecosystem."
+            "summary": "The Verge argues the standard iPhone 17 offers a compelling balance of speed, battery life, and value, with improvements to display and energy efficiency, making it a strong option relative to Pro and Air variants."
           },
           {
-            "title": "Apple’s iPhone 17 Pro is a bold redesign but a basic upgrade",
+            "title": "The iPhone 17 Pro is a bold redesign but a basic upgrade",
             "url": "https://www.theverge.com/tech/779265/iphone-17-pro-max-review",
             "source": "The Verge",
-            "summary": "Focus on redesign vs incremental gains; compares to standard model and prior Pro; evaluates whether price is justified by real-world benefits."
+            "summary": "The iPhone 17 Pro features a design refresh and stronger hardware but remains a modest upgrade over the previous generation, with questions about whether new features justify the price for everyday use."
           },
           {
-            "title": "Garmin’s Bounce watch for kids doubles the price, not the features",
-            "url": "https://www.theverge.com/news/778318/garmin-bounce-2-lte-child-smartwatch-tracker-wearable",
+            "title": "Meta’s new smart glasses are coming this week",
+            "url": "https://www.theverge.com/news/777541/meta-connect-2025-what-to-expect",
             "source": "The Verge",
-            "summary": "Critique of price increases relative to features; discusses LTE tracking and safety features for kids; evaluates value against competitors."
+            "summary": "The Verge previews Meta’s upcoming smart glasses, outlining expected hardware features and software integration within Meta’s AR strategy ahead of Meta Connect 2025."
           },
           {
-            "title": "Microsoft’s Xbox PC app adds Steam games and access to other stores",
-            "url": "https://www.theverge.com/news/778627/microsoft-xbox-pc-app-stream-integration-stores-update",
+            "title": "How to watch Mark Zuckerberg’s keynote at Meta Connect 2025",
+            "url": "https://www.theverge.com/news/777565/meta-connect-2025-how-to-watch-keynote-mark-zuckerberg",
             "source": "The Verge",
-            "summary": "Update to Xbox PC app adds Steam games and access to other storefronts; expands game library and impact on PC gaming market."
+            "summary": "This explainer covers scheduling and streaming options for Meta’s Connect 2025 keynote and what audiences might expect from product announcements."
           },
           {
-            "title": "Google’s Windows desktop app brings a Spotlight-like search bar to PC",
-            "url": "https://www.theverge.com/news/778940/google-app-windows-launch",
+            "title": "Waymo to launch a robotaxi service in Nashville in 2026",
+            "url": "https://www.theverge.com/news/779147/waymo-robotaxi-nashville-lyft-2026",
             "source": "The Verge",
-            "summary": "Google Windows desktop app introduces Spotlight-like search bar; discusses discovery, integration with Google services, and user workflow."
+            "summary": "Waymo plans to launch a robotaxi service in Nashville by 2026, discussing potential rider experience considerations, regulatory hurdles, and partnerships."
           },
           {
-            "title": "Waymo gets green light for airport service in San Francisco",
-            "url": "https://www.theverge.com/news/779039/waymo-sfo-airport-permit-robotaxi",
+            "title": "Sony’s PS5 update adds controller swapping and Power Saving mode",
+            "url": "https://www.theverge.com/news/779837/sony-playstation-5-ps5-update-power-saving-mode",
             "source": "The Verge",
-            "summary": "Waymo granted permit to operate autonomous taxis at SFO; outlines permit conditions and implications for urban mobility."
+            "summary": "The PS5 software update introduces controller swapping and a Power Saving mode, with implications for energy efficiency and daily use."
           },
           {
-            "title": "Apple Watch SE 3 review: statement piece",
+            "title": "The Apple Watch SE 3 is the one to buy",
             "url": "https://www.theverge.com/smartwatch-review/778037/apple-watch-se-3-review-battery-specs-watchos-26-smartwatch-wearable",
             "source": "The Verge",
-            "summary": "SE 3 review assesses value, battery life, health sensors, performance, and watchOS features relative to higher-end models."
-          }
-        ]
-      },
-      {
-        "category": "AI & Tech Policy",
-        "commentary": "",
-        "articles": [
+            "summary": "The Apple Watch SE 3 is presented as the strongest value in Apple’s wearables, offering good battery life and everyday usability at a lower price point."
+          },
           {
-            "title": "Meta created its own super PAC to politically kneecap its AI rivals",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/778767/meta-mark-zuckerberg-super-pac-kneecap-ai-rivals-california",
+            "title": "Casio’s stress-relieving furry robot MOFLIN is coming to the US",
+            "url": "https://www.theverge.com/news/779857/casio-robot-furry-pet-moflin-us-availability",
             "source": "The Verge",
-            "summary": "Reports that Meta organized a super PAC to influence policy and public opinion against AI rivals; discusses implications for competition and regulation."
+            "summary": "Casio’s MOFLIN furry robot, designed as a stress-relief companion, will be available in the United States."
           },
           {
-            "title": "The hunger strike to end AI",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/778773/the-hunger-strike-to-end-ai-anthropic-google-deepmind-agi",
-            "source": "The Verge",
-            "summary": "Explores activism and debates around AI governance and rapid development; profiles organizers and policy questions at stake."
+            "title": "iPhone Air review: The thinnest iPhone ever, but at what cost?",
+            "url": "https://9to5mac.com/2025/09/17/iphone-air-review/",
+            "source": "9to5Mac",
+            "summary": "The iPhone Air is described as the thinnest iPhone yet, with a design trade-off between extreme slenderness and practicality, prompting questions about the trade-offs involved."
           },
           {
-            "title": "Grieving parents press Congress to act on AI chatbots",
-            "url": "https://axios.com/2025/09/16/parents-congress-ai-chatbots",
-            "source": "Axios",
-            "summary": "Families advocate for federal safeguards as they link AI-chatbot incidents to child safety; discusses legislative momentum."
+            "title": "iPhone 17 Pro review: How pro can you go?",
+            "url": "https://9to5mac.com/2025/09/17/iphone-17-pro-review/",
+            "source": "9to5Mac",
+            "summary": "Hands-on testing of the iPhone 17 Pro and Pro Max assesses whether the Pro models deliver meaningful enhancements in speed and power and whether they justify flagship status."
           },
           {
-            "title": "The right wing is creating its own society of snitches",
-            "url": "https://www.theverge.com/policy/778972/right-wing-harassment-firings-charlie-kirk",
-            "source": "The Verge",
-            "summary": "Analyzes harassment dynamics and platform moderation in right-wing online communities and policy implications."
+            "title": "Here are all the new features in iOS 26, iPadOS 26, macOS Tahoe",
+            "url": "https://9to5mac.com/2025/09/16/here-are-all-the-new-features-in-ios-26-ipados-26-macos-tahoe/",
+            "source": "9to5Mac",
+            "summary": "Apple has published official feature lists across iOS 26, iPadOS 26, and macOS Tahoe, directing readers to the documentation for full details."
           },
           {
-            "title": "Silicon Valley bets big on ‘environments’ to train AI agents",
+            "title": "Kuo: Apple to launch touch screen Macs, starting with OLED MacBook Pro",
+            "url": "https://9to5mac.com/2025/09/17/kuo-touch-screen-macs-oled-macbook-pro/",
+            "source": "9to5Mac",
+            "summary": "Ming-Chi Kuo says Apple plans touchscreen Macs, beginning with an OLED MacBook Pro, with production timing potentially slipping beyond 2026."
+          },
+          {
+            "title": "After years of touchscreen Mac rumors, here’s why I believe the latest one",
+            "url": "https://9to5mac.com/2025/09/17/after-years-of-touchscreen-mac-rumors-heres-why-i-believe-the-latest-one/",
+            "source": "9to5Mac",
+            "summary": "Opinion discusses why the latest touchscreen Mac rumor warrants consideration, noting a history of prototypes since 2008 and ongoing experimentation."
+          },
+          {
+            "title": "On iOS 26 with a T-Satellite plan? These six iPhone apps work via satellite",
+            "url": "https://9to5mac.com/2025/09/17/on-ios-26-with-a-t-satellite-plan-these-six-iphone-apps-work-via-satellite/",
+            "source": "9to5Mac",
+            "summary": "iOS 26 enables six iPhone apps to operate via satellite, with no need to select T-Mobile as the carrier."
+          },
+          {
+            "title": "Car Keys in Wallet are about to launch for these three vehicle brands",
+            "url": "https://9to5mac.com/2025/09/17/car-keys-in-wallet-are-about-to-launch-for-these-three-vehicle-brands/",
+            "source": "9to5Mac",
+            "summary": "WWDC notes car keys in Wallet would roll out to 13 brands; the first three brands are expected to launch soon."
+          },
+          {
+            "title": "Apple Vision Pro gains support for digital prism correction",
+            "url": "https://9to5mac.com/2025/09/16/apple-vision-pro-gains-support-for-digital-prism-correction/",
+            "source": "9to5Mac",
+            "summary": "Vision Pro adds digital prism correction in visionOS 26, improving accessibility for prescription users."
+          },
+          {
+            "title": "Terra Oleo’s oil-producing microbes could replace destructive palm oil plantations",
+            "url": "https://techcrunch.com/2025/09/17/terra-oleos-tiny-oil-producing-microbes-might-replace-sprawling-palm-oil-plantations/",
+            "source": "TechCrunch",
+            "summary": "Terra Oleo explores microbe-based oil production as a substitute for palm oil to reduce deforestation and biodiversity loss, outlining technical and regulatory considerations."
+          },
+          {
+            "title": "Silicon Valley bets big on environments to train AI agents",
             "url": "https://techcrunch.com/2025/09/16/silicon-valley-bets-big-on-environments-to-train-ai-agents/",
             "source": "TechCrunch",
-            "summary": "Examines investments in simulated environments and synthetic data to train AI agents; discusses benefits and governance considerations."
+            "summary": "The piece analyzes the rise of synthetic or simulated environments for training AI agents, discussing benefits for rapid experimentation and potential limitations in real-world transfer."
           },
           {
-            "title": "Democrats retaliate against GOP for Ilhan Omar censure vote",
-            "url": "https://axios.com/2025/09/16/ilhan-omar-censure-cory-mills-charlie-kirk",
-            "source": "Axios",
-            "summary": "Describes partisan use of censure motions in Congress as political maneuvering amid tensions."
-          },
-          {
-            "title": "Alex Pfeiffer leaves White House for Watchtower Strategy",
-            "url": "https://axios.com/2025/09/17/alex-pfeiffer-white-house-watchtower-strategy",
-            "source": "Axios",
-            "summary": "Reports the White House communications director is joining a public affairs firm; notes potential impact on administration messaging."
-          }
-        ]
-      },
-      {
-        "category": "Business & Markets",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Alphabet earnings live updates: AI, Gemini 2.0, Google Cloud, and more",
-            "url": "https://techcrunch.com/2025/09/16/alphabet-earnings-live-updates-ai-gemini-2-0-google-cloud-and-more/",
+            "title": "Gemini tops the App Store thanks to new AI image model, Nano Banana",
+            "url": "https://techcrunch.com/2025/09/16/gemini-tops-the-app-store-thanks-to-new-ai-image-model-nano-banana/",
             "source": "TechCrunch",
-            "summary": "Live coverage of Alphabet’s quarterly earnings with emphasis on AI initiatives, Gemini 2.0, and Google Cloud."
+            "summary": "Gemini's Nano Banana AI image model boosts App Store performance, with analysis of AI-generated imagery affecting app engagement."
+          },
+          {
+            "title": "Lyft and Waymo are partnering to bring robotaxis to Nashville",
+            "url": "https://techcrunch.com/2025/09/17/lyft-and-waymo-are-partnering-to-bring-robotaxis-to-nashville/",
+            "source": "TechCrunch",
+            "summary": "Lyft and Waymo announce a partnership to deploy robotaxis in Nashville, with pilots, safety considerations, and timing details."
+          },
+          {
+            "title": "Icarus raises $6.1M to take on space’s “warehouse work” with embodied-AI robots",
+            "url": "https://techcrunch.com/2025/09/17/icarus-raises-6-1m-to-take-on-spaces-warehouse-work-with-embodied-ai-robots/",
+            "source": "TechCrunch",
+            "summary": "Icarus secures $6.1 million to pursue embodied-AI robotics for space-based warehousing tasks, outlining technology and roadmap."
           },
           {
             "title": "Groww, backed by Satya Nadella, set to become first Indian startup to go public after U.S.-to-India move",
             "url": "https://techcrunch.com/2025/09/16/groww-backed-by-satya-nadella-set-to-become-first-indian-startup-to-go-public-after-u-s-to-india-move/",
             "source": "TechCrunch",
-            "summary": "Groww plans an IPO; backing by Satya Nadella; discusses regulatory context and implications for Indian fintech."
+            "summary": "Groww aims to go public as part of a broader cross-border investment shift, with implications for Indian fintech and the startup ecosystem."
           },
           {
-            "title": "CodeRabbit raises $60M, valuing the 2-year-old AI code review startup at $550M",
-            "url": "https://techcrunch.com/2025/09/16/coderabbit-raises-60m-valuing-the-2-year-old-ai-code-review-startup-at-550m/",
+            "title": "Google I/O 2025 live coverage: Google AI Ultra, Project Mariner, Gemini app updates, and more",
+            "url": "https://techcrunch.com/2025/09/16/google-i-o-2025-live-coverage-google-ai-ultra-project-mariner-gemini-app-updates-and-more/",
             "source": "TechCrunch",
-            "summary": "CodeRabbit secures $60M in funding; valuation $550M; outlines product focus and expected growth."
+            "summary": "Live coverage of Google I/O 2025 highlights announcements including Google AI Ultra, Project Mariner, and Gemini app updates."
           },
           {
-            "title": "Google Ventures doubles down on dev tool startup Blacksmith just 4 months after its seed round",
-            "url": "https://techcrunch.com/2025/09/17/google-ventures-doubles-down-on-dev-tool-startup-blacksmith-just-4-months-after-its-seed-round/",
+            "title": "The 9 most sought-after startups from YC Demo Day",
+            "url": "https://techcrunch.com/2025/09/15/the-9-most-sought-after-startups-from-yc-demo-day/",
             "source": "TechCrunch",
-            "summary": "GV makes follow-on investment in Blacksmith; discusses strategic rationale and developer-tools market."
+            "summary": "TechCrunch profiles nine startups deemed most sought-after from YC Demo Day, summarizing their focus and traction."
           },
           {
-            "title": "Investors Are Bullish as a Pivotal Fed Decision Looms",
-            "url": "https://www.nytimes.com/2025/09/17/business/investors-are-bullish-as-a-pivotal-fed-decision-looms.html",
-            "source": "The New York Times",
-            "summary": "Markets show optimism ahead of a key Federal Reserve decision; notes S&P 500 near highs and rate-cut expectations."
+            "title": "Robinhood plans to launch a startups fund open to all retail investors",
+            "url": "https://techcrunch.com/2025/09/15/robinhood-plans-to-launch-a-startups-fund-open-to-all-retail-investors/",
+            "source": "TechCrunch",
+            "summary": "Robinhood announces a startups fund accessible to all retail investors, outlining structure and potential impact on startup fundraising."
+          }
+        ]
+      },
+      {
+        "category": "Politics",
+        "commentary": "Domestic and international political developments, policy debates, and political campaigns.",
+        "articles": [
+          {
+            "title": "Yesilgöz: hypotheekrenteaftrek blijft • Twee dagen debat over de Miljoenennota",
+            "url": "https://nos.nl/liveblog/2582824-yesilgoz-hypotheekrenteaftrek-blijft-twee-dagen-debat-over-de-miljoenennota",
+            "source": "NOS",
+            "summary": "Liveblogting over the Miljoenennota with ongoing debate on mortgage interest deduction and coalition negotiations."
           },
           {
-            "title": "What to Watch at the Federal Reserve’s September Meeting",
-            "url": "https://www.nytimes.com/2025/09/17/business/what-to-watch-federal-reserve-september-meeting.html",
-            "source": "The New York Times",
-            "summary": "Outlines indicators and expectations analysts will monitor at the Fed meeting and potential market impact."
+            "title": "Kamer mist langverwachte stikstofpakket bij Prinsjesdagstukken",
+            "url": "https://nos.nl/artikel/2582894-kamer-mist-langverwachte-stikstofpakket-bij-prinsjesdagstukken",
+            "source": "NOS",
+            "summary": "Parliament notes the stikstofpakket is missing from Prinsjesdagstukken, signaling potential further proposals and compromises."
           },
           {
-            "title": "Jerry van Ben & Jerry’s weg bij ijsbedrijf na langlopend conflict met Unilever",
-            "url": "https://nrc.nl/nieuws/2025/09/17/jerry-van-ben-amp-jerrys-weg-bij-ijsbedrijf-na-langlopend-conflict-met-unilever-a4906393",
+            "title": "Politie vindt drie doden in woning in Alkmaar",
+            "url": "https://nos.nl/artikel/2582896-politie-vindt-drie-doden-in-woning-in-alkmaar",
+            "source": "NOS",
+            "summary": "Police discover three dead bodies in an Alkmaar home; investigation ongoing with no motive yet disclosed."
+          },
+          {
+            "title": "Overtuigende Bol plaatst zich voor WK-finale 400 meter horden",
+            "url": "https://nos.nl/artikel/2582879-overtuigende-bol-plaatst-zich-voor-wk-finale-400-meter-horden-voelde-best-makkelijk",
+            "source": "NOS",
+            "summary": "Dutch athlete Femke Bol secures a place in the World Championship 400m hurdles final."
+          },
+          {
+            "title": "Wilders kritisch over migratie, partijen verwijten hem gebrek aan daadkracht",
+            "url": "https://nos.nl/artikel/2582876-wilders-kritisch-over-migratie-partijen-verwijten-hem-gebrek-aan-daadkracht",
+            "source": "NOS",
+            "summary": "Geert Wilders criticizes migration policy while opponents accuse him of lack of resolve during parliamentary debate."
+          },
+          {
+            "title": "D66-leider Jetten houdt afstand van centrum-rechtse coalitie die VVD graag wil",
+            "url": "https://nrc.nl/nieuws/2025/09/17/d66-leider-jetten-houdt-afstand-van-centrum-rechtse-coalitie-die-vvd-graag-wil-a4906326",
             "source": "NRC",
-            "summary": "Founders exit Ben & Jerry’s amid protracted dispute with Unilever; discusses implications for brand and investors."
+            "summary": "D66 leader Rob Jetten distances his party from a center-right coalition that VVD seeks to form."
+          },
+          {
+            "title": "In de rij voor een baan bij vreemdelingenpolitie ICE: 'Ik wil de wet helpen handhaven'",
+            "url": "https://nrc.nl/nieuws/2025/09/17/in-de-rij-voor-een-baan-bij-vreemdelingenpolitie-ice-ik-wil-de-wet-handhaven-a4906425",
+            "source": "NRC",
+            "summary": "Feature follows applicants lining up for ICE roles, exploring motivations to enforce immigration law in the U.S."
           },
           {
             "title": "Akkoord tussen VS en China over verkoop TikTok aanstaande",
             "url": "https://nrc.nl/nieuws/2025/09/15/akkoord-tussen-vs-en-china-over-verkoop-tiktok-aanstaande-a4906197",
             "source": "NRC",
-            "summary": "Updates on negotiations over TikTok sale; summarizes deal terms and geopolitical context."
+            "summary": "Negotiations in Madrid move toward finalizing the sale of TikTok in the United States amid US-China tech tensions."
           }
         ]
       },
       {
-        "category": "International Affairs",
-        "commentary": "",
+        "category": "International Relations",
+        "commentary": "Global conflicts, diplomacy, sanctions, and major cross-border issues.",
         "articles": [
           {
             "title": "Netanyahu and an Israel Without Restraint",
             "url": "https://www.nytimes.com/2025/09/17/world/middleeast/netanyahu-israel-gaza.html",
             "source": "The New York Times",
-            "summary": "Analysis of Netanyahu’s stance as Israel intensifies operations in Gaza and regional diplomacy evolves."
+            "summary": "Analysis argues Netanyahu has pursued an uncompromising stance as the Gaza assault intensifies, with implications for diplomacy and humanitarian access."
           },
           {
             "title": "Israel Pounds Gaza City as Fears Mount for Those Inside",
             "url": "https://www.nytimes.com/2025/09/17/world/middleeast/israel-gaza-city.html",
             "source": "The New York Times",
-            "summary": "Reports on renewed Israeli assault on Gaza City and humanitarian concerns for residents."
+            "summary": "Israel conducts heavy bombardment in Gaza City amid rising civilian risk and a new temporary evacuation route being opened."
           },
           {
             "title": "Israel’s Assault on Gaza City Stifles Hope of Diplomatic Resolution to War",
-            "url": "https://www.nytimes.com/2025/09/17/world/middleeast/israel-assault-gaza-city-diplomacy.html",
+            "url": "https://www.nytimes.com/2025/09/17/world/middleeast/israel-gaza-city-diplomacy.html",
             "source": "The New York Times",
-            "summary": "Analysis of how ongoing military action affects diplomatic avenues toward resolving the war."
+            "summary": "An analysis argues that continued military pressure complicates diplomacy and risks entrenching positions on both sides."
           },
           {
-            "title": "European Commission wants sanctions against Israeli ministers and Hamas leaders",
-            "url": "https://nrc.nl/nieuws/2025/09/17/european-commission-wants-sanctions-on-israeli-ministers-and-hamas-leaders-a4906462",
+            "title": "European Commission wants sanctions on Israeli ministers and Hamas leaders",
+            "url": "https://nrc.nl/nieuws/2025/09/17/europese-commissie-wil-sancties-opleggen-aan-israelische-ministers-en-hamasleiders-a4906462",
             "source": "NRC",
-            "summary": "EU considers targeted sanctions in response to Gaza crisis; discusses diplomatic implications."
+            "summary": "EU plans targeted sanctions affecting trade benefits under Israel's association agreement and signals a firm stance amid the Gaza crisis."
+          },
+          {
+            "title": "China bans Nvidia chips",
+            "url": "https://nrc.nl/nieuws/2025/09/16/china-verbiedt-import-van-nvidia-chips-a4906106",
+            "source": "NRC",
+            "summary": "China reportedly prohibits Nvidia chips used for AI development, affecting major tech firms and signaling broader US-China tech competition."
           },
           {
             "title": "Akkoord tussen VS en China over verkoop TikTok aanstaande",
             "url": "https://nrc.nl/nieuws/2025/09/15/akkoord-tussen-vs-en-china-over-verkoop-tiktok-aanstaande-a4906197",
             "source": "NRC",
-            "summary": "Update on talks between the U.S. and China regarding TikTok sale and privacy/regulation considerations."
+            "summary": "Talks in Madrid progress toward finalizing the US-China sale of TikTok, signaling a potential breakthrough in digital governance and security concerns."
           },
           {
-            "title": "Britse rechter houdt deportatie migrant onder deal met Frankrijk tegen",
-            "url": "https://nrc.nl/nieuws/2025/09/17/britse-rechter-houdt-deportatie-migrant-onder-deal-met-frankrijk-tegen-a4906389",
-            "source": "NRC",
-            "summary": "A UK court blocks deportation under a migration agreement with France; discusses human rights considerations."
+            "title": "Navalny's widow says he was poisoned, contradicting Kremlin",
+            "url": "https://axios.com/2025/09/17/alexei-navalny-death-cause-poison-russia-putin",
+            "source": "Axios",
+            "summary": "Navalny's widow asserts poisoning as the cause of his death, challenging the Kremlin's official account and increasing international scrutiny."
           },
           {
-            "title": "EU sanctions against Israel ministers and Hamas leaders",
-            "url": "https://www.nrc.nl/nieuws/2025/09/17/europese-commissie-wil-sancties-opleggen-aan-israelische-ministers-en-hamasleiders-a4906462",
-            "source": "NRC",
-            "summary": "EU moves to impose sanctions on Israeli ministers and Hamas leaders amid Gaza crisis; diplomatic ramifications explored."
+            "title": "Ditching AUKUS will 'cause grave damage' in Indo-Pacific, says McCaul",
+            "url": "https://axios.com/2025/09/17/aukus-mccaul-indopacom-pentagon-review",
+            "source": "Axios",
+            "summary": "U.S. lawmaker warns that scrapping AUKUS would damage Indo-Pacific security and alliance credibility."
           },
           {
-            "title": "Palestinian on the run: 'We want peace' after internet and phone outage",
-            "url": "https://nos.nl/artikel/2582524-internet-en-telefoonverbindingen-platgelegd-palestijn-op-de-vlucht-we-willen-vrede",
-            "source": "NOS",
-            "summary": "Report on communication blackouts in Gaza; includes a refugee’s call for peace and humanitarian access."
+            "title": "Exclusive: Ursa eyes space defense with $35 million Draper engine deal",
+            "url": "https://axios.com/2025/09/17/ursa-draper-engine-jablonsky-golden-dome",
+            "source": "Axios",
+            "summary": "Ursa pursues space defense with a Draper engine deal, outlining strategic implications for space capabilities."
           }
         ]
       },
       {
-        "category": "Crime, Law & Justice",
-        "commentary": "",
+        "category": "Sports",
+        "commentary": "Recent results and developments in Dutch and international sports.",
         "articles": [
           {
-            "title": "Cel en tbs geëist tegen man die kwetsbare jongen gebruikte als 'seksslaaf'",
-            "url": "https://nos.nl/artikel/2582863-cel-en-tbs-geeist-tegen-man-die-kwetsbare-jongen-gebruikte-als-seksslaaf",
+            "title": "Overtuigende Bol plaatst zich voor WK-finale 400 meter horden",
+            "url": "https://nos.nl/artikel/2582879-overtuigende-bol-plaatst-zich-voor-wk-finale-400-meter-horden-voelde-best-makkelijk",
             "source": "NOS",
-            "summary": "Public prosecution seeks life imprisonment and psychiatric detention for a man accused of exploiting a vulnerable boy as a sex slave."
+            "summary": "Femke Bol qualifies for the World Championship final in the 400m hurdles after a convincing performance in the heats."
           },
           {
-            "title": "OM eist 18 jaar cel en tbs voor moord op Rotterdamse psychiater",
-            "url": "https://nos.nl/artikel/2582858-om-eist-18-jaar-cel-en-tbs-voor-moord-op-rotterdamse-psychiater",
+            "title": "Volleybalmannen verliezen van Polen op WK, Turkije tegenstander in achtste finales",
+            "url": "https://nos.nl/artikel/2582877-volleybalmannen-verliezen-van-polen-op-wk-turkije-tegenstander-in-achtste-finales",
             "source": "NOS",
-            "summary": "Prosecution seeks 18 years in prison and psychiatric detention for a man accused of murdering a Rotterdam psychiatrist after a sexual encounter."
-          },
-          {
-            "title": "Hoofdverdachte in zaak-Maddie McCann vrijgelaten uit gevangenis",
-            "url": "https://nos.nl/artikel/2582835-hoofdverdachte-in-zaak-maddie-mccann-vrijgelaten-uit-gevangenis",
-            "source": "NOS",
-            "summary": "Main suspect in the Maddie McCann case released from custody as authorities say there is no longer a legal basis to continue detention."
-          },
-          {
-            "title": "Gevangenismedewerkers thuis belaagd: drie explosies en een zware mishandeling",
-            "url": "https://nos.nl/artikel/2582837-gevangenismedewerkers-thuis-belaagd-drie-explosies-en-een-zware-mishandeling",
-            "source": "NOS",
-            "summary": "Threats against prison staff include explosions and severe assaults at their homes; investigations ongoing."
-          },
-          {
-            "title": "Tyler Robinson aangeklaagd voor moord, verschijnt voor het eerst in rechtbank",
-            "url": "https://nrc.nl/nieuws/2025/09/16/tyler-robinson-aangeklaagd-voor-moord-a4906352",
-            "source": "NRC",
-            "summary": "Tyler Robinson charged with murder; major upcoming court proceedings and potential witnesses."
+            "summary": "The Dutch men's volleyball team loses 1-3 to Poland at the World Cup, affecting group standings and progression chances."
           }
         ]
       },
       {
-        "category": "Health & Climate",
-        "commentary": "",
+        "category": "Entertainment",
+        "commentary": "Obituaries and cultural tributes.",
+        "articles": [
+          {
+            "title": "Robert Redford (1936-2025): de ster met de blauwe ogen werd invloedrijk acteur, regisseur én producent",
+            "url": "https://nrc.nl/nieuws/2025/09/16/robert-redford-89-de-stern-met-de-blauwe-ogen-werd-invloedrijk-acteur-regisseur-en-producent-a4906304",
+            "source": "NRC",
+            "summary": "Obituary commemorates Robert Redford's impact as an actor, director, and producer, highlighting his influence on independent cinema and philanthropy."
+          },
+          {
+            "title": "Actrice Joke Bruijs (1952-2025) overleden, onder andere bekend van 'Toen was geluk heel gewoon'",
+            "url": "https://nrc.nl/nieuws/2025/09/16/joke-bruijs-73-overleden-enkele-dagen-na-overlijden-ex-man-gerard-cox-a4906369",
+            "source": "NRC",
+            "summary": "Obituary confirms Dutch actress Joke Bruijs's death at 73, noting her contributions to theatre, film, television, and music."
+          }
+        ]
+      },
+      {
+        "category": "Energy & Environment",
+        "commentary": "Policy, climate, and energy transition news.",
         "articles": [
           {
             "title": "Al Gore on China’s climate rise: ‘I would not have seen this coming’",
             "url": "https://techcrunch.com/2025/09/16/al-gore-on-chinas-climate-rise-i-would-not-have-seen-this-coming/",
             "source": "TechCrunch",
-            "summary": "Al Gore discusses China's rising climate trajectory and implications for global decarbonization and diplomacy."
+            "summary": "Al Gore comments on China's climate trajectory, noting unexpected developments with policy implications and global energy transition considerations."
           },
           {
-            "title": "Denmark close to wiping out cancer-causing HPV strains after vaccine roll-out",
-            "url": "https://www.gavi.org/vaccineswork/denmark-close-wiping-out-leading-cancer-causing-hpv-strains-after-vaccine-roll-out",
-            "source": "Gavi",
-            "summary": "Denmark nearing elimination of high-risk HPV strains due to vaccination program; discusses public health impact."
-          },
-          {
-            "title": "It Isn’t Just America. The Whole World Has Soured on Climate Politics.",
-            "url": "https://www.nytimes.com/2025/09/16/magazine/climate-politics-us-world-paris-agreement.html",
-            "source": "The New York Times",
-            "summary": "Long-form analysis of fading optimism in global climate governance and possible new approaches to climate action."
-          },
-          {
-            "title": "Climate Change’s Toll in Europe This Summer: Thousands of Extra Deaths",
-            "url": "https://www.nytimes.com/2025/09/17/climate/europe-heat-deaths-climate-change.html",
-            "source": "The New York Times",
-            "summary": "Report on excess deaths in Europe due to extreme heat and climate-driven risks; discusses public health adaptation needs."
-          },
-          {
-            "title": "Het klimaatdoel van 2030 is vrijwel buiten bereik, stelt het PBL",
-            "url": "https://nrc.nl/nieuws/2025/09/16/het-klimaatdoel-van-2030-is-vrijwel-buiten-bereik-stelt-het-pbl-politiek-moet-zich-richten-op-grote-klappers-van-energietransitie-a4906315",
+            "title": "Het kabinet trekt in 2026 bijna één miljard uit voor de offshore windsector",
+            "url": "https://nrc.nl/nieuws/2025/09/16/het-kabinet-trrekt-in-2026-bijna-een-miljard-uit-voor-de-offshore-windsector-a4906337",
             "source": "NRC",
-            "summary": "PBL says 2030 climate target is nearly out of reach without large-scale energy transition actions; urges major policy measures."
+            "summary": "Dutch government plans nearly €1 billion in 2026 subsidies to offshore wind sector to support energy transition."
+          },
+          {
+            "title": "Waarom energie-transitie down but not out",
+            "url": "https://axios.com/2025/09/17/al-gore-energy-transition-jp-morgan",
+            "source": "Axios",
+            "summary": "Axios argues the energy transition faces headwinds but remains a long-term priority, with policy and investment dynamics shaping progress."
           }
         ]
       },
       {
-        "category": "Entertainment & Culture",
-        "commentary": "",
+        "category": "Health & Public Policy",
+        "commentary": "Public health policy and governance coverage.",
         "articles": [
           {
-            "title": "Actrice en zangeres Joke Bruijs (73) overleden, onder andere bekend van 'Toen was geluk heel gewoon'",
-            "url": "https://nrc.nl/nieuws/2025/09/17/joke-bruijs-leerde-het-vak-letterlijk-op-het-biljart-a4906461",
-            "source": "NRC",
-            "summary": "Obituary noting Joke Bruijs’ career and cultural impact in theatre, film, and music."
-          },
-          {
-            "title": "The Morning Show season 4 premieres on Apple TV+, as Apple greenlights season 5",
-            "url": "https://9to5mac.com/2025/09/16/the-morning-show-season-4-premieres-on-apple-tv-as-apple-greenlights-season-5/",
-            "source": "9to5Mac",
-            "summary": "Season 4 premieres; Apple renews for a fifth season; outlines upcoming storylines and release."
-          },
-          {
-            "title": "Apple TV+ shows and movies: Everything to watch on Apple TV Plus",
-            "url": "https://9to5mac.com/apple-tv-plus-shows-and-movies/",
-            "source": "9to5Mac",
-            "summary": "Catalog-style guide listing major Apple TV+ originals and titles; notes where to watch and trailers."
-          }
-        ]
-      },
-      {
-        "category": "Security & Cybersecurity",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Shai-Hulud malware attack: Tinycolor and over 40 NPM packages compromised",
-            "url": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
-            "source": "Hacker News",
-            "summary": "Reports a supply-chain attack affecting Tinycolor and 40+ npm packages; discusses indicators of compromise and mitigations."
-          },
-          {
-            "title": "DataTables CDN Outage – post incident review",
-            "url": "https://datatables.net/blog/2025/july-29-outage",
-            "source": "Hacker News",
-            "summary": "Post-incident review detailing timeline, root cause, remediation, and lessons learned for DataTables CDN outage."
-          },
-          {
-            "title": "The Asus Gaming Laptop ACPI Firmware Bug: A Deep Technical Investigation",
-            "url": "https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive",
-            "source": "Hacker News",
-            "summary": "Technical analysis of an ACPI firmware vulnerability in Asus gaming laptops; discusses attack vectors and mitigations."
-          },
-          {
-            "title": "Notion API importer, with Databases to Bases conversion bounty",
-            "url": "https://github.com/obsidianmd/obsidian-importer/issues/421",
-            "source": "Hacker News",
-            "summary": "Notion API importer project with a database conversion bounty; describes mapping challenges and collaboration scope."
-          },
-          {
-            "title": "Why We're Building Stategraph: Terraform State as a Distributed Systems Problem",
-            "url": "https://stategraph.dev/blog/why-stategraph/",
-            "source": "Hacker News",
-            "summary": " argues Terraform state should be treated as a distributed system; outlines architectures to coordinate state across environments."
+            "title": "Exclusive: CDC chief to be grilled over account of firing by RFK Jr.",
+            "url": "https://axios.com/2025/09/17/cdc-susan-monarez-rfk-jr-senate-hearing",
+            "source": "Axios",
+            "summary": "The Senate will grill the former CDC director regarding firing amid RFK Jr. allegations, testing congressional oversight of health agencies."
           }
         ]
       }
     ],
-    "timestamp": 1758112141353
+    "timestamp": 1758118457500
   }
 ]
