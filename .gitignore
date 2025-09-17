@@ -10,6 +10,9 @@ dist/
 # Generated files (except digests-data.json which needs to be tracked)
 public/
 
+# Backup files
+*.backup
+
 # Logs
 *.log
 npm-debug.log*
