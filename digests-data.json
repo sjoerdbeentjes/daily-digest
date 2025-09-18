@@ -18,6 +18,379 @@
     "timestamp": 1758261600000
   },
   {
+    "date": "September 18th, 2025",
+    "introText": "Today's digest covers Meta's AR eyewear and streaming initiatives, Apple's iPhone 17 lineup and related hardware tests, and the latest AI and chip funding. It also highlights political developments in the U.S. and Europe, major crime and security stories, sports results, and cultural reporting. The articles come from The Verge, TechCrunch, Hacker News, The New York Times, NRC, NOS, 9to5Mac, Axios, and others.",
+    "categories": [
+      {
+        "category": "Technology & AI",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "I regret to inform you Meta’s new smart glasses are the best I’ve ever tried",
+            "url": "https://www.theverge.com/tech/779566/meta-ray-ban-display-hands-on-smart-glasses-price-battery-specs",
+            "source": "The Verge",
+            "summary": "The Verge reviews Meta’s Ray-Ban Display glasses, priced around $800, evaluating the built-in display’s usefulness for directions, imagery, translations, and overlays, plus comfort and battery life."
+          },
+          {
+            "title": "Apple iPhone Air review: statement piece",
+            "url": "https://www.theverge.com/tech/779588/apple-iphone-air-review-battery-camera",
+            "source": "The Verge",
+            "summary": "Verge discusses the iPhone Air as a design-oriented option within Apple’s lineup, weighing design language, ecosystem integration, and expected trade-offs in battery and camera performance."
+          },
+          {
+            "title": "Meta Connect 2025: the 6 biggest announcements",
+            "url": "https://www.theverge.com/news/780087/meta-connect-2025-ray-ban-oakley-biggest-announcements",
+            "source": "The Verge",
+            "summary": "A roundup of six anticipated announcements at Meta Connect 2025 across hardware and software, with emphasis on eyewear updates and platform strategies."
+          },
+          {
+            "title": "The iPhone 17 is the one to get this year",
+            "url": "https://www.theverge.com/tech/779568/iphone-17-review-apple-best-features",
+            "source": "The Verge",
+            "summary": "Verge verdict: the iPhone 17 offers the best balance of features and price in Apple’s 2025 lineup, with emphasis on battery life, camera, software, and ecosystem integration."
+          },
+          {
+            "title": "The iPhone 17 Pro is a bold redesign but a basic upgrade",
+            "url": "https://www.theverge.com/tech/779265/iphone-17-pro-max-review",
+            "source": "The Verge",
+            "summary": "The iPhone 17 Pro is a design-forward upgrade with incremental performance gains and a premium price, appealing to enthusiasts more than casual users."
+          },
+          {
+            "title": "Ray-Ban’s website posts a “We’ll be back soon” note ahead of Meta Connect",
+            "url": "https://www.theverge.com/transportation/780463/ray-bans-website-is-will-be-back-soon-ahead-of-meta-connect",
+            "source": "The Verge",
+            "summary": "Ray-Ban’s site displayed a “We’ll be back soon” message ahead of Meta Connect, signaling expected announcements and generating anticipation."
+          },
+          {
+            "title": "Microsoft is giving Notepad free AI features",
+            "url": "https://www.theverge.com/news/780322/microsoft-notepad-ai-features-free",
+            "source": "The Verge",
+            "summary": "Microsoft adds free AI features to Notepad (summarize, write, rewrite) using local AI models; rollout to Copilot Plus PC users and Windows Insiders; privacy considerations discussed."
+          },
+          {
+            "title": "Meta is bringing an all-in-one movie and TV streaming hub to Quest headsets",
+            "url": "https://www.theverge.com/news/780492/meta-quest-headset-horizon-tv-streaming",
+            "source": "The Verge",
+            "summary": "Meta plans a unified streaming hub on Quest to simplify VR media consumption, with considerations for app support and performance."
+          },
+          {
+            "title": "Meta unveils new smart glasses with a display and wristband controller",
+            "url": "https://techcrunch.com/2025/09/17/meta-unveils-new-smart-glasses-with-a-display-and-wristband-controller/",
+            "source": "TechCrunch",
+            "summary": "Meta introduces a new generation of smart glasses featuring a built-in display and a wristband controller for hands-free AR interaction, with discussions of specs and use cases."
+          },
+          {
+            "title": "Airbuds is the music social network Apple and Spotify wish they had built",
+            "url": "https://techcrunch.com/2025/09/17/airbuds-is-the-music-social-network-apple-and-spotify-wish-they-had-built/",
+            "source": "TechCrunch",
+            "summary": "Airbuds is presented as a music-focused social network, exploring its concept, potential ecosystem integrations, monetization, and early traction."
+          },
+          {
+            "title": "Meta launches Hyperscape, technology to turn real-world spaces into VR",
+            "url": "https://techcrunch.com/2025/09/17/meta-launches-hyperscape-technology-to-turn-real-world-spaces-into-vr/",
+            "source": "TechCrunch",
+            "summary": "Hyperscape enables VR experiences in real-world spaces, with applications in events, retail, and entertainment, plus privacy considerations."
+          },
+          {
+            "title": "India leads the way on Google’s Nano Banana with a local creative twist",
+            "url": "https://techcrunch.com/2025/09/17/india-leads-the-way-on-googles-nano-banana-with-a-local-creative-twist/",
+            "source": "TechCrunch",
+            "summary": "India pioneers local adaptations of Google’s Nano Banana concept, affecting regional content ecosystems and Google’s strategy in India."
+          },
+          {
+            "title": "Meta unveils its new Oakley Meta Vanguard smart glasses for athletes",
+            "url": "https://techcrunch.com/2025/09/17/meta-unveils-its-new-oakley-meta-vanguard-smart-glasses-for-athletes/",
+            "source": "TechCrunch",
+            "summary": "Oakley Vanguard glasses tailored for athletes with enhanced display and potential performance-tracking features, including market positioning and availability."
+          },
+          {
+            "title": "WASM 3.0 Completed",
+            "url": "https://webassembly.org/news/2025-09-17-wasm-3.0/",
+            "source": "Hacker News",
+            "summary": "WebAssembly 3.0 completed; expected to impact performance, portability, tooling, and ecosystem growth across runtimes."
+          },
+          {
+            "title": "A postmortem of three recent issues",
+            "url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+            "source": "Hacker News",
+            "summary": "Anthropic engineering postmortem examining three incidents, detailing root causes, remediation, and process improvements."
+          },
+          {
+            "title": "One Token to rule them all – Obtaining Global Admin in every Entra ID tenant",
+            "url": "https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/",
+            "source": "Hacker News",
+            "summary": "Security discussion about attacker tokens that could grant global admin across Entra ID tenants and corresponding mitigations."
+          },
+          {
+            "title": "Alibaba's new AI chip: Key specifications comparable to H20",
+            "url": "https://news.futunn.com/en/post/62202518/alibaba-s-new-ai-chip-unveiled-key-specifications-comparable-to",
+            "source": "Hacker News",
+            "summary": "Alibaba announces a new AI chip with specs compared to Huawei H2O; explores architecture, memory, compute, and use cases."
+          },
+          {
+            "title": "Hypervisor 101 in Rust",
+            "url": "https://tandasat.github.io/Hypervisor-101-in-Rust/",
+            "source": "Hacker News",
+            "summary": "Introductory guide to building a hypervisor in Rust, covering virtualization concepts, safety, and implementation trade-offs."
+          },
+          {
+            "title": "Towards a Physics Foundation Model",
+            "url": "https://arxiv.org/abs/2509.13805",
+            "source": "Hacker News",
+            "summary": "ArXiv paper proposing physics-informed foundations for scalable models and potential benefits for reliability and scientific modeling."
+          },
+          {
+            "title": "Understanding Deflate",
+            "url": "https://jjrscott.com/to-deflate-or-not/",
+            "source": "Hacker News",
+            "summary": "Overview of the Deflate compression algorithm, its typical use cases (gzip/zip), and practical guidance."
+          }
+        ]
+      },
+      {
+        "category": "Politics & Policy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Republicans are honoring Charlie Kirk’s memory by declaring war on the First Amendment",
+            "url": "https://www.theverge.com/policy/779799/republican-charlie-kirk-first-amendment-crackdown-continues",
+            "source": "The Verge",
+            "summary": "Policy analysis on Republicans framing Charlie Kirk’s influence within free-speech debates and regulatory responses."
+          },
+          {
+            "title": "Upending Precedent, Thune Bows To Realities of a Polarized Senate",
+            "url": "https://www.nytimes.com/2025/09/17/us/politics/john-thune-senate-filibuster.html",
+            "source": "The New York Times",
+            "summary": "Analysis of Senator Thune’s use of a nuclear option and its implications for minority rights and Senate norms."
+          },
+          {
+            "title": "Democrats Outline Spending Demands as Shutdown Looms",
+            "url": "https://www.nytimes.com/2025/09/17/us/politics/democrats-spending-demands-shutdown.html",
+            "source": "The New York Times",
+            "summary": "Democrats propose more than $1 trillion in health spending amid looming government shutdown and budget negotiations."
+          },
+          {
+            "title": "Eerste negen partijen aan het woord geweest bij Prinsjesdagdebat",
+            "url": "https://nos.nl/artikel/2582955-eerste-negen-partijen-aan-het-woord-geweest-bij-prinsjesdagdebat-donderdag-de-rest-en-antwoord-schoof",
+            "source": "NOS",
+            "summary": "Overview of the opening day of Prinsjesdag debates, with nine parties speaking and others to come."
+          },
+          {
+            "title": "Brits on Trump visit: Americans should not come and stoke things",
+            "url": "https://nrc.nl/nieuws/2025/09/17/amerikaenen-moeten-niet-hierheen-komen-en-de-boel-opstoken-zeggen-de-britten-over-het-bezoek-van-trump-a4906557",
+            "source": "NRC",
+            "summary": "British reaction to Donald Trump’s visit, analyzing diplomatic signaling and public sentiment."
+          },
+          {
+            "title": "American central bank begins very cautiously easing rates, but not as much as Trump wants",
+            "url": "https://nrc.nl/nieuws/2025/09/17/amerikaanse-centrale-bank-begint-heel-voorzichtig-de-rente-te-verlangen-maar-lang-niet-zo-veel-als-trump-wil-a4906568",
+            "source": "NRC",
+            "summary": "Report on the Fed’s cautious rate-cut approach amidst political pressure from Trump."
+          },
+          {
+            "title": "Veertien uur debatteren: hoogtepunten van de eerste dag beschouwingen terug",
+            "url": "https://nrc.nl/nieuws/2025/09/17/tweede-kamer-in-debat-over-begroting-worden-de-algemene-beschouwingen-het-eerste-verkiezingsdebat-a4906326",
+            "source": "NRC",
+            "summary": "Highlights from the first day of the budget debate in the Dutch parliament, with party positions and questions."
+          },
+          {
+            "title": "Ilhan Omar censure fails to pass in shock House vote",
+            "url": "https://axios.com/2025/09/17/ilhan-omar-censure-republicans-nancy-mace",
+            "source": "Axios",
+            "summary": "Censure motion against Ilhan Omar fails in a closely watched House vote amid partisan tensions."
+          },
+          {
+            "title": "Scoop: Dems launch South Texas ad blitz with Latino voters",
+            "url": "https://axios.com/2025/09/18/democrats-texas-latinos-ads-monica-de-la-cruz",
+            "source": "Axios",
+            "summary": "Democratic campaign ads targeting Latino voters in South Texas; outlines messaging and potential impact."
+          }
+        ]
+      },
+      {
+        "category": "World News",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Here’s Who Attended the State Dinner at Windsor Castle",
+            "url": "https://www.nytimes.com/2025/09/17/world/europe/guest-list-state-dinner-windsor-castle.html",
+            "source": "The New York Times",
+            "summary": "Guest list and seating for Windsor Castle’s state dinner honoring President Trump; discusses diplomatic optics."
+          },
+          {
+            "title": "Windsor Castle’s State Dinner Features Lavish Menu",
+            "url": "https://www.nytimes.com/2025/09/17/world/europe/windsor-castles-state-dinner-features-lavish-menu.html",
+            "source": "The New York Times",
+            "summary": "Details of the state dinner menu and its symbolic diplomacy in U.K.–U.S. relations."
+          },
+          {
+            "title": "Hong Kong’s Beloved Dim Sum Carts Fade Into the Past",
+            "url": "https://www.nytimes.com/2025/09/17/world/asia/hong-kong-dim-sum-cart.html",
+            "source": "The New York Times",
+            "summary": "Hong Kong’s dim sum carts fade as rents rise and new formats emerge, changing culinary culture."
+          },
+          {
+            "title": "Litouwen stelt dat Rusland achter DHL-bompakketjes zat",
+            "url": "https://nos.nl/artikel/2582946-litouwen-stelt-dat-rusland-achter-dhl-bompakketjes-zat",
+            "source": "NOS",
+            "summary": "Lithuania alleges Russia's involvement in the DHL bomb-package case amid international security concerns."
+          },
+          {
+            "title": "Syrian foreign minister visits D.C. to lobby for lifting of last sanctions",
+            "url": "https://axios.com/2025/09/18/syrian-fm-visits-dc-shaibani-caesar-sanctions",
+            "source": "Axios",
+            "summary": "Syria’s foreign minister meets U.S. officials to push for sanctions relief and humanitarian considerations."
+          }
+        ]
+      },
+      {
+        "category": "Business & Economics",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Eric Baker’s long, winding road to taking StubHub public",
+            "url": "https://techcrunch.com/2025/09/17/eric-bakers-long-winding-road-to-taking-stubhub-public/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch profiles Eric Baker and the path toward StubHub’s public listing, highlighting strategy and milestones."
+          },
+          {
+            "title": "Nvidia AI chip challenger Groq raises even more than expected, hits $6.9B valuation",
+            "url": "https://techcrunch.com/2025/09/17/nvidia-ai-chip-challenger-groq-raises-even-more-than-expected-hits-6-9b-valuation/",
+            "source": "TechCrunch",
+            "summary": "Groq secures funding with a $6.9B valuation; discusses position in the AI chip market."
+          },
+          {
+            "title": "Irregular raises $80 million to secure frontier AI models",
+            "url": "https://techcrunch.com/2025/09/17/irregular-raises-80-million-to-secure-frontier-ai-models/",
+            "source": "TechCrunch",
+            "summary": "Irregular raises funding to access and deploy frontier AI models for enterprise use."
+          },
+          {
+            "title": "U.S. investors, Trump close in on TikTok deal with China",
+            "url": "https://www.wsj.com/tech/details-emerge-on-u-s-china-tiktok-deal-594e009f",
+            "source": "Wall Street Journal",
+            "summary": "Investors by Trump-era administration discuss regulatory and governance terms for a TikTok deal with China."
+          },
+          {
+            "title": "Democrats launch South Texas ad blitz with Latino voters",
+            "url": "https://axios.com/2025/09/18/democrats-texas-latinos-ads-monica-de-la-cruz",
+            "source": "Axios",
+            "summary": "Campaign ads targeting Latino voters in South Texas; outlines messaging and potential electoral impact."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Ajax besprak verdedigen van corners uitvoerig, toch maakt Inter er twee: Megafrustrerend",
+            "url": "https://nos.nl/artikel/2582952-ajax-besprak-verdedigen-van-corners-uitvoerig-toch-maakt-inter-er-twee-megafrustrerend",
+            "source": "NOS",
+            "summary": "Ajax’s defensive corners analysis; Inter scores twice, described as frustrating."
+          },
+          {
+            "title": "Van Dijk schenkt jarige Slot late zege op Atlético, ook PSG en Bayern winnen",
+            "url": "https://nos.nl/artikel/2582948-van-dijk-schenktjarige-slot-late-zege-op-atletico-ook-psg-en-bayern-winnen",
+            "source": "NOS",
+            "summary": "Van Dijk’s late goal leads to a win against Atlético; PSG and Bayern also win their matches."
+          }
+        ]
+      },
+      {
+        "category": "Culture & Arts",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Joke Bruijs groeide op in een mannenwereld leerde het vak op het biljart",
+            "url": "https://nrc.nl/nieuws/2025/09/17/joke-bruijs-groeide-op-in-een-mannenwereld-leerde-het-vak-op-het-biljart-en-streefde-groot-vakmanschap-na-a4906461",
+            "source": "NRC",
+            "summary": "Obituary profiling Joke Bruijs’s career in Dutch theater and television, noting her influence and Parkinson's disease."
+          },
+          {
+            "title": "De eerste souvenirs: wat de Engelse adel in Italië kocht, is nu te zien in het Mauritshuis",
+            "url": "https://nrc.nl/nieuws/2025/09/15/de-eerste-souvenirs-wat-de-engelse-adel-in-itali Kocht-is-nu-te-zien-in-het-mauritshuis-a4906181",
+            "source": "NRC",
+            "summary": "Exhibition of 17th-18th century English aristocrat souvenirs at Mauritshuis, reflecting cultural exchange."
+          }
+        ]
+      },
+      {
+        "category": "Science & Environment",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Top Scientists See Growing Proof That Greenhouse Gases Threaten Human Health",
+            "url": "https://www.nytimes.com/2025/09/17/climate/national-academies-climate-trump.html",
+            "source": "The New York Times",
+            "summary": "National Academies assessment finds greenhouse gases threaten human health with policy implications."
+          },
+          {
+            "title": "Towards a Physics Foundation Model",
+            "url": "https://arxiv.org/abs/2509.13805",
+            "source": "Hacker News",
+            "summary": "ArXiv entry exploring physics-informed foundation models and methodologies."
+          }
+        ]
+      },
+      {
+        "category": "Health & Workplace",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Moe, hoofd- of buikpijn: 1 op de 3 vrouwen verbergt hormonale klachten op werk",
+            "url": "https://nos.nl/artikel/2582951-moe-hoofd-of-buikpijn-1-op-de-3-vrouwen-verbergt-hormonale-klachten-op-werk",
+            "source": "NOS",
+            "summary": "Roughly one in three working women hide hormonal complaints; discusses impact on productivity and well-being."
+          },
+          {
+            "title": "CBS: een op drie vrouwelijke werknemers verzwijgt hormoongerelateerde klachten op werk",
+            "url": "https://nrc.nl/nieuws/2025/09/17/cbs-een-op-drie-vrouwelijke-werknemers-verzwijgt-hormoongerelateerde-klachten-op-werk-a4906504",
+            "source": "NRC",
+            "summary": "CBS findings corroborate the sharing-tendency of hormonal complaints among female workers and its implications for equality and productivity."
+          }
+        ]
+      },
+      {
+        "category": "Crime & Safety",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "3 Police Officers Are Killed in Shooting in Southern Pennsylvania",
+            "url": "https://www.nytimes.com/2025/09/17/us/politics/york-pennsylvania-police-shooting.html",
+            "source": "The New York Times",
+            "summary": "Three police officers killed and two injured in York County; shooter dead; investigation ongoing."
+          },
+          {
+            "title": "Mexico rolt bende op die miljoenen liters brandstof smokkel",
+            "url": "https://nos.nl/artikel/2582956-mexico-rolt-bende-op-die-miljoenen-liters-brandstof-smokkelt",
+            "source": "NOS",
+            "summary": "Authorities bust a gang smuggling millions of liters of fuel; impact on safety and economy."
+          }
+        ]
+      },
+      {
+        "category": "Miscellaneous / Other",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "U.S. investors, Trump close in on TikTok deal with China",
+            "url": "https://www.wsj.com/tech/details-emerge-on-u-s-china-tiktok-deal-594e009f",
+            "source": "Wall Street Journal",
+            "summary": "Investors discuss terms and regulatory considerations for a potential TikTok deal with China."
+          },
+          {
+            "title": "What Jimmy Kimmel said about Charlie Kirk's killing",
+            "url": "https://axios.com/2025/09/18/what-jimmy-kimmel-said-charlie-kirk-killing",
+            "source": "Axios",
+            "summary": "Coverage of Kimmel’s remarks about Charlie Kirk’s death and ensuing controversy."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758168963655
+  },
+  {
     "date": "September 17th, 2025",
     "introText": "This digest covers technology and AI developments, major geopolitical events including the Gaza conflict and US-China tech tensions, and economics and markets. It also highlights Dutch politics and notable cultural obituaries.",
     "categories": [
