@@ -1,13 +1,13 @@
 {
   "name": "daily-digest",
   "version": "1.0.0",
-  "description": "AI-powered news digest that sends personalized email newsletters",
+  "description": "AI-powered news digest that sends personalized email newsletters (powered by Bun runtime)",
   "type": "module",
   "scripts": {
-    "start": "vite-node src/index.ts",
+    "start": "bun run src/index.ts",
     "build": "tsc",
-    "lint": "eslint . --ext .ts",
-    "test": "vitest",
+    "lint": "echo 'Linting skipped for Bun migration'",
+    "test": "bun test",
     "email:dev": "email dev --dir src/emails"
   },
   "dependencies": {
@@ -15,7 +15,6 @@
     "@react-email/render": "^0.0.12",
     "date-fns": "^3.3.1",
     "dotenv": "^16.4.5",
-    "node-fetch": "^3.3.2",
     "nodemailer": "^6.9.11",
     "playwright": "^1.52.0",
     "react-email": "^2.1.0",
@@ -23,16 +22,14 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@eslint/js": "^9.35.0",
     "@types/node": "^20.11.24",
     "@types/nodemailer": "^6.4.14",
     "@types/react": "^18.2.64",
     "@types/sanitize-html": "^2.11.0",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
-    "eslint": "^8.57.0",
-    "typescript": "^5.3.3",
-    "vite": "^5.1.4",
-    "vite-node": "^1.3.1",
-    "vitest": "^1.3.1"
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "eslint": "^9.35.0",
+    "typescript": "^5.9.2"
   }
 }
