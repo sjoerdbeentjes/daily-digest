@@ -399,20 +399,6 @@ export function generateIndexHTML(digests: DigestData[]): string {
       margin: 0;
       font-style: italic;
     }
-    .footer {
-      text-align: center;
-      margin-top: 40px;
-      padding: 20px;
-      color: var(--text-muted);
-      font-size: 0.9em;
-    }
-    .footer a {
-      color: var(--link-color);
-      text-decoration: none;
-    }
-    .footer a:hover {
-      text-decoration: underline;
-    }
   </style>
   <script>
     // Theme toggle functionality
@@ -463,10 +449,6 @@ export function generateIndexHTML(digests: DigestData[]): string {
     
     <div class="digest-list">
 ${digestList}
-    </div>
-    
-    <div class="footer">
-      <p>Generated with ❤️ by AI • <a href="https://github.com/sjoerdbeentjes/daily-digest">View Source</a></p>
     </div>
   </div>
 </body>
