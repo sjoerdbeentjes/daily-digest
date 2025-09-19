@@ -50,17 +50,119 @@ export async function saveDigestAsHTML(digestData: DigestData): Promise<string> 
   <title>Daily News Digest - ${digestData.date}</title>
   <meta name="description" content="${digestData.introText}">
   <style>
-    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
-    .digest-wrapper { max-width: 800px; margin: 0 auto; padding: 20px; }
-    .back-link { margin-bottom: 20px; }
-    .back-link a { color: #00bfa5; text-decoration: none; }
-    .back-link a:hover { text-decoration: underline; }
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #1a1a1a;
+      --link-color: #00bfa5;
+      --link-hover-color: #00a693;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #1a1a1a;
+        --text-color: #e0e0e0;
+        --link-color: #4dd0e1;
+        --link-hover-color: #26c6da;
+      }
+    }
+    
+    [data-theme="dark"] {
+      --bg-color: #1a1a1a;
+      --text-color: #e0e0e0;
+      --link-color: #4dd0e1;
+      --link-hover-color: #26c6da;
+    }
+    
+    [data-theme="light"] {
+      --bg-color: #ffffff;
+      --text-color: #1a1a1a;
+      --link-color: #00bfa5;
+      --link-hover-color: #00a693;
+    }
+
+    body { 
+      margin: 0; 
+      padding: 0; 
+      font-family: Arial, sans-serif; 
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .digest-wrapper { 
+      max-width: 800px; 
+      margin: 0 auto; 
+      padding: 20px; 
+    }
+    .back-link { 
+      margin-bottom: 20px; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .back-link a { 
+      color: var(--link-color); 
+      text-decoration: none; 
+    }
+    .back-link a:hover { 
+      text-decoration: underline; 
+    }
+    .theme-toggle {
+      background: var(--link-color);
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+    .theme-toggle:hover {
+      background: var(--link-hover-color);
+    }
   </style>
+  <script>
+    // Theme toggle functionality
+    function initTheme() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      } else if (prefersDark) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+      
+      updateToggleButton();
+    }
+    
+    function toggleTheme() {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateToggleButton();
+    }
+    
+    function updateToggleButton() {
+      const button = document.getElementById('theme-toggle');
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      if (button) {
+        button.textContent = currentTheme === 'dark' ? '☀️ Light' : '🌙 Dark';
+      }
+    }
+    
+    // Initialize theme on page load
+    document.addEventListener('DOMContentLoaded', initTheme);
+  </script>
 </head>
 <body>
   <div class="digest-wrapper">
     <div class="back-link">
       <a href="../index.html">← Back to All Digests</a>
+      <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">🌙 Dark</button>
     </div>
     ${emailHtml}
   </div>
@@ -152,12 +254,64 @@ export function generateIndexHTML(digests: DigestData[]): string {
   <title>Daily News Digest Archive</title>
   <meta name="description" content="Archive of AI-powered daily news digests">
   <style>
+    :root {
+      --bg-color: #f5f5f5;
+      --container-bg: white;
+      --text-color: #333;
+      --text-muted: #666;
+      --title-color: #bf4600;
+      --link-color: #00bfa5;
+      --link-hover-color: #00a693;
+      --border-color: rgba(0,0,0,0.1);
+      --shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #121212;
+        --container-bg: #1e1e1e;
+        --text-color: #e0e0e0;
+        --text-muted: #999;
+        --title-color: #ff8c42;
+        --link-color: #4dd0e1;
+        --link-hover-color: #26c6da;
+        --border-color: rgba(255,255,255,0.1);
+        --shadow: 0 2px 10px rgba(0,0,0,0.3);
+      }
+    }
+    
+    [data-theme="dark"] {
+      --bg-color: #121212;
+      --container-bg: #1e1e1e;
+      --text-color: #e0e0e0;
+      --text-muted: #999;
+      --title-color: #ff8c42;
+      --link-color: #4dd0e1;
+      --link-hover-color: #26c6da;
+      --border-color: rgba(255,255,255,0.1);
+      --shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    
+    [data-theme="light"] {
+      --bg-color: #f5f5f5;
+      --container-bg: white;
+      --text-color: #333;
+      --text-muted: #666;
+      --title-color: #bf4600;
+      --link-color: #00bfa5;
+      --link-hover-color: #00a693;
+      --border-color: rgba(0,0,0,0.1);
+      --shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background-color: #f5f5f5;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
     .container {
       max-width: 800px;
@@ -167,18 +321,35 @@ export function generateIndexHTML(digests: DigestData[]): string {
     .header {
       text-align: center;
       margin-bottom: 40px;
-      background: white;
+      background: var(--container-bg);
       padding: 40px;
       border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      box-shadow: var(--shadow);
+      position: relative;
+    }
+    .theme-toggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: var(--link-color);
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+    .theme-toggle:hover {
+      background: var(--link-hover-color);
     }
     .header h1 {
-      color: #bf4600;
+      color: var(--title-color);
       margin: 0 0 10px 0;
       font-size: 2.5em;
     }
     .header p {
-      color: #666;
+      color: var(--text-muted);
       font-size: 1.1em;
       margin: 0;
     }
@@ -201,38 +372,76 @@ export function generateIndexHTML(digests: DigestData[]): string {
       gap: 20px;
     }
     .digest-item {
-      background: white;
+      background: var(--container-bg);
       padding: 30px;
       border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      box-shadow: var(--shadow);
     }
     .digest-item h3 {
       margin: 0 0 15px 0;
       font-size: 1.4em;
     }
     .digest-item h3 a {
-      color: #00bfa5;
+      color: var(--link-color);
       text-decoration: none;
     }
     .digest-item h3 a:hover {
       text-decoration: underline;
     }
     .digest-summary {
-      color: #333;
+      color: var(--text-color);
       margin: 0 0 10px 0;
       font-size: 1.05em;
     }
     .digest-stats {
-      color: #666;
+      color: var(--text-muted);
       font-size: 0.9em;
       margin: 0;
       font-style: italic;
     }
   </style>
+  <script>
+    // Theme toggle functionality
+    function initTheme() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      } else if (prefersDark) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+      
+      updateToggleButton();
+    }
+    
+    function toggleTheme() {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateToggleButton();
+    }
+    
+    function updateToggleButton() {
+      const button = document.getElementById('theme-toggle');
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      if (button) {
+        button.textContent = currentTheme === 'dark' ? '☀️ Light' : '🌙 Dark';
+      }
+    }
+    
+    // Initialize theme on page load
+    document.addEventListener('DOMContentLoaded', initTheme);
+  </script>
 </head>
 <body>
   <div class="container">
     <div class="header">
+      <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">🌙 Dark</button>
       <h1>Daily News Digest</h1>
       <p>AI-powered daily news digest with personalized summaries and insights</p>
       <a href="${baseUrl}/rss.xml" class="rss-link">📡 Subscribe to RSS Feed</a>
