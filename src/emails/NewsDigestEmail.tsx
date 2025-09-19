@@ -60,15 +60,56 @@ export const NewsDigestEmail: React.FC<NewsDigestEmailProps> = ({
           fontWeight={400}
           fontStyle="normal"
         />
+        <style>{`
+          @media (prefers-color-scheme: dark) {
+            body, .main {
+              background-color: #1a1a1a !important;
+              color: #e0e0e0 !important;
+            }
+            .title {
+              color: #ff8c42 !important;
+            }
+            .date {
+              color: #999999 !important;
+            }
+            .intro-text {
+              color: #cccccc !important;
+            }
+            .category-title {
+              color: #e0e0e0 !important;
+            }
+            .commentary {
+              color: #cccccc !important;
+            }
+            .article-title {
+              color: #4dd0e1 !important;
+            }
+            .source-text {
+              color: #999999 !important;
+            }
+            .summary-text {
+              color: #cccccc !important;
+            }
+            .divider {
+              border-color: #333333 !important;
+            }
+            .intro-section {
+              border-color: #333333 !important;
+            }
+            .footer-text {
+              color: #999999 !important;
+            }
+          }
+        `}</style>
       </Head>
-      <Body style={styles.main}>
+      <Body style={styles.main} className="main">
         <Container style={styles.container}>
           {/* Header Section */}
           <Section style={styles.header}>
-            <Heading as="h1" style={styles.title}>
+            <Heading as="h1" style={styles.title} className="title">
               DAILY NEWS DIGEST
             </Heading>
-            <Text style={styles.date}>{date}</Text>
+            <Text style={styles.date} className="date">{date}</Text>
           </Section>
 
           {/* Web Version Link */}
@@ -83,34 +124,34 @@ export const NewsDigestEmail: React.FC<NewsDigestEmailProps> = ({
           )}
 
           {/* Intro Section */}
-          <Section style={styles.introSection}>
-            <Text style={styles.introText}>{introText}</Text>
+          <Section style={styles.introSection} className="intro-section">
+            <Text style={styles.introText} className="intro-text">{introText}</Text>
           </Section>
 
           {/* Content Sections */}
           {categories.map((category, index) => (
             <Section key={index} style={styles.categorySection}>
-              <Heading as="h2" style={styles.categoryTitle}>
+              <Heading as="h2" style={styles.categoryTitle} className="category-title">
                 {category.category}
               </Heading>
 
               {category.commentary && (
-                <Text style={styles.commentary}>{category.commentary}</Text>
+                <Text style={styles.commentary} className="commentary">{category.commentary}</Text>
               )}
 
               {category.articles.map((article, articleIndex) => (
                 <div key={articleIndex} style={styles.articleContainer}>
-                  <Link href={article.url} style={styles.articleTitle}>
+                  <Link href={article.url} style={styles.articleTitle} className="article-title">
                     {article.title}
                   </Link>
-                  <Text style={styles.sourceText}>{article.source}</Text>
+                  <Text style={styles.sourceText} className="source-text">{article.source}</Text>
                   {article.summary && (
-                    <Text style={styles.summaryText}>{article.summary}</Text>
+                    <Text style={styles.summaryText} className="summary-text">{article.summary}</Text>
                   )}
                 </div>
               ))}
 
-              {index < categories.length - 1 && <Hr style={styles.divider} />}
+              {index < categories.length - 1 && <Hr style={styles.divider} className="divider" />}
             </Section>
           ))}
         </Container>
