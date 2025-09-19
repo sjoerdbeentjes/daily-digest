@@ -4,6 +4,7 @@ import { format } from "date-fns";
 import { render } from "@react-email/render";
 import { config } from "./config.js";
 import { NewsDigestEmail } from "./emails/NewsDigestEmail";
+import { generateDigestSlug } from "./hosting.js";
 import type { NewsCategory } from "./scraper";
 
 const transporter = nodemailer.createTransport({
@@ -24,11 +25,16 @@ export async function sendNewsletter({
   categories: NewsCategory[];
 }): Promise<void> {
   const date = format(new Date(), "MMMM do, yyyy");
+  const now = new Date();
+  const slug = generateDigestSlug(now);
+  const webUrl = `${config.SITE_URL}/digests/${slug}.html`;
+  
   const emailHtml = render(
     React.createElement(NewsDigestEmail, {
       date,
       categories,
       introText,
+      webUrl,
     })
   );
 

@@ -27,12 +27,14 @@ interface NewsDigestEmailProps {
   date: string;
   categories: NewsCategory[];
   introText: string;
+  webUrl?: string;
 }
 
 export const NewsDigestEmail: React.FC<NewsDigestEmailProps> = ({
   date = new Date().toLocaleDateString(),
   categories = [],
   introText = "Here's your daily news digest.",
+  webUrl,
 }) => {
   return (
     <Html>
@@ -68,6 +70,17 @@ export const NewsDigestEmail: React.FC<NewsDigestEmailProps> = ({
             </Heading>
             <Text style={styles.date}>{date}</Text>
           </Section>
+
+          {/* Web Version Link */}
+          {webUrl && (
+            <Section style={styles.webLinkSection}>
+              <Text style={styles.webLinkText}>
+                <Link href={webUrl} style={styles.webLink}>
+                  View this newsletter in your browser
+                </Link>
+              </Text>
+            </Section>
+          )}
 
           {/* Intro Section */}
           <Section style={styles.introSection}>
@@ -149,6 +162,23 @@ const styles = {
     fontSize: "16px",
     margin: "24px 0",
     textTransform: "uppercase" as const,
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
+  },
+  webLinkSection: {
+    textAlign: "center" as const,
+    marginBottom: "32px",
+    paddingBottom: "24px",
+    borderBottom: "1px solid #e0e0e0",
+  },
+  webLinkText: {
+    margin: "0",
+    fontSize: "14px",
+    fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
+  },
+  webLink: {
+    color: "#00bfa5",
+    textDecoration: "none",
+    fontSize: "14px",
     fontFamily: '"Playfair Display", "Times New Roman", Times, serif',
   },
   introSection: {
