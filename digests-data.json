@@ -1,215 +1,149 @@
 [
   {
     "date": "September 19th, 2025",
-    "introText": "This digest covers AI and chip industry developments, major platform and AI tools, regulatory actions affecting tech and media, notable consumer-tech launches, and international politics and security. It also highlights science, education, culture, and regional news from government policy to regional events.",
+    "introText": "This digest highlights a major Nvidia-Intel AI hardware collaboration, Google’s Gemini expansions in Chrome, and the Windows/Xbox Copilot rollout. It also covers antitrust and regulatory actions in tech markets, international diplomacy around TikTok, and a range of sports, culture, and Dutch news updates, along with cybersecurity and consumer-tech news.",
     "categories": [
       {
-        "category": "Technology",
+        "category": "Technology & AI",
         "commentary": "",
         "articles": [
           {
-            "title": "Nvidia invests $5 billion into Intel to jointly develop PC and data center chips",
-            "url": "https://www.theverge.com/tech/780792/nvidia-intel-investment-pc-chips-data-center",
+            "title": "Nvidia and Intel’s $5 billion deal is apparently about eating AMD’s lunch",
+            "url": "https://www.theverge.com/report/781330/nvidia-intel-explain-5-billion-deal-jensen-huang-lip-bu-tan-amd",
             "source": "The Verge",
-            "summary": "Verge reports Nvidia's $5 billion investment into Intel to jointly develop PC and data-center chips, aiming to combine Nvidia’s AI accelerators with Intel’s processor architectures. Terms are not disclosed, but the deal could affect AMD competition and enable cross-licensing and roadmap synergies."
+            "summary": "Verge reports a roughly $5 billion collaboration between Nvidia and Intel to co-develop PC and data-center chips, combining Nvidia’s AI accelerators with Intel’s processors and manufacturing. The article notes potential competition pressure on AMD and discusses regulatory and supply-chain implications."
           },
           {
-            "title": "Google expanding Gemini in Chrome and letting it do stuff for you",
+            "title": "Google Gemini in Chrome",
             "url": "https://www.theverge.com/ai-artificial-intelligence/781192/chrome-gemini-ai-agentic-update-google-mac-windows",
             "source": "The Verge",
-            "summary": "Google is expanding Gemini AI across Chrome with agentic capabilities that can perform tasks for users on Mac and Windows, such as drafting messages and handling multi-step tasks. The rollout emphasizes cross‑platform automation, with safety and privacy questions still to be addressed."
+            "summary": "Verge reports Google will broaden Gemini’s presence in Chrome, enabling Gemini-powered features for browsing and automation across Mac and Windows, with agentic capabilities for tasks such as form-filling and scheduling."
           },
           {
-            "title": "Satya Nadella is haunted at the prospect of Microsoft not surviving the AI era",
-            "url": "https://www.theverge.com/tech/780946/microsoft-satya-nadella-town-hall-comments-ai-era-notepad",
-            "source": "The Verge",
-            "summary": "Verge reports Nadella’s town hall remarks about AI-era risks for Microsoft, noting integration of AI into core software and concerns about keeping pace with competitors. It references examples like AI features in Notepad and governance implications of broad AI deployment."
-          },
-          {
-            "title": "Microsoft’s Xbox Copilot arrives on Windows 11 PCs worldwide",
+            "title": "Xbox Copilot arrives on Windows 11 PCs worldwide",
             "url": "https://www.theverge.com/news/780771/microsoft-xbox-copilot-windows-game-bar-available-download",
             "source": "The Verge",
-            "summary": "Xbox Copilot launches globally on Windows 11 PCs, uniting Xbox features with Windows tooling for voice-activated help and cross‑platform game management. The piece covers availability and examples, with questions raised about privacy and performance."
-          },
-          {
-            "title": "Notion’s new AI Agents will basically do your job for you",
-            "url": "https://www.theverge.com/news/781293/notion-ai-agent-do-your-job",
-            "source": "The Verge",
-            "summary": "Notion unveils AI Agents to automate tasks inside its workspace, including scheduling, data gathering, and content generation across pages and databases. The article notes potential productivity gains and limitations in accuracy and control."
-          },
-          {
-            "title": "Samsung brings ads to US fridges",
-            "url": "https://www.theverge.com/news/780757/samsung-brings-ads-to-us-fridges",
-            "source": "The Verge",
-            "summary": "Samsung enables in-fridge advertising on its US smart refrigerators, highlighting advertiser partnerships and potential revenue, while raising concerns about privacy and the impact on the in‑home experience."
-          },
-          {
-            "title": "The budget handheld wars are heating up",
-            "url": "https://www.theverge.com/games/781651/the-budget-handheld-wars-are-heating-up",
-            "source": "The Verge",
-            "summary": "Verge surveys the budget handheld market, noting Ayaneo’s plan to ship a $90 retro handheld this October and comparing it with pricier rivals, focusing on price, portability, and retro gaming appeal."
+            "summary": "Verge covers the rollout of Xbox Copilot across Windows 11 PCs, integrating AI-assisted features into the Xbox Game Bar and Windows gaming experience, with considerations around privacy and resource use."
           },
           {
             "title": "Intel says Arc GPUs will live on after Nvidia deal",
             "url": "https://www.theverge.com/news/781635/intel-says-arc-gpus-will-live-on-after-nvidia-deal",
             "source": "The Verge",
-            "summary": "Intel reiterates that Arc GPUs will remain on its roadmap and be supported even as Nvidia’s deal with AMD shifts market dynamics. The piece discusses implications for consumers and developers."
+            "summary": "The Verge reports that Intel plans continued Arc GPU support and roadmap despite the Nvidia collaboration, discussing implications for competition and ecosystem viability."
+          },
+          {
+            "title": "Samsung brings ads to US fridges",
+            "url": "https://www.theverge.com/news/780757/samsung-brings-ads-to-us-fridges",
+            "source": "The Verge",
+            "summary": "Verge reports Samsung introducing advertising on US smart refrigerators, detailing business rationale, consumer impact, and privacy considerations."
           },
           {
             "title": "OpenAI’s research on AI models deliberately lying is wild",
             "url": "https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
             "source": "TechCrunch",
-            "summary": "TechCrunch highlights OpenAI research on AI models that deliberately lie under certain prompts as part of safety and alignment testing, exploring implications for reliability and risks in real-world use."
+            "summary": "TechCrunch notes OpenAI’s internal research into whether AI models can deliberately lie under certain prompts, discussing experiments to probe truthfulness and the challenges of ensuring reliability."
           },
           {
             "title": "How AI startups are fueling Google’s booming cloud business",
             "url": "https://techcrunch.com/2025/09/18/how-ai-startups-are-fueling-googles-booming-cloud-business/",
             "source": "TechCrunch",
-            "summary": "TechCrunch analyzes how independent AI startups drive demand for Google Cloud, including partnerships and the role of Gemini in enterprise adoption alongside competition from AWS and Azure."
-          },
-          {
-            "title": "Mark Zuckerberg has begun his quest to kill the smartphone",
-            "url": "https://techcrunch.com/2025/09/18/mark-zuckerberg-has-begun-his-quest-to-kill-the-smartphone/",
-            "source": "TechCrunch",
-            "summary": "TechCrunch examines Meta’s pivot away from traditional smartphones toward alternative devices or interfaces and the implications for mobile ecosystems, developers, and competition."
+            "summary": "TechCrunch analyzes how independent AI startups are driving demand for Google Cloud with tools and data pipelines built on the platform, exploring partnerships and enterprise use cases."
           },
           {
             "title": "Notion launches agents for data analysis and task automation",
             "url": "https://techcrunch.com/2025/09/18/notion-launches-agents-for-data-analysis-and-task-automation/",
             "source": "TechCrunch",
-            "summary": "TechCrunch reports Notion’s agents designed for data analysis and workflow automation within Notion, detailing use cases, integration with databases, and safety considerations."
+            "summary": "TechCrunch reports Notion’s rollout of AI-enabled agents to assist with data analysis and task automation across Notion workspaces, detailing capabilities and integration with existing features."
           },
           {
             "title": "Google now lets you share your custom Gemini AI assistants known as Gems",
             "url": "https://techcrunch.com/2025/09/18/google-now-lets-you-share-your-custom-gemini-ai-assistants-known-as-gems/",
             "source": "TechCrunch",
-            "summary": "Google introduces sharing of Gemini-based AI assistants (Gems), describing customization, distribution, and privacy/security considerations for teams and developers."
-          },
-          {
-            "title": "Google brings Gemini in Chrome to US users, unveils agentic browsing capabilities, and more",
-            "url": "https://techcrunch.com/2025/09/18/google-brings-gemini-in-chrome-to-us-users-unveils-agentic-browsing-capabilities-and-more/",
-            "source": "TechCrunch",
-            "summary": "TechCrunch analyzes Google’s rollout of Gemini in Chrome with agentic browsing features, considering implications for browsing experiences, privacy, and enterprise deployment."
-          },
-          {
-            "title": "Uber is trying drone delivery again",
-            "url": "https://techcrunch.com/2025/09/18/uber-is-trying-drone-delivery-again/",
-            "source": "TechCrunch",
-            "summary": "TechCrunch covers Uber’s renewed push into drone delivery, including regulatory challenges, partnerships, and potential effects on last‑mile logistics."
-          },
-          {
-            "title": "Elon Musk’s Boring Company suspends work on Vegas airport tunnel after crushing injury",
-            "url": "https://techcrunch.com/2025/09/18/elon-musks-boring-company-suspends-work-on-vegas-airport-tunnel-after-crushing-injury/",
-            "source": "TechCrunch",
-            "summary": "TechCrunch reports a crushing injury leads to the suspension of work on The Boring Company’s Vegas airport tunnel project, with potential timeline and safety implications."
+            "summary": "TechCrunch describes Google’s feature allowing sharing of Gemini-based AI assistants (Gems), including sharing mechanisms, access controls, and privacy considerations."
           }
         ]
       },
       {
-        "category": "Regulation",
+        "category": "World News & International Affairs",
         "commentary": "",
         "articles": [
           {
-            "title": "The FTC is suing Ticketmaster for illegally ‘coordinating’ with brokers",
-            "url": "https://www.theverge.com/news/781261/ftc-suing-ticketmaster-antitrust-illegally-coordinating-with-brokers",
-            "source": "The Verge",
-            "summary": "Verge reports the FTC filed an antitrust suit alleging Ticketmaster coordinated with ticket brokers to undermine competition and inflate prices, outlining potential remedies and consumer impact."
-          },
-          {
-            "title": "Administration Asks Supreme Court to Allow Removal of Fed Governor",
-            "url": "https://www.nytimes.com/2025/09/18/us/politics/trump-supreme-court-fed.html",
+            "title": "How Xi Is Using a TikTok Tradeoff to Court Trump",
+            "url": "https://www.nytimes.com/2025/09/19/world/asia/how-xi-using-tiktok-trump.html",
             "source": "The New York Times",
-            "summary": "The Times covers the administration’s request to the Supreme Court to permit removing a Federal Reserve governor, discussing independence of the central bank and potential policy implications."
+            "summary": "NYT analyzes China potentially leveraging TikTok negotiations as part of a broader bargaining package with the US, with implications for tariffs, tech governance, and Taiwan policy."
           },
-          {
-            "title": "Can Trump Actually Designate Antifa a Terrorist Group? Here Are the Facts.",
-            "url": "https://www.nytimes.com/2025/09/18/us/politics/trump-antifa-terrorist-group.html",
-            "source": "The New York Times",
-            "summary": "The Times explains the legality and practicality of designating Antifa a terrorist organization, outlining regulatory framework, legal standards, and likely consequences."
-          },
-          {
-            "title": "EU seeks developer input on Apple’s proposed changes to App Store rules",
-            "url": "https://9to5mac.com/2025/09/18/european-ununion-app-store-rules-feedback/",
-            "source": "9to5Mac",
-            "summary": "The EU invites developers to comment on Apple’s App Store changes amid DMA regulatory scrutiny, with a deadline for responses signaling ongoing regulatory pressure."
-          }
-        ]
-      },
-      {
-        "category": "International Relations",
-        "commentary": "",
-        "articles": [
           {
             "title": "Trump and Xi Are Set to Finalize TikTok Deal",
-            "url": "https://www.nytimes.com/2025/09/18/business/media/trump-and-xi-set-to-finalize-tiktok-deal.html",
+            "url": "https://www.nytimes.com/2025/09/19/business/media/trump-and-xi-set-to-finalize-tiktok-deal.html",
             "source": "The New York Times",
-            "summary": "The Times reports talks between Trump and Xi to keep TikTok from going dark in the U.S., framed as a high-stakes tech and data-security negotiation with possible concessions."
+            "summary": "NYT reports US and China nearing agreement on TikTok governance, including data localization and audits, and discusses potential implications for tech competition and global markets."
           },
           {
-            "title": "Polen krijgt anti-drone-trainingen van Oekraïne, EUwil drone-muur",
-            "url": "https://nos.nl/artikel/2583056-polen-krijgt-anti-drone-trainingen-van-oekraine-eu-wil-drone-muur",
+            "title": "Autocrats Move Quickly to Fill Void as Trump Retreats From the U.N.",
+            "url": "https://www.nytimes.com/2025/09/19/world/asia/trump-un-china-authoritarian.html",
+            "source": "The New York Times",
+            "summary": "NYT describes how China and Russia are seeking influence at the UN as the US reduces engagement, with potential consequences for international governance."
+          },
+          {
+            "title": "The Race to Make Rare Earth Magnets Outside China Is On",
+            "url": "https://www.nytimes.com/2025/09/19/business/tech/rare-earth-magnets.html",
+            "source": "The New York Times",
+            "summary": "NYT examines efforts to diversify production of rare earth magnets away from China and the geopolitical implications for tech supply chains."
+          },
+          {
+            "title": "Taliban ban female authors on universities",
+            "url": "https://nos.nl/artikel/2583104-taliban-verbieden-boeken-van-vrouwelijke-auteurs-op-universiteiten",
             "source": "NOS",
-            "summary": "Poland receives anti-drone training from Ukraine as part of a broader European security initiative; the EU also aims to build a drone wall to protect border areas."
+            "summary": "NOS reports the Taliban barred books by female authors from university curricula, placing this within broader educational and civil-rights restrictions."
           },
           {
-            "title": "Russia laat ontvoerde Oekraïense kinderen drones in elkaar zetten, blijkt uit Yale-onderzoek",
-            "url": "https://nrc.nl/nieuws/2025/09/18/rusland-laat-ontvoerde-oekraiense-kinderen-drones-in-elkaar-zetten-blijkt-uit-yale-onderzoek-a4906613",
-            "source": "NRC",
-            "summary": "A Yale study reports that abducted Ukrainian children were forced to assemble drones, highlighting war crimes and human cost amid the conflict."
-          },
-          {
-            "title": "Eerste levering van Amerikaanse wapens aan Oekraïne onder nieuw NAVO-aankoopprogramma",
-            "url": "https://nrc.nl/nieuws/2025/09/18/eerste-levering-van-amerikaanse-wapens-aan-oekraine-onder-nieuw-navo-aankoopprogramma-a4906615",
-            "source": "NRC",
-            "summary": "The report details the first delivery of U.S. weapons to Ukraine under a new NATO procurement program, noting logistical and policy implications."
-          },
-          {
-            "title": "Zeker half miljoen mensen demonstreren tegen bezuinigingen in Frankrijk",
-            "url": "https://nrc.nl/nieuws/2025/09/18/zeker-half-miljoen-mensen-demonstreren-tegen-bezuinigingen-in-frankrijk-a4906720",
-            "source": "NRC",
-            "summary": "Around half a million people protest in France against 44 billion euros in proposed spending cuts, highlighting social tensions and labor responses."
-          },
-          {
-            "title": "Wie zit achter de verjaardagsposters voor de Indiase premier Modi in Nederland?",
-            "url": "https://nrc.nl/nieuws/2025/09/18/wie-zit-achter-de-verjaardagsposters-voor-de-india-premier-modi-in-nederland-a4906655",
-            "source": "NRC",
-            "summary": "An investigation into posters celebrating Modi’s birthday in Dutch cities, exploring possible anonymous campaigns or propaganda in diplomatic contexts."
-          },
-          {
-            "title": "Verenigd Koninkrijk stuurt onder one in, one out-overeenkomst met Frankrijk eerste migrant terug",
-            "url": "https://nrc.nl/nieuws/2025/09/18/verenigd-koninkrijk-stuurt-onder-one-in-one-out-overeenkomst-met-frankrijk-eerste-migrant-terug-a4906686",
-            "source": "NRC",
-            "summary": "The UK and France implement a one-in, one-out migrant return arrangement; the first migrant has been sent back, signaling a shift in migration policy."
-          },
-          {
-            "title": "Rusland laat ontvoerde Oekraïense kinderen drones in elkaar zetten, blijkt uit Yale-onderzoek",
-            "url": "https://nrc.nl/nieuws/2025/09/18/rusland-laat-ontvoerde-oekraiense-kinderen-drones-in-elkaar-zetten-blijkt-uit-yale-onderzoek-a4906613",
-            "source": "NRC",
-            "summary": "(Duplicate entry noted above) Yale research alleges abducted Ukrainian children were forced to assemble drones, highlighting international law concerns."
+            "title": "Brits freed by Taliban after months in detention",
+            "url": "https://nos.nl/artikel/2583125-brits-echtpaar-vrijgelaten-door-taliban-na-maanden-in-de-cel",
+            "source": "NOS",
+            "summary": "NOS reports the release of an elderly British couple detained by the Taliban after months in custody, with context on diplomatic considerations."
           }
         ]
       },
       {
-        "category": "Health",
+        "category": "US Politics & Policy",
         "commentary": "",
         "articles": [
           {
-            "title": "Kennedy’s Advisory Panel Votes to Limit M.M.R.V. Vaccine for Children Under 4",
-            "url": "https://www.nytimes.com/2025/09/18/health/kennedy-cdc-vaccine-meeting-hepatitis-covid.html",
-            "source": "The New York Times",
-            "summary": "The advisory panel votes to limit use of the MMRV vaccine for children under four, maintaining separate vaccines as the standard for that age group."
+            "title": "AOC eyes 2028 presidential run",
+            "url": "https://axios.com/2025/09/19/aoc-2028-democrats-president-senate",
+            "source": "Axios",
+            "summary": "Axios notes speculation about Alexandria Ocasio-Cortez pursuing a presidential bid in 2028 and discusses potential electoral strategy and policy implications."
           },
           {
-            "title": "Nederlandse ziekenhuizen kunnen en willen ernstig zieke of gewonde Gazaanse kinderen helpen, maar het kabinet is tegen",
-            "url": "https://nrc.nl/nieuws/2025/09/18/nederlandse-ziekenhuizen-kunnen-en-willen-ernstig-zieke-of-gewonde-gazaanse-kinderen-helpen-a4906334",
-            "source": "NRC",
-            "summary": "Dutch hospitals express willingness to help seriously ill or injured Gazan children, while the cabinet opposes, citing Gaza’s healthcare collapse and domestic policy constraints."
+            "title": "Top Biden aide admits president struggled in final years in office",
+            "url": "https://axios.com/2025/09/19/biden-decline-jeff-zients-president",
+            "source": "Axios",
+            "summary": "Axios reports a top Biden administration aide acknowledging the president faced struggles in his final years, with implications for legacy and messaging."
           },
           {
-            "title": "AI-tool voorspelt ziekten: 'Het risico is dat we het verkeerd interpreteren'",
-            "url": "https://nos.nl/artikel/2583081-ai-tool-voorspelt-ziekten-het-risico-is-dat-we-het-verkeerd-interpreteren",
-            "source": "NOS",
-            "summary": "An AI tool predicting diseases warns of misinterpretation risks, bias, and confusion between correlation and causation in clinical decision-making; calls for safeguards and human oversight."
+            "title": "Senate Republicans squirm over FCC comments on Jimmy Kimmel",
+            "url": "https://axios.com/2025/09/18/senate-republicans-jimmy-kimmel-fcc-charlie-kirk",
+            "source": "Axios",
+            "summary": "Axios describes Republican senators’ hesitation to attack FCC Chair Carr after comments about Jimmy Kimmel, reflecting political calculations on media regulation."
+          },
+          {
+            "title": "Senate passes 'National Day of Remembrance for Charlie Kirk'",
+            "url": "https://axios.com/2025/09/18/charlie-kirk-national-day-remembrance-senate",
+            "source": "Axios",
+            "summary": "Axios reports the Senate passing a resolution to create a National Day of Remembrance for Charlie Kirk, noting White House and Republican reactions."
+          },
+          {
+            "title": "Providers face hard decisions with Medicaid cuts",
+            "url": "https://axios.com/2025/09/19/health-care-providers-impact-medicaid-cuts",
+            "source": "Axios",
+            "summary": "Axios covers how Medicaid cuts affect healthcare providers, including budget pressures and patient access."
+          },
+          {
+            "title": "Exclusive: Google's wish list for the new USPTO director",
+            "url": "https://axios.com/2025/09/19/google-patents-uspto",
+            "source": "Axios",
+            "summary": "Axios discusses Google’s preferred policy directions for the USPTO leadership, including patent examination standards and regulation affecting innovation."
           }
         ]
       },
@@ -218,22 +152,22 @@
         "commentary": "",
         "articles": [
           {
-            "title": "Trump Says Broadcasters Risk Losing Licenses When Hosts Criticize Him",
-            "url": "https://www.nytimes.com/2025/09/18/live-trump-news",
-            "source": "The New York Times",
-            "summary": "The Times reports Trump suggested regulators revoke TV licenses for broadcasters whose late-night hosts disparage him, illustrating tension between administration and media."
+            "title": "Yes, Jimmy Kimmel’s suspension was government censorship",
+            "url": "https://www.theverge.com/policy/781148/jimmy-kimmel-charlie-kirk-monologue-brendan-carr-censorship-first-amendment",
+            "source": "The Verge",
+            "summary": "The Verge analyzes the suspension of Jimmy Kimmel and related regulatory/public-interest questions, including a Senate inquiry into FCC communications."
           },
           {
-            "title": "Disney Pulled Jimmy Kimmel as Pressure Built on Multiple Fronts",
-            "url": "https://www.nytimes.com/2025/09/18/business/media/disney-abc-jimmy-kimmel.html",
+            "title": "How Outrage at Kimmel Grew to a Shout From a Whisper",
+            "url": "https://www.nytimes.com/2025/09/19/technology/kimmel-carr-outrage-online.html",
             "source": "The New York Times",
-            "summary": "The Times describes Disney pulling Jimmy Kimmel amid advertiser and public-pressure concerns, framing a broader dialogue on free speech and political influence."
+            "summary": "NYT traces how online posts and media commentary amplified Jimmy Kimmel’s monologue into a political controversy, examining digital amplification and editorial pressure."
           },
           {
-            "title": "David Letterman Says Kimmel’s Suspension Is ‘Just Not How This Works’",
-            "url": "https://www.nytimes.com/2025/09/18/arts/television/jimmy-kimmel-david-letterman-stephen-colbert.html",
+            "title": "What Jimmy Kimmel’s Suspension Says About Free Speech",
+            "url": "https://www.nytimes.com/2025/09/19/us/jimmy-kimmel-free-speech.html",
             "source": "The New York Times",
-            "summary": "David Letterman critiques Kimmel’s suspension, situating it within a wider debate on accountability and editorial autonomy in TV."
+            "summary": "NYT analyzes implications for free speech and corporate policy in media following Kimmel’s suspension."
           }
         ]
       },
@@ -242,63 +176,153 @@
         "commentary": "",
         "articles": [
           {
-            "title": "Seb Huntelaar (16) treedt in voetsporen vader met contract bij PSV",
-            "url": "https://nos.nl/artikel/2583058-seb-huntelaar-16-treedt-in-voetsporen-vader-met-contract-bij-psv",
+            "title": "WK atletiek: nu halve finale 5.000m met Laros, later finale 400m horden met Bol",
+            "url": "https://nos.nl/livestream/2576242-wk-atletiek-nu-halve-finale-5-000m-met-laros-later-finale-400m-horden-met-bol",
             "source": "NOS",
-            "summary": "Sebastian Huntelaar signs a contract with PSV, moving from Vitesse to PSV with a contract through 2028, signaling development prospects for the young player."
+            "summary": "NOS reports live coverage of day seven at the World Athletics Championships in Tokyo, highlighting the 5,000m semi-final and the 400m hurdles final."
           },
           {
-            "title": "Björn Borg open over verslaving en prostaatkanker: 'Ik was meerdere keren bijna dood'",
-            "url": "https://nos.nl/artikel/2583035-bjorn-borg-open-over-verslaving-en-prostaatkanker-ik-was-meerdere-keren-bijna-dood",
+            "title": "Twente treft bekerhouder Arsenal en Engels kampioen Chelsea in Champions League",
+            "url": "https://nos.nl/artikel/2583123-twente-treft-bekerhouder-arsenal-en-engels-kampioen-chelsea-in-champions-league",
             "source": "NOS",
-            "summary": "Björn Borg discusses past struggles with addiction and prostate cancer in his autobiography, reflecting on resilience and career impact."
-          }
-        ]
-      },
-      {
-        "category": "Culture",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "The Sagrada Família Takes Its Final Shape",
-            "url": "https://www.newyorker.com/magazine/2025/09/22/is-the-sagrada-familia-a-masterpiece-or-kitsch",
-            "source": "Hacker News",
-            "summary": "Feature examining the ongoing completion of Sagrada Família, balancing Gaudí’s design with modern engineering and construction practices amid safety, conservation, and tourism considerations."
-          }
-        ]
-      },
-      {
-        "category": "Education & Research",
-        "commentary": "",
-        "articles": [
-          {
-            "title": "Learn Your Way: Reimagining Textbooks with Generative AI",
-            "url": "https://research.google/blog/learn-your-way-reimagining-textbooks-with-generative-ai/",
-            "source": "Hacker News",
-            "summary": "Google Research outlines transforming textbooks with generative AI, including personalized explanations, dynamic problem sets, and interactive content, along with risks like bias and misalignment."
+            "summary": "NOS notes FC Twente drawing Arsenal and Chelsea for the Champions League group stage, emphasizing the strength of the English clubs."
           },
           {
-            "title": "Show HN: Asxiv.org – Ask ArXiv papers questions through chat",
-            "url": "https://asxiv.org/",
-            "source": "Hacker News",
-            "summary": "Asxiv.org introduces a chat-enabled interface to interact with ArXiv papers, offering natural-language querying and quick summaries to speed literature reviews."
+            "title": "Norris snelste in rommelige eerste vrije training Bakoe • 'Teams tasten nog in het duister'",
+            "url": "https://nos.nl/liveblog/2583100-norris-snelste-in-rommelige-eerste-vrije-training-bakoe-teams-tasten-nog-in-het-duister",
+            "source": "NOS",
+            "summary": "NOS reports Norris as fastest in a chaotic first free practice session for the Azerbaijan Grand Prix, with teams still adjusting setups."
+          },
+          {
+            "title": "Synchroonzussen De Brouwer beëindigen carrière: 'Het verhaal is af'",
+            "url": "https://nos.nl/artikel/2583127-synchroonzussen-de-brouwer-26-beeindigen-carriere-het-verhaal-is-af",
+            "source": "NOS",
+            "summary": "NOS announces the retirement of identical twins Noortje and Bregje de Brouwer from synchronized swimming, highlighting their major 2024 achievements."
           }
         ]
       },
       {
-        "category": "Science",
+        "category": "Culture & Arts",
         "commentary": "",
         "articles": [
           {
-            "title": "The Math of Catastrophe",
-            "url": "https://www.quantamagazine.org/the-math-of-climate-change-tipping-points-20250915/",
-            "source": "Quanta Magazine",
-            "summary": "Quanta Magazine explains how mathematicians model climate tipping points using nonlinear dynamics, bifurcations, and early-warning indicators, with discussion of uncertainties and policy implications."
+            "title": "De nieuwe roman van Peter Buwalda stijgt boven zichzelf uit. In De Jaknikker wordt een verrassende laag aangeboord",
+            "url": "https://nrc.nl/nieuws/2025/09/18/de-nieuwe-roman-van-peter-buwalda-stijgt-boven-zichzelf-uit-in-de-jaknikker-wordt-een-verrassende-laag-a4906674",
+            "source": "NRC",
+            "summary": "NRC reviews Peter Buwalda’s novel De Jaknikker, noting it goes beyond previous work and adds a surprising depth."
+          },
+          {
+            "title": "Lea Ypi speurt naar het leven van haar grootmoeder én naar de grote geschiedenis",
+            "url": "https://nrc.nl/nieuws/2025/09/18/lea-ypi-speurt-naar-het-leven-van-haar-grootmoeder-en-naar-de-grote-geschiedenis-a4906639",
+            "source": "NRC",
+            "summary": "NRC discusses Lea Ypi’s book that blends a personal portrait with larger historical context and themes of memory and identity."
+          }
+        ]
+      },
+      {
+        "category": "Science & Space",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "What does Blue Origin do? Explaining all the company’s programs",
+            "url": "https://spaceexplored.com/2025/09/18/what-does-blue-origin-do/",
+            "source": "SpaceExplored",
+            "summary": "SpaceExplored provides a primer on Blue Origin’s programs and their role in private space activity."
+          }
+        ]
+      },
+      {
+        "category": "Consumer Tech & Apple News",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "All of the best iPhone 17 cases [Update #3]",
+            "url": "https://9to5mac.com/2025/09/19/best-iphone-17-cases/",
+            "source": "9to5Mac",
+            "summary": "9to5Mac rounds up top iPhone 17 cases from trusted brands, with notes on protection, style, and pricing."
+          },
+          {
+            "title": "First iPhone 17 pre-orders now arriving to customers",
+            "url": "https://9to5mac.com/2025/09/18/first-iphone-17-pre-orders-now-arriving-customers/",
+            "source": "9to5Mac",
+            "summary": "9to5Mac reports that iPhone 17 pre-orders (and other Apple devices) are arriving in New Zealand and Australia as regional rollout begins."
+          },
+          {
+            "title": "EU seeks developer input on Apple’s proposed changes to App Store rules",
+            "url": "https://9to5mac.com/2025/09/18/european-union-app-store-rules-feedback/",
+            "source": "9to5Mac",
+            "summary": "EU solicits developer feedback on Apple App Store rule changes ahead of Digital Markets Act compliance."
+          },
+          {
+            "title": "iPhone Air MagSafe Battery teardown reveals a surprisingly familiar component inside",
+            "url": "https://9to5mac.com/2025/09/18/iphone-air-magsafe-battery-teardown/",
+            "source": "9to5Mac",
+            "summary": "iFixIt teardown notes a familiar internal component in Apple’s Air MagSafe Battery, suggesting a manufacturing efficiency."
+          },
+          {
+            "title": "iOS 26’s new Battery feature can help save a draining iPhone",
+            "url": "https://9to5mac.com/2025/09/18/ios-26s-new-battery-feature-can-help-save-a-draining-iphone/",
+            "source": "9to5Mac",
+            "summary": "9to5Mac explains iOS 26 Battery feature improvements to help extend iPhone life and optimize battery health."
+          },
+          {
+            "title": "Federico Viticci’s in-depth iOS 26 review: A new era for Apple’s software",
+            "url": "https://9to5mac.com/2025/09/18/federico-viticci-ios-26-review-link/",
+            "source": "9to5Mac",
+            "summary": "9to5Mac highlights Viticci’s iOS 26 review, noting a broad set of changes and evaluating early impact on daily use."
+          },
+          {
+            "title": "iOS 26.0.1 coming soon for iPhone users",
+            "url": "https://9to5mac.com/2025/09/18/ios-26-0-1-coming-soon-for-iphone-users/",
+            "source": "9to5Mac",
+            "summary": "9to5Mac reports a bug-fix update (iOS 26.0.1) is in development to address early issues after the major release."
+          },
+          {
+            "title": "Apple TV+ unveils new crime thriller from creator of The Blacklist",
+            "url": "https://9to5mac.com/2025/09/18/apple-tv-unveils-cryptic-new-crime-thriller-from-creator-of-the-blacklist/",
+            "source": "9to5Mac",
+            "summary": "9to5Mac notes Apple TV+ expanding its fall slate with a new crime thriller from The Blacklist creator and shares a trailer."
+          },
+          {
+            "title": "Photographer Austin Mann reviews the iPhone 17 Pro cameras",
+            "url": "https://9to5mac.com/2025/09/18/photographer-austin-mann-reviews-the-iphone-17-pro-cameras/",
+            "source": "9to5Mac",
+            "summary": "Austin Mann provides an in-depth field review of the iPhone 17 Pro cameras, focusing on image quality and features."
+          }
+        ]
+      },
+      {
+        "category": "Dutch National News (NOS/NRC)",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Dit najaar strengere controles op 'sjoemelkortingen' van webwinkels",
+            "url": "https://nos.nl/artikel/2583115-dit-najaar-strengere-controles-op-sjoemelkortingen-van-web-winkels",
+            "source": "NOS",
+            "summary": "NOS reports ACM will increase oversight this autumn to tackle misleading online discounts and practices."
+          },
+          {
+            "title": "Gevangenen komen nu vrijwel altijd twee weken eerder vrij door cellentekort",
+            "url": "https://nos.nl/artikel/2583082-gevangenen-komen-nu-vrijwel-altijd-twee-weken-eerder-vrij-door-cellentekort",
+            "source": "NOS",
+            "summary": "NOS covers earlier releases of inmates due to cell shortage, shortening detention by about two weeks and discussing risks and system pressures."
+          },
+          {
+            "title": "Overleden Amerikaanse vrouw na tientallen jaren geïdentificeerd via DNA zus",
+            "url": "https://nos.nl/artikel/2583095-overleden-amerikaanse-vrouw-na-tientallen-jaren-geidentificeerd-via-dna-zus",
+            "source": "NOS",
+            "summary": "NOS reports a deceased American woman identified after decades through DNA matching with a sister."
+          },
+          {
+            "title": "Taliban verbieden boeken van vrouwelijke auteurs op universiteiten",
+            "url": "https://nos.nl/artikel/2583104-taliban-verbieden-boeken-van-vrouwelijke-auteurs-op-universiteiten",
+            "source": "NOS",
+            "summary": "NOS notes Taliban forbidding books by female authors from university curricula."
           }
         ]
       }
     ],
-    "timestamp": 1758255301744
+    "timestamp": 1758281722470
   },
   {
     "date": "September 18th, 2025",
