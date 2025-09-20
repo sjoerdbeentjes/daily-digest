@@ -1,5 +1,498 @@
 [
   {
+    "date": "September 20th, 2025",
+    "introText": "This digest covers technology and AI developments, policy and regulatory changes, global politics and diplomacy, science and security stories, and sports and entertainment industry updates. It summarizes product launches, corporate deals, government actions, and security issues using only the information in the headlines and provided metadata.",
+    "categories": [
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Microsoft is raising prices on Xbox consoles in the US again",
+            "url": "https://www.theverge.com/news/782079/microsoft-xbox-console-price-increase-us",
+            "source": "The Verge",
+            "summary": "Microsoft has increased prices of Xbox consoles in the United States."
+          },
+          {
+            "title": "Nest is dead, long live Google Home",
+            "url": "https://www.theverge.com/report/781221/the-end-of-nest-google-home-smart-home",
+            "source": "The Verge",
+            "summary": "Google is rebranding Nest devices under the Google Home umbrella."
+          },
+          {
+            "title": "The iPhone 17 is the one to get this year",
+            "url": "https://www.theverge.com/tech/779265/iphone-17-pro-max-review",
+            "source": "The Verge",
+            "summary": "The Verge says the iPhone 17 is the best pick this year."
+          },
+          {
+            "title": "Apple iPhone Air review: statement piece",
+            "url": "https://www.theverge.com/tech/779588/apple-iphone-air-review-battery-camera",
+            "source": "The Verge",
+            "summary": "The Verge reviews the iPhone Air, noting a thinner design and trade-offs in battery life and performance."
+          },
+          {
+            "title": "Windows 11 is adding another Copilot button nobody asked for",
+            "url": "https://www.theverge.com/news/782194/windows-11-share-with-copilot-button",
+            "source": "The Verge",
+            "summary": "The Verge discusses a new Copilot button in Windows 11 and potential UI impact."
+          },
+          {
+            "title": "Nvidia and Intel’s $5 billion deal is apparently about eating AMD’s lunch",
+            "url": "https://www.theverge.com/tech/781330/nvidia-intel-explain-5-billion-deal-jensen-huang-lip-bu-tan-amd",
+            "source": "The Verge",
+            "summary": "The article analyzes Nvidia and Intel’s deal as a move to challenge AMD in the CPU/GPU market."
+          },
+          {
+            "title": "Google is expanding Gemini in Chrome and letting it do stuff for you",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/781192/chrome-gemini-ai-agentic-update-google-mac-windows",
+            "source": "The Verge",
+            "summary": "Google expands Gemini AI within Chrome to perform agent-like tasks across Mac and Windows."
+          },
+          {
+            "title": "The right to anonymity is powerful, and America is destroying it",
+            "url": "https://www.theverge.com/policy/781256/anonymity-privacy-age-verification-free-speech",
+            "source": "The Verge",
+            "summary": "The Verge discusses the importance of anonymity and concerns about proposed verification regimes."
+          },
+          {
+            "title": "Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram",
+            "url": "https://techcrunch.com/2025/09/19/trump-hits-h-1b-visas-with-100000-fee-targeting-the-program-that-launched-elon-musk-and-instagram/",
+            "source": "TechCrunch",
+            "summary": "The article reports a proposed $100,000 fee on H-1B visas and its potential effects on tech hiring."
+          },
+          {
+            "title": "Why California’s SB 53 might provide a meaningful check on big AI companies",
+            "url": "https://techcrunch.com/2025/09/19/why-californias-sb-53-might-provide-a-meaningful-check-on-big-ai-companies/",
+            "source": "TechCrunch",
+            "summary": "The piece examines California's SB 53 and potential safety, transparency, and regulatory requirements for AI developers."
+          },
+          {
+            "title": "Nvidia eyes $500M investment into self-driving tech startup Wayve",
+            "url": "https://techcrunch.com/2025/09/19/nvidia-eyes-500m-investment-into-self-driving-tech-startup-wayve/",
+            "source": "TechCrunch",
+            "summary": "Nvidia plans a $500 million investment in Wayve to advance autonomous driving technology."
+          },
+          {
+            "title": "How developers are using Apple’s local AI models with iOS 26",
+            "url": "https://techcrunch.com/2025/09/19/how-developers-are-using-apples-local-ai-models-with-ios-26/",
+            "source": "TechCrunch",
+            "summary": "The article discusses developers using Apple on-device AI models in iOS 26."
+          },
+          {
+            "title": "Best Apple Watch apps for boosting your productivity",
+            "url": "https://techcrunch.com/2025/09/19/best-apple-watch-apps-for-boosting-your-productivity/",
+            "source": "TechCrunch",
+            "summary": "The piece curates Apple Watch apps aimed at productivity improvements."
+          },
+          {
+            "title": "Meta’s AR ambitions meet reality, and California gets serious about AI safety again",
+            "url": "https://techcrunch.com/video/metas-ar-ambitions-meet-reality-and-california-gets-serious-about-ai-safetyagain/",
+            "source": "TechCrunch",
+            "summary": "The video feature looks at Meta's AR ambitions vs reality and AI safety regulation in California."
+          },
+          {
+            "title": "Meta Ray-Ban Display and everything else unveiled at Meta Connect 2025",
+            "url": "https://techcrunch.com/2025/09/19/meta-connect-2025-what-to-expect-and-how-to-watch/",
+            "source": "TechCrunch",
+            "summary": "Preview of Meta Connect 2025 with Ray-Ban Display and other announcements."
+          },
+          {
+            "title": "TechCrunch’s Equity podcast is on video, starting today",
+            "url": "https://techcrunch.com/2025/09/19/techcrunchs-equity-podcast-is-on-video-starting-today/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch's Equity podcast shifts to video format."
+          },
+          {
+            "title": "Cracking product-market fit: Lessons from founders and investors at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/19/crack-the-code-to-startup-traction-with-insights-from-chef-robotics-nea-and-iconiq-at-techcrunch-disrupt-2025/",
+            "source": "TechCrunch",
+            "summary": "The piece shares insights on achieving product-market fit from Disrupt 2025."
+          },
+          {
+            "title": "Final hours to apply: Be the life of TechCrunch Disrupt 2025 by hosting your own Side Event",
+            "url": "https://techcrunch.com/2025/09/19/final-hours-be-the-life-of-techcrunch-disrupt-2025-by-hosting-your-own-side-event/",
+            "source": "TechCrunch",
+            "summary": "The article urges readers to apply to host Side Events at Disrupt 2025."
+          },
+          {
+            "title": "Less is safer: How Obsidian reduces the risk of supply chain attacks",
+            "url": "https://obsidian.md/blog/less-is-safer/",
+            "source": "Hacker News",
+            "summary": "Obsidian promotes a less is safer approach to limit supply chain risk."
+          },
+          {
+            "title": "If all the world were a monorepo",
+            "url": "https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo",
+            "source": "Hacker News",
+            "summary": "The piece discusses monorepo as a universal software development approach."
+          },
+          {
+            "title": "Things managers do that leaders never would",
+            "url": "https://simonsinek.com/stories/5-things-managers-do-that-leaders-never-would-according-to-simon/",
+            "source": "Hacker News",
+            "summary": "The article contrasts managerial behaviors with leadership traits."
+          },
+          {
+            "title": "Hidden risk in Notion 3.0 AI agents: Web search tool abuse for data exfiltration",
+            "url": "https://www.codeintegrity.ai/blog/notion",
+            "source": "Hacker News",
+            "summary": "Security risks in Notion 3.0 AI agents via web search and potential data exfiltration."
+          },
+          {
+            "title": "Feedmaker: URL + CSS selectors = RSS feed",
+            "url": "https://feedmaker.fly.dev",
+            "source": "Hacker News",
+            "summary": "A tool to generate RSS feeds using a URL and CSS selectors."
+          },
+          {
+            "title": "Show HN: WeUseElixir - Elixir project directory",
+            "url": "https://weuseelixir.com/",
+            "source": "Hacker News",
+            "summary": "A community directory of Elixir projects."
+          },
+          {
+            "title": "Ants that seem to defy biology – They lay eggs that hatch into another species",
+            "url": "https://www.smithsonianmag.com/smart-news/these-ant-queens-seem-to-defy-biology-they-lay-eggs-that-hatch-into-another-species-180987292/",
+            "source": "Hacker News",
+            "summary": "Smithsonian reports ants whose eggs hatch into individuals of another species."
+          },
+          {
+            "title": "Internet Archive's big battle with music publishers ends in settlement",
+            "url": "https://arstechnica.com/tech-policy/2025/09/internet-archives-big-battle-with-music-publishers-ends-in-settlement/",
+            "source": "Hacker News",
+            "summary": "Ars Technica reports settlement of a long legal dispute over digital music archiving."
+          },
+          {
+            "title": "Starfront Observatories",
+            "url": "https://starfront.space/",
+            "source": "Hacker News",
+            "summary": "Starfront Observatories is described as a space observation platform."
+          },
+          {
+            "title": "Ruby Central's Attack on RubyGems [pdf]",
+            "url": "https://pup-e.com/goodbye-rubygems.pdf",
+            "source": "Hacker News",
+            "summary": "A PDF document analyzing a security incident in the RubyGems ecosystem."
+          }
+        ]
+      },
+      {
+        "category": "Policy & Regulation",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "The right to anonymity is powerful, and America is destroying it",
+            "url": "https://www.theverge.com/policy/781256/anonymity-privacy-age-verification-free-speech",
+            "source": "The Verge",
+            "summary": "Discussion of anonymity protections and proposed identity verification regimes."
+          },
+          {
+            "title": "Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram",
+            "url": "https://techcrunch.com/2025/09/19/trump-hits-h-1b-visas-with-100000-fee-targeting-the-program-that-launched-elon-musk-and-instagram/",
+            "source": "TechCrunch",
+            "summary": "Policy proposal to impose a $100,000 fee on skilled-worker visas."
+          },
+          {
+            "title": "Why California’s SB 53 might provide a meaningful check on big AI companies",
+            "url": "https://techcrunch.com/2025/09/19/why-californias-sb-53-might-provide-a-meaningful-check-on-big-ai-companies/",
+            "source": "TechCrunch",
+            "summary": "Analysis of SB 53 and potential safety and oversight requirements for AI firms."
+          },
+          {
+            "title": "Internet Archive's big battle with music publishers ends in settlement",
+            "url": "https://arstechnica.com/tech-policy/2025/09/internet-archives-big-battle-with-music-publishers-ends-in-settlement/",
+            "source": "Hacker News",
+            "summary": "Settlement of a high-profile digital music licensing dispute."
+          },
+          {
+            "title": "Rand Paul's last-minute demands push key cybersecurity law to the brink",
+            "url": "https://www.axios.com/2025/09/19/cisa-2015-cyber-law-rand-paul",
+            "source": "Axios",
+            "summary": "Rand Pauls intervention threatens a cybersecurity law's approval."
+          },
+          {
+            "title": "Vliegtaks: How far the flying tax will go",
+            "url": "https://nrc.nl/nieuws/2025/09/19/hoe-veel-vliegtaks-gaat-tegen-welke-vlucht-a4906783",
+            "source": "NRC",
+            "summary": "Analysis of proposed flight tax and its economic and climate implications."
+          },
+          {
+            "title": "Can You Still Get the Covid Shot?",
+            "url": "https://www.nytimes.com/2025/08/27/well/covid-vaccines-guidelines-fall-2025.html",
+            "source": "The New York Times",
+            "summary": "Guidance on Covid-19 vaccination availability and recommendations for fall 2025."
+          },
+          {
+            "title": "U.S. Will End Deportation Protections for Thousands of Syrians",
+            "url": "https://www.nytimes.com/2025/09/19/us/politics/temporary-protected-status-syrians.html",
+            "source": "The New York Times",
+            "summary": "Policy ending deportation protections for thousands of Syrians."
+          },
+          {
+            "title": "Hard-Fought Treaty to Protect Ocean Life Clears a Final Hurdle",
+            "url": "https://www.nytimes.com/2025/09/19/climate/high-seas-treaty-ocean-biodiversity-ratified.html",
+            "source": "The New York Times",
+            "summary": "Global High Seas Treaty becomes international law to conserve ocean biodiversity."
+          },
+          {
+            "title": "Trump Nears Deal for Road Through Alaskan Wildlife Refuge",
+            "url": "https://www.nytimes.com/2025/09/19/climate/trump-deal-izembek-national-wildlife-refuge-alaska.html",
+            "source": "The New York Times",
+            "summary": "Reported negotiations for a road through Izembek Refuge in Alaska with tradeoffs for conservation and local access."
+          },
+          {
+            "title": "Estonia wants NATO meeting after Russian airspace violations",
+            "url": "https://nrc.nl/nieuws/2025/08/19/oekraineblog-19-aug-a4903434",
+            "source": "NRC",
+            "summary": "Estonia calls for a NATO gathering after Russian fighters violated Baltic airspace."
+          },
+          {
+            "title": "Killer AI policy and vaccine guidance in the US and EU",
+            "url": "https://nrc.nl/nieuws/2025/09/19/ja-gekoppelde-ai-beleid-en-vaccinatie-risico-s-a4906292",
+            "source": "NRC",
+            "summary": "Policy analysis across AI safety and vaccination guidance."
+          },
+          {
+            "title": "A diplomatic poker game may end with a new TikTok chapter for the U.S.",
+            "url": "https://nrc.nl/nieuws/2025/09/19/een-diplomatiek-pokerspel-kan-na-jaren-ten-einde-komen-met-een-nieuwe-tiktok-tak-voor-de-vs-a4906822",
+            "source": "NRC",
+            "summary": "Exploration of US-China tensions around TikTok as a diplomatic tool."
+          }
+        ]
+      },
+      {
+        "category": "International Relations",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "The City That Embodies the U.S.-Korea Bond, Even in the Trump Era",
+            "url": "https://www.nytimes.com/2025/09/19/world/asia/south-korea-incheon-us-bond.html",
+            "source": "The New York Times",
+            "summary": "Incheon is described as a symbol of the U.S.-South Korea alliance amid evolving regional politics."
+          },
+          {
+            "title": "Palestinian Abbas speaks at UN via video after Trump administration bans entry to U.S.",
+            "url": "https://nrc.nl/nieuws/2025/09/19/palestijnse-leider-abbas-spreekt-vn-vergadering-via-video-toe-nadat-trump-regering-hem-toegang-tot-vs-ontzegt-a4906830",
+            "source": "NRC",
+            "summary": "Palestinian Authority leader Abbas addresses the UN by video after US entry ban."
+          },
+          {
+            "title": "IOC lets Russians and Belarusians compete under neutral flag at Milan Winter Games",
+            "url": "https://nrc.nl/nieuws/2025/09/20/ioc-laat-russen-en-wit-russen-onder-neutrale-vlag-toe-bij-winterspelen-milaan-a4906842",
+            "source": "NRC",
+            "summary": "Athletes from Russia and Belarus can participate under a neutral flag at Milan 2025."
+          },
+          {
+            "title": "U.S. and U.K. remain forever friends even after Trump-Starmer meeting",
+            "url": "https://nrc.nl/nieuws/2025/09/18/de-vs-en-het-vk-blijven-forever-friends-ook-na-de-ontmoeting-tussen-trump-en-starmer-a4906700",
+            "source": "NRC",
+            "summary": "Analysis of the enduring U.S.-UK alliance following a Trump-Starmer meeting."
+          },
+          {
+            "title": "TikTok diplomacy and a potential Trump-Xi call as a path to thaw",
+            "url": "https://nrc.nl/nieuws/2025/09/19/een-diplomatiek-pokerspel-kan-na-jaren-ten-einde-komen-met-een-nieuwe-tiktok-tak-voor-de-vs-a4906822",
+            "source": "NRC",
+            "summary": "Explores how TikTok issues shape U.S.-China diplomacy and potential top-level talks."
+          },
+          {
+            "title": "Estland wil NAVO-overleg na schending luchtruim door Russische gevechtsvliegtuigen",
+            "url": "https://nrc.nl/nieuws/2025/08/19/oekraineblog-19-aug-a4903434",
+            "source": "NRC",
+            "summary": "Estonia calls for NATO talks after incursions by Russian fighters."
+          },
+          {
+            "title": "Palestijnse leider Abbas spreekt VN-vergadering via video toe, nadat Trump-regering hem toegang tot VS heeft ontzegd",
+            "url": "https://nrc.nl/nieuws/2025/09/19/palestijnse-leider-abbas-spreekt-vn-vergadering-via-video-toe-nadat-trump-regering-hem-toegang-tot-vs-ontzegt-a4906830",
+            "source": "NRC",
+            "summary": "Abbas addresses the UN via video after a U.S. access ban."
+          },
+          {
+            "title": "Sommige Zeeuwen zeggen: laat die nieuwe kerncentrale maar komen",
+            "url": "https://nrc.nl/nieuws/2025/09/19/sommige-zeeuwen-zeggen-laat-die-nieuwe-kerncentrale-maar-komen-a4906778",
+            "source": "NRC",
+            "summary": "Local Zeeland debate on building a new nuclear plant."
+          },
+          {
+            "title": "Oekraïne treft Russische olieraffinaderijen, en dat merken Russen aan de pomp",
+            "url": "https://nos.nl/artikel/2583199-oekraïne-treft-russische-olieraffinaderijen-en-dat-merken-russen-aan-de-pomp",
+            "source": "NOS",
+            "summary": "Ukraine hits Russian oil refineries; price effects evident at the pump."
+          }
+        ]
+      },
+      {
+        "category": "World",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Palestinian leader Abbas speaks at UN via video after Trump administration bans entry to U.S.",
+            "url": "https://nrc.nl/nieuws/2025/09/19/palestijnse-leider-abbas-spreekt-vn-vergadering-via-video-toe-nadat-trump-regering-hem-toegang-tot-vs-ontzegt-a4906830",
+            "source": "NRC",
+            "summary": "Abbas addresses the UN via video after a U.S. entry ban."
+          },
+          {
+            "title": "Palestinian leader Abbas speaks at UN via video after Trump administration bans entry to U.S.",
+            "url": "https://www.nytimes.com/2025/09/19/world/asia/south-korea-incheon-us-bond.html",
+            "source": "The New York Times",
+            "summary": "Note: see International Relations for details."
+          },
+          {
+            "title": "Ukrainian strikes hit Russian refineries; Russians notice at the pump",
+            "url": "https://nos.nl/artikel/2583199-oekraïne-treft-russische-olieraffinaderijen-en-dat-merken-russen-aan-de-pomp",
+            "source": "NOS",
+            "summary": "Ukraine hits Russian oil refineries; price signals seen at the pump."
+          },
+          {
+            "title": "Americans attack a drugship, per Trump, en route to the U.S.",
+            "url": "https://nos.nl/artikel/2583224-amerikanen-vallen-drugsschip-aan-volgens-trump-was-het-onderweg-naar-vs",
+            "source": "NOS",
+            "summary": "Reported attack on a drug-smuggling ship attributed to the U.S., per Trump."
+          },
+          {
+            "title": "Incheon embodies the U.S.-Korea bond amid Trump era",
+            "url": "https://www.nytimes.com/2025/09/19/world/asia/south-korea-incheon-us-bond.html",
+            "source": "The New York Times",
+            "summary": "Incheon highlighted as a symbol of U.S.-Korea alliance in the Trump era."
+          },
+          {
+            "title": "Estland wants NATO meeting after Russian airspace violations",
+            "url": "https://nrc.nl/nieuws/2025/08/19/oekraineblog-19-aug-a4903434",
+            "source": "NRC",
+            "summary": "Baltic state urges NATO response after Russian airspace breach."
+          }
+        ]
+      },
+      {
+        "category": "Health",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Kennedy’s Vaccine Panel Votes to Limit Access to Covid Shots",
+            "url": "https://www.nytimes.com/2025/09/19/health/cdc-vaccines-mmrv-hepatitis-b.html",
+            "source": "The New York Times",
+            "summary": "A panel recommends consulting a health professional before Covid-19 vaccination."
+          },
+          {
+            "title": "Can You Still Get the Covid Shot?",
+            "url": "https://www.nytimes.com/2025/08/27/well/covid-vaccines-guidelines-fall-2025.html",
+            "source": "The New York Times",
+            "summary": "Explores fall 2025 vaccine guidelines and eligibility."
+          }
+        ]
+      },
+      {
+        "category": "Science",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Ants that seem to defy biology – They lay eggs that hatch into another species",
+            "url": "https://www.smithsonianmag.com/smart-news/these-ant-queens-seem-to-defy-biology-they-lay-eggs-that-hatch-into-another-species-180987292/",
+            "source": "Smithsonian",
+            "summary": "Ant queens lay eggs that hatch into individuals of another species."
+          },
+          {
+            "title": "Starfront Observatories",
+            "url": "https://starfront.space/",
+            "source": "STARFRONT",
+            "summary": "Starfront Observatories describes a space observation platform."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Wachtlijsten van Groningen tot Nijmegen: de eredivisie is populairder dan ooit",
+            "url": "https://nos.nl/artikel/2583227-wachtlijsten-van-groningen-tot-nijmegen-de-eredivisie-is-populairder-dan-ooit",
+            "source": "NOS",
+            "summary": "Eredivisie waitlists indicate growing popularity."
+          },
+          {
+            "title": "Ado verslaat Almere en neemt koppositie over in eerste divisie op avond vol mooie goals",
+            "url": "https://nos.nl/artikel/2583214-ado-verslaat-almere-en-neemt-koppositie-over-in-eerste-divisie-op-avond-vol-mooie-goals",
+            "source": "NOS",
+            "summary": "ADO defeats Almere to take top of the Eerste Divisie."
+          },
+          {
+            "title": "Bij het EK honkbal in Rotterdam moet een kilometer lang hek de Israëlische ploeg beschermen tegen acties",
+            "url": "https://nrc.nl/nieuws/2025/09/19/bij-het-ek-honkbal-in-rotterdam-moet-een-kilometer-lang-hek-de-israelische-ploeg-beschermen-tegen-acties-a4906764",
+            "source": "NRC",
+            "summary": "A long fence installed to protect the Israeli team at the European Championship in Rotterdam."
+          },
+          {
+            "title": "IOC laat Russen en Wit-Russen onder neutral vlag toe bij Winterspelen Milaan",
+            "url": "https://nrc.nl/nieuws/2025/09/20/ioc-laat-russen-en-wit-russen-onder-neutrale-vlag-toe-bij-winterspelen-milaan-a4906842",
+            "source": "NRC",
+            "summary": "Russians and Belarusians allowed to compete under neutral flag at Milan Winter Games."
+          },
+          {
+            "title": "The City That Embodies the U.S.-Korea Bond, Even in the Trump Era",
+            "url": "https://www.nytimes.com/2025/09/19/world/asia/south-korea-incheon-us-bond.html",
+            "source": "The New York Times",
+            "summary": "Incheon highlighted as symbol of U.S.-Korea alliance in sports diplomacy context."
+          }
+        ]
+      },
+      {
+        "category": "Entertainment/Media",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Apple TV+ might have its next big blockbuster movie lined up",
+            "url": "https://9to5mac.com/2025/09/19/apple-tv-might-have-its-next-big-blockbuster-movie-lined-up/",
+            "source": "9to5Mac",
+            "summary": "Apple TV+ reportedly lining up a Martin Scorsese project with Leonardo DiCaprio and Jennifer Lawrence."
+          }
+        ]
+      },
+      {
+        "category": "Security & Privacy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Hidden risk in Notion 3.0 AI agents: Web search tool abuse for data exfiltration",
+            "url": "https://www.codeintegrity.ai/blog/notion",
+            "source": "Hacker News",
+            "summary": "Notion 3.0 AI agents risk data exfiltration via web search."
+          },
+          {
+            "title": "Ruby Central's Attack on RubyGems [pdf]",
+            "url": "https://pup-e.com/goodbye-rubygems.pdf",
+            "source": "Hacker News",
+            "summary": "PDF analyzing a security incident in the RubyGems ecosystem."
+          }
+        ]
+      },
+      {
+        "category": "Local/National (Netherlands/US)",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Moneyball-bedenker Beane geeft les in de Alkmaarse polder: 'Wees niet bang voor AI'",
+            "url": "https://nos.nl/artikel/2583228-moneyball-bedenker-beane-geeft-les-in-de-alkmaarse-polder-wees-niet-bang-voor-ai",
+            "source": "NOS",
+            "summary": "Moneyball architect Beane offers lessons to a Dutch audience about AI."
+          },
+          {
+            "title": "Sommige Zeeuwen zeggen: laat die nieuwe kerncentrale maar komen",
+            "url": "https://nos.nl/artikel/2583227-wachtlijsten-van-groningen-tot-nijmegen-de-eredivisie-is-populairder-dan-ooit",
+            "source": "NOS",
+            "summary": "Local Zeeland debate on a new nuclear plant."
+          },
+          {
+            "title": "Afgelopen weken: Negatieve headlines",
+            "url": "https://nos.nl/artikel/2583223-nepbrieven-met-compensatie-na-uitspraak-over-stankoverlast-wietkweker",
+            "source": "NOS",
+            "summary": "Local issue about deceptive mailings related to a nuisance ruling."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758341595589
+  },
+  {
     "date": "September 19th, 2025",
     "introText": "This digest highlights a major Nvidia-Intel AI hardware collaboration, Google’s Gemini expansions in Chrome, and the Windows/Xbox Copilot rollout. It also covers antitrust and regulatory actions in tech markets, international diplomacy around TikTok, and a range of sports, culture, and Dutch news updates, along with cybersecurity and consumer-tech news.",
     "categories": [
