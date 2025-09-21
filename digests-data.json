@@ -1,5 +1,258 @@
 [
   {
+    "date": "September 21st, 2025",
+    "introText": "Today’s digest highlights policy moves on immigration and tech regulation, major AI and consumer tech developments, international and Dutch political news, notable sports results, and cultural coverage. The items are organized into Policy & International Affairs, Technology, Arts & Culture, Sports, Netherlands & Europe News, and Economy & Markets.",
+    "categories": [
+      {
+        "category": "Policy & International Affairs",
+        "commentary": "Updates on antitrust regulation, immigration policy, and how international relations intersect with technology governance.",
+        "articles": [
+          {
+            "title": "The US government is taking a second stab at breaking up Google",
+            "url": "https://www.theverge.com/policy/782029/google-doj-ad-tech-remedies-trial-break-up",
+            "source": "The Verge",
+            "summary": "The Verge reports the government’s renewed antitrust push against Google, focusing on ad-tech remedies and potential structural changes; remedies could include divestitures or behavioral restrictions, with potential effects on competition, publishers, and consumers."
+          },
+          {
+            "title": "Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram",
+            "url": "https://techcrunch.com/2025/09/20/trump-hits-h-1b-visas-with-100000-fee-targeting-the-program-that-launched-elon-musk-and-instagram/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch analyzes President Trump’s proposal to impose a $100,000 fee on H-1B visas and its implications for U.S. tech competitiveness, industry groups, and workers, including interactions with visa processes and potential exemptions."
+          },
+          {
+            "title": "White House Outlines a TikTok Deal With a U.S. Board",
+            "url": "https://www.nytimes.com/2025/09/20/technology/white-house-tiktok-deal.html",
+            "source": "The New York Times",
+            "summary": "The White House describes a TikTok governance plan with a seven-director board (six Americans) to oversee the platform, outlining governance terms, timelines, and potential impact on operations and data practices."
+          },
+          {
+            "title": "Netanyahu asked U.S. to press Egypt on military build up in Sinai",
+            "url": "https://www.axios.com/2025/09/20/egypt-military-build-up-sinai-israel-us",
+            "source": "Axios",
+            "summary": "Israeli Prime Minister Netanyahu asked the United States to press Egypt to scale down a recent military build-up in the Sinai amid the Gaza war, citing regional security concerns."
+          },
+          {
+            "title": "They Were Promised a Glimpse of America. They Got Abuse and Exploitation.",
+            "url": "https://www.nytimes.com/2025/09/20/nyregion/j1-visa-foreign-workers.html",
+            "source": "The New York Times",
+            "summary": "The Times reports on abuse and exploitation faced by J-1 visa participants, highlighting oversight gaps and labor protections under the cultural-exchange program."
+          },
+          {
+            "title": "4 Takeaways From the Times Investigation Into the J-1 Visa Program",
+            "url": "https://www.nytimes.com/2025/09/20/nyregion/j-1-visa-investigation-takeaways.html",
+            "source": "The New York Times",
+            "summary": "The Times presents four key findings from its investigation into the J-1 visa program, focusing on oversight gaps, participant treatment, and regulatory framework."
+          },
+          {
+            "title": "Drie Russische gevechtsvliegtuigen boven Estland: wat betekent dat?",
+            "url": "https://nrc.nl/nieuws/2025/09/19/drie-russische-gevechtsvliegtuigen-boven-estland-wat-betekent-dat-a4906669",
+            "source": "NRC",
+            "summary": "NRC analyzes the interception of three Russian fighter jets above Estonia and discusses implications for NATO airspace security, deterrence, and Baltic regional dynamics."
+          },
+          {
+            "title": "After Helping to Oust a Dictator, They Are Targets of the New Regime",
+            "url": "https://www.nytimes.com/2025/09/20/world/americas/nicaragua-ortega-arrests.html",
+            "source": "The New York Times",
+            "summary": "The Times reports arrests of loyalists from the ousted Nicaraguan regime as Ortega consolidates power, signaling potential human rights concerns and regional stability risks."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "Coverage of AI, hardware, and consumer-tech developments, including mobile devices, wearables, and user interfaces.",
+        "articles": [
+          {
+            "title": "Windows 11 is adding another Copilot button nobody asked for",
+            "url": "https://www.theverge.com/news/782194/windows-11-share-with-copilot-button",
+            "source": "The Verge",
+            "summary": "The Verge discusses a new Copilot button in Windows 11, evaluating its placement, function, and potential impact on usability and learning curves."
+          },
+          {
+            "title": "Nest is dead, long live Google Home",
+            "url": "https://www.theverge.com/news/781221/the-end-of-nest-google-home-smart-home",
+            "source": "The Verge",
+            "summary": "The Verge analyzes Google’s plan to fold Nest into Google Home, addressing compatibility, AI features, and migration paths for Nest devices within a unified brand strategy."
+          },
+          {
+            "title": "OpenAI might be developing a smart speaker, glasses, voice recorder, and a pin",
+            "url": "https://www.theverge.com/news/781854/openai-chatgpt-hardware-rumors-smart-speaker-glasses-pin",
+            "source": "The Verge",
+            "summary": "The Verge reports on unconfirmed rumors about OpenAI hardware such as a smart speaker, AR glasses, a voice recorder, and a wearable pin, noting the speculative basis and awaiting official confirmation."
+          },
+          {
+            "title": "The wafer-thin iPhone Air is surprisingly strong",
+            "url": "https://www.theverge.com/tech/782245/iphone-air-jerryrigeverything-durability-test",
+            "source": "The Verge",
+            "summary": "The Verge reports on a durability test of the iPhone Air, finding it more resilient than expected given its thin design, with discussion of trade-offs in durability."
+          },
+          {
+            "title": "iPhone 17 Pro teardown reveals larger camera sensors, and a repair-friendly design",
+            "url": "https://9to5mac.com/2025/09/19/iphone-17-pro-teardown-reveals-larger-camera-sensors-and-a-repair-friendly-design/",
+            "source": "9to5Mac",
+            "summary": "9to5Mac details the iPhone 17 Pro teardown, noting larger camera sensors and a design that emphasizes repairability, with a video offering deeper component-level insights."
+          },
+          {
+            "title": "Chrome is Google’s first iPhone app with Liquid Glass",
+            "url": "https://9to5google.com/2025/09/20/chrome-141-liquid-glass/",
+            "source": "9to5Mac",
+            "summary": "9to5Mac reports that Google Chrome for iPhone and iPad adopts Liquid Glass UI with iOS 26, marking a design shift for Google’s iPhone browser."
+          },
+          {
+            "title": "Apple updates Final Cut Pro and Camera apps with full iPhone 17 support",
+            "url": "https://9to5mac.com/2025/09/19/final-cut-pro-camera-apps-update-iphone-17-support/",
+            "source": "9to5Mac",
+            "summary": "Apple releases updates to Final Cut Pro and Camera apps to add full support for the iPhone 17 lineup, aligning editing software with new hardware features."
+          },
+          {
+            "title": "iPhone Air bend test affirms Apple’s claim of most durable iPhone ever, front glass scratch resistance also impresses",
+            "url": "https://9to5mac.com/2025/09/20/iphone-air-bend-test-most-durable-iphone-ever/#more-1020533",
+            "source": "9to5Mac",
+            "summary": "A hands-on bend test suggests the iPhone Air is highly durable and features strong front glass scratch resistance, corroborating Apple’s durability claims."
+          },
+          {
+            "title": "Five upgrades to look forward to with the rumored MacBook Pro overhaul next year",
+            "url": "https://9to5mac.com/2025/09/20/macbook-pro-redesign-2026-overhaul-rumors-touchscreen-cellular-more/",
+            "source": "9to5Mac",
+            "summary": "The article surveys five rumored upgrades for a 2026 MacBook Pro overhaul, previewing potential changes to display, chassis, connectivity, and performance."
+          },
+          {
+            "title": "Apple boosts iPhone 17 production targets following strong pre-order demand",
+            "url": "https://9to5mac.com/2025/09/19/apple-boosts-iphone-17-production-targets-following-strong-pre-order-demand/",
+            "source": "9to5Mac",
+            "summary": "Apple increases production targets for iPhone 17 in response to strong pre-orders, describing alignment of manufacturing with demand during launch weeks."
+          },
+          {
+            "title": "Anker debuts three new charging essentials for iPhone 17, iPhone Air, and more",
+            "url": "https://9to5mac.com/2025/09/20/anker-launches-three-new-chargers-for-iphone-17-users/",
+            "source": "9to5Mac",
+            "summary": "Anker introduces three new charging products for iPhone 17 and iPhone Air, including a slim 35W Nano charger with dual ports and built-in cable."
+          },
+          {
+            "title": "The AI boom is great for stocks, not so much for jobs",
+            "url": "httpshttps://axios.com/2025/09/20/ai-stocks-boom-job-market",
+            "source": "Axios",
+            "summary": "Axios argues AI investment is boosting stocks and growth but not broad job creation, highlighting policy questions on retraining and safety nets as the economy retools."
+          }
+        ]
+      },
+      {
+        "category": "Arts & Culture",
+        "commentary": "Obituaries, arts reporting, and programs blending tech with the performing arts.",
+        "articles": [
+          {
+            "title": "Marian Burros, Food Writer Famed for Her Plum Torte and More, Dies at 92",
+            "url": "https://www.nytimes.com/2025/09/20/dining/marian-burros-dead.html",
+            "source": "The New York Times",
+            "summary": "The obituary notes Marian Burros’s career as a food writer, including her Plum Torte and contributions to Times coverage across culinary topics."
+          },
+          {
+            "title": "Diane Martel, Inventive Director of Music Videos, Dies at 63",
+            "url": "https://www.nytimes.com/2025/09/20/arts/diane-martel-dead.html",
+            "source": "The New York Times",
+            "summary": "Diane Martel is remembered for influential music videos and collaborations with major artists, shaping early-2000s visual culture."
+          },
+          {
+            "title": "Lincoln Center’s Collider Fellows explore how tech could transform the performing arts",
+            "url": "https://techcrunch.com/2025/09/19/lincoln-centers-collider-fellows-explore-how-tech-could-transform-the-performing-arts/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports on Lincoln Center’s Collider Fellows and projects where technology intersects with performing arts, including collaborations and experimental work."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "Recaps and notable moments from Dutch football competitions.",
+        "articles": [
+          {
+            "title": "Samenvattingen eredivisie: Ihattaren, Van Hooijdonk en Schouten de goudhaantjes",
+            "url": "https://nos.nl/artikel/2583360-samenvattingen-eredivisie-ihattaren-van-hooijdonk-en-schouten-de-goudhaantjes",
+            "source": "NOS",
+            "summary": "NOS highlights key performances from the sixth round of the Eredivisie, focusing on Ihattaren, Van Hooijdonk, and Schouten."
+          },
+          {
+            "title": "Late kopgoal Van Hooijdonk brengt NAC zege op puntloos Heracles",
+            "url": "https://nos.nl/artikel/2583353-late-kopgoal-van-hooijdonk-brengt-nac-zege-op-puntloos-heracles",
+            "source": "NOS",
+            "summary": "NAC Breda defeats Heracles with a late header after falling behind early in the match."
+          },
+          {
+            "title": "Vitesse viert rentree in volgepakt Gelredome met emotionele zege op Helmond Sport",
+            "url": "https://nos.nl/artikel/2583345-vitesse-viert-rentree-in-volgepakt-gelredome-met-emotionele-zege-op-helmond-sport",
+            "source": "NOS",
+            "summary": "Vitesse earns its first win of the season in a full Gelredome, overcoming Helmond Sport with an emotional victory."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands & Europe News",
+        "commentary": "Dutch and European incidents, politics, and social issues reported by Dutch outlets.",
+        "articles": [
+          {
+            "title": "Minstens 30 aanhoudingen en twee gewonde agenten bij 'ongekend geweld' in Den Haag",
+            "url": "https://nos.nl/artikel/2583352-minstens-30-aanhoudingen-en-twee-wonde-agenten-bij-ongekend-geweld-in-den-haag",
+            "source": "NOS",
+            "summary": "NOS reports at least 30 arrests and two wounded officers in Den Haag amid what is described as unprecedented violence."
+          },
+          {
+            "title": "Ook morgen geannuleerde vluchten op Brussels Airport door cyberaanval",
+            "url": "https://nos.nl/artikel/2583336-ook-morgen-geannuleerde-vluchten-op-brussels-airport-door-cyberaanval",
+            "source": "NOS",
+            "summary": "NOS reports possible flight cancellations at Brussels Airport tomorrow due to a cyberattack, with disruption and mitigation steps noted."
+          },
+          {
+            "title": "Elsfest loopt uit op rellen: waterkanonnen en brandende politieauto’s rond het Malieveld",
+            "url": "https://nrc.nl/nieuws/2025/09/20/elsfest-loopt-uit-op-rellen-waterkanonnen-en-brandende-politieauto-s-rond-het-malieveld-a4906873",
+            "source": "NRC",
+            "summary": "NRC describes protests during Elsfest that escalated into rioting, with police using water cannons and vehicles set on fire."
+          },
+          {
+            "title": "Bezorgde lezers tijdens de Lezersmars: ‘Niemand mag bepalen wat een ander mag lezen’",
+            "url": "https://nrc.nl/nieuws/2025/09/20/bezorgde-lezers-tijdens-de-lezersmars-niemand-mag-bepalen-wat-een-ander-mag-lezen-a4906878",
+            "source": "NRC",
+            "summary": "NRC reports on Lezersmars concerns about censorship and freedom to read, including participant reflections and context about democratic access to information."
+          },
+          {
+            "title": "Zes nieuwkomers bij de 27 partijen die mogen deelnemen aan de verkiezingen, waaronder FNP en Vrede voor Dieren",
+            "url": "https://nrc.nl/nieuws/2025/09/19/zes-nieuwkomers-bij-de-27-partijen-die-mogen-deelnemen-aan-de-verkiezingen-waaronder-fnp-en-vrede-voor-dieren-a4906833",
+            "source": "NRC",
+            "summary": "NRC outlines six new parties allowed to participate in upcoming elections, including FNP and Vrede voor Dieren, with notes on eligibility and rules."
+          },
+          {
+            "title": "Burgers hebben genoeg van al die meningen. Zodat Den Haag maar afziet van al te verhit debat",
+            "url": "https://nrc.nl/nieuws/2025/09/19/burgers-hebben-genoeg-van-al-die-meningen-zodat-den-haag-maar-afziet-van-al-te-verhit-debat-a4906809",
+            "source": "NRC",
+            "summary": "An analysis piece arguing for a more mature, less polarizing public debate in The Hague, while maintaining important questions and urgency."
+          }
+        ]
+      },
+      {
+        "category": "Economy & Markets",
+        "commentary": "AI, economics, and market implications of technology and policy.",
+        "articles": [
+          {
+            "title": "The AI boom is great for stocks, not so much for jobs",
+            "url": "https://axios.com/2025/09/20/ai-stocks-boom-job-market",
+            "source": "Axios",
+            "summary": "Axios argues that AI-driven investment and infrastructure growth are boosting stocks but not broad employment, raising questions about retraining and safety nets."
+          },
+          {
+            "title": "Indiase econoom Rajan zag in 2005 de financiële crisis al aankomen, en vreest nu nieuwe problemen door lage rentes. ‘Dat is bijna een ijzeren wet’",
+            "url": "https://nrc.nl/nieuws/2025/09/19/indiase-econoom-rajan-zag-in-2005-de-financiele-crisis-al-aankomen-en-vreest-nu-nieuwe-problemen-door-lage-rentes-dat-is-bijna-een-ijzeren-wet-a4906675",
+            "source": "NRC",
+            "summary": "In dit interview bespreekt Raghuram Rajan zijn waarschuwingen over financiële risks in een economie met langdurige lage rentetarieven en hoge schulden, met mogelijke beleidsopties."
+          },
+          {
+            "title": "Where America's pumpkins are grown",
+            "url": "https://axios.com/2025/09/20/pumpkin-production-by-state",
+            "source": "Axios",
+            "summary": "Axios maps pumpkin production across states, highlighting Illinois as a leading producer and discussing supply chains and seasonal demand."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758427993426
+  },
+  {
     "date": "September 20th, 2025",
     "introText": "This digest covers technology and AI developments, policy and regulatory changes, global politics and diplomacy, science and security stories, and sports and entertainment industry updates. It summarizes product launches, corporate deals, government actions, and security issues using only the information in the headlines and provided metadata.",
     "categories": [
