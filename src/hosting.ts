@@ -119,6 +119,85 @@ export async function saveDigestAsHTML(digestData: DigestData): Promise<string> 
     .theme-toggle:hover {
       background: var(--link-hover-color);
     }
+
+    /* Newsletter content dark mode styles */
+    @media (prefers-color-scheme: dark) {
+      .main {
+        background-color: #1a1a1a !important;
+        color: #e0e0e0 !important;
+      }
+      .title {
+        color: #ff8c42 !important;
+      }
+      .date {
+        color: #999999 !important;
+      }
+      .intro-text {
+        color: #cccccc !important;
+      }
+      .category-title {
+        color: #e0e0e0 !important;
+      }
+      .commentary {
+        color: #cccccc !important;
+      }
+      .article-title {
+        color: #4dd0e1 !important;
+      }
+      .source-text {
+        color: #999999 !important;
+      }
+      .summary-text {
+        color: #cccccc !important;
+      }
+      .divider {
+        border-color: #333333 !important;
+      }
+      .intro-section {
+        border-color: #333333 !important;
+      }
+      .footer-text {
+        color: #999999 !important;
+      }
+    }
+    
+    [data-theme="dark"] .main {
+      background-color: #1a1a1a !important;
+      color: #e0e0e0 !important;
+    }
+    [data-theme="dark"] .title {
+      color: #ff8c42 !important;
+    }
+    [data-theme="dark"] .date {
+      color: #999999 !important;
+    }
+    [data-theme="dark"] .intro-text {
+      color: #cccccc !important;
+    }
+    [data-theme="dark"] .category-title {
+      color: #e0e0e0 !important;
+    }
+    [data-theme="dark"] .commentary {
+      color: #cccccc !important;
+    }
+    [data-theme="dark"] .article-title {
+      color: #4dd0e1 !important;
+    }
+    [data-theme="dark"] .source-text {
+      color: #999999 !important;
+    }
+    [data-theme="dark"] .summary-text {
+      color: #cccccc !important;
+    }
+    [data-theme="dark"] .divider {
+      border-color: #333333 !important;
+    }
+    [data-theme="dark"] .intro-section {
+      border-color: #333333 !important;
+    }
+    [data-theme="dark"] .footer-text {
+      color: #999999 !important;
+    }
   </style>
   <script>
     // Theme toggle functionality
