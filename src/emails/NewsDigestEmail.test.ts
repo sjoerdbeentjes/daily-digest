@@ -35,7 +35,7 @@ describe('NewsDigestEmail', () => {
     expect(html).toContain(testUrl);
   });
 
-  it('should include dark mode styles for manual theme toggle', () => {
+  it('should include dark mode styles for automatic detection', () => {
     const html = render(
       React.createElement(NewsDigestEmail, {
         date: 'January 1st, 2024',
@@ -44,11 +44,9 @@ describe('NewsDigestEmail', () => {
       })
     );
     
-    // Check that the HTML contains dark mode styles for manual theme toggle
-    // Note: CSS selectors get HTML encoded in the rendered output
-    expect(html).toContain('[data-theme=&quot;dark&quot;] body');
-    expect(html).toContain('[data-theme=&quot;dark&quot;] .title');
-    expect(html).toContain('[data-theme=&quot;dark&quot;] .article-title');
+    // Check that the HTML contains dark mode styles for automatic detection
+    // Manual theme toggle styles are now handled by the hosting wrapper
+    expect(html).toContain('@media (prefers-color-scheme: dark)');
     expect(html).toContain('color: #4dd0e1 !important');
     expect(html).toContain('background-color: #1a1a1a !important');
   });
