@@ -1,376 +1,466 @@
 [
   {
     "date": "September 22nd, 2025",
-    "introText": "Topics include U.S. antitrust actions and regulatory scrutiny of Google, debates over internet anonymity and identity verification, and the status of a TikTok deal in the United States. The digest also covers U.S. immigration policy shifts, major Gaza-related diplomacy and Palestinian state recognition, and a broad mix of technology, business, science, and national coverage from the Netherlands and beyond.",
+    "introText": "Today's digest highlights technology policy and AI policy debates, major consumer-tech and platform updates, and significant international and Dutch news. It also covers science, sports, and security-focused reports, along with notable business and political developments.",
     "categories": [
       {
-        "category": "Technology & AI",
-        "commentary": "A roundup of antitrust, privacy, and cutting-edge tech developments and policy debates affecting major platforms and devices.",
+        "category": "Technology Policy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Trump’s H-1B visa fee isn't just about immigration, it’s about fealty",
+            "url": "https://www.theverge.com/report/782289/trumps-h-1b-visa-fee-isnt-about-immigration-its-about-fealty",
+            "source": "The Verge",
+            "summary": "The Verge discusses the H-1B visa fee increase as a policy issue tied to labor-market priorities and national security, and potential effects on tech hiring pipelines and global competitiveness."
+          }
+        ]
+      },
+      {
+        "category": "Policy & Regulation",
+        "commentary": "",
         "articles": [
           {
             "title": "The US government is taking a second stab at breaking up Google",
             "url": "https://www.theverge.com/policy/782029/google-doj-ad-tech-remedies-trial-break-up",
             "source": "The Verge",
-            "summary": "U.S. regulators renew antitrust efforts to curb Google’s dominance in digital advertising and online services; remedies discussed include divestitures and behavioral restrictions on data and ad-tech; uncertainties remain about design, implementation, and enforcement."
-          },
-          {
-            "title": "The right to anonymity is powerful, and America is destroying it",
-            "url": "https://www.theverge.com/policy/781256/anonymity-privacy-age-verification-free-speech",
-            "source": "The Verge",
-            "summary": "The article discusses online anonymity, calls for identity verification, and debates about safeguards; argues anonymity protects free expression and privacy amid policy debates on privacy and digital rights."
-          },
-          {
-            "title": "So… is there a TikTok deal or not?",
-            "url": "https://www.theverge.com/policy/781967/tiktok-deal-us-china-still-ambiguous",
-            "source": "The Verge",
-            "summary": "Assesses the status of talks over TikTok’s future in the U.S., outlining what a deal would need to address—data localization, oversight, security, governance—and why negotiations remain unresolved."
-          },
-          {
-            "title": "Trump’s H-1B visa fee isn’t about immigration, it’s about fealty",
-            "url": "https://www.theverge.com/report/782289/trumps-h-1b-visa-fee-isnt-about-immigration-its-about-fealty",
-            "source": "The Verge",
-            "summary": "Analyses a policy move to raise the H-1B visa filing fee, noting a loophole for exemptions and potential consequences for tech hiring, outsourcing, and the labor market."
-          },
-          {
-            "title": "Trump announces H-1B skilled worker visas will now cost $100,000",
-            "url": "https://www.theverge.com/news/782251/trump-h-1b-skilled-worker-visas-cost-100000",
-            "source": "The Verge",
-            "summary": "Policy proposal to impose an annual $100,000 fee on H-1B visas; discusses exemptions, budget implications, and how hiring strategies and workforce composition could shift."
-          },
-          {
-            "title": "The foldable iPhone might look like two iPhone Airs stuck together",
-            "url": "https://www.theverge.com/news/782366/foldable-details-iphone-air-ifixit-teardown",
-            "source": "The Verge",
-            "summary": "iFixit teardown details about a foldable iPhone concept; describes hinge mechanics, display technology, durability, and implications for user experience and Apple’s roadmap."
-          },
-          {
-            "title": "The touchscreen MacBook rumors are never ending",
-            "url": "https://www.theverge.com/news/782302/touchscreen-oled-macbook-rumors",
-            "source": "The Verge",
-            "summary": "Review of rumors about a touchscreen OLED display on future MacBooks; discusses potential integration with macOS, battery life, heat, and competitive positioning."
-          },
-          {
-            "title": "First look at the Google Home app powered by Gemini",
-            "url": "https://www.theverge.com/news/781810/first-look-google-home-app-powered-by-gemini",
-            "source": "The Verge",
-            "summary": "Preview of Google’s Home app with Gemini-powered AI; outlines new capabilities, voice interactions, routines, and privacy considerations within the home ecosystem."
-          },
-          {
-            "title": "Nest is dead, long live Google Home",
-            "url": "https://www.theverge.com/report/781221/the-end-of-nest-google-home-smart-home",
-            "source": "The Verge",
-            "summary": "Analysis of Google’s branding shift from Nest to Google Home and its implications for data, device compatibility, and updates in the smart-home ecosystem."
-          },
-          {
-            "title": "Trump claims the US is about to get a tremendous fee for taking TikTok out of China",
-            "url": "https://www.theverge.com/news/782218/trump-claims-the-us-is-about-to-get-a-tremendous-fee-for-taking-tiktok-out-of-china#comments",
-            "source": "The Verge",
-            "summary": "Report on President Trump’s claim that the U.S. will impose a large fee related to TikTok’s operation and its removal from China; outlines potential mechanisms and regulatory consequences."
+            "summary": "Regulators revisit remedies in Google’s antitrust case, considering structural changes or divestitures and their impact on publishers, developers, advertisers, and consumer choice."
           }
         ]
       },
       {
-        "category": "Politics & Policy",
-        "commentary": "Policy shifts and political discourse around immigration, trade, and tech governance, including H-1B visa changes and TikTok-related policy debates.",
+        "category": "Policy & Regulation",
+        "commentary": "",
         "articles": [
           {
-            "title": "Trump’s H-1B visa fee isn’t about immigration, it’s about fealty",
-            "url": "https://www.theverge.com/report/782289/trumps-h-1b-visa-fee-isnt-about-immigration-its-about-fealty",
+            "title": "Europe’s cookie law messed up the internet. Brussels wants to fix it",
+            "url": "https://www.politico.eu/article/europe-cookie-law-messed-up-the-internet-brussels-sets-out-to-fix-it/",
+            "source": "Politico/Verge",
+            "summary": "The EU is weighing tweaks to cookie consent rules to balance privacy protections with usability and editorial needs, potentially standardizing consent mechanisms."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Windows 11 is getting a video wallpaper feature",
+            "url": "https://www.theverge.com/tech/782383/microsoft-windows-11-video-wallpapers",
             "source": "The Verge",
-            "summary": "Analysis of a policy move to raise H-1B visa filing fees, noting exemptions and potential impact on tech hiring and the labor market."
-          },
+            "summary": "Windows 11 will add native video wallpaper support with considerations around battery life, performance, and user control."
+          }
+        ]
+      },
+      {
+        "category": "Policy & Regulation",
+        "commentary": "",
+        "articles": [
           {
-            "title": "Trump announces H-1B skilled worker visas will now cost $100,000",
-            "url": "https://www.theverge.com/news/782251/trump-h-1b-skilled-worker-visas-cost-100000",
+            "title": "The right to anonymity is powerful, and America is destroying it",
+            "url": "https://www.theverge.com/policy/781256/anonymity-privacy-age-verification-free-speech#comments",
             "source": "The Verge",
-            "summary": "Policy proposal introducing a $100,000 annual fee for H-1B visas; discusses exemptions, budget effects, and possible effects on hiring strategies."
-          },
-          {
-            "title": "Trump claims the US is about to get a tremendous fee for taking TikTok out of China",
-            "url": "https://www.theverge.com/news/782218/trump-claims-the-us-is-about-to-get-a-tremendous-fee-for-taking-tiktok-out-of-china#comments",
-            "source": "The Verge",
-            "summary": "News on President Trump’s claim of a large fee related to TikTok’s removal from China and related policy considerations."
-          },
-          {
-            "title": "Trump says Lachlan and Rupert Murdoch might invest in TikTok deal",
-            "url": "https://techcrunch.com/2025/09/21/white-house-offers-more-details-about-potential-tiktok-deal/",
-            "source": "TechCrunch",
-            "summary": "Report suggests Murdoch family could invest in a TikTok deal; discusses regulatory and ownership considerations surrounding a U.S.-led arrangement."
-          },
-          {
-            "title": "Path to a dictatorship: Democrats flame Trump's public pressure on Bondi",
-            "url": "https://axios.com/2025/09/21/trump-bondi-schumer-murphy",
-            "source": "Axios",
-            "summary": "Democrats criticize Trump’s public call regarding prosecutions of political opponents, framing it as a democratic threat and commenting on justice-system independence."
+            "summary": "Policy piece arguing anonymity is a civil liberty amid debates on age verification and identity checks, with concerns about free speech and surveillance."
           }
         ]
       },
       {
         "category": "International Relations",
-        "commentary": "Diplomacy and geopolitical developments spanning Gaza, Palestine recognition, and cross-border security dynamics.",
+        "commentary": "",
         "articles": [
           {
-            "title": "Europe Talks Big on Gaza but Struggles to Act",
-            "url": "https://www.nytimes.com/2025/09/22/world/europe/europe-eu-gaza-israel.html",
-            "source": "The New York Times",
-            "summary": "Europe debates stronger action on Gaza; leaders’ statements and constraints shaping policy responses."
-          },
-          {
-            "title": "Britain, Australia, Canada and Portugal Recognize a Palestinian State",
-            "url": "https://www.nytimes.com/2025/09/21/world/europe/starmer-uk-recognize-palestinian-state.html",
-            "source": "The New York Times",
-            "summary": "Four countries recognize a Palestinian state ahead of the UN General Assembly; discusses domestic calculations and diplomatic implications."
-          },
-          {
-            "title": "U.N. Gathers Amid Its 80th Anniversary and a ‘Free Fall’",
-            "url": "https://www.nytimes.com/2025/09/21/world/middleeast/un-general-assembly-80th-anniversary.html",
-            "source": "The New York Times",
-            "summary": "The UN marks its 80th anniversary amid criticisms of effectiveness across crises and reform debates."
-          },
-          {
-            "title": "What Does It Mean to Recognize Palestinian Statehood?",
-            "url": "https://www.nytimes.com/2025/09/21/world/middleeast/palestinian-statehood-israel.html",
-            "source": "The New York Times",
-            "summary": "Explores legal and diplomatic implications of recognizing Palestinian statehood and potential reactions from major powers."
-          },
-          {
-            "title": "Trump plans summit in New York with Arab leaders on Gaza war",
-            "url": "https://axios.com/2025/09/21/trump-israel-gaza-arab-summit-united-nations",
+            "title": "Inside Trump's deal to save TikTok",
+            "url": "https://axios.com/2025/09/22/tiktok-bytedance-trump-algorithm-lease",
             "source": "Axios",
-            "summary": "Trump to meet a group of Arab and Muslim leaders on the Gaza war on the sidelines of the UN General Assembly."
-          },
-          {
-            "title": "Kim says he's open to talks with U.S., has a fond memories of Trump",
-            "url": "https://www.axios.com/2025/09/22/north-korea-kim-jong-un-trump-nuclear-talks",
-            "source": "Axios",
-            "summary": "Kim Jong Un signals openness to talks with the United States amid nuclear negotiations dynamics."
-          },
-          {
-            "title": "Palestinian state recognition by three U.S. allies sparks Republican criticism",
-            "url": "https://axios.com/2025/09/21/palestinian-state-uk-canada-australia-republicans",
-            "source": "Axios",
-            "summary": "Three U.S. allies recognize a Palestinian state; Republicans criticize the move and discuss diplomatic ramifications."
-          }
-        ]
-      },
-      {
-        "category": "Business & Economics",
-        "commentary": "Market, trade, and corporate-news coverage, including tariffs, housing, and big-tech earnings implications.",
-        "articles": [
-          {
-            "title": "Trump’s Tariffs Are Damaging America’s Biggest Foreign Source of Screws",
-            "url": "https://www.nytimes.com/2025/09/22/world/europe/taiwan-manufacturing-trump-tariffs.html",
-            "source": "The New York Times",
-            "summary": "Tariffs on Taiwan are framed as harming U.S. manufacturers and supply chains; analysis of economic impacts."
-          },
-          {
-            "title": "America's new apartment boom is ending",
-            "url": "https://axios.com/2025/09/21/new-apartment-construction-rent",
-            "source": "Axios",
-            "summary": "Report notes a slowdown in apartment construction and potential effects on rents and housing affordability."
-          },
-          {
-            "title": "Bedrijven worden wapens in de wereldeconomie",
-            "url": "https://nrc.nl/nieuws/2025/09/22/bedrijven-worden-wapens-in-de-wereldeconomie-a4906913",
-            "source": "NRC",
-            "summary": "Opinion piece arguing corporate power increasingly shapes global economics and policy, with U.S. leadership and governance implications."
-          },
-          {
-            "title": "Lockheed's Skunk Works unveils Vectis, a stealthy drone wingman",
-            "url": "https://axios.com/2025/09/21/lockheed-vectis-skunk-works-drone-cca",
-            "source": "Axios",
-            "summary": "Lockheed unveils Vectis, a stealthy drone wingman designed to operate with manned aircraft and other drones."
-          },
-          {
-            "title": "Huawei announces new AI infrastructure as Nvidia gets locked out of China",
-            "url": "https://techcrunch.com/2025/09/18/huawei-announces-new-ai-infrastructure-as-nvidia-gets-locked-out-of-china/",
-            "source": "TechCrunch",
-            "summary": "Huawei expands AI infrastructure amid export-restrictions limiting Nvidia access in China."
-          }
-        ]
-      },
-      {
-        "category": "Science",
-        "commentary": "Research and discovery across space, biology, and AI-driven science topics.",
-        "articles": [
-          {
-            "title": "Why is Venus hell and Earth an Eden?",
-            "url": "https://www.quantamagazine.org/why-is-venus-hell-and-earth-an-eden-20250915/",
-            "source": "Hacker News",
-            "summary": "Discussion of Venus’ hostile climate versus Earth’s habitability and how scientists infer past climates from planetary data."
-          },
-          {
-            "title": "DSM Disorders Disappear in Statistical Clustering of Psychiatric Symptoms",
-            "url": "https://www.psychiatrymargins.com/p/traditional-dsm-disorders-dissolve?r=2wyot6&triedRedirect=true",
-            "source": "Hacker News",
-            "summary": "A clustering study suggests many DSM disorders dissolve into overlapping spectra rather than discrete categories."
-          },
-          {
-            "title": "40k-Year-Old Symbols in Caves Worldwide May Be the Earliest Written Language",
-            "url": "https://www.openculture.com/2025/09/40000-year-old-symbols-found-in-caves-worldwide-may-be-the-earliest-written-language.html",
-            "source": "Hacker News",
-            "summary": "Reports on ancient cave symbols potentially representing the earliest writing; discusses sites and dating methods."
-          },
-          {
-            "title": "Discovering new solutions to century-old problems in fluid dynamics",
-            "url": "https://deepmind.google/discover/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/",
-            "source": "Hacker News",
-            "summary": "DeepMind describes AI approaches to solving longstanding problems in fluid dynamics with differentiable solvers."
-          },
-          {
-            "title": "Lightweight, highly accurate line and paragraph detection",
-            "url": "https://arxiv.org/abs/2503.05136",
-            "source": "Hacker News",
-            "summary": "Preprint presents a document layout analysis method for robust line/paragraph detection across layouts."
-          }
-        ]
-      },
-      {
-        "category": "Environment",
-        "commentary": "News on climate, wildlife, and energy-transition challenges and environmental policy.",
-        "articles": [
-          {
-            "title": "Nog veel te veel productie olie, gas en kolen om opwarming aarde te beperken",
-            "url": "https://nos.nl/artikel/2583531-nog-te-veel-productie-olie-gas-en-kolen-om-opwarming-aarde-te-beperken",
-            "source": "NOS",
-            "summary": "Discusses the gap between current energy production and the level needed to limit warming; highlights fossil fuel dependence and policy needs."
-          },
-          {
-            "title": "Ondanks Wereld Neushoorn Dag wordt gemiddeld iedere dag een neushoorn gestroopt",
-            "url": "https://nos.nl/artikel/2583529-ondanks-wereld-neushoorn-dag-wordt-gemiddeld-ieder-dag-een-neushoorn-gestroopt",
-            "source": "NOS",
-            "summary": "Rhino poaching remains high despite World Rhino Day; notes economic incentives of illegal trade and need for enforcement."
-          },
-          {
-            "title": "Vijf mensen gedood bij Israëlische aanval in Libanon",
-            "url": "https://nos.nl/artikel/2583524-vijf-mensen-gedood-bij-israelische-aanval-in-libanon-onder-wie-drie-kinderen",
-            "source": "NOS",
-            "summary": "An Israeli attack in Lebanon killed five people, including three children; reports on civilian casualties and regional tensions."
-          }
-        ]
-      },
-      {
-        "category": "Sports",
-        "commentary": "Updates on major football matches and tennis experiences.",
-        "articles": [
-          {
-            "title": "Koploper Feyenoord verspeelt winst bij AZ (3-3) en lijdt eerste puntenverlies",
-            "url": "https://nos.nl/artikel/2583526-koploper-feyenoord-verspeelt-winst-bij-az-3-3-en-lijdt-eerste-puntenverlies",
-            "source": "NOS",
-            "summary": "Feyenoord draws 3-3 with AZ, relinquishing a win and their first points of the season."
-          },
-          {
-            "title": "What It’s Like to Watch Tennis with Roger Federer",
-            "url": "https://www.nytimes.com/athletic/6649188/2025/09/21/what-its-like-to-watch-tennis-with-roger-federer/",
-            "source": "The New York Times",
-            "summary": "Feature describing the experience of watching tennis with Roger Federer and his post-playing appearances."
-          }
-        ]
-      },
-      {
-        "category": "Netherlands News",
-        "commentary": "Local Dutch reporting on elections, protests, and urban policy.",
-        "articles": [
-          {
-            "title": "Hera rolt blauwe loper uit in historisch eerste thuisduel-gaat de boeken in",
-            "url": "https://nos.nl/artikel/2583532-hera-rolt-blauwe-loper-uit-in-historisch-eerste-thuisduel-gaat-de-boeken-in",
-            "source": "NOS",
-            "summary": "Hera rolls out a blue carpet at its historic first home match, signaling a milestone for the club."
-          },
-          {
-            "title": "Dode gevonden in woning Arnhem, twee mensen aangehouden",
-            "url": "https://nos.nl/artikel/2583516-dode-gevonden-in-woning-arnhem-tweemensen-aangehouden",
-            "source": "NOS",
-            "summary": "A death at an Arnhem home; two suspects have been arrested."
-          },
-          {
-            "title": "Marokkaanse Nederlanders blijven weg bij stembus, campagne moet dat veranderen",
-            "url": "https://nos.nl/artikel/2583515-marokkaanse-nederlanders-blijven-weg-bij-stembus-campagne-moet-dat-veranderen",
-            "source": "NOS",
-            "summary": "Low turnout among Moroccan-Dutch voters; campaign efforts suggested to boost participation."
-          },
-          {
-            "title": "Uitvaart Charlie Kirk trekt duizenden, Trump noemt hem 'martelaar voor vrijheid VS'",
-            "url": "https://nos.nl/artikel/2583527-uitvaart-charlie-kirk-trekt-duizenden-trump-noemt-hem-martelaar-voor-vrijheid-vs",
-            "source": "NOS",
-            "summary": "Funeral drew thousands; Trump described Kirk as a martyr for freedom in the United States."
-          },
-          {
-            "title": "Demonstraties Brazilië tegen juridische bescherming oud-president Bolsonaro",
-            "url": "https://nos.nl/artikel/2583528-demonstraties-brazilie-tegen-juridische-bescherming-oud-president-bolsonaro",
-            "source": "NOS",
-            "summary": "Large protests in Brazil against legal protection surrounding former President Bolsonaro."
-          }
-        ]
-      },
-      {
-        "category": "National News",
-        "commentary": "Major domestic incidents and policy discussions within the Netherlands and nearby.",
-        "articles": [
-          {
-            "title": "Politie schiet 15-jarige jongen dood na beroving fatbike in Capelle aan den IJssel",
-            "url": "https://nrc.nl/nieuws/2025/09/21/politie-schiet-15jarige-jongen-dood-na-beroving-fatbike-in-capelle-aan-den-ijssel-a4906942",
-            "source": "NRC",
-            "summary": "Police shot and killed a 15-year-old after a fatbike robbery; investigation and accountability discussions follow."
-          },
-          {
-            "title": "Vier agenten en zeven journalisten gewond na rellen Den Haag, 37 aanhoudingen",
-            "url": "https://nrc.nl/nieuws/2025/09/21/vier-agenten-en-zeven-journalisten-gewond-na-rellen-den-haag-37-aanhoudingen-a4906941",
-            "source": "NRC",
-            "summary": "Riots in Den Haag injured four police officers and seven journalists; 37 arrests reported."
-          },
-          {
-            "title": "'Elsfest' loopt uit op rellen: waterkanonnen en brandende politieautos rond het Malieveld",
-            "url": "https://nrc.nl/nieuws/2025/09/20/elsfest-loopt-uit-op-rellen-waterkanonnen-en-brandende-politieautos-rond-het-malieveld-a4906873",
-            "source": "NRC",
-            "summary": "Elsfest protest escalates into riots around the Malieveld; police use water cannons and patrol cars are set ablaze."
-          },
-          {
-            "title": "Bijna helft kiezers neemt oorlog Gaza mee in stemgedrag, meerderheid vindt dat Israël genocide pleegt",
-            "url": "https://nrc.nl/nieuws/2025/08/18/verkiezingscampagneblog-18-augustus-a4903315",
-            "source": "NRC",
-            "summary": "Poll indicates 42% of voters say Gaza war influences their party choice; majority view Israel as committing genocide."
-          },
-          {
-            "title": "Koplopers Feyenoord verspeelt winst bij AZ (3-3)",
-            "url": "https://nos.nl/artikel/2583526-koploper-feyenoord-verspeelt-winst-bij-az-3-3-en-lijdt-eerste-puntenverlies",
-            "source": "NOS",
-            "summary": "(Duplicate of Sports entry above; included here to reflect Dutch national coverage.)"
+            "summary": "Axios reports on negotiations to preserve TikTok in the U.S., including possible licensing or governance concessions and national-security considerations."
           }
         ]
       },
       {
         "category": "Entertainment & Media",
-        "commentary": "Media coverage and culture-related reporting from Axios and NRC/NYT outlets.",
+        "commentary": "",
         "articles": [
           {
-            "title": "Scenes from Charlie Kirk's memorial service",
-            "url": "https://axios.com/2025/09/21/charlie-kirk-memorial-service-photos",
-            "source": "Axios",
-            "summary": "Photo-driven coverage of Charlie Kirk’s memorial service and attendees; notes linkage to Gaza diplomacy and UN assembly context."
-          },
+            "title": "Ex-Disney CEO Michael Eisner calls the FCC’s threats ‘out-of-control intimidation’",
+            "url": "https://www.theverge.com/streaming/782191/ex-disney-ceo-michael-eisner-calls-the-fccs-threats-out-of-control-intimidation",
+            "source": "The Verge",
+            "summary": "Eisner criticizes the FCC’s regulatory posture and discusses potential impacts on media and content platforms."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
           {
-            "title": "Scoop: Trump plans summit in New York with Arab leaders on Gaza war",
-            "url": "https://axios.com/2025/09/21/trump-israel-gaza-arab-summit-united-nations",
-            "source": "Axios",
-            "summary": "Report that Trump will meet Arab and Muslim leaders on Gaza during the UN General Assembly."
-          },
+            "title": "The foldable iPhone might look like two iPhone Airs stuck together",
+            "url": "https://www.theverge.com/news/782366/foldable-details-iphone-air-ifixit-teardown",
+            "source": "The Verge",
+            "summary": "Rumors suggest a foldable iPhone design resembling two iPhone Air devices joined by a hinge; discusses potential hardware and design challenges."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
           {
-            "title": "TikTok buyer group includes Rupert Murdoch and Michael Dell, Trump says",
-            "url": "https://axios.com/2025/09/21/tiktok-us-china-murdoch",
-            "source": "Axios",
-            "summary": "Trump cites Murdoch and Dell as potential investors in a TikTok deal; discusses governance considerations."
-          },
+            "title": "The touchscreen MacBook rumors are never ending",
+            "url": "https://www.theverge.com/news/782302/touchscreen-oled-macbook-rumors",
+            "source": "The Verge",
+            "summary": "Overview of ongoing rumors about a touchscreen OLED MacBook and implications for software and hardware design."
+          }
+        ]
+      },
+      {
+        "category": "Politics",
+        "commentary": "",
+        "articles": [
           {
-            "title": "Path to a dictatorship: Democrats flame Trump's public pressure on Bondi",
-            "url": "https://axios.com/2025/09/21/trump-bondi-schumer-murphy",
-            "source": "Axios",
-            "summary": "Democrats criticize Trump’s calls to Attorney General Bondi over prosecutions as a democratic threat."
+            "title": "The right wing is creating a society of snitches",
+            "url": "https://www.theverge.com/policy/778972/right-wing-harassment-firings-charlie-kirk",
+            "source": "The Verge",
+            "summary": "Policy piece analyzing harassment and doxxing tactics in political discourse and their effects on free speech and platform moderation."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Silicon Valley bets big on ‘environments’ to train AI agents",
+            "url": "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch analyzes investments in synthetic environments for training AI agents and their impact on RL, robotics, and safety."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Updates to Studio, YouTube Live, new gen AI tools, and everything else announced at Made on YouTube",
+            "url": "https://techcrunch.com/2025/09/20/updates-to-studio-youtube-live-new-gen-ai-tools-and-everything-else-announced-at-made-on-youtube/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reviews YouTube creator updates, including Studio and Live enhancements and new AI tools for production and analytics."
+          }
+        ]
+      },
+      {
+        "category": "Business",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "How Phoebe Gates and Sophia Kianni used Gen Z methods to raise $8M for Phia",
+            "url": "https://techcrunch.com/2025/09/20/how-phoebe-gates-and-sophia-kianni-used-gen-z-methods-to-raise-8m-for-phia/",
+            "source": "TechCrunch",
+            "summary": "Profiles fundraising strategies by Gen Z activists to support climate advocacy through Phia, highlighting youth-led campaigns."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "TechCrunch Mobility: The two robotaxi battlegrounds that matter",
+            "url": "https://techcrunch.com/2025/09/21/techcrunch-mobility-the-two-robotaxi-battlegrounds-that-matter/",
+            "source": "TechCrunch",
+            "summary": "Feature analyzing two major battlegrounds shaping robotaxi development, including regulation, safety, and capital deployment."
+          }
+        ]
+      },
+      {
+        "category": "Business",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Google isn’t kidding around about cost cutting, even slashing its FT subscription",
+            "url": "https://techcrunch.com/2025/09/19/google-isnt-kidding-around-about-cost-cutting-even-slashing-its-ft-subscription/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports Google’s cost-cutting measures, including reducing subscriptions and rebalancing spending while investing in core AI platforms."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "OpenAI’s research on AI models deliberately lying is wild",
+            "url": "https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch covers OpenAI research into why AI models produce deceptive outputs and governance implications."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Huawei announces new AI infrastructure as Nvidia gets locked out of China",
+            "url": "https://techcrunch.com/2025/09/18/huawei-announces-new-ai-infrastructure-as-nvidia-gets-locked-out-of-china/",
+            "source": "TechCrunch",
+            "summary": "Huawei unveils AI hardware to bolster workloads amid U.S.-China tensions, noting Nvidia’s restricted access."
+          }
+        ]
+      },
+      {
+        "category": "Business",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Powered by India’s small businesses, UK fintech Tide becomes a TPG-backed unicorn",
+            "url": "https://techcrunch.com/2025/09/21/powered-by-indias-small-businesses-uk-fintech-tide-becomes-a-tpg-backed-unicorn/",
+            "source": "TechCrunch",
+            "summary": "Profile of Tide’s unicorn status and growth, emphasizing its UK expansion and backing by TPG."
+          }
+        ]
+      },
+      {
+        "category": "Business",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "6 days left: Last chance for Regular Bird savings for TechCrunch Disrupt 2025 passes",
+            "url": "https://techcrunch.com/2025/09/21/6-days-left-last-chance-for-regular-bird-pricing-for-techcrunch-disrupt-2025-passes/",
+            "source": "TechCrunch",
+            "summary": "Promotes last-chance pricing for TechCrunch Disrupt 2025 passes and outlines event value."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "You did this with an AI and you do not understand what you're doing here",
+            "url": "https://news.ycombinator.com/item?id=3340109",
+            "source": "Hacker News",
+            "summary": "Headline reflecting critique of AI-aided practices and the need for responsible tooling and disclosure."
+          }
+        ]
+      },
+      {
+        "category": "Security & Privacy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Privacy and Security Risks in the eSIM Ecosystem [pdf]",
+            "url": "https://www.usenix.org/system/files/usenixsecurity25-motallebighomi.pdf",
+            "source": "Hacker News",
+            "summary": "USENIX Security paper analyzing threat models, attack surfaces, and mitigations for eSIM ecosystems."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "SGI demos from long ago in the browser via WASM",
+            "url": "https://github.com/sgi-demos",
+            "source": "Hacker News",
+            "summary": "Discussion of porting Silicon Graphics demos to the browser using WebAssembly, including fidelity and archival value."
+          }
+        ]
+      },
+      {
+        "category": "Science",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "A Generalized Algebraic Theory of Directed Equality",
+            "url": "https://jacobneu.phd/",
+            "source": "Hacker News",
+            "summary": "Preprint proposing a generalized algebraic theory of directed equality in category theory and type theory."
+          }
+        ]
+      },
+      {
+        "category": "Science",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Why is Venus hell and Earth an Eden?",
+            "url": "https://www.quantamagazine.org/why-is-venus-hell-and-earth-an-eden-20250915/",
+            "source": "Quanta Magazine",
+            "summary": "Quanta Magazine article contrasting Venus’s runaway greenhouse effect with Earth’s habitability, with implications for exoplanets."
+          }
+        ]
+      },
+      {
+        "category": "Science",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Lightweight, highly accurate line and paragraph detection",
+            "url": "https://arxiv.org/abs/2203.09638",
+            "source": "arXiv",
+            "summary": "arXiv preprint on algorithms for detecting lines and paragraph boundaries in text with high accuracy and efficiency."
+          }
+        ]
+      },
+      {
+        "category": "Science",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "How Isaac Newton discovered the binomial power series (2022)",
+            "url": "https://www.quantamagazine.org/how-isaac-newton-discovered-the-binomial-power-series-20220831/",
+            "source": "Quanta Magazine",
+            "summary": "Quanta Magazine article on Newton’s development of the binomial power series and its impact on calculus."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "INapGPU: Text-mode graphics card, using only TTL gates",
+            "url": "https://github.com/Leoneq/iNapGPU",
+            "source": "Hacker News",
+            "summary": "Description of a hardware project building a text-mode graphics card with TTL logic."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Timesketch: Collaborative forensic timeline analysis",
+            "url": "https://github.com/google/timesketch",
+            "source": "Hacker News",
+            "summary": "Open-source tool Timesketch for collaborative forensic timeline analysis and investigations."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Raad van State kraakt kabinetsplan om voorrang voor statushouders te schrappen",
+            "url": "https://nos.nl/artikel/2583555-raad-van-state-kraakt-kabinetsplan-om-voorrang-voor-statushouders-te-schrappen",
+            "source": "NOS",
+            "summary": " Raad van State criticizes cabinet plan to remove priority for status holders in asylum policy."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Politievakbond wil meer wapens voor ME na rellen Den Haag",
+            "url": "https://nos.nl/artikel/2583553-politievakbond-wil-meer-wapens-voor-me-na-rellen-den-haag",
+            "source": "NOS",
+            "summary": "Police union calls for stronger ME equipment and training after riots in The Hague."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Een van de zwaarste orkanen van het jaar bedreigt delen Filipijnen en China",
+            "url": "https://nos.nl/artikel/2583558-een-van-de-zwaarste-orkanen-van-het-jaar-bedreigt-delen-filipijnen-en-china",
+            "source": "NOS",
+            "summary": "A powerful hurricane threatens parts of the Philippines and China with evacuations and potential closures."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Zoektocht naar niet-ontplofte bommen op Vliegbasis Eindhoven van start",
+            "url": "https://nos.nl/artikel/2583545-zoektocht-naar-niet-ontplofte-bommen-op-vliegbasis-eindhoven-van-start",
+            "source": "NOS",
+            "summary": "Search for unexploded bombs at Eindhoven Air Base; nighttime detonations planned if found."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Capelle geschokt na doodschieten 15-jarige verdachte door politie",
+            "url": "https://nos.nl/artikel/2583534-capelle-geschokt-na-doodschieten-15-jarige-verdachte-door-politie",
+            "source": "NOS",
+            "summary": "A 15-year-old suspect was shot dead by police in Capelle; investigation into circumstances is ongoing."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Opnieuw dodelijk bedrijfsongeval bij bedrijf in haven Rotterdam",
+            "url": "https://nos.nl/artikel/2583562-opnieuw-dodelijk-bedrijfsongeval-bij-bedrijf-in-haven-rotterdam",
+            "source": "NOS",
+            "summary": "A deadly workplace accident at a Rotterdam harbour company; safety and inspection implications discussed."
+          }
+        ]
+      },
+      {
+        "category": "World",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Rusland meldt doden bij droneaanval op Krim, ook nieuwe aanvallen op Oekraïne",
+            "url": "https://nos.nl/artikel/2583530-rusland-meldt-doden-bij-droneaanval-op-krim-ook-nieuwe-aanvallen-op-oekraine",
+            "source": "NOS",
+            "summary": "Russia reports fatalities from a drone attack on Crimea and mentions further attacks in Ukraine."
+          }
+        ]
+      },
+      {
+        "category": "World",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Vijf mensen gedood bij Israëlische aanval in Libanon, onder wie drie kinderen",
+            "url": "https://nos.nl/artikel/2583524-vijf-mensen-gedood-bij-israelische-aanval-in-libanon-onder-wie-drie-kinderen",
+            "source": "NOS",
+            "summary": "Israeli attack in Lebanon killed five people, including three children, near Bint Jbeil."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Dembélé, Salah of Lamine Yamal: wie wint de Gouden Bal als beste voetballer van het jaar?",
+            "url": "https://nos.nl/artikel/2583560-dembele-salah-of-lamine-yamal-wie-wint-de-gouden-bal-als-beste-voetballer-van-het-jaar",
+            "source": "NOS",
+            "summary": "NOS discusses contenders Dembélé, Salah, and Lamine Yamal for the Ballon d’Or."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Capelle geschokt na doodschieten 15-jarige verdachte door politie",
+            "url": "https://nos.nl/artikel/2583534-capelle-geschokt-na-doodschieten-15jarige-verdachte-door-politie",
+            "source": "NOS",
+            "summary": "(Duplicate) A 15-year-old suspect shot dead by police; investigation ongoing."
           }
         ]
       }
     ],
-    "timestamp": 1758514563668
+    "timestamp": 1758535795753
   },
   {
     "date": "September 21st, 2025",
