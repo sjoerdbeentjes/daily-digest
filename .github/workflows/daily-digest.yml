@@ -38,14 +38,13 @@ jobs:
             echo "digests-data.json does not exist, will be created"
           fi
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: '20'
-          cache: 'npm'
+          bun-version: latest
       
       - name: Install dependencies
-        run: npm ci
+        run: bun install
       
       - name: Install Playwright browser
         run: npx playwright install chromium --with-deps
@@ -60,7 +59,7 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           SITE_URL: "https://sjoerdbeentjes.github.io/daily-digest"
-        run: npm start 
+        run: bun start 
       
       - name: Commit updated digest data
         run: |

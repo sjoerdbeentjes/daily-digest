@@ -1,4 +1,3 @@
-import fetch from "node-fetch";
 import { config, newsSources } from "./config.js";
 import sanitizeHtml from "sanitize-html";
 import { chromium } from "playwright";

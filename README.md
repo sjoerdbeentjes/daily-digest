@@ -2,6 +2,8 @@
 
 An AI-powered news aggregator that sends daily email digests of your favorite news sources. The digest is automatically generated every morning at 6:00 AM (Amsterdam time) using GitHub Actions. Each digest is also hosted online with an RSS feed for easy subscription.
 
+**Powered by [Bun](https://bun.sh) runtime for fast TypeScript execution.**
+
 ## Features
 
 - Scrapes configured news sources for latest articles
@@ -16,11 +18,15 @@ An AI-powered news aggregator that sends daily email digests of your favorite ne
 ## Setup
 
 1. Clone this repository
-2. Install dependencies:
+2. Install [Bun](https://bun.sh/docs/installation):
    ```bash
-   npm install
+   curl -fsSL https://bun.sh/install | bash
    ```
-3. Create a `.env` file with the following variables:
+3. Install dependencies:
+   ```bash
+   bun install
+   ```
+4. Create a `.env` file with the following variables:
    ```
    SMTP_HOST=your-smtp-host
    SMTP_PORT=587
@@ -32,13 +38,13 @@ An AI-powered news aggregator that sends daily email digests of your favorite ne
    SITE_URL=https://yourusername.github.io/daily-digest
    ```
 
-4. Configure your news sources in `src/config.ts`
+5. Configure your news sources in `src/config.ts`
 
-5. **Enable GitHub Pages** in your repository settings:
+6. **Enable GitHub Pages** in your repository settings:
    - Go to Settings → Pages
    - Set Source to "GitHub Actions"
 
-6. Add the following secrets to your GitHub repository:
+7. Add the following secrets to your GitHub repository:
    - `SMTP_HOST`
    - `SMTP_PORT`
    - `SMTP_USER`
@@ -66,7 +72,17 @@ The system automatically:
 To run the script locally:
 
 ```bash
-npm start
+bun start
+```
+
+You can also run tests with:
+```bash
+bun test
+```
+
+And build the project with:
+```bash
+bun run build
 ```
 
 ## Customization
