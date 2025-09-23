@@ -1,5 +1,222 @@
 [
   {
+    "date": "September 23rd, 2025",
+    "introText": "This daily digest covers censorship-driven TV events (with Jimmy Kimmel), AI and technology news (including AI infrastructure and platforms), corporate and market developments, major political and policy actions (notably on antifa and Palestinian state recognition), international diplomacy on Gaza, health and science updates, and notable regional Dutch news coverage. It groups the items into six categories and provides brief, factual summaries of each reported event.",
+    "categories": [
+      {
+        "category": "Entertainment & Media",
+        "commentary": "Contemporary media events and related corporate decisions.",
+        "articles": [
+          {
+            "title": "Jimmy Kimmel’s show will return after censorship outrage",
+            "url": "https://www.theverge.com/news/782970/jimmy-kimmel-live-return-disney-charlie-kirk",
+            "source": "The Verge",
+            "summary": "Disney temporarily pulled Jimmy Kimmel Live after censorship backlash; the action aimed to avoid inflaming a tense situation, with a focus on Disney’s reasoning and immediate fallout."
+          }
+        ]
+      },
+      {
+        "category": "Technology & AI",
+        "commentary": "Technology, AI developments, and platform-related news across tech and media.",
+        "articles": [
+          {
+            "title": "Why your next car should be an electric cargo bike",
+            "url": "https://www.theverge.com/transportation/781908/electric-cargo-bike-car-replace-bike-bus",
+            "source": "The Verge",
+            "summary": "Andrew J. Hawkins argues that electric cargo bikes could replace certain short car trips in cities, analyzing range, payload, safety, and necessary infrastructure, while noting barriers like rider comfort and regulatory hurdles."
+          },
+          {
+            "title": "The AI-energy apocalypse might be a little overblown",
+            "url": "https://www.theverge.com/report/782952/ai-electricity-demand-inflated-forecast-report",
+            "source": "The Verge",
+            "summary": "Justine Calma examines forecasts of AI data-center energy use, arguing the energy impact may be overstated due to efficiency gains and cooling innovations, and recommends measured policy responses."
+          },
+          {
+            "title": "Waiting to buy a game console will cost you",
+            "url": "https://www.theverge.com/report/782532/game-console-price-hikes-xbox-ps5-switch",
+            "source": "The Verge",
+            "summary": "Andrew Webster argues that waiting for deeper discounts may backfire as price floors rise and supply constraints persist, outlining pricing trends and total cost of ownership."
+          },
+          {
+            "title": "TikTok is tagging videos from Gaza with TikTok Shop products",
+            "url": "https://www.theverge.com/tech/782540/tiktok-shop-scanning-gaza-videos-e-commerce-dupes",
+            "source": "The Verge",
+            "summary": "Gaza-related TikTok videos are tagged with TikTok Shop products, integrating e-commerce into content and raising questions about moderation, monetization, and editorial control."
+          },
+          {
+            "title": "Amazon, Google, and Microsoft warn employees to rush back to the US",
+            "url": "https://www.theverge.com/news/782258/amazon-google-microsoft-warn-h-1b-employees-return-to-the-us",
+            "source": "The Verge",
+            "summary": "Amazon, Google, and Microsoft push employees to relocate back to the United States, signaling a shift in remote-work policies and cross-border staffing strategies."
+          },
+          {
+            "title": "Facebook Dating tries using AI to end ‘swipe fatigue’",
+            "url": "https://www.theverge.com/news/782893/meta-facebook-dating-ai-chatbot-meet-cute-swipe-fatigue#comments",
+            "source": "The Verge",
+            "summary": "Facebook Dating tests AI-driven features intended to reduce swipe fatigue and boost engagement, including privacy considerations and potential impacts on matching."
+          },
+          {
+            "title": "Steam game removed after cryptostealer takes over $150K",
+            "url": "https://www.theverge.com/news/782993/steam-blockblasters-crypto-scam-malware#comments",
+            "source": "The Verge",
+            "summary": "A Steam game was removed after a cryptostealer incident resulting in over $150,000 stolen or extorted; Valve’s response and security implications are discussed."
+          }
+        ]
+      },
+      {
+        "category": "Business & Markets",
+        "commentary": "Corporate strategy, automotive electrification, and investment landscapes.",
+        "articles": [
+          {
+            "title": "Stellantis cancels plans for an electrified Jeep Gladiator",
+            "url": "https://techcrunch.com/2025/09/22/stellantis-cancels-plans-for-an-electrified-jeep-gladiator/",
+            "source": "TechCrunch",
+            "summary": "Stellantis reportedly cancels or delays plans to electrify the Jeep Gladiator, with implications for the company’s EV roadmap and strategy."
+          },
+          {
+            "title": "Mirror founder Brynn Putnam to unveil her gaming hardware startup at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/22/mirror-founder-brynn-putnam-to-unveil-her-gaming-hardware-startup-at-techcrunch-disrupt-2025/",
+            "source": "TechCrunch",
+            "summary": "Profile of Brynn Putnam and preview of a new gaming hardware startup announced at TechCrunch Disrupt 2025."
+          },
+          {
+            "title": "What Early-Stage Investors Really Look for in Founders at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/22/from-idea-to-first-check-raising-pre-seed-and-seed-capital-at-techcrunch-disrupt-2025/",
+            "source": "TechCrunch",
+            "summary": "Summary of investor criteria for early-stage startups at TechCrunch Disrupt 2025, including team, market size, traction, and go-to-market strategy."
+          },
+          {
+            "title": "Inside the mind of Elad Gil: Early-stage investing and next-gen innovation at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/22/elad-gil-one-of-techs-sharpest-minds-on-early-bets-breakout-growth-and-whats-coming-next-at-techcrunch-disrupt-2025/",
+            "source": "TechCrunch",
+            "summary": "Insights into Elad Gil’s approach to early-stage investing and what’s next for startups featured at TechCrunch Disrupt 2025."
+          },
+          {
+            "title": "Alphabet earnings live updates: AI, Gemini 2.0, Google Cloud, and more",
+            "url": "https://techcrunch.com/storyline/alphabet-earnings-live-updates-ai-gemini-2-0-google-cloud-and-more/",
+            "source": "TechCrunch",
+            "summary": "Live updates on Alphabet’s earnings focused on AI initiatives, Gemini 2.0, and Google Cloud performance."
+          }
+        ]
+      },
+      {
+        "category": "International Affairs",
+        "commentary": "Diplomacy, state recognitions, and international policy.",
+        "articles": [
+          {
+            "title": "World Leaders Recognize Palestinian State, in a Challenge to U.S. and Israel",
+            "url": "https://www.nytimes.com/2025/09/22/world/middleeast/unga-palestinian-state.html",
+            "source": "The New York Times",
+            "summary": "France and other allies formalize recognition of a Palestinian state, challenging current U.S.-Israel alignment and affecting regional diplomacy."
+          }
+        ]
+      },
+      {
+        "category": "Politics & Policy",
+        "commentary": "Domestic politics, security designations, and legal proceedings.",
+        "articles": [
+          {
+            "title": "Trump escalates crackdown by designating ‘Antifa’ a domestic terror group",
+            "url": "https://www.theverge.com/news/783158/antifa-domestic-terror-designation-donald-trump#comments",
+            "source": "The Verge",
+            "summary": "The Trump administration designates Antifa as a domestic terror organization, signaling a hardening stance on anti-government protests."
+          },
+          {
+            "title": "Trump Signs Order Targeting Antifa Movement",
+            "url": "https://www.nytimes.com/2025/09/22/us/politics/trump-antifa-order-terrorism.html",
+            "source": "The New York Times",
+            "summary": "The president issues an executive order designating the Antifa movement as a domestic terrorism concern, with related legal implications and responses."
+          },
+          {
+            "title": "Trump’s Handpicked Prosecutor Takes Over Comey and James Cases",
+            "url": "https://www.nytimes.com/2025/09/22/us/politics/trump-lindsey-halligan-james-comey.html",
+            "source": "The New York Times",
+            "summary": "A prosecutor handpicked by Trump takes over cases involving James Comey and Letitia James, affecting prosecution strategy and political dynamics."
+          },
+          {
+            "title": "White House backs Trump's prosecutions, blasts \"gaslighting\" critics",
+            "url": "https://axios.com/2025/09/22/white-house-defend-trump-prosecutions",
+            "source": "Axios",
+            "summary": "The White House defends prosecutions of Trump and denounces critics as engaging in gaslighting."
+          },
+          {
+            "title": "Supreme Court to consider limits on president's power to fire agency officials",
+            "url": "https://axios.com/2025/09/22/supreme-court-trump-ftc-commissioner-firing",
+            "source": "Axios",
+            "summary": "The Supreme Court is examining limits on a president’s power to dismiss heads of independent agencies."
+          },
+          {
+            "title": "Dems use anti-GOP attack on each other in Michigan Senate primary",
+            "url": "https://www.axios.com/2025/09/23/michigan-senate-mcmorrow-stevens-carpetbagging",
+            "source": "Axios",
+            "summary": "In Michigan's Senate primary, Democrats attack each other, reflecting intra-party strategy and electoral dynamics."
+          },
+          {
+            "title": "ICC charges ex-Philippine President Duterte with crimes against humanity",
+            "url": "https://www.axios.com/2025/09/23/icc-philippines-duterte-crimes-against-humanity-charges",
+            "source": "Axios",
+            "summary": "The International Criminal Court charges former Philippine president Duterte with crimes against humanity."
+          }
+        ]
+      },
+      {
+        "category": "Science & Health",
+        "commentary": "Medical advances, health policy, and scientific education.",
+        "articles": [
+          {
+            "title": "What Is Leucovorin, the Medicine Being Approved for Autism Treatment?",
+            "url": "https://www.nytimes.com/2025/09/22/well/leucovorin-autism-fda.html",
+            "source": "The New York Times",
+            "summary": "Explanation of leucovorin and its FDA approval context for autism treatment, including how it works and potential benefits."
+          },
+          {
+            "title": "What to Know About Painkillers, Vaccines, Genes and Autism",
+            "url": "https://www.nytimes.com/2025/09/22/health/autism-tylenol-vaccines-explained.html",
+            "source": "The New York Times",
+            "summary": "Explainer on the relationship between painkillers, vaccines, genetics, and autism; summarizes current scientific understanding."
+          },
+          {
+            "title": "Earthquake Jolts San Francisco Bay Area Residents Awake",
+            "url": "https://www.nytimes.com/2025/09/22/us/earthquake-bay-area-berkeley.html",
+            "source": "The New York Times",
+            "summary": "A 4.3-magnitude earthquake wakes Bay Area residents; includes epicenter and safety guidance."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands & Regional News",
+        "commentary": "Regional Dutch news and developments.",
+        "articles": [
+          {
+            "title": "Jimmy Kimmel morgen terug op de Amerikaanse televisie",
+            "url": "https://nos.nl/artikel/2583664-jimmy-kimmel-morgen-terug-op-de-amerikaanse-televisie",
+            "source": "NOS",
+            "summary": "Jimmy Kimmel is set to return to U.S. television the next day after a censorship-related interruption."
+          },
+          {
+            "title": "Française erkenning Palestijnse staat bij VN",
+            "url": "https://nos.nl/artikel/2583671-frankrijk-erkent-palestijnse-staat-zegt-president-macron-bij-vn",
+            "source": "NOS",
+            "summary": "France recognizes a Palestinian state per statements by President Macron at the UN, signaling a diplomatic development in the Palestinian question."
+          }
+        ]
+      },
+      {
+        "category": "International Affairs",
+        "commentary": "Global diplomacy and international policy developments beyond the U.S.",
+        "articles": [
+          {
+            "title": "Symbolische vergadering VN blaast Palestijnse staat nieuw leven in",
+            "url": "https://nrc.nl/nieuws/2025/09/23/symbolische-vergadering-vn-blaast-palestijnse-staat-nieuw-leven-in-a4907088",
+            "source": "NRC",
+            "summary": "A UN meeting is described as symbolic but significant for the Palestinian cause, focusing on a two-state solution."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758600844135
+  },
+  {
     "date": "September 22nd, 2025",
     "introText": "Today's digest highlights technology policy and AI policy debates, major consumer-tech and platform updates, and significant international and Dutch news. It also covers science, sports, and security-focused reports, along with notable business and political developments.",
     "categories": [
