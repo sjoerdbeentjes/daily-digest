@@ -1,5 +1,288 @@
 [
   {
+    "date": "September 24th, 2025",
+    "introText": "This daily digest summarizes notable developments across entertainment, technology, politics, business, space, sports, and weather. It includes film production design, streaming pricing changes, AI and browser technology, international and U.S. politics, Apple hardware and software, space infrastructure, corporate acquisitions, sports results, and major weather events.",
+    "categories": [
+      {
+        "category": "Entertainment/Film",
+        "commentary": "Film and production-design related news and obituaries.",
+        "articles": [
+          {
+            "title": "Claudia Cardinale, Actress Who Was ‘Italy’s Girlfriend,’ Dies at 87",
+            "url": "https://www.nytimes.com/2025/09/23/arts/claudia-cardinale-dead.html",
+            "source": "The New York Times",
+            "summary": "Claudia Cardinale died at 87; the obituary notes she rose to prominence as a leading Italian and international film star in the 1960s, appearing in more than 150 films including 8½ and The Leopard, and helped redefine postwar Italian cinema."
+          },
+          {
+            "title": "Alien: Earth’s beefy tablets were inspired by Sony’s classic Watchman",
+            "url": "https://www.theverge.com/entertainment/782939/alien-earth-andy-nicholson-interview",
+            "source": "The Verge",
+            "summary": "The production designer explains how the sci‑fi series grounds futuristic gadgets in retro, tactile aesthetics, repurposing past tech styles to make devices feel plausible on screen."
+          }
+        ]
+      },
+      {
+        "category": "Entertainment/Streaming Economics",
+        "commentary": "Pricing changes and bundle strategies in streaming services.",
+        "articles": [
+          {
+            "title": "Disney is raising the price of Disney+, Hulu subscriptions next month",
+            "url": "https://techcrunch.com/2025/09/23/disney-is-raising-the-price-of-disney-hulu-subscriptions-next-month/",
+            "source": "TechCrunch",
+            "summary": "Disney plans to raise prices for Disney+ and Hulu subscriptions in the coming month, outlining new price points and potential impact on subscribers and churn, with consideration of bundle changes."
+          }
+        ]
+      },
+      {
+        "category": "Technology/Artificial Intelligence",
+        "commentary": "Advances and policy developments in AI and browser/platform ecosystems.",
+        "articles": [
+          {
+            "title": "Microsoft’s AI CEO on the future of the browser",
+            "url": "https://www.theverge.com/tech/783795/microsoft-ai-ceo-mustafa-suleyman-future-of-browser-interview-notepad",
+            "source": "The Verge",
+            "summary": "The interview discusses how AI copilots, smarter search, and contextual assistants could redefine browsing, balancing convenience with user control and privacy."
+          },
+          {
+            "title": "How Google’s dev tools manager makes AI coding work",
+            "url": "https://techcrunch.com/2025/09/23/how-googles-dev-tools-manager-makes-ai-coding-work/",
+            "source": "TechCrunch",
+            "summary": "Google’s dev tools manager coordinates AI-powered features across products, enabling governance, data pipelines, and deployment workflows with security checks and auditing."
+          },
+          {
+            "title": "What is Bluesky? Everything to know about the X competitor",
+            "url": "https://techcrunch.com/2025/09/23/what-is-bluesky-everything-to-know-about-the-x-competitor/",
+            "source": "TechCrunch",
+            "summary": "An explainer of Bluesky, covering origins, governance, moderation, data portability, and potential impact on the social-media landscape."
+          },
+          {
+            "title": "Google’s AI Mode arrives in Spanish globally",
+            "url": "https://techcrunch.com/2025/09/23/googles-ai-mode-arrives-in-spanish-globally/",
+            "source": "TechCrunch",
+            "summary": "AI Mode expands to Spanish globally, enabling voice and text interactions, search enhancements, and developer tooling in the language."
+          },
+          {
+            "title": "OpenAI is building five new Stargate data centers with Oracle and SoftBank",
+            "url": "https://techcrunch.com/2025/09/23/openai-is-building-five-new-stargate-data-centers-with-oracle-and-softbank/",
+            "source": "TechCrunch",
+            "summary": "OpenAI plans five Stargate data centers with Oracle and SoftBank to expand AI infrastructure and reduce latency."
+          },
+          {
+            "title": "Meta launches super PAC to fight AI regulation as state policies mount",
+            "url": "https://techcrunch.com/2025/09/23/meta-launches-super-pac-to-fight-ai-regulation-as-state-policies-mount/",
+            "source": "TechCrunch",
+            "summary": "Meta forms a political action committee to influence AI regulation across jurisdictions amid a patchwork of state proposals."
+          }
+        ]
+      },
+      {
+        "category": "International Relations/Politics",
+        "commentary": "Global diplomacy, U.S. foreign policy shifts, and domestic political dynamics.",
+        "articles": [
+          {
+            "title": "Your Countries Are Going to Hell’: Trump Airs His Grievances at the U.N.",
+            "url": "https://www.nytimes.com/2025/09/23/us/politics/trump-un-aid-israel-gaza.html",
+            "source": "The New York Times",
+            "summary": "Trump delivered a combative UN General Assembly address criticizing multilateral institutions, immigration policies, and environmentalists, eliciting international reaction."
+          },
+          {
+            "title": "In a Sudden Shift, Trump Says Ukraine Can Win the War With Russia",
+            "url": "https://www.nytimes.com/2025/09/23/us/politics/trump-ukraine-zelensky.html",
+            "source": "The New York Times",
+            "summary": "Trump indicated Ukraine could win with NATO and EU support, signaling a shift in his stance on the war in Ukraine."
+          },
+          {
+            "title": "Seth Moulton Readies Primary Challenge Against Ed Markey in Massachusetts",
+            "url": "https://www.nytimes.com/2025/09/23/us/politics/seth-moulton-ed-markey-senate.html",
+            "source": "The New York Times",
+            "summary": "U.S. Representative Seth Moulton plans a primary challenge against Senator Ed Markey in Massachusetts, signaling intraparty competition."
+          },
+          {
+            "title": "G.O.P. Majority in House Will Shrink After Democrat’s Victory in Arizona",
+            "url": "https://www.nytimes.com/2025/09/23/us/politics/arizona-election-adelita-grijalva-democrat.html",
+            "source": "The New York Times",
+            "summary": "Adelita Grijalva’s victory narrows the Republican majority in the House, with implications for leadership and legislative strategy."
+          }
+        ]
+      },
+      {
+        "category": "Technology/Apple & Hardware",
+        "commentary": "Apple device reviews, features, and ecosystem developments.",
+        "articles": [
+          {
+            "title": "iPhone 17 Pro teardown reveals vapor chamber internals, scratchgate details, more",
+            "url": "https://9to5mac.com/2025/09/23/iphone-17-pro-teardown-reveals-vapor-chamber-internals-scratchgate-details-more/",
+            "source": "9to5Mac",
+            "summary": "The teardown reveals a vapor chamber cooling system and a compact internal layout; repairability may be hampered by design choices."
+          },
+          {
+            "title": "Apple Wallet is getting US passport support very soon on iPhone",
+            "url": "https://9to5mac.com/2025/09/23/apple-wallet-is-getting-us-passport-support-very-soon-on-iphone/",
+            "source": "9to5Mac",
+            "summary": "Apple Wallet will gain a passport credential, enabling digital travel documents on iPhone, with rollout details to be announced."
+          },
+          {
+            "title": "Some iPhone 17 users report Wi-Fi and CarPlay connectivity bugs",
+            "url": "https://9to5mac.com/2025/09/23/iphone-17-ios-26-wifi-carplay-bugs/",
+            "source": "9to5Mac",
+            "summary": "User reports indicate intermittent Wi‑Fi disconnections and CarPlay stability issues for some iPhone 17/Air users; no official fix yet."
+          },
+          {
+            "title": "Apple working on MCP support to enable agentic AI on Mac, iPhone, and iPad",
+            "url": "https://9to5mac.com/2025/09/22/macos-tahoe-26-1-beta-1-mcp-integration/",
+            "source": "9to5Mac",
+            "summary": "Apple is enabling MCP support in macOS Tahoe 26.1 beta to enable agentic AI across devices, with details on scope and safety controls forthcoming."
+          },
+          {
+            "title": "It’s time for iPhones to go eSIM-only worldwide",
+            "url": "https://9to5mac.com/2025/09/22/its-time-for-iphones-to-go-esim-only-worldwide/",
+            "source": "9to5Mac",
+            "summary": "Opinion piece arguing for global eSIM-only iPhones to simplify activation, travel, and carrier management, noting regulatory and carrier challenges."
+          },
+          {
+            "title": "Three highlights from Apple’s recent workshop on natural language processing",
+            "url": "https://9to5mac.com/2025/09/23/three-highlights-from-apples-recent-workshop-on-natural-language-processing/",
+            "source": "9to5Mac",
+            "summary": "Apple summaries three NLP workshop highlights, signaling ongoing AI strategy and collaboration with researchers."
+          },
+          {
+            "title": "22 years on, Apple Ginza store reopens on Friday with ‘all-new design’",
+            "url": "https://9to5mac.com/2025/09/23/22-years-on-apple-ginza-store-reopens-on-friday-with-all-new-design/",
+            "source": "9to5Mac",
+            "summary": "Apple Ginza store in Tokyo reopens with a redesigned storefront featuring a double-skin glass facade and adaptive louvers."
+          },
+          {
+            "title": "Vision Air and 20th anniversary iPhone could get the same advanced display tech",
+            "url": "https://9to5mac.com/2025/09/23/vision-air-and-20th-anniversary-iphone-could-get-the-same-advanced-display-tech/",
+            "source": "9to5Mac",
+            "summary": "A supply-chain report suggests Vision Pro/Vision Air and the 20th anniversary iPhone may share new display tech."
+          }
+        ]
+      },
+      {
+        "category": "Space/Technology & Infrastructure",
+        "commentary": "News on NASA, space startups, and space infrastructure.",
+        "articles": [
+          {
+            "title": "NASA’s new astronaut class includes SpaceX veterans Anna Menon and Yuri Kubo",
+            "url": "https://techcrunch.com/2025/09/23/nasas-new-astronaut-class-includes-spacex-veterans-anna-menon-and-yuri-kubo/",
+            "source": "TechCrunch",
+            "summary": "NASA announces a new astronaut class featuring SpaceX veterans; their backgrounds will support upcoming missions and training pipelines."
+          },
+          {
+            "title": "Building the new backbone of space at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/23/space-is-open-for-business-with-even-rogers-and-max-haot-at-techcrunch-disrupt-2025/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch Disrupt 2025 highlights space-focused startups and infrastructure projects, including satellite networks and data services."
+          }
+        ]
+      },
+      {
+        "category": "Business/Mergers & Acquisitions",
+        "commentary": "Significant tech industry deals and corporate strategy.",
+        "articles": [
+          {
+            "title": "Atlassian acquires DX, a developer productivity platform, for $1B",
+            "url": "https://techcrunch.com/2025/09/18/atlassian-acquires-dx-a-developer-productivity-platform-for-1b/",
+            "source": "TechCrunch",
+            "summary": "Atlassian buys DX for about $1 billion to strengthen developer tooling and scale collaboration for large engineering teams."
+          }
+        ]
+      },
+      {
+        "category": "National/US Law & Crime",
+        "commentary": "Notable legal developments and ongoing high-profile cases.",
+        "articles": [
+          {
+            "title": "Judge in Gilgo Beach Case Spurns Request to Throw Out DNA Evidence",
+            "url": "https://www.nytimes.com/2025/09/23/nyregion/gilgo-beach-rex-heuermann-hearing.html",
+            "source": "The New York Times",
+            "summary": "A judge denied a defense motion to suppress DNA evidence in the Rex Heuermann case, allowing prosecutors to proceed with forensic evidence."
+          }
+        ]
+      },
+      {
+        "category": "World/Natural Disaster & Weather",
+        "commentary": "Major weather events and humanitarian impacts.",
+        "articles": [
+          {
+            "title": "Powerful typhoon lashes China after causing deaths in Taiwan, Philippines",
+            "url": "https://axios.com/2025/09/24/super-typhoon-ragasa-hong-kong-taiwan-china-photos",
+            "source": "Axios",
+            "summary": "Super Typhoon Ragasa battered Taiwan, Hong Kong, and southern China, causing deaths and missing persons and triggering evacuations."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "Recent professional football results.",
+        "articles": [
+          {
+            "title": "Real Madrid mede door goals Mbappé nog altijd foutloos, Van de Beek valt uit bij Girona",
+            "url": "https://nos.nl/artikel/2583797-real-madrid-mede-door-goals-mbappe-nog-altijd-foutloos-van-de-beek-valt-uit-bij-girona",
+            "source": "NOS",
+            "summary": "Real Madrid won 4-1 over Levante with Mbappé scoring; Van de Beek suffered an injury."
+          },
+          {
+            "title": "Liverpool door in League Cup door late goal Ekitike, die rood pakt na vieren treffer",
+            "url": "https://nos.nl/artikel/2583796-liverpool-door-in-league-cup-door-late-goal-ekitike-die-rood-pakt-na-vieren-treffer",
+            "source": "NOS",
+            "summary": "Liverpool advanced in the League Cup thanks to a late goal by Ekitike; he received a red card after scoring his fourth goal."
+          }
+        ]
+      },
+      {
+        "category": "National/Policy & Immigration",
+        "commentary": "Immigration policy, asylum procedures, and related governance.",
+        "articles": [
+          {
+            "title": "ROTTERDAMSE AMBTENAAR GAF DAKLOZENWONINGEN Weg aan familie en vrienden",
+            "url": "https://nos.nl/artikel/2583788-rotterdamse-ambtenaar-gaf-daklozenwoningen-weg-aan-familie-en-vrienden",
+            "source": "NOS",
+            "summary": "A Rotterdam official allocated housing intended for former homeless to family and friends, raising questions about housing policy oversight."
+          },
+          {
+            "title": "IND waarschuwt opnieuw na toetsing asielplannen: werkdruk neemt toe",
+            "url": "https://nos.nl/artikel/2583800-ind-waarschuwt-opnieuw-na-toetsing-asielplannen-werkdruk-neemt-toe",
+            "source": "NOS",
+            "summary": "The IND warns that implementation of asylum plan changes could affect processing times and capacity."
+          },
+          {
+            "title": "WHO: cholera‑gevallen in Darfur nemen in een alarmerend tempo toe",
+            "url": "https://nos.nl/artikel/2583791-who-choleragevallen-in-darfur-nemen-in-een-alarmerend-tempo-toe",
+            "source": "NOS",
+            "summary": "The WHO reports rising cholera cases across Darfur, urging rapid water/sanitation actions and international support."
+          }
+        ]
+      },
+      {
+        "category": "Culture/Arts & Obituaries",
+        "commentary": "Notable cultural figures and legacy pieces.",
+        "articles": [
+          {
+            "title": "Camp Mystic in Texas Will Reopen Over Objections From Parents of the Dead",
+            "url": "https://www.nytimes.com/2025/09/23/us/camp-mystic-texas.html",
+            "source": "The New York Times",
+            "summary": "Camp Mystic will reopen despite objections from families of flood victims, with safety and regulatory considerations discussed."
+          }
+        ]
+      },
+      {
+        "category": "Law/Disclosures & Policy",
+        "commentary": "Legal disclosures, regulatory actions, and transparency efforts.",
+        "articles": [
+          {
+            "title": "Epstein files discharge petition approaches critical threshold",
+            "url": "https://www.axios.com/2025/09/24/epstein-files-discharge-petition-signatures",
+            "source": "Axios",
+            "summary": "A discharge petition in the Epstein case nears the threshold to trigger a procedural step."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758687330676
+  },
+  {
     "date": "September 23rd, 2025",
     "introText": "This daily digest covers censorship-driven TV events (with Jimmy Kimmel), AI and technology news (including AI infrastructure and platforms), corporate and market developments, major political and policy actions (notably on antifa and Palestinian state recognition), international diplomacy on Gaza, health and science updates, and notable regional Dutch news coverage. It groups the items into six categories and provides brief, factual summaries of each reported event.",
     "categories": [
