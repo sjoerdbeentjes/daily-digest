@@ -1,5 +1,48 @@
 [
   {
+    "date": "September 25th, 2025",
+    "introText": "Today's digest rounds up new hardware and software from major tech firms, startup funding and policy moves, and entertainment previews. It also covers international politics and climate diplomacy, as well as notable Dutch national stories.",
+    "categories": [
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "I tried a 240Hz 4K OLED gaming monitor and now I’m ruined",
+            "url": "https://www.theverge.com/tech/784323/upgrading-240hz-oled-gaming-monitor",
+            "source": "The Verge",
+            "summary": "A first-person test of a 240Hz 4K OLED gaming monitor reports very smooth motion and increased responsiveness in fast-paced games, with discussion of trade-offs such as power consumption, color handling, and burn-in considerations."
+          },
+          {
+            "title": "Qualcomm announces Snapdragon X2 Elite and Extreme for Windows PCs",
+            "url": "https://www.theverge.com/news/785068/qualcomm-announces-snapdragon-x2-elite-and-extreme-for-windows-pcs",
+            "source": "The Verge",
+            "summary": "Qualcomm unveils Snapdragon X2 Elite and X2 Extreme platforms for Windows PCs, focusing on AI capabilities, efficiency, and potential impacts on laptop design and battery life."
+          },
+          {
+            "title": "Google reveals its Android for PC is coming next year",
+            "url": "https://www.theverge.com/tech/785351/google-reveals-its-android-for-pc-is-coming-next-year",
+            "source": "The Verge",
+            "summary": "Google announces Android for PCs with a release timeline set for next year, with expected effects on app compatibility and productivity across devices."
+          },
+          {
+            "title": "The best foldable phone you can buy",
+            "url": "https://www.theverge.com/tech/635839/best-foldable-phone",
+            "source": "The Verge",
+            "summary": "A buying guide evaluating the leading foldable phones, identifying the best overall option and top picks by use case (camera, software, battery, durability)."
+          },
+          {
+            "title": "Google Android for PC coming next year",
+            "url": "https://www.theverge.com/tech/785351/google-reveals-its-android-for-pc-is-coming-next-year",
+            "source": "The Verge",
+            "summary": "(Duplicate entry noted under technology; summarized above.)"
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758773781486
+  },
+  {
     "date": "September 24th, 2025",
     "introText": "This daily digest summarizes notable developments across entertainment, technology, politics, business, space, sports, and weather. It includes film production design, streaming pricing changes, AI and browser technology, international and U.S. politics, Apple hardware and software, space infrastructure, corporate acquisitions, sports results, and major weather events.",
     "categories": [
