@@ -1,5 +1,276 @@
 [
   {
+    "date": "September 26th, 2025",
+    "introText": "This digest covers advances in AI and computing, regulatory and policy debates around technology, major international and domestic policy actions, notable business and market moves, plus sports and culture coverage from the last 24 hours.",
+    "categories": [
+      {
+        "category": "Technology",
+        "commentary": "Updates on AI, software, hardware, and digital platforms.",
+        "articles": [
+          {
+            "title": "OpenAI really, really wants you to start your day with ChatGPT Pulse",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/785881/openai-really-really-wants-you-to-start-your-day-with-chatgpt-pulse",
+            "source": "The Verge",
+            "summary": "OpenAI announced Pulse, a feature that scans a user’s interests and activity to assemble a concise morning briefing, delivered as a digest when the user wakes up; it integrates with ChatGPT and raises privacy considerations."
+          },
+          {
+            "title": "Nvidia is letting anyone use its AI voice animation tech",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/785981/nvidia-audio2face-ai-voice-animation-open-source",
+            "source": "The Verge",
+            "summary": "NVIDIA opened Audio2Face to broader public use, enabling creators to generate realistic facial animation and lip-sync from audio input, with licensing and IP implications noted."
+          },
+          {
+            "title": "Microsoft says this new cooling method could enable more powerful chips and efficient data centers",
+            "url": "https://www.theverge.com/report/785992/ai-chip-cooling-microsoft-microfluidic-energy-efficiency",
+            "source": "The Verge",
+            "summary": "Microsoft describes a microfluidic cooling technique that could allow more powerful chips and denser data-center configurations, potentially reducing energy use; deployment scalability remains to be demonstrated."
+          },
+          {
+            "title": "Google reveals its Android for PC is coming next year",
+            "url": "https://www.theverge.com/tech/785351/google-reveals-its-android-for-pc-is-coming-next-year",
+            "source": "The Verge",
+            "summary": "Google plans a PC-oriented version of Android with improved compatibility and cross-device features, slated for release next year, with implications for apps and the software ecosystem."
+          },
+          {
+            "title": "Google DeepMind’s new AI models can search the web to help robots complete tasks",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/785193/google-deepmind-gemini-ai-robotics-web-search",
+            "source": "The Verge",
+            "summary": "Google DeepMind announced AI models that can query the web to aid robots in planning and completing tasks, enabling up-to-date information gathering for real-world environments while raising safety and reliability concerns."
+          },
+          {
+            "title": "Twitch is making it easy to rewind streams",
+            "url": "https://www.theverge.com/twitch-livestream-rewind-easy",
+            "source": "The Verge",
+            "summary": "Twitch is adding features to simplify rewinding live streams, improving accessibility and viewing flexibility, with rollout timing and platform support to be announced."
+          },
+          {
+            "title": "Xiaomi 17 series arrives with secondary screens and enormous batteries",
+            "url": "https://www.theverge.com/news/785693/xiaomi-17-pro-max-china-launch-specs-price-second-screen",
+            "source": "The Verge",
+            "summary": "Xiaomi unveils the 17-series smartphones featuring secondary displays and large batteries, with discussion of design, specs, pricing, and potential market reception."
+          },
+          {
+            "title": "What happens when an AI-generated artist gets a record deal? A copyright mess",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/785792/ai-generated-music-record-deal-copyright",
+            "source": "The Verge",
+            "summary": "The Verge examines copyright and ownership questions around AI-generated music and potential AI artists securing record deals, addressing authorship, compensation, and policy gaps."
+          },
+          {
+            "title": "Meta launches ‘Vibes,’ a short-form video feed of AI slop",
+            "url": "https://techcrunch.com/2025/09/25/meta-launches-vibes-a-short-form-video-feed-of-ai-slop/",
+            "source": "TechCrunch",
+            "summary": "Meta launches an AI-curated short-form video feed called Vibes, examining its place in Meta’s strategy for short-form content, content discovery, and potential privacy considerations."
+          },
+          {
+            "title": "Thousands of Indian bank transfer records found online",
+            "url": "https://techcrunch.com/2025/09/25/thousands-of-indian-bank-transfer-records-found-online/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports thousands of Indian bank transfer records were found online, signaling a data exposure event with potential consumer risk and recommended mitigations."
+          },
+          {
+            "title": "Viral call-recording app Neon goes dark after exposing users’ phone numbers, call recordings, and transcripts",
+            "url": "https://techcrunch.com/2025/09/25/viral-call-recording-app-neon-goes-dark-after-exposing-users%E2%80%99-phone-numbers-call-recordings-and-transcripts/",
+            "source": "TechCrunch",
+            "summary": "Neon went offline after exposing users’ phone numbers, call recordings, and transcripts, highlighting privacy and security concerns around call-recording apps."
+          },
+          {
+            "title": "Improved Gemini 2.5 Flash and Flash-Lite",
+            "url": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/",
+            "source": "Hacker News",
+            "summary": "Google releases Gemini 2.5 Flash and Flash-Lite with improvements in model performance, speed, memory management, and tooling; discusses deployment guidance and safety enhancements."
+          },
+          {
+            "title": "Raspberry Pi 500+ on sale now at $200",
+            "url": "https://www.raspberrypi.com/news/the-ultimate-all-in-one-pc-raspberry-pi-500-plus-on-sale-now-at-200/",
+            "source": "Hacker News",
+            "summary": "Raspberry Pi 500+ announced with a $200 price, detailing all-in-one form factor, hardware specs, and suggested use cases for education and hobbyist projects."
+          },
+          {
+            "title": "Exploit Allows for Takeover of Fleets of Unitree Robots",
+            "url": "https://spectrum.ieee.org/unitree-robot-exploit",
+            "source": "Hacker News",
+            "summary": "IEEE Spectrum reports a security vulnerability that could allow attackers to take over fleets of Unitree robots, with discussion of risk and mitigations."
+          }
+        ]
+      },
+      {
+        "category": "Policy",
+        "commentary": "Regulatory and policy debates around digital markets, IDs, and tech governance.",
+        "articles": [
+          {
+            "title": "The Digital Markets Act: time for a reset",
+            "url": "https://blog.google/around-the-globe/google-europe/the-digital-markets-act-time-for-a-reset/",
+            "source": "Hacker News",
+            "summary": "Opinion piece arguing for a reset of the Digital Markets Act to address enforcement challenges and close loopholes, with policy recommendations."
+          },
+          {
+            "title": "EU Commission responds to Apple's call to scrap the DMA",
+            "url": "https://9to5mac.com/2025/09/25/eu-commission-responds-to-apples-call-to-scrap-the-dma/",
+            "source": "9to5Mac",
+            "summary": "Report on escalating clash between Apple and European regulators over the DMA, detailing arguments and regulatory pressure from the Commission."
+          },
+          {
+            "title": "Brit Card: All British adults to require digital ID",
+            "url": "https://news.sky.com/video/all-british-adults-to-require-a-digital-id-brit-card-13438041",
+            "source": "Hacker News",
+            "summary": "Sky News reports proposals for a nationwide digital ID scheme (Brit Card), with privacy, data governance, and rollout considerations."
+          },
+          {
+            "title": "Unitree exploit",
+            "url": "https://spectrum.ieee.org/unitree-robot-exploit",
+            "source": "Hacker News",
+            "summary": "Security vulnerability enabling takeover of robot fleets; discusses mitigation and policy implications in robotics security."
+          }
+        ]
+      },
+      {
+        "category": "International Relations",
+        "commentary": "Diplomacy, sanctions, and cross-border policy developments.",
+        "articles": [
+          {
+            "title": "Abbas Insists ‘Palestine Is Ours’ in Video Address to U.N.",
+            "url": "https://www.nytimes.com/2025/09/25/us/politics/trump-crime-strategy-solutions.html",
+            "source": "The New York Times",
+            "summary": "Mahmoud Abbas delivers a UN address asserting Palestinian sovereignty, in a broader context of statehood recognition and regional dynamics."
+          },
+          {
+            "title": "Nicaraguaans are leven tot ver buiten de grenzen van dictatuur niet zeker",
+            "url": "https://nos.nl/artikel/2584064-vn-nicaraguanen-zijn-leven-tot-ver-buiten-de-grenzen-van-dictatuur-niet-zeker",
+            "source": "NOS",
+            "summary": "A new report indicates Nicaraguans face intimidation and threats under the current regime, with international responses and potential sanctions discussed."
+          },
+          {
+            "title": "Demissionair premier Schoof onderstreept belang VN in toespraak",
+            "url": "https://nos.nl/artikel/2584063-demissionair-premier-schoof-onderstreept-belang-vn-in-toespraak",
+            "source": "NOS",
+            "summary": "The Dutch prime minister emphasizes the importance of the United Nations and multilateral cooperation in international affairs."
+          },
+          {
+            "title": "Nederland en Oeganda hebben ‘intentie’ om afgewezen asielzoekers naar Oeganda uit te zetten",
+            "url": "https://nrc.nl/nieuws/2025/09/25/nederland-en-oeganda-hebben-intentie-om-afgewezen-asielzoekers-naar-oeganda-uit-te-zetten-a4907455",
+            "source": "NRC",
+            "summary": "The Netherlands and Uganda discuss sending rejected asylum seekers to Uganda; policy and human-rights concerns are noted."
+          },
+          {
+            "title": "Trump akkooord met TikTok deal",
+            "url": "https://www.nytimes.com/2025/09/25/technology/trump-tiktok-ban-deal.html",
+            "source": "The New York Times",
+            "summary": "Coverage of a Trump-related TikTok deal, including regulatory and geopolitical implications."
+          }
+        ]
+      },
+      {
+        "category": "Business",
+        "commentary": "Market and corporate policy actions, settlements, and strategic shifts.",
+        "articles": [
+          {
+            "title": "Amazon reaches $2.5 Billion to Settle FTC's Prime lawsuit",
+            "url": "https://wwwAxios.com/2025/09/25/amazon-prime-ftc-settlement",
+            "source": "Axios",
+            "summary": "Amazon reaches a $2.5 billion settlement with the FTC over Prime enrollment practices; settlement terms not fully disclosed in teaser."
+          },
+          {
+            "title": "NBC warns customers it may go dark on YouTube TV",
+            "url": "https://axios.com/2025/09/26/nbc-youtube-tv-blackout-warning",
+            "source": "Axios",
+            "summary": "NBCUniversal warns its networks could be dropped from YouTube TV if a distribution agreement isn’t reached by Sept 30."
+          },
+          {
+            "title": "Exclusive: Monumental Sports Network says it may go dark on YouTube TV and Hulu",
+            "url": "https://www.axios.com/2025/09/25/monumental-sports-network-youtube-hulu-tv-nhl",
+            "source": "Axios",
+            "summary": "Monumental Sports Network signals a potential blackout on YouTube TV and Hulu amid carriage negotiations."
+          },
+          {
+            "title": "Trump tariffs on furniture 30-50%",
+            "url": "https://www.axios.com/2025/09/25/tariffs-furniture",
+            "source": "Axios",
+            "summary": "Administration proposes tariffs in the 30-50% range on certain furniture; analysis of potential impacts on industries and consumers."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "Updates on major European and Dutch sports events and governance.",
+        "articles": [
+          {
+            "title": "UEFA wil profclubs helpen menstruatie beter te volgen: 'Veel apps gokken maar wat'",
+            "url": "https://nos.nl/artikel/2584069-uefa-wil-profclubs-helpen-menstruatie-beter-te-volgen-veel-apps-gokken-maar-wat",
+            "source": "NOS",
+            "summary": "UEFA aims to help professional clubs track menstruation more accurately, acknowledging app variability and privacy concerns in data-driven sports."
+          },
+          {
+            "title": "Onbekende Huising maakt zich op voor WK wielrennen in dun bezette Nederlandse ploeg",
+            "url": "https://nos.nl/artikel/2584067-onbekende-huising-maakt-zich-op-voor-wk-wielrennen-in-dun-bezette-nederlandse-ploeg",
+            "source": "NOS",
+            "summary": "Dutch cycling team faces a smaller squad for the World Championship, with strategic considerations and form and injury factors discussed."
+          },
+          {
+            "title": "Kampong wint zusterstrijd van Amsterdam, waar Chinese topper debuteert",
+            "url": "https://nos.nl/artikel/2584059-kampong-wint-zusterstrijd-van-amsterdam-waar-chinese-topper-debuteert",
+            "source": "NOS",
+            "summary": "Kampong wins a derby against Amsterdam; a Chinese player makes her debut in the Dutch league."
+          }
+        ]
+      },
+      {
+        "category": "National Security",
+        "commentary": "Security-related incidents and corporate or governmental responses.",
+        "articles": [
+          {
+            "title": "Attack on Dallas ICE Was ‘Very Definition of Terrorism,’ Prosecutor Says",
+            "url": "https://www.nytimes.com/2025/09/25/nyregion/ice-push-woman-nyc.html",
+            "source": "The New York Times",
+            "summary": "Prosecutors describe a gun attack on an immigration facility as terrorism; investigations and safety measures are discussed."
+          },
+          {
+            "title": "Microsoft blokkeert gebruik van zijn technologie na Israëlische massaspionage",
+            "url": "https://nrc.nl/nieuws/2025/09/25/microsoft-blokkeert-gebruik-van-zijn-technologie-na-israeilse-massaspionage-a4907507",
+            "source": "NRC",
+            "summary": "Microsoft restricts the use of its technology amid allegations of mass espionage linked to Israel; policy and security implications discussed."
+          }
+        ]
+      },
+      {
+        "category": "Arts & Culture",
+        "commentary": "Cultural institutions and legacies in focus.",
+        "articles": [
+          {
+            "title": "Opeens moest de directeur van het Nederlands Fotomuseum vertrekken. Waarom?",
+            "url": "https://nrc.nl/nieuws/2025/09/25/opeens-moest-de-directeur-van-het-nederlands-fotomuseum-vertrekken-waarom-a4907436",
+            "source": "NRC",
+            "summary": "A sudden departure of the Nederlands Fotomuseum director prompts a reconstruction of events and governance questions."
+          }
+        ]
+      },
+      {
+        "category": "Local News",
+        "commentary": "Significant incidents affecting local communities.",
+        "articles": [
+          {
+            "title": "Dode en zwaargewonde bij schietincident in Sneek",
+            "url": "https://nos.nl/artikel/2584065-dode-en-zwaargewonde-bij-schietincent-in-sneek",
+            "source": "NOS",
+            "summary": "A shooting in Sneek leaves one person dead and another injured; police investigate and reviews of safety measures follow."
+          }
+        ]
+      },
+      {
+        "category": "International Relations",
+        "commentary": "Diplomatic and geopolitical developments beyond national borders.",
+        "articles": [
+          {
+            "title": "Abbas Insists ‘Palestine Is Ours’ in Video Address to U.N.",
+            "url": "https://www.nytimes.com/2025/09/25/world/united-nations-palestinian-abbas",
+            "source": "The New York Times",
+            "summary": "Mahmoud Abbas asserts Palestinian sovereignty in a UN address amid broader recognitions and regional diplomacy."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758860155062
+  },
+  {
     "date": "September 25th, 2025",
     "introText": "Today's digest rounds up new hardware and software from major tech firms, startup funding and policy moves, and entertainment previews. It also covers international politics and climate diplomacy, as well as notable Dutch national stories.",
     "categories": [
