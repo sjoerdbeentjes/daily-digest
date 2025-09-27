@@ -1,5 +1,480 @@
 [
   {
+    "date": "September 27th, 2025",
+    "introText": "This digest surveys tech policy and AI developments, major corporate and product news, international politics, and notable regional stories from Europe and the Netherlands, with additional items on science, sports, and entertainment. It groups articles by topic and provides concise, fact-focused summaries of each piece.",
+    "categories": [
+      {
+        "category": "Technology & AI",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Trump’s new H-1B policy caused short-term panic — and will cause long-term chaos",
+            "url": "https://www.theverge.com/policy/786511/h-1b-skilled-worker-visa-policy-chaos",
+            "source": "The Verge",
+            "summary": "The Verge describes changes to the US H-1B visa policy, noting tighter eligibility and potential effects on visa approvals, processing times, and the talent pipeline for major tech employers."
+          },
+          {
+            "title": "A $1,000 Xbox Ally handheld tests the appetite for pricey next-gen consoles",
+            "url": "https://www.theverge.com/report/785828/microsoft-xbox-ally-x-pricing-next-gen-consoles-report",
+            "source": "The Verge",
+            "summary": "The Verge investigates the $999 Xbox Ally handheld, assessing whether a premium handheld can justify the price and examining build quality, power trade-offs, and market dynamics."
+          },
+          {
+            "title": "Suno’s upgraded AI music generator is technically impressive, but still soulless",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/786349/suno-ai-music-generator-v5-review",
+            "source": "The Verge",
+            "summary": "The Verge reviews Suno v5, noting advances in synthesis and voice rendering but identifying a lack of emotional nuance compared with human-made music."
+          },
+          {
+            "title": "OpenAI really, really wants you to start your day with ChatGPT Pulse",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/785881/openai-really-really-wants-you-to-start-your-day-with-chatgpt-pulse",
+            "source": "The Verge",
+            "summary": "The Verge explains ChatGPT Pulse as a daily morning feature that structures routines with AI prompts and briefings, while noting privacy concerns and usage questions."
+          },
+          {
+            "title": "The Blink security camera app was down, but Amazon rolled out a fix",
+            "url": "https://www.theverge.com/news/786900/amazon-blink-security-cameras-down-503-403-error",
+            "source": "The Verge",
+            "summary": "The Verge reports an outage of Amazon’s Blink app affecting live feeds and footage, followed by the rollout of a fix and guidance for users during restoration."
+          },
+          {
+            "title": "The Verge’s Guide to Amazon’s October Prime Day Event 2025",
+            "url": "https://www.theverge.com/tech/786445/amazon-fire-tv-stick-4k-max-october-prime-day-deals-sale",
+            "source": "The Verge",
+            "summary": "The Verge publishes a practical guide to anticipated Prime Day deals, shopper tips, and deal-tracking guidance for the October 2025 event."
+          },
+          {
+            "title": "How developers are using Apple’s local AI models with iOS 26",
+            "url": "https://techcrunch.com/2025/09/26/how-developers-are-using-apples-local-ai-models-with-ios-26/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch examines developers leveraging Apple's on-device AI models in iOS 26, highlighting privacy, latency benefits, and example apps or workflows."
+          },
+          {
+            "title": "What’s behind the massive AI data center headlines?",
+            "url": "https://techcrunch.com/2025/09/26/whats-behind-the-massive-ai-data-center-headlines/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch analyzes the surge in AI data-center activity, discussing demand, energy use, cooling, and implications for cloud providers and enterprise buyers."
+          },
+          {
+            "title": "TruSources to show off its on-device identity-checking tech at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/26/trusources-to-show-off-its-on-device-identity-checking-tech-at-techcrunch-disrupt-2025/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports TruSources’ plan to demo on-device identity verification at Disrupt 2025, outlining applications and competitive landscape."
+          },
+          {
+            "title": "What top VCs want from AI founders: Inside the investor lens with Jon McNeill, Aileen Lee, and Steve Jang at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/25/what-top-vcs-want-from-ai-founders-inside-the-investor-lens-with-jon-mcneill-aileen-lee-and-steve-jang-at-techcrunch-disrupt-2025/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch summarizes what leading VCs seek from AI startups at Disrupt 2025, including team composition, go-to-market strategy, data advantages, defensible moats, and key metrics."
+          },
+          {
+            "title": "Love, lies, and algorithms: Is AI really helping us find ‘the one’? Live at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/26/love-lies-and-algorithms-is-ai-really-helping-us-find-the-one/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch discusses how AI is applied to dating and relationship matching, including promises, privacy concerns, and data usage, as showcased at Disrupt 2025."
+          },
+          {
+            "title": "NASA drops ISS cargo guarantee, forcing Sierra Space to pivot",
+            "url": "https://techcrunch.com/2025/09/26/sierra-spaces-spaceplane-faces-a-reinvention-after-nasa-contract-change/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports NASA ending or changing its ISS cargo guarantee, prompting Sierra Space to pivot its business strategy for its spaceplane and services."
+          },
+          {
+            "title": "‘The Social Network’ sequel will focus on Haugen leaks, with Jeremy Strong as Mark Zuckerberg",
+            "url": "https://techcrunch.com/2025/09/26/the-social-network-sequel-will-focus-on-haugen-leaks-with-jeremy-strong-as-mark-zuckerberg/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch notes a sequel to The Social Network centering on the Haugen leaks, with Jeremy Strong portraying Mark Zuckerberg."
+          },
+          {
+            "title": "Here’s what’s happening right now with the US TikTok deal",
+            "url": "https://techcrunch.com/2025/09/26/heres-whats-happening-right-now-with-the-us-tiktok-deal/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports ongoing developments in the U.S. government’s negotiations over TikTok, including regulatory and timeline considerations."
+          },
+          {
+            "title": "Fast UDP I/O for Firefox in Rust",
+            "url": "https://max-inden.de/post/fast-udp-io-in-firefox/",
+            "source": "Hacker News",
+            "summary": "An article (via Hacker News) about a Rust-based optimization for UDP I/O in Firefox, covering zero-copy buffering, asynchronous I/O, and performance implications."
+          },
+          {
+            "title": "Understanding RL for model training, and future directions with GRAPE",
+            "url": "https://arxiv.org/abs/2509.04501",
+            "source": "Hacker News",
+            "summary": "An arXiv preprint surveying reinforcement learning methods for training contemporary AI models, including GRAPE and suggested future research directions."
+          },
+          {
+            "title": "Suno Studio, a Generative AI DAW",
+            "url": "https://suno.com/studio-welcome",
+            "source": "Hacker News",
+            "summary": "Suno Studio introduces a Generative AI-based digital audio workstation intended to aid music creation and collaboration, with discussion of licensing and copyright considerations."
+          }
+        ]
+      },
+      {
+        "category": "Policy & Regulation",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "The UK announces mandatory digital ID plans",
+            "url": "https://www.theverge.com/news/786323/uk-digital-id-plans-mandatory-immigration-crackdown",
+            "source": "The Verge",
+            "summary": "The Verge reports UK plans for mandatory digital identity for immigration processing, border controls, and public services, along with privacy and security concerns and implementation challenges."
+          },
+          {
+            "title": "Trump demands Microsoft oust global affairs chief over Biden-era ties",
+            "url": "https://www.axios.com/2025/09/26/trump-microsoft-lisa-monaco",
+            "source": "Axios",
+            "summary": "Axios reports Trump urged Microsoft to remove its global affairs chief due to perceived Biden-era ties, discussing implications for tech-government relations."
+          },
+          {
+            "title": "Trump orders admin to declassify all records of Amelia Earhart, her final trip",
+            "url": "https://www.axios.com/2025/09/26/trump-declassify-amelia-earhart-final-trip",
+            "source": "Axios",
+            "summary": "Axios reports Trump directing declassification of records related to Amelia Earhart and her final flight, outlining scope and potential scholarly benefits."
+          },
+          {
+            "title": "Trump may impose per-chip tariff on foreign electronics",
+            "url": "https://9to5mac.com/2025/09/26/trump-may-impose-per-chip-tariff-on-foreign-electronics/",
+            "source": "9to5Mac",
+            "summary": "Reuters reporting indicates Trump is weighing a per-chip tariff on foreign electronics, outlining the metric but not rates or timelines."
+          },
+          {
+            "title": "Here’s what’s happening right now with the US TikTok deal",
+            "url": "https://techcrunch.com/2025/09/26/heres-whats-happening-right-now-with-the-us-tiktok-deal/",
+            "source": "TechCrunch",
+            "summary": "(Also listed under Technology) TechCrunch covers ongoing regulatory and policy developments in the U.S. TikTok deal, including national-security considerations and possible timelines."
+          }
+        ]
+      },
+      {
+        "category": "International News",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Russia Steps Up Provocations in Europe, Alarming Leaders There",
+            "url": "https://www.nytimes.com/2025/09/26/world/europe/poland-drones-moldova-election.html",
+            "source": "The New York Times",
+            "summary": "European officials report Moscow increasing provocations, including election interference in Moldova, raising concerns about regional stability."
+          },
+          {
+            "title": "China’s Small Steps Look Bigger Next to Trump’s Retreat",
+            "url": "https://www.nytimes.com/2025/09/26/world/europe/china-un-trump-leader.html",
+            "source": "The New York Times",
+            "summary": "Beijing’s climate and trade pledges at the UN are framed as modest moves that gain weight as U.S. leadership wanes."
+          },
+          {
+            "title": "World leaders have already learned not to correct Trump at the UN",
+            "url": "https://nrc.nl/nieuws/2025/09/26/ontketende-trump-zaait-twijfel-over-toekomst-vn-a4907652",
+            "source": "NRC",
+            "summary": "Analysts note world leaders avoid correcting Trump at the UN, balancing cooperation with U.S. interests amid broader multilateral tension."
+          },
+          {
+            "title": "Artsen zonder Grenzen schort medische noodhulp in Gaza-Stad op",
+            "url": "https://nos.nl/artikel/2584181-artsen-zonder-grenzen-schort-medische-noodhulp-in-gaza-stad-op",
+            "source": "NOS",
+            "summary": "MSF temporarily suspends emergency medical aid in Gaza City due to safety risks and operational constraints."
+          },
+          {
+            "title": "Two underage men detained on suspicion of ‘state interference’: how unique is this?",
+            "url": "https://nrc.nl/nieuws/2025/09/26/two-tieners-zijn-opgepakt-op-verdenking-van-statelijke-inmenging-hoe-uniek-is-dit-a4907602",
+            "source": "NRC",
+            "summary": "Two 17-year-olds are arrested on suspicion of state interference by a foreign power, with questions about legal frameworks and national security implications."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands & Europe",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Minister wijst nieuwe woningbouwlocaties aan: 'Ruimte is maar een keer te verdelen'",
+            "url": "https://nos.nl/artikel/2584147-minister-wijst-nieuwe-woningbouwlocaties-aan-ruimte-is-maar-een-keer-te-verdelen",
+            "source": "NOS",
+            "summary": "The Dutch minister designates more than 130 housing locations to increase housing supply, with details on selection criteria and governance to be found in the full piece."
+          },
+          {
+            "title": "Indonesië vroeg al decennia om schedel van Naturalis: 'Heel emotioneel'",
+            "url": "https://nos.nl/artikel/2584156-indonesie-vroeg-al-decennia-om-schedel-van-naturalis-heel-emotioneel",
+            "source": "NOS",
+            "summary": "Indonesia requests the skull of Dubois and other fossils as part of repatriation; Dutch authorities return the skull as part of broader fossil repatriation."
+          },
+          {
+            "title": "Slowakije perkt lhbti-rechten in en zet Europese recht op tweede plan",
+            "url": "https://nos.nl/artikel/2584166-slowakije-perkt-lhbti-rechten-in-en-zet-europese-recht-op-tweede-plan",
+            "source": "NOS",
+            "summary": "Slovakia moves to restrict LGBT rights and questions European norms, prompting concern about compatibility with EU law."
+          },
+          {
+            "title": "Twente wint tegen Fortuna ook tweede eredivisieduel onder Van den Brom",
+            "url": "https://nos.nl/artikel/2584177-twente-wint-tegen-fortuna-ook-tweede-eredivisieduel-onder-van-den-brom",
+            "source": "NOS",
+            "summary": "FC Twente beats Fortuna Sittard 3-2 in the Eredivisie, marking the coach’s second league win for the club."
+          },
+          {
+            "title": "Acht jaar cel voor Britse crèche-medewerkster die 21 baby's mishandelde",
+            "url": "https://nos.nl/artikel/2584180-acht-jaar-cel-voor-britse-creche-medewerkster-die-21-baby-s-mishandelde",
+            "source": "NOS",
+            "summary": "A British nursery worker is sentenced to eight years in prison for abusing 21 babies."
+          },
+          {
+            "title": "Honkballers EK-finalist, werper Kelly maakt indruk als invaller tegen Spanje",
+            "url": "https://nos.nl/artikel/2584182-honkballers-ek-finalist-werper-kelly-maakt-indruk-als-invaller-tegen-spanje",
+            "source": "NOS",
+            "summary": "The Netherlands baseball team defeats Spain in an EK match with pitcher Kelly making an impression as a substitute, advancing to the final against Italy."
+          },
+          {
+            "title": "Artsen zonder Grenzen schort medische noodhulp in Gaza-Stad op",
+            "url": "https://nos.nl/artikel/2584181-artsen-zonder-grenzen-schort-medische-noodhulp-in-gaza-stad-op",
+            "source": "NOS",
+            "summary": "MSF suspends emergency medical aid in Gaza City due to safety concerns and operational limits."
+          },
+          {
+            "title": "Zeven: Finnen lopen voorop met drone-afweer: 'De sleutel is constante innovatie'",
+            "url": "https://nos.nl/artikel/2584170-finnen-lopen-voorop-met-drone-afweer-de-sleutel-is-constante-innovatie",
+            "source": "NOS",
+            "summary": "Finland leads in drone defense with emphasis on ongoing innovation to counter drone threats to civil infrastructure."
+          },
+          {
+            "title": "Tientallen aanwezigen verlaten zaal bij toespraak Netanyahu bij VN",
+            "url": "https://nos.nl/artikel/2584150-tientallen-aanwezigen-verlaten-zaal-bij-toespraak-netanyahu-bij-vn",
+            "source": "NOS",
+            "summary": "Dozens left the hall during Netanyahu’s UN speech, with context around Gaza border and security concerns noted."
+          },
+          {
+            "title": "Twee eredivisie-onderonsjes in eerste ronde KNVB-beker, Twente treft amateurs",
+            "url": "https://nos.nl/artikel/2584158-twee-eredivisie-onderonsjes-in-eerste-ronde-knvb-beker-twente-treft-amateurs",
+            "source": "NOS",
+            "summary": "The KNVB Cup first round draw includes two Eredivisie clashes: NAC vs Heracles and Sparta vs Groningen."
+          }
+        ]
+      },
+      {
+        "category": "Entertainment & Gaming",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Ghost of Yōtei is exactly the kind of game PlayStation needs",
+            "url": "https://www.theverge.com/games/784888/ghost-of-yotei-review-ps5",
+            "source": "The Verge",
+            "summary": "The Verge reviews Ghost of Yōtei for PS5, praising art direction, world-building, and narrative potential as aligned with Sony’s premium single-player experiences."
+          },
+          {
+            "title": "Nintendo’s new Fire Emblem mobile game has an Among Us-style twist",
+            "url": "https://www.theverge.com/news/785416/nintendo-fire-emblem-shadows-mobile-game-among-us",
+            "source": "The Verge",
+            "summary": "The Verge reports a Fire Emblem mobile game that incorporates Among Us-style social deduction mechanics and monetization considerations."
+          },
+          {
+            "title": "The Social Network sequel will focus on Haugen leaks, with Jeremy Strong as Mark Zuckerberg",
+            "url": "https://techcrunch.com/2025/09/26/the-social-network-sequel-will-focus-on-haugen-leaks-with-jeremy-strong-as-mark-zuckerberg/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch notes a The Social Network sequel focusing on the Haugen leaks, with Jeremy Strong portraying Zuckerberg."
+          },
+          {
+            "title": "Love, lies, and algorithms: Is AI really helping us find the one? Live at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/26/love-lies-and-algorithms-is-ai-really-helping-us-find-the-one/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch discusses AI-driven dating and matchmaking trends highlighted at Disrupt 2025."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Acht jaar cel voor Britse crèche-medewerkster die 21 baby's mishandelde",
+            "url": "https://nos.nl/artikel/2584180-acht-jaar-cel-voor-britse-creche-medewerkster-die-21-baby-s-mishandelde",
+            "source": "NOS",
+            "summary": "(Note: placed here by mistake; see Netherlands & Europe above for the correct sports entry.)"
+          }
+        ]
+      },
+      {
+        "category": "Science & Math",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "New math revives geometry's oldest problems",
+            "url": "https://www.quantamagazine.org/new-math-revives-geometrys-oldest-problems-20250926/",
+            "source": "Quanta Magazine",
+            "summary": "Recent geometry advances using algebraic, topological, combinatorial, and computational methods revive classic geometry problems and reveal partial resolutions and new conjectures."
+          },
+          {
+            "title": "Understanding RL for model training, and future directions with GRAPE",
+            "url": "https://arxiv.org/abs/2509.04501",
+            "source": "Hacker News",
+            "summary": "An arXiv preprint surveys reinforcement learning approaches for training large AI models and proposes future research directions, including GRAPE and scalable RL methods."
+          }
+        ]
+      },
+      {
+        "category": "Health & Medicine",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Oral Microbes Linked to 3-Fold Increased Risk of Pancreatic Cancer",
+            "url": "https://nyulangone.org/news/oral-microbes-linked-increased-risk-pancreatic-cancer",
+            "source": "Hacker News",
+            "summary": "A study associates specific oral microbiome profiles with a threefold increased risk of pancreatic cancer, discussing design, markers, and possible mechanisms."
+          }
+        ]
+      },
+      {
+        "category": "Netherlands & Europe",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Achter: Minister wijst nieuwe woningbouwlocaties aan",
+            "url": "https://nos.nl/artikel/2584147-minister-wijst-nieuwe-woningbouwlocaties-aan-ruimte-is-maar-een-keer-te-verdelen",
+            "source": "NOS",
+            "summary": "Dutch housing plan designates 130+ development sites intended to increase housing stock; details on criteria and governance to follow in full piece."
+          },
+          {
+            "title": "Indonesië vroeg al decennia om schedel van Naturalis: 'Heel emotioneel'",
+            "url": "https://nos.nl/artikel/2584156-indonesie-vroeg-al-decennia-om-schedel-van-naturalis-heel-emotioneel",
+            "source": "NOS",
+            "summary": "Indonesia requests the skull of Dubois and 28,000 fossils; Dutch authorities repatriate artifacts, described as emotionally significant."
+          },
+          {
+            "title": "Slowakije perkt lhbti-rechten in en zet Europese recht op tweede plan",
+            "url": "https://nos.nl/artikel/2584166-slowakije-perkt-lhbti-rechten-in-en-zet-europese-recht-op-tweede-plan",
+            "source": "NOS",
+            "summary": "Slovakia restricts LGBT rights and sidelining European law in national policy discussions, provoking concerns about EU norms."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Honkballers EK-finalist, werper Kelly maakt indruk als invaller tegen Spanje",
+            "url": "https://nos.nl/artikel/2584182-honkballers-ek-finalist-werper-kelly-maakt-indruk-als-invaller-tegen-spanje",
+            "source": "NOS",
+            "summary": "The Netherlands baseball team reaches the EK final after a strong innings showing by pitcher Kelly as a substitute against Spain."
+          },
+          {
+            "title": "Twee eredivisie-onderonsjes in eerste ronde KNVB-beker, Twente treft amateurs",
+            "url": "https://nos.nl/artikel/2584158-twee-eredivisie-onderonsjes-in-eerste-ronde-knvb-beker-twente-treft-amateurs",
+            "source": "NOS",
+            "summary": "The KNVB Cup first round draw includes two Eredivisie clashes: NAC vs Heracles and Sparta vs Groningen."
+          }
+        ]
+      },
+      {
+        "category": "International & Domestic Politics",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Trump Fired a U.S. Attorney Who Insisted on Following a Court Order",
+            "url": "https://www.nytimes.com/2025/09/26/us/politics/trump-fires-us-attorney-california-immigration.html",
+            "source": "The New York Times",
+            "summary": "President Trump fired a U.S. Attorney who had insisted on following a court order related to immigration enforcement in California."
+          },
+          {
+            "title": "The Testimony at the Heart of the Comey Indictment, Examined",
+            "url": "https://www.nytimes.com/2025/09/26/us/politics/james-comey-testimony-trump.html",
+            "source": "The New York Times",
+            "summary": "The New York Times analyzes testimony central to the Comey indictment and its implications for the case."
+          },
+          {
+            "title": "Justice Dept. Agents to Protect ICE Facilities, Attorney General Says",
+            "url": "https://www.nytimes.com/2025/09/26/us/doj-agents-ice-facilities.html",
+            "source": "The New York Times",
+            "summary": "Following a deadly attack on an ICE facility in Dallas, DOJ agents are deployed to protect ICE facilities nationwide."
+          },
+          {
+            "title": "Des Moines Schools Chief Is Detained and Accused of Living in U.S. Illegally",
+            "url": "https://www.nytimes.com/2025/09/26/us/politics/des-moines-schools-ice-immigration.html",
+            "source": "The New York Times",
+            "summary": "Des Moines schools chief detained by ICE amid immigration enforcement activity, with a deportation order issued in May 2024."
+          },
+          {
+            "title": "Kushner’s Firm Is Said to Be Part of $50 Billion Buyout of Electronic Arts",
+            "url": "https://www.nytimes.com/2025/09/26/business/electronic-arts-buyout-jared-kushner.html",
+            "source": "The New York Times",
+            "summary": "Jared Kushner’s Affinity Partners reportedly involved in a potential $50B buyout of Electronic Arts, with Gulf Investment involvement."
+          },
+          {
+            "title": "Trump Expands Tariffs Beyond Supreme Court’s Reach",
+            "url": "https://www.nytimes.com/2025/09/26/us/politics/trump-tariffs-supreme-court.html",
+            "source": "The New York Times",
+            "summary": "Trump applies tariffs on foreign drugs and furniture under national security authorities, beyond existing lawsuits."
+          },
+          {
+            "title": "What’s behind the massive AI data center headlines?",
+            "url": "https://techcrunch.com/2025/09/26/whats-behind-the-massive-ai-data-center-headlines/",
+            "source": "TechCrunch",
+            "summary": "(See Technology & AI) TechCrunch analyzes AI data center expansion and policy considerations; included here for cross-topic relevance."
+          },
+          {
+            "title": "Trump may impose per-chip tariff on foreign electronics",
+            "url": "https://9to5mac.com/2025/09/26/trump-may-impose-per-chip-tariff-on-foreign-electronics/",
+            "source": "9to5Mac",
+            "summary": "Reuters reports possible per-chip tariff scheme on foreign electronics, outlining the metric used for configuration."
+          },
+          {
+            "title": "Trump orders admin to declassify all records of Amelia Earhart, her final trip",
+            "url": "https://www.axios.com/2025/09/26/trump-declassify-amelia-earhart-final-trip",
+            "source": "Axios",
+            "summary": "Trump directs declassification of Amelia Earhart records, outlining scope and potential historical insights."
+          },
+          {
+            "title": "Trump demands Microsoft oust global affairs chief over Biden-era ties",
+            "url": "https://www.axios.com/2025/09/26/trump-microsoft-lisa-monaco",
+            "source": "Axios",
+            "summary": "Trump calls for the removal of Microsoft’s global affairs chief due to perceived Biden-era ties, prompting governance and lobbying discourse."
+          }
+        ]
+      },
+      {
+        "category": "Profiles & Media",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Robert Barnett: Literary agent to Obamas, Bushes, Clintons was a 'doorman to Washington'",
+            "url": "https://www.axios.com/2025/09/26/robert-barnett-agent",
+            "source": "Axios",
+            "summary": "A profile of Robert Barnett, a literary agent known for advising presidents and political figures and facilitating access and book deals."
+          },
+          {
+            "title": "Jimmy Kimmel to return to Nexstar and Sinclair's ABC affiliates Friday",
+            "url": "https://www.axios.com/2025/09/26/jimmy-kimmel-returns-sinclair-abc-affiliates",
+            "source": "Axios",
+            "summary": "Axios reports Jimmy Kimmel returning to local ABC affiliates, detailing distribution and syndication arrangements."
+          }
+        ]
+      },
+      {
+        "category": "Public Health & Humanitarian Crisis",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Artsen zonder Grenzen schort medische noodhulp in Gaza-Stad op",
+            "url": "https://nos.nl/artikel/2584181-artsen-zonder-grenzen-schort-medische-noodhulp-in-gaza-stad-op",
+            "source": "NOS",
+            "summary": "MSF suspends emergency medical aid in Gaza City due to safety risks and operational constraints in the conflict region."
+          }
+        ]
+      },
+      {
+        "category": "Industrial & Transport Policy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "US cities pay too much for buses",
+            "url": "https://www.bloomberg.com/news/articles/2025-09-26/us-cities-are-paying-too-much-for-new-transit-buses",
+            "source": "Bloomberg",
+            "summary": "Bloomberg analyzes municipal bus procurement costs, noting high prices and suggesting reforms to curb capital and operating costs."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1758946393342
+  },
+  {
     "date": "September 26th, 2025",
     "introText": "This digest covers advances in AI and computing, regulatory and policy debates around technology, major international and domestic policy actions, notable business and market moves, plus sports and culture coverage from the last 24 hours.",
     "categories": [
