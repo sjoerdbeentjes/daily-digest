@@ -1,5 +1,330 @@
 [
   {
+    "date": "September 28th, 2025",
+    "introText": "Today's digest covers technology policy and AI developments, major US political and legal news, international sanctions and security issues, business deals and valuations, scientific reporting, culture and arts, and notable sports and entertainment updates. It groups articles by topic and summarizes the key facts reported in each piece without analysis.",
+    "categories": [
+      {
+        "category": "Technology",
+        "commentary": "Tech policy, AI, cybersecurity, and consumer-tech developments.",
+        "articles": [
+          {
+            "title": "Can Google be trusted without a break up?",
+            "url": "https://www.theverge.com/policy/786930/google-doj-ad-tech-remedies-break-up-trust",
+            "source": "The Verge",
+            "summary": "The Verge reports the DOJ is examining antitrust remedies for Google beyond penalties, including structural options and behavioral constraints, within a broader regulatory context."
+          },
+          {
+            "title": "The Blink security camera app was down, but Amazon rolled out a fix",
+            "url": "https://www.theverge.com/news/786900/amazon-blink-security-cameras-down-503-403-error",
+            "source": "The Verge",
+            "summary": "The Verge describes a Blink outage that disrupted access to feeds and app functions for some users and notes that Amazon rolled out a fix to restore service."
+          },
+          {
+            "title": "Missing Pop-Up Video.",
+            "url": "https://www.theverge.com/news/786697/youtube-labs-ai-experiment-music-radio-hosts",
+            "source": "The Verge",
+            "summary": "The Verge covers YouTube Labs’ AI-hosted music-radio experiment and discusses potential effects on programming, authenticity, and copyright in AI-generated content."
+          },
+          {
+            "title": "The UK announces mandatory digital ID plans",
+            "url": "https://www.theverge.com/news/786323/uk-digital-id-plans-mandatory-immigration-crackdown",
+            "source": "The Verge",
+            "summary": "The Verge reports the UK government’s plan for mandatory digital IDs, outlining timelines, safeguards, and privacy concerns."
+          },
+          {
+            "title": "Google reveals its Android for PC is coming next year",
+            "url": "https://www.theverge.com/tech/785351/google-reveals-its-android-for-pc-is-coming-next-year",
+            "source": "The Verge",
+            "summary": "The Verge notes Google’s plan to bring Android apps to desktop PC environments next year, with anticipated features and compatibility considerations."
+          },
+          {
+            "title": "Xiaomi 17 series arrives with secondary screens and enormous batteries",
+            "url": "https://www.theverge.com/news/785693/xiaomi-17-pro-max-china-launch-specs-price-second-screen",
+            "source": "The Verge",
+            "summary": "The Verge reports Xiaomi’s 17-series launch featuring secondary displays and large batteries, with pricing and release timing for China."
+          },
+          {
+            "title": "Google Android for PC coming next year",
+            "url": "https://www.theverge.com/tech/785351/google-reveals-its-android-for-pc-is-coming-next-year",
+            "source": "The Verge",
+            "summary": "(Duplicate listing kept to reflect coverage of Android-for-PC) Android for PC is planned for next year, expanding desktop integration of Android apps."
+          },
+          {
+            "title": "A WebGL game where you deliver messages on a tiny planet",
+            "url": "https://messenger.abeto.co/",
+            "source": "Hacker News",
+            "summary": "Hacker News highlights a WebGL game about delivering messages on a tiny planet (content limited in provided text)."
+          }
+        ]
+      },
+      {
+        "category": "Technology",
+        "commentary": "Security, AI, hardware, and consumer-tech updates.",
+        "articles": [
+          {
+            "title": "A Postmark backdoor that’s downloading emails",
+            "url": "https://www.koi.security/blog/postmark-mcp-npm-malicious-backdoor-email-theft",
+            "source": "Hacker News",
+            "summary": "The entry discusses a Postmark backdoor in MCP/NPM that facilitates downloading emails and potential email theft."
+          },
+          {
+            "title": "SSH3: Faster and rich secure shell using HTTP/3",
+            "url": "https://github.com/francoismichel/ssh3",
+            "source": "Hacker News",
+            "summary": "The Hacker News item covers SSH3, a faster, feature-rich secure shell that uses HTTP/3."
+          },
+          {
+            "title": "Handy – Free open-source speech-to-text app written in Rust",
+            "url": "https://handy.computer/",
+            "source": "Hacker News",
+            "summary": "Handy is an open-source Rust-based speech-to-text app highlighted for its accessibility and technology."
+          },
+          {
+            "title": "Learn to Play Go",
+            "url": "https://online-go.com/learn-to-play-go",
+            "source": "Hacker News",
+            "summary": "The article points readers to online resources to learn how to play Go."
+          },
+          {
+            "title": "The Hacker Folk Art of Esoteric Coding",
+            "url": "https://thereader.mitpress.mit.edu/the-hacker-folk-art-of-esoteric-coding",
+            "source": "Hacker News",
+            "summary": "An exploration of esoteric coding as a form of hacker folk art."
+          },
+          {
+            "title": "A WebGL game where you deliver messages on a tiny planet",
+            "url": "https://messenger.abeto.co/",
+            "source": "Hacker News",
+            "summary": "A WebGL game concept focusing on delivering messages on a small planet (content limited in excerpt)."
+          }
+        ]
+      },
+      {
+        "category": "Politics",
+        "commentary": "US political developments, policy decisions, and legal actions.",
+        "articles": [
+          {
+            "title": "Inside the Trump Administration’s Push to Prosecute James Comey",
+            "url": "https://www.nytimes.com/2025/09/27/us/politics/trump-comey-justice-department.html",
+            "source": "The New York Times",
+            "summary": "The New York Times analyzes how the Trump administration intensified efforts to prosecute James Comey within a broader political strategy."
+          },
+          {
+            "title": "Trump’s Repeated Attacks May Undercut Case Against Comey",
+            "url": "https://www.nytimes.com/2025/09/27/us/politics/trump-comey-vindictive-prosecution.html",
+            "source": "The New York Times",
+            "summary": "The Times argues that Trump’s ongoing public attacks on the investigation could complicate the government’s case and influence courtroom perceptions."
+          },
+          {
+            "title": "The Testimony at the Heart of the Comey Indictment, Examined",
+            "url": "https://www.nytimes.com/2025/09/26/us/politics/james-comey-testimony-trump.html",
+            "source": "The New York Times",
+            "summary": "An in-depth look at a pivotal testimony central to the Comey-related indictment and its potential impact on the case trajectory."
+          },
+          {
+            "title": "Giuliani and Dominion Voting Systems Settle $1.3 Billion Defamation Suit",
+            "url": "https://www.nytimes.com/2025/09/27/us/politics/rudy-giuliani-dominion-case-settlement.html",
+            "source": "The New York Times",
+            "summary": "Giuliani and Dominion Voting Systems settle a defamation suit for $1.3 billion over false election claims."
+          },
+          {
+            "title": "The Debate Style That Propelled Charlie Kirk’s Movement",
+            "url": "https://www.nytimes.com/interactive/2025/09/27/us/politics/charlie-kirk-debate.html",
+            "source": "The New York Times",
+            "summary": "The Times analyzes Charlie Kirk’s debate style and its influence on his political movement."
+          },
+          {
+            "title": "Trump orders admin to declassify all records of Amelia Earhart, her final trip",
+            "url": "https://axios.com/2025/09/26/trump-declassify-amelia-earhart-final-trip",
+            "source": "Axios",
+            "summary": "Axios reports President Trump ordered declassification of records related to Amelia Earhart’s final trip."
+          }
+        ]
+      },
+      {
+        "category": "World News",
+        "commentary": "Global events, sanctions, elections, and international diplomacy.",
+        "articles": [
+          {
+            "title": "Iranians Brace for Economic Impact of New UN Sanctions",
+            "url": "https://www.nytimes.com/2025/09/27/world/middleeast/sanctions-iran-economy-snapback.html",
+            "source": "The New York Times",
+            "summary": "The Times analyzes the anticipated economic impact of new UN sanctions on Iran and likely domestic responses."
+          },
+          {
+            "title": "For Many Moldovans, Their Election Is a Choice Between Russia and the E.U.",
+            "url": "https://www.nytimes.com/2025/09/27/world/europe/moldova-election-russia-eu.html",
+            "source": "The New York Times",
+            "summary": "The Times examines Moldova’s parliamentary elections amid geopolitical pressure between Russia and the EU."
+          },
+          {
+            "title": "Stampede at Actor’s Political Rally Kills at Least 36 People in India",
+            "url": "https://www.nytimes.com/2025/09/22/world/asia/stampede-vijay-rally-india.html",
+            "source": "The New York Times",
+            "summary": "News of a deadly stampede at a political rally in India with numerous fatalities."
+          },
+          {
+            "title": "Netanyahu’s Defiant U.N. Speech Was Aimed at Home as Well as the World",
+            "url": "https://www.nytimes.com/2025/09/27/world/middleeast/israel-netanyahu-united-nations.html",
+            "source": "The New York Times",
+            "summary": "Analysis of Netanyahu’s UN speech as a message for both international audiences and domestic voters."
+          },
+          {
+            "title": "Tientallen demonstreren in Berlijn tegen Israëlisch geweld in Gaza",
+            "url": "https://nos.nl/artikel/2584309-tienduizenden-demonstreren-in-berlijn-tegen-israelisch-geweld-in-gaza",
+            "source": "NOS",
+            "summary": "Dutch report on tens of thousands demonstrating in Berlin against Israeli violence in Gaza."
+          },
+          {
+            "title": "Dominant Europa koerst af op ruime zege in Ryder Cup",
+            "url": "https://nos.nl/artikel/2584323-dominant-europa-koerst-af-op-ruime-zege-in-ryder-cup-verschil-7-punten-na-twee-dagen",
+            "source": "NOS",
+            "summary": "Europe leads the Ryder Cup by 7 points after two days, with potential final-day implications."
+          },
+          {
+            "title": "Honkballers voor de 25ste keer Europees kampioen na krappe zege op rivaal Italië",
+            "url": "https://nos.nl/artikel/2584305-honkballers-voor-de-25ste-keer-europees-kampioen-na-krappe-zege-op-rivaal-italie",
+            "source": "NOS",
+            "summary": "The Netherlands win the European baseball championship after a close win over Italy."
+          },
+          {
+            "title": "Lavrov bij VN: 'Rusland wil Europa niet aanvallen, maar agressie wordt beantwoord'",
+            "url": "https://nos.nl/artikel/2584293-lavrov-bij-vn-rusland-wil-europa-niet-aanvallen-maar-agressie-wordt-beantwoord",
+            "source": "NOS",
+            "summary": "Lavrov states at the UN that Russia does not intend to attack Europe but will respond to aggression."
+          },
+          {
+            "title": "Tientallen doden door verdrukking in India bij verkiezingsbijeenkomst",
+            "url": "https://nos.nl/artikel/2584291-tientallen-doden-door-verdrukking-in-india-bij-verkiezingsbijeenkomst",
+            "source": "NOS",
+            "summary": "News of dozens killed in a crowd crush at a political rally in India."
+          },
+          {
+            "title": "Opnieuw VN-sancties tegen Iran ingesteld",
+            "url": "https://nos.nl/artikel/2584326-opnieuw-vn-sancties-tegen-iran-ingesteld",
+            "source": "NOS",
+            "summary": "The UN imposes new sanctions on Iran over its nuclear program."
+          },
+          {
+            "title": "Trump kondigt inzet militairen in stad Portland aan",
+            "url": "https://nos.nl/artikel/2584324-trump-kondigt-inzet-militairen-in-stad-portland-aan",
+            "source": "NOS",
+            "summary": "Trump announces deployment of troops to Portland to address protests around ICE centers."
+          },
+          {
+            "title": "Drone-incidenten leggen zwakke plekken NAVO-luchtverdediging bloot",
+            "url": "https://nos.nl/nieuwsuur/artikel/2584315-drone-incidenten-leggen-zwakke-plekken-navo-luchtverdediging-bloot",
+            "source": "NOS",
+            "summary": "Drones expose weaknesses in NATO air defense and call for expanded defenses and investment."
+          },
+          {
+            "title": "Rusland ziet laatste kans om de EU-ambities van Moldavië te stoppen",
+            "url": "https://nos.nl/artikel/2584327-rusland-ziet-laatste-kans-om-de-eu-ambities-van-moldavie-te-stoppen",
+            "source": "NOS",
+            "summary": "Russia seeks to influence Moldova’s EU aspirations ahead of elections."
+          },
+          {
+            "title": "Oktoberfest München tijdelijk dicht om drukte: 'We konden geen kant op'",
+            "url": "https://nos.nl/artikel/2584310-terrein-oktoberfeest-munchen-tijdelijk-dicht-om-drukte-we-konden-geen-kant-op",
+            "source": "NOS",
+            "summary": "Oktoberfest grounds closed temporarily due to crowding and safety concerns."
+          },
+          {
+            "title": "Zij: tienduizenden demonstreren in Berlijn tegen Israëlisch geweld in Gaza",
+            "url": "https://nos.nl/artikel/2584309-tienduizenden-demonstreren-in-berlijn-tegen-israelisch-geweld-in-gaza",
+            "source": "NOS",
+            "summary": "Berlin demonstrations against Israeli actions in Gaza with large turnout."
+          },
+          {
+            "title": "Na twee eerdere pogingen is het er nu: het eerste Nederlandse museum gewijd aan Suriname",
+            "url": "https://nrc.nl/nieuws/2025/09/26/na-twee-eerdere-pogingen-is-het-er-nu-het-eerste-nederlandse-museum-gewijd-aan-suriname-a4907644",
+            "source": "NRC",
+            "summary": "Amsterdam opens the first Dutch museum dedicated to Suriname, highlighting culture and history."
+          }
+        ]
+      },
+      {
+        "category": "Culture",
+        "commentary": "Arts, heritage, and cultural personalities.",
+        "articles": [
+          {
+            "title": "Actrice Tilda Swinton bekijkt, bevoelt en besnuffelt haar kledingcollectie tijdens een performance in Amsterdam",
+            "url": "https://nrc.nl/nieuws/2025/09/27/actrice-tilda-swinton-bekijkt-bevoelt-en-besnuffelt-haar-kledingcollectie-tijdens-een-performance-in-amsterdam-a4907674",
+            "source": "NRC",
+            "summary": "Tilda Swinton performs in Amsterdam, examining and presenting her clothing collection as part of an immersive exhibition."
+          },
+          {
+            "title": "Constantin Brancusi legde de basis voor moderne sculptuur, in zijn spoor ging Isamu Noguchi verder",
+            "url": "https://nrc.nl/nieuws/2025/09/26/constantin-brancusi-legde-de-basis-voor-moderne-sculptuur-in-hzijn-spoor-ging-isamu-noguchi-verder-a4907547",
+            "source": "NRC",
+            "summary": "A cultural piece on Brancusi’s influence on modern sculpture and Noguchi’s continuation of that legacy."
+          },
+          {
+            "title": "Na twee eerdere pogingen is het er nu: het eerste Nederlandse museum gewijd aan Suriname",
+            "url": "https://nrc.nl/nieuws/2025/09/26/na-twee-eerdere-pogingen-is-het-er-nu-het-eerste-nederlandse-museum-gewijd-aan-suriname-a4907644",
+            "source": "NRC",
+            "summary": "An art and culture feature on the opening of the first Dutch museum dedicated to Suriname."
+          },
+          {
+            "title": "Opeens moest de directeur van het Nederlands Fotomuseum vertrekken. Waarom?",
+            "url": "https://nrc.nl/nieuws/2025/09/25/opeens-moest-de-directeur-van-het-nederlands-fotomuseum-vertrekken-waarom-a4907436",
+            "source": "NRC",
+            "summary": "An investigation into the sudden departure of the Dutch Fotomuseum director and organizational dynamics."
+          },
+          {
+            "title": "Henri Bontenbal: ‘Mijn handen jeuken om premier te worden’",
+            "url": "https://nrc.nl/nieuws/2025/09/25/mijn-handen-jeuken-om-premier-te-worden-a4907424",
+            "source": "NRC",
+            "summary": "Interview with CDA leader about his ambition to become prime minister and leadership approach."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "Recent European and international sports results.",
+        "articles": [
+          {
+            "title": "Dominant Europa koerst af op ruime zege in Ryder Cup, verschil 7 punten na twee dagen",
+            "url": "https://nos.nl/artikel/2584323-dominant-europa-koerst-af-op-ruime-zege-in-ryder-cup-verschil-7-punten-na-twee-dagen",
+            "source": "NOS",
+            "summary": "Europe leads the Ryder Cup by seven points after two days, setting up a potential close final day."
+          },
+          {
+            "title": "Honkballers voor de 25ste keer Europees kampioen na krappe zege op rivaal Italië",
+            "url": "https://nos.nl/artikel/2584305-honkballers-voor-de-25ste-keer-europees-kampioen-na-krappe-zege-op-rivaal-italie",
+            "source": "NOS",
+            "summary": "The Netherlands win the European baseball championship with a narrow victory over Italy."
+          }
+        ]
+      },
+      {
+        "category": "Science",
+        "commentary": "Scientific reporting and health, climate, and space topics.",
+        "articles": [
+          {
+            "title": "Dear LA, you deserve better than the Clippers’ carbon scandal",
+            "url": "https://www.theverge.com/science/786067/clippers-kawhi-leonard-salary-cap-investigation-carbon-credit-climate-change",
+            "source": "The Verge",
+            "summary": "Justine Calma analyzes the Clippers’ carbon-credit investigations and sustainability reporting within sports."
+          },
+          {
+            "title": "NASA drops ISS cargo guarantee, forcing Sierra Space to pivot",
+            "url": "https://techcrunch.com/2025/09/26/sierra-spaces-spaceplane-faces-a-reinvention-after-nasa-contract-change/",
+            "source": "TechCrunch",
+            "summary": "NASA changes its ISS cargo guarantee, prompting Sierra Space to pivot its spaceplane plans and affecting resupply activities."
+          },
+          {
+            "title": "Man still alive six months after pig kidney transplant",
+            "url": "https://www.nature.com/articles/d41586-025-02851-w",
+            "source": "Hacker News",
+            "summary": "A case report noting survival six months after a pig kidney transplant."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759032862166
+  },
+  {
     "date": "September 27th, 2025",
     "introText": "This digest surveys tech policy and AI developments, major corporate and product news, international politics, and notable regional stories from Europe and the Netherlands, with additional items on science, sports, and entertainment. It groups articles by topic and provides concise, fact-focused summaries of each piece.",
     "categories": [
