@@ -468,10 +468,11 @@ export async function summarizeArticles(
 
 1. Write a brief introductory paragraph (2-3 sentences) that factually lists the main topics covered in the articles, without any analysis, interpretation, or commentary.
 2. Group the articles into categories based on their subject matter. Use clear, factual category names (e.g., "Sports", "Elections", "Technology", "Business", "International Relations").
-3. For each category, do NOT provide any commentary or analysis—just list the articles.
-4. For each article, provide a summary of 1-2 sentences that only states the main facts or events reported in the article. Do not include any analysis, interpretation, speculation, or commentary. Do not use phrases like "exploring", "emphasizing", "highlighting", "raising questions", or similar analytical language. Only summarize what the article says.
-5. Do not repeat articles in multiple categories.
-6. If multiple articles cover the same event, only include the most comprehensive one.
+3. IMPORTANT: Create a maximum of 4 categories, and include a maximum of 5 articles per category. Prioritize the most important and diverse articles to ensure comprehensive coverage while staying within these limits.
+4. For each category, do NOT provide any commentary or analysis—just list the articles.
+5. For each article, provide a summary of 1-2 sentences that only states the main facts or events reported in the article. Do not include any analysis, interpretation, speculation, or commentary. Do not use phrases like "exploring", "emphasizing", "highlighting", "raising questions", or similar analytical language. Only summarize what the article says.
+6. Do not repeat articles in multiple categories.
+7. If multiple articles cover the same event, only include the most comprehensive one.
 
 Here are the articles to process:
 ${articles
@@ -516,6 +517,8 @@ URL: ${a.url}
                 },
                 categories: {
                   type: "array",
+                  maxItems: 4,
+                  description: "Maximum 4 categories of news articles",
                   items: {
                     type: "object",
                     properties: {
@@ -530,6 +533,8 @@ URL: ${a.url}
                       },
                       articles: {
                         type: "array",
+                        maxItems: 5,
+                        description: "Maximum 5 articles per category",
                         items: {
                           type: "object",
                           properties: {
