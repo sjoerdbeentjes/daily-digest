@@ -1,5 +1,522 @@
 [
   {
+    "date": "September 29th, 2025",
+    "introText": "This daily digest covers advances in technology and AI, regulatory and political developments affecting tech and society, major international politics and security events, notable health and science topics, plus sports, culture, and entertainment items. It groups articles by topic and summarizes the key facts reported in each piece without analysis.",
+    "categories": [
+      {
+        "category": "Technology",
+        "commentary": "AI, devices, cybersecurity, and major tech policy developments.",
+        "articles": [
+          {
+            "title": "Apple’s ‘Veritas’ chatbot is reportedly an employee-only test of Siri’s AI upgrades",
+            "url": "https://www.theverge.com/news/787046/apples-veritas-siri-ai-chatbot",
+            "source": "The Verge",
+            "summary": "The Verge reports Apple is testing an internal AI chatbot named Veritas with employees to explore Siri upgrades and potential integrations with Apple services."
+          },
+          {
+            "title": "The TikTok deal raises more questions than answers",
+            "url": "https://www.theverge.com/report/786748/tiktok-deal-trump-administration-legal-uncertainty",
+            "source": "The Verge",
+            "summary": "The Verge outlines regulatory and political uncertainty around TikTok in the U.S., noting concerns about national security, data privacy, and content moderation."
+          },
+          {
+            "title": "What to expect from Amazon’s big fall hardware event on Tuesday",
+            "url": "https://www.theverge.com/news/786455/amazon-fall-hardware-event-2025-what-to-expect-alexa-echo-kindle",
+            "source": "The Verge",
+            "summary": "The Verge previews Amazon’s fall hardware event, outlining expected announcements across Echo devices, Kindle, Fire TV, and other smart-home devices."
+          },
+          {
+            "title": "Can Google be trusted without a break up?",
+            "url": "https://www.theverge.com/policy/786930/google-doj-ad-tech-remedies-break-up-trust",
+            "source": "The Verge",
+            "summary": "The Verge analyzes DOJ antitrust pressure on Google and the debate over remedies and their impact on competition."
+          },
+          {
+            "title": "The AI services transformation may be harder than VCs think",
+            "url": "https://techcrunch.com/2025/09/28/the-ai-services-transformation-may-be-harder-than-vcs-think/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch argues AI-powered services require changes in enterprise workflows, data governance, and cross-system integration, with privacy and regulatory hurdles."
+          },
+          {
+            "title": "DJI loses lawsuit over classification as Chinese military company",
+            "url": "https://techcrunch.com/2025/09/28/dji-loses-lawsuit-over-classification-as-chinese-military-company/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports DJI’s loss in seeking civilian-military classification, with potential export-control implications."
+          },
+          {
+            "title": "Wiz chief technologist Ami Luttwak on how AI is transforming cyberattacks",
+            "url": "https://techcrunch.com/2025/09/28/wiz-chief-technologist-ami-luttwak-on-how-ai-is-transforming-cyberattacks/",
+            "source": "TechCrunch",
+            "summary": "Wiz’s Ami Luttwak discusses how AI is enabling AI-assisted phishing, evasion of defenses, and rapid vulnerability discovery."
+          },
+          {
+            "title": "How South Korea plans to best OpenAI, Google, others with homegrown AI",
+            "url": "https://techcrunch.com/2025/09/27/how-south-korea-plans-to-best-openai-google-others-with-homegrown-ai/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch outlines Korea’s strategy for domestic AI development through government funding, reforms, and public–private collaboration."
+          },
+          {
+            "title": "The billion-dollar infrastructure deals powering the AI boom",
+            "url": "https://techcrunch.com/2025/09/28/the-billion-dollar-infrastructure-deals-powering-the-ai-boom/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch analyzes AI-related infrastructure deals in data centers, cloud contracts, and semiconductors and their market impact."
+          },
+          {
+            "title": "Electronic Arts will reportedly be acquired for $50B",
+            "url": "https://techcrunch.com/2025/09/26/electronic-arts-will-reportedly-be-acquired-for-50b/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports talks of Electronic Arts being acquired for about $50B and the potential industry impact."
+          },
+          {
+            "title": "TechCrunch Mobility: Self-driving trucks startup Kodiak goes public and a shake-up at Hyundai’s Supernal",
+            "url": "https://techcrunch.com/2025/09/28/techcrunch-mobility-self-driving-trucks-startup-kodiak-goes-public-and-a-shake-up-at-hyundais-supernal/",
+            "source": "TechCrunch",
+            "summary": "Kodiak goes public and Hyundai’s Supernal undergoes leadership changes, with implications for autonomous trucking investments."
+          },
+          {
+            "title": "Vinod Khosla on AI, moonshots, and building enduring startups — all at TechCrunch Disrupt 2025",
+            "url": "https://techcrunch.com/2025/09/23/vinod-khosla-on-ai-moonshots-and-building-enduring-startups-all-at-techcrunch-disrupt-2025/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch covers Vinod Khosla’s views on pursuing ambitious AI and hardware moonshots at Disrupt 2025."
+          },
+          {
+            "title": "Checkout.com’s new $12B valuation is a glass half-full situation",
+            "url": "https://techcrunch.com/2025/09/26/checkout-coms-new-12b-valuation-is-a-glass-half-full-situation/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch analyzes Checkout.com’s $12B valuation and implications for payments infrastructure and fintech funding."
+          },
+          {
+            "title": "Testing “Exotic” P2P VPN",
+            "url": "https://blog.nommy.moe/blog/exotic-mesh-vpn/",
+            "source": "Hacker News",
+            "summary": "Hacker News discusses a peer-to-peer VPN approach and its privacy and security considerations."
+          },
+          {
+            "title": "The QMA Singularity",
+            "url": "https://scottaaronson.blog/?p=9183",
+            "source": "Hacker News",
+            "summary": "Scott Aaronson explores quantum complexity and speculative ideas about a quantum computing singularity."
+          },
+          {
+            "title": "Comparing Rust to Carbon",
+            "url": "https://lwn.net/Articles/1036912/",
+            "source": "Hacker News",
+            "summary": "LWN.net compares Rust and Carbon in systems programming, including safety and ecosystem trade-offs."
+          },
+          {
+            "title": "Zero ASIC releases Wildebeest, the highest performance FPGA synthesis tool",
+            "url": "https://www.zeroasic.com/blog/wildebeest-launch",
+            "source": "Hacker News",
+            "summary": "Zero ASIC announces Wildebeest, an FPGA synthesis tool with high performance features."
+          },
+          {
+            "title": "Security Bite: Mac users are finally taking malware seriously, per new report",
+            "url": "https://9to5mac.com/2025/09/28/security-bite-mac-users-are-finally-taking-malware-seriously/",
+            "source": "9to5Mac",
+            "summary": "Mac Security Survey 2025 finds increased concern about malware and notes built-in Apple protections."
+          },
+          {
+            "title": "Report: Apple ‘nearing’ mass production for M5 MacBook Pros and new Studio Display",
+            "url": "https://9to5mac.com/2025/09/28/new-macbook-air-macbook-pro-and-studio-display-nearing-mass-production-report/",
+            "source": "9to5Mac",
+            "summary": "Bloomberg’s Power On reports M5 MacBook Pro/Air and Studio Display nearing mass production."
+          },
+          {
+            "title": "iOS 26.0.1 coming soon for iPhone users [Updated]",
+            "url": "https://9to5mac.com/2025/09/27/ios-26-0-1-coming-soon-for-iphone-users/",
+            "source": "9to5Mac",
+            "summary": "iOS 26.0.1 expected soon to address Wi‑Fi, Bluetooth, and CarPlay issues affecting iPhone 17."
+          },
+          {
+            "title": "macOS 26 unlocks the real potential of Apple’s Journal app",
+            "url": "https://9to5mac.com/2025/09/27/macos-26-unlocks-the-real-potential-of-apples-journal-app/",
+            "source": "9to5Mac",
+            "summary": "macOS Tahoe 26 makes Journal cross‑platform across iPhone, iPad, and Mac."
+          },
+          {
+            "title": "Indie App Spotlight: ‘TimeWave’ helps you create flowing timers, all with a clean design",
+            "url": "https://9to5mac.com/2025/09/27/indie-app-spotlight-timewave-timer-app-for-iphone/",
+            "source": "9to5Mac",
+            "summary": "TimeWave highlighted as a timer app for flowing timers and sequential tasks."
+          },
+          {
+            "title": "The latest design from Jony Ive’s LoveFrom is a stunning sailing lantern",
+            "url": "https://9to5mac.com/2025/09/27/the-latest-design-from-jony-ives-lovefrom-is-a-stunning-sailing-lantern/",
+            "source": "9to5Mac",
+            "summary": "LoveFrom’s sailing lantern design showcased as premium craftsmanship."
+          },
+          {
+            "title": "Day one iPhone 17, Pro, and Air accessories you need to try",
+            "url": "https://9to5mac.com/2025/09/27/day-one-phone-17-pro-and-air-accessories-you-need-to-try/#more-1021179",
+            "source": "9to5Mac",
+            "summary": "Shopping guide for iPhone 17 accessories and launch deals."
+          },
+          {
+            "title": "Apple @ Work: Emory’s first all-Apple hospital and Epic Mac app highlight company’s growing healthcare role",
+            "url": "https://9to5mac.com/2025/09/27/epics-native-mac-app-and-emorys-first-all-apple-hospital-highlight-apples-growing-role-in-healthcare/",
+            "source": "9to5Mac",
+            "summary": "Emory deploys Apple devices and native Epic Mac app, signaling Apple’s enterprise health role."
+          },
+          {
+            "title": "This recent Apple TV+ change potentially opens the door to an ad-supported plan",
+            "url": "https://9to5mac.com/2025/09/27/apple-tv-plus-ad-tier/",
+            "source": "9to5Mac",
+            "summary": "Apple TV+ price rise to 12.99 may enable an ad-supported tier."
+          },
+          {
+            "title": "Trump may impose per-chip tariff on foreign electronics",
+            "url": "https://9to5mac.com/2025/09/26/trump-may-impose-per-chip-tariff-on-foreign-electronics/",
+            "source": "9to5Mac",
+            "summary": "Trump weighs tariffs on foreign electronics based on chip count per device, per Reuters."
+          }
+        ]
+      },
+      {
+        "category": "Politics",
+        "commentary": "Policy debates, presidential actions, and government affairs affecting tech and society.",
+        "articles": [
+          {
+            "title": "Trump posts, then pulls bizarre AI video promoting MedBed conspiracy",
+            "url": "https://www.theverge.com/news/787042/trump-posts-then-pulls-bizarre-ai-video-promoting-medbed-conspiracy",
+            "source": "The Verge",
+            "summary": "The Verge reports an AI-generated video promoting a MedBed conspiracy posted by Donald Trump and subsequently removed."
+          },
+          {
+            "title": "Trump’s new target: Microsoft head of global affairs Lisa Monaco",
+            "url": "https://www.theverge.com/news/786885/trump-calls-for-firing-microsoft-lisa-monaco",
+            "source": "The Verge",
+            "summary": "The Verge covers Trump’s call to remove Lisa Monaco amid tech-policy tensions."
+          },
+          {
+            "title": "Trump demands Microsoft fire global affairs head Lisa Monaco",
+            "url": "https://techcrunch.com/2025/09/27/trump-demands-microsoft-fire-global-affairs-head-lisa-monaco/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports Trump’s demand that Microsoft fire Lisa Monaco, highlighting policy and governance implications."
+          },
+          {
+            "title": "In Going After His Foes, Trump Sets a Precedent That Could Haunt His Allies",
+            "url": "https://www.nytimes.com/2025/09/28/us/politics/trump-comey-retribution-precedent.html",
+            "source": "The New York Times",
+            "summary": "The New York Times analyzes Trump’s strategy of targeting opponents and its potential long-term democratic consequences."
+          },
+          {
+            "title": "President Raises Possibility of Inquiry Into Another Former F.B.I. Director",
+            "url": "https://www.nytimes.com/2025/09/28/us/politics/trump-wray-fbi.html",
+            "source": "The New York Times",
+            "summary": "The New York Times discusses Trump’s suggestion to open an inquiry into a former FBI director and its oversight implications."
+          },
+          {
+            "title": "Trump to Meet With Congressional Leaders as Shutdown Looms",
+            "url": "https://www.nytimes.com/2025/09/28/us/politics/trump-shutdown.html",
+            "source": "The New York Times",
+            "summary": "The New York Times outlines high-stakes budget negotiations amid the threat of a government shutdown."
+          },
+          {
+            "title": "How the H-1B Visa Fee Could Reshape Work Forces",
+            "url": "https://www.nytimes.com/2025/09/28/business/economy/h1b-visa-fee.html",
+            "source": "The New York Times",
+            "summary": "The New York Times analyzes how changes to H-1B visa fees could affect the U.S. labor market and international talent."
+          },
+          {
+            "title": "Trump’s $100,000 Visa Upends Lives: ‘My Dreams Were Shattered’",
+            "url": "https://www.nytimes.com/2025/09/29/business/india-h1b-visa-trump.html",
+            "source": "The New York Times",
+            "summary": "The New York Times profiles Indian students and families affected by visa changes."
+          },
+          {
+            "title": "Eric Adams Abandons Re-election Bid for Mayor of New York City",
+            "url": "https://www.nytimes.com/2025/09/28/us/politics/adams-mayor-drops-out.html",
+            "source": "The New York Times",
+            "summary": "The New York Times reports NYC Mayor Eric Adams ended his bid for re-election amid scandals."
+          },
+          {
+            "title": "Oregon sues Trump in bid to stop National Guard deployment to Portland",
+            "url": "https://axios.com/2025/09/29/oregon-portland-sue-trump-national-guard-troop-deployment",
+            "source": "Axios",
+            "summary": "Axios reports Oregon filed a lawsuit to block deployment of the National Guard to Portland."
+          },
+          {
+            "title": "No one wants to shoulder the government shutdown blame",
+            "url": "https://axios.com/2025/09/28/government-shutdown-schumer-thune-blame",
+            "source": "Axios",
+            "summary": "Axios discusses blame dynamics around a potential government shutdown."
+          },
+          {
+            "title": "Thune says farmers will need a bailout this year from tariff money",
+            "url": "https://axios.com/2025/09/28/trump-tariffs-farm-bailout-thune",
+            "source": "Axios",
+            "summary": "Axios reports Thune’s view that tariff revenue could fund a farm bailout."
+          },
+          {
+            "title": "Exclusive: Trump says Gaza peace deal in 'final stages'",
+            "url": "https://axios.com/2025/09/28/trump-gaza-peace-deal-israel-hamas",
+            "source": "Axios",
+            "summary": "Axios reports Trump’s claim that a Gaza peace deal is in its final stages."
+          },
+          {
+            "title": "Bad Bunny to headline Super Bowl halftime show in 2026",
+            "url": "https://axios.com/2025/09/29/bad-bunny-super-bowl-2026-headline-performer",
+            "source": "Axios",
+            "summary": "Axios reports Bad Bunny will headline the 2026 Super Bowl halftime show."
+          },
+          {
+            "title": "Teaching mahjong is the hot new gig",
+            "url": "https://axios.com/2025/09/27/mahjong-teacher-lesson",
+            "source": "Axios",
+            "summary": "Axios highlights a trend of people teaching mahjong as a side gig."
+          },
+          {
+            "title": "Eric Adams Abandons campaign for NYC mayor",
+            "url": "https://axios.com/2025/09/28/eric-adams-campaign-nyc-mayor",
+            "source": "Axios",
+            "summary": "Axios reports NYC Mayor Eric Adams ended his bid for the mayoralty."
+          }
+        ]
+      },
+      {
+        "category": "International Relations",
+        "commentary": "Diplomacy, security, and regional conflicts.",
+        "articles": [
+          {
+            "title": "Venezuela, America and the Specter of Regime Change",
+            "url": "https://www.nytimes.com/2025/09/28/world/venezuela-trump-comey-russia-ukraine-drones.html",
+            "source": "The New York Times",
+            "summary": "The New York Times analyzes U.S. policy toward Venezuela and regional aims amid sanctions and diplomacy."
+          },
+          {
+            "title": "Missing From a UN Meeting on Helping Refugees? The Refugees.",
+            "url": "https://www.nytimes.com/2025/09/28/world/asia/rohingya-refugees-un-general-assembly.html",
+            "source": "The New York Times",
+            "summary": "The Times examines the Rohingya refugee crisis and the absence of refugees at a UN General Assembly conference."
+          },
+          {
+            "title": "Hamas says contact lost with two hostages in Gaza City, calls for ceasefire",
+            "url": "https://nrc.nl/nieuws/2025/09/09/midden-oostenblog-9-september-a4905598",
+            "source": "NRC",
+            "summary": "Hamas states contact with two hostages is lost and calls for a 24-hour ceasefire."
+          },
+          {
+            "title": "Iran warns of 'appropriate' response to reimposed UN sanctions",
+            "url": "https://nrc.nl/nieuws/2025/09/28/vn-sancties-tegen-iran-om-kernprogramma-opnieuw-ingesteld-a4907698",
+            "source": "NRC",
+            "summary": "Iran warns of a suitable response to renewed UN sanctions."
+          },
+          {
+            "title": "Can Netanyahu charm Trump again to destroy Gaza?",
+            "url": "https://nrc.nl/nieuws/2025/09/28/kan-netanyahu-nog-een-keertje-trump-paaien-om-gaza-te-vernietigen-a4907715",
+            "source": "NRC",
+            "summary": "Analysis of Netanyahu’s attempt to secure renewed U.S. support for Israeli actions in Gaza."
+          },
+          {
+            "title": "Gaza peace deal would be part of a broader regional diplomacy effort",
+            "url": "https://axios.com/2025/09/28/trump-gaza-peace-deal-israel-hamas",
+            "source": "Axios",
+            "summary": "Axios describes a Gaza peace deal as part of broader regional diplomacy."
+          },
+          {
+            "title": "Oregon sues Trump in bid to stop National Guard deployment to Portland",
+            "url": "https://axios.com/2025/09/29/oregon-portland-sue-trump-national-guard-troop-deployment",
+            "source": "Axios",
+            "summary": "Axios reports Oregon lawsuit to block National Guard deployment amid security concerns."
+          },
+          {
+            "title": "Exclusive: Trump says Gaza peace deal in 'final stages'",
+            "url": "https://axios.com/2025/09/28/trump-gaza-peace-deal-israel-hamas",
+            "source": "Axios",
+            "summary": "Axios describes Trump’s claim that a Gaza peace deal is in final stages."
+          },
+          {
+            "title": "Pro-Europese partij wint parlementsverkiezingen Moldavië",
+            "url": "https://nrc.nl/nieuws/2025/09/28/pro-europese-partij-aan-kop-bij-verkiezingen-in-moldavie-a4907738",
+            "source": "NRC",
+            "summary": "NRC reports Moldova’s pro-European party won the parliamentary elections."
+          },
+          {
+            "title": "This recent Apple TV+ change potentially opens the door to an ad-supported plan",
+            "url": "https://9to5mac.com/2025/09/27/apple-tv-plus-ad-tier/",
+            "source": "9to5Mac",
+            "summary": "This 9to5Mac item discusses a potential ad-supported tier following a price change."
+          },
+          {
+            "title": "Drones above Denmark; government temporarily bans drone flights",
+            "url": "https://nrc.nl/nieuws/2025/09/28/opnieuw-drones-boven-denemarken-overheid-verbiedt-dronevluchten-tijdelijk-a4907719",
+            "source": "NRC",
+            "summary": "Denmark imposes a temporary drone-flight ban due to drone sightings near airports."
+          },
+          {
+            "title": "Hamas says contact lost with hostages in Gaza City; ceasefire urged",
+            "url": "https://nrc.nl/nieuws/2025/09/09/midden-oostenblog-9-september-a4905598",
+            "source": "NRC",
+            "summary": "Hamas reports losing contact with two hostages and calls for a ceasefire."
+          },
+          {
+            "title": "Iran warns of response to UN sanctions",
+            "url": "https://nrc.nl/nieuws/2025/09/28/vn-sancties-tegen-iran-om-kernprogramma-opnieuw-ingesteld-a4907698",
+            "source": "NRC",
+            "summary": "Iran warns of an appropriate response to renewed UN sanctions."
+          }
+        ]
+      },
+      {
+        "category": "Health",
+        "commentary": "Public health and medical reporting across infectious disease and mental health.",
+        "articles": [
+          {
+            "title": "Health officials in the US are sounding the alarm over drug-resistant bacteria",
+            "url": "https://www.aljazeera.com/news/2025/9/24/what-are-nightmare-bacteria-and-why-are-infections-rising-in-the-us",
+            "source": "Al Jazeera",
+            "summary": "Al Jazeera reports rising antibiotic-resistant bacteria and related public health concerns."
+          },
+          {
+            "title": "Recordaantal 65-plussers op spoedeisende hulp na valpartij",
+            "url": "https://nos.nl/artikel/2584473-recordaantal-65-plussers-op-spoedeisende-hulp-na-valpartij",
+            "source": "NOS",
+            "summary": "A record number of people aged 65+ visit emergency departments after falls."
+          },
+          {
+            "title": "Onderzoek: mentale volksgezondheid Nederland staat onder druk",
+            "url": "https://nos.nl/artikel/2584474-onderzoek-mentale-volksgezondheid-nederland-staat-onder-druk",
+            "source": "NOS",
+            "summary": "The Dutch health authority reports strain on mental health in the Netherlands."
+          }
+        ]
+      },
+      {
+        "category": "Science",
+        "commentary": "Academic and theoretical science topics",
+        "articles": [
+          {
+            "title": "Autism may be the price of human intelligence, linked to human brain evolution",
+            "url": "https://academic.oup.com/mbe/article/42/9/msaf189/8245036?login=false",
+            "source": "MBE",
+            "summary": "Research suggests a link between brain evolution and autism-related traits."
+          },
+          {
+            "title": "The QMA Singularity",
+            "url": "https://scottaaronson.blog/?p=9183",
+            "source": "Scott Aaronson Blog",
+            "summary": "Discussion of quantum complexity (QMA) and speculative ideas about a singularity."
+          }
+        ]
+      },
+      {
+        "category": "Sports",
+        "commentary": "Major league and international sports results and coverage.",
+        "articles": [
+          {
+            "title": "Europese golfers winnen enerverende Ryder Cup vol relletjes, gevloek en spanning",
+            "url": "https://nos.nl/artikel/2584467-europese-golfers-winnen-enerverende-ryder-cup-vol-relletjes-gevloek-en-spanning",
+            "source": "NOS",
+            "summary": "Europeans win a dramatic Ryder Cup with lively moments and heated exchanges."
+          },
+          {
+            "title": "Miedema scoort voor City, maar gat met Kapteins Chelsea blijft drie punten",
+            "url": "https://nos.nl/artikel/2584459-miedema-scoort-voor-city-maar-gat-met-kapteins-chelsea-blijft-drie-punten",
+            "source": "NOS",
+            "summary": "Miedema scores for Manchester City as Chelsea stay three points behind."
+          },
+          {
+            "title": "Lamine Yamal breekt duel met Real Sociedad open, Barcelona nieuwe koploper",
+            "url": "https://nos.nl/artikel/2584456-lamine-yamal-breekt-duel-met-real-sociedad-open-barcelona-nieuwe-koploper",
+            "source": "NOS",
+            "summary": "Lamine Yamal’s decisive moment helps Barcelona take the league lead."
+          }
+        ]
+      },
+      {
+        "category": "Culture",
+        "commentary": "Arts, literature, and design-focused items.",
+        "articles": [
+          {
+            "title": "Schrijverssteen Annie M.G. Schmidt in De Nieuwe Kerk onthuld",
+            "url": "https://nos.nl/artikel/2584447-schrijverssteen-annie-m-g-schmidt-in-de-nieuwe-kerk-onthuld",
+            "source": "NOS",
+            "summary": "Annie M.G. Schmidt’s writers’ stone is unveiled in De Nieuwe Kerk."
+          },
+          {
+            "title": "Eva Meijer wint prijs voor haar boek 'Muizenleven'",
+            "url": "https://nrc.nl/nieuws/2025/09/28/eva-meijer-wint-prijs-voor-haar-boek-muizenleven-a4907577",
+            "source": "NRC",
+            "summary": "Author Eva Meijer wins a prize for the book Muizenleven."
+          },
+          {
+            "title": "Remembering superagent Robert Barnett's debate superpower",
+            "url": "https://axios.com/2025/09/27/robert-barnett-died-remembrance",
+            "source": "Axios",
+            "summary": "Tribute to publicist Robert Barnett and his influence in media and politics."
+          },
+          {
+            "title": "The latest design from Jony Ive’s LoveFrom is a stunning sailing lantern",
+            "url": "https://9to5mac.com/2025/09/27/the-latest-design-from-jony-ives-lovefrom-is-a-stunning-sailing-lantern/",
+            "source": "9to5Mac",
+            "summary": "LoveFrom shows a premium sailing lantern reflecting Ive’s design language."
+          }
+        ]
+      },
+      {
+        "category": "Entertainment",
+        "commentary": "Media, events, and entertainment industry news.",
+        "articles": [
+          {
+            "title": "Bad Bunny to headline Super Bowl halftime show in 2026",
+            "url": "https://axios.com/2025/09/29/bad-bunny-super-bowl-2026-headline-performer",
+            "source": "Axios",
+            "summary": "Bad Bunny will headline the 2026 Super Bowl halftime show."
+          }
+        ]
+      },
+      {
+        "category": "Public Safety",
+        "commentary": "Safety-related incidents and response measures.",
+        "articles": [
+          {
+            "title": "5 doden bij schietpartij in kerk VS, kerkgebouw in brand",
+            "url": "https://nos.nl/artikel/2584472-vijf-doden-bij-schietpartij-in-kerk-vs-kerkgebouw-in-brand",
+            "source": "NOS",
+            "summary": "A deadly church shooting with a later fire attack; motive not known."
+          },
+          {
+            "title": "Zeker 39 doden door verdrukking op campagnebijeenkomst in India",
+            "url": "https://nrc.nl/nieuws/2025/09/28/zeker-39-doden-door-verdrukking-op-campagnebijeenkomst-in-india-a4907688",
+            "source": "NRC",
+            "summary": "39 people died in crowd crush at an Indian campaign event."
+          },
+          {
+            "title": "Politie ingezet bij azc Den Bosch uit vrees voor extreemrechtse actievoerders",
+            "url": "https://nrc.nl/nieuws/2025/09/28/politie-ingezet-bij-azc-den-bosch-uit-vrees-voor-extreemrechtse-actievoerders-a4907703",
+            "source": "NRC",
+            "summary": "Police deployed at an asylum seekers center amid fears of extremist activity."
+          }
+        ]
+      },
+      {
+        "category": "Weather",
+        "commentary": "Weather events and forecasts.",
+        "articles": [
+          {
+            "title": "Tropical Storm Imelda forms, expected to threaten Carolinas with heavy rains",
+            "url": "https://axios.com/2025/09/28/tropical-storm-imelda-us-east-coast-carolinas",
+            "source": "Axios",
+            "summary": "Tropical Storm Imelda forms and is expected to bring heavy rainfall to the Carolinas and U.S. East Coast."
+          }
+        ]
+      },
+      {
+        "category": "Transportation",
+        "commentary": "Transportation disruptions and mobility topics.",
+        "articles": [
+          {
+            "title": "Vluchten omgeleid in Noorwegen na dronewaarnemingen",
+            "url": "https://nos.nl/artikel/2584475-vluchten-omgeleid-in-noorwegen-na-dronewaarnemingen",
+            "source": "NOS",
+            "summary": "Flights were diverted in Norway due to drone sightings; authorities assess safety and investigations."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759119287129
+  },
+  {
     "date": "September 28th, 2025",
     "introText": "Today's digest covers technology policy and AI developments, major US political and legal news, international sanctions and security issues, business deals and valuations, scientific reporting, culture and arts, and notable sports and entertainment updates. It groups articles by topic and summarizes the key facts reported in each piece without analysis.",
     "categories": [
