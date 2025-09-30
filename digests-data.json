@@ -1,5 +1,156 @@
 [
   {
+    "date": "September 30th, 2025",
+    "introText": "Today's digest highlights AI and technology developments, major corporate deals and funding, international diplomacy and security issues, and U.S. policy moves. It presents coverage across Technology & AI, Business & Markets, International Affairs, and U.S. Politics & Policy.",
+    "categories": [
+      {
+        "category": "Technology & AI",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Alexa Plus is smarter — but it’s not yet smart enough",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/787171/amazon-alexa-plus-hardware-event-smart-home",
+            "source": "The Verge",
+            "summary": "Alexa Plus introduces deeper smart‑home integration and more capable AI features. The Verge notes improvements in context understanding and multi-device orchestration, but gaps remain in reliability, privacy, and real-world usefulness."
+          },
+          {
+            "title": "Microsoft launches ‘vibe working’ in Excel and Word",
+            "url": "https://www.theverge.com/news/787076/microsoft-office-agent-mode-office-agent-anthropic-models",
+            "source": "The Verge",
+            "summary": "AI-driven productivity features are introduced in Excel and Word under a concept called ‘vibe working,’ aimed at streamlining collaboration and automating tasks. The Verge notes potential privacy concerns, data sharing in co‑authoring, and adoption hurdles."
+          },
+          {
+            "title": "OpenAI takes on Google, Amazon with new agentic shopping system",
+            "url": "https://techcrunch.com/2025/09/29/openai-takes-on-google-amazon-with-new-agentic-shopping-system/",
+            "source": "TechCrunch",
+            "summary": "OpenAI launches an agentic shopping system enabling AI agents to summarize options, compare prices, and place orders autonomously. The article discusses potential benefits, user experience implications, and platform integration considerations."
+          },
+          {
+            "title": "OpenAI rolls out safety routing system, parental controls on ChatGPT",
+            "url": "https://techcrunch.com/2025/09/29/openai-rolls-out-safety-routing-system-parental-controls-on-chatgpt/",
+            "source": "TechCrunch",
+            "summary": "OpenAI introduces a safety routing system to guide conversations toward compliant responses and adds parental controls for guardians. The piece covers practical implications for families, schools, and enterprise users and configuration options."
+          },
+          {
+            "title": "DeepSeek releases ‘sparse attention’ model that cuts API costs in half",
+            "url": "https://techcrunch.com/2025/09/29/deepseek-releases-sparse-attention-model-that-cuts-api-costs-in-half/",
+            "source": "TechCrunch",
+            "summary": "DeepSeek unveils a sparse attention model aimed at halving API costs while maintaining performance. The article discusses benchmarks, potential applications, tradeoffs, and integration paths."
+          }
+        ]
+      },
+      {
+        "category": "Business & Markets",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "What EA’s buyout might mean for its future",
+            "url": "https://www.theverge.com/games/787723/ea-private-deal-buyout-future-games-layoffs",
+            "source": "The Verge",
+            "summary": "Electronic Arts is reportedly undergoing a private-equity–led buyout valued at about $55 billion. The Verge analyzes potential implications for game slate, corporate structure, and creative direction, including live-service models and leadership changes."
+          },
+          {
+            "title": "Notion Capital raises $130M growth fund to tackle Europe’s follow-on gap",
+            "url": "https://techcrunch.com/2025/09/29/notion-capital-raises-130m-growth-fund-to-tackle-europes-follow-on-gap/",
+            "source": "TechCrunch",
+            "summary": "Notion Capital announces a $130M growth fund to support late-stage European startups, aiding cross-border expansion, scaling, and regulatory navigation."
+          },
+          {
+            "title": "Maker Sims en EA Sports FC door miljardendeal in Saudische handen",
+            "url": "https://nos.nl/artikel/2584539-maker-sims-en-ea-sports-fc-door-miljardendeal-in-saudische-handen",
+            "source": "NOS",
+            "summary": "Sims and EA Sports FC are acquired by Saudi investors in a deal worth about $55 billion, with Saudi Arabia becoming a co-owner of one of the world’s most successful game companies."
+          },
+          {
+            "title": "Farmaciebedrijf Genmab heeft 8 miljard dollar over voor Merus",
+            "url": "https://nrc.nl/nieuws/2025/09/29/farmaciebedrijf-genmab-heeft-8-miljard-dollar-over-voor-nederlandse-branchegenoot-merus-a4907854",
+            "source": "NRC",
+            "summary": "Genmab offers $8B to acquire Dutch biotech Merus, pending regulatory approval and due diligence, expanding Genmab’s oncology portfolio."
+          },
+          {
+            "title": "Tata Steel krijgt staatssteun van maximaal 2 miljard om te vergroenen",
+            "url": "https://nrc.nl/nieuws/2025/09/29/tata-steel-krijgt-staatssteun-van-maximaal-2-miljard-om-te-vergroenen-a4907866",
+            "source": "NRC",
+            "summary": "Tata Steel negotiates up to €2B in government support to green its steel production, subject to regulatory approval and conditions related to environmental goals."
+          }
+        ]
+      },
+      {
+        "category": "International Affairs",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Here Is the Full Text of the Gaza Plan Released by the White House",
+            "url": "https://www.nytimes.com/2025/09/29/world/middleeast/gaza-plan-text.html",
+            "source": "The New York Times",
+            "summary": "The White House releases the Gaza plan, outlining cease-fire terms, humanitarian access, and security provisions, with details on obligations for Hamas and other stakeholders."
+          },
+          {
+            "title": "De Denen weten het zeker: de Russen stuurden de drones hun luchtruim in",
+            "url": "https://nrc.nl/nieuws/2025/09/29/de-denen-weten-het-zeker-de-russen-stuurden-de-drones-hun-luchtruim-in-a4907845",
+            "source": "NRC",
+            "summary": "Danish sources confirm Russian drones entered Danish airspace, described as a signaling move amid broader Russia-West tensions."
+          },
+          {
+            "title": "Taliban sluit internet en telefonie af in Afghanistan",
+            "url": "https://nrc.nl/nieuws/2025/09/29/taliban-sluit-internet-en-telefonie-af-in-afghanistan-a4907870",
+            "source": "NRC",
+            "summary": "Afghanistan experiences a nationwide shutdown of internet and telecommunication networks under Taliban rule, impacting communication and daily life."
+          },
+          {
+            "title": "Hongarije blokkeert 12 Oekraïense nieuwssites als vergelding",
+            "url": "https://nos.nl/artikel/2584550-hongarije-blokkeert-12-oekraiense-nieuwssites-als-vergelding",
+            "source": "NOS",
+            "summary": "Hungary blocks 12 Ukrainian news sites in what is described as retaliation, affecting information access and regional media relations."
+          },
+          {
+            "title": "Circa duizend Russen demonstreren bij kantoor Poetin",
+            "url": "https://nrc.nl/nieuws/2025/09/29/circa-duizend-russen-demonstreren-bij-kantoor-poetin-a4907816",
+            "source": "NRC",
+            "summary": "Around a thousand Russians demonstrate near Putin’s office, signaling domestic political pressure and social unrest."
+          }
+        ]
+      },
+      {
+        "category": "U.S. Politics & Policy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "California Governor Newsom signs landmark AI safety bill SB 53",
+            "url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/",
+            "source": "TechCrunch",
+            "summary": "California signs AI safety and transparency legislation (SB 53), establishing a state-level framework for oversight of high-risk AI systems."
+          },
+          {
+            "title": "HHS seeks to ban Harvard from federal funding in civil rights case",
+            "url": "https://axios.com/2025/09/29/harvard-trump-hhs-federal-funds",
+            "source": "Axios",
+            "summary": "The Health and Human Services Department refers Harvard University to suspension and debarment processes over alleged antisemitism inaction in civil rights matters, risking federal funding and contracts."
+          },
+          {
+            "title": "Charlie Javice sentenced to 7 years in prison for defrauding JPMorgan",
+            "url": "https://axios.com/2025/09/29/charlie-javice-jp-morgan-fraud-case-sentenced-prison",
+            "source": "Axios",
+            "summary": "Charlie Javice sentenced to 85 months in prison for deceiving JPMorgan Chase to push a $175 million acquisition by inflating customer numbers."
+          },
+          {
+            "title": "Scoop: Schumer floats shutdown fix",
+            "url": "https://axios.com/2025/09/29/schumer-floats-seven-ten-day-cr-shutdown",
+            "source": "Axios",
+            "summary": "Senate Democrats propose a short-term spending package to reopen the government for 7-10 days if a shutdown occurs on Oct. 1."
+          },
+          {
+            "title": "Trump’s Meeting With Democrats Yields No Progress, With Shutdown a Day Away",
+            "url": "https://www.nytimes.com/2025/09/29/us/politics/government-shutdown-trump-vance-congress.html",
+            "source": "The New York Times",
+            "summary": "A White House meeting with Republican and Democratic leaders ends without an agreement on funding as the shutdown deadline approaches."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759205627512
+  },
+  {
     "date": "September 29th, 2025",
     "introText": "This daily digest covers advances in technology and AI, regulatory and political developments affecting tech and society, major international politics and security events, notable health and science topics, plus sports, culture, and entertainment items. It groups articles by topic and summarizes the key facts reported in each piece without analysis.",
     "categories": [
