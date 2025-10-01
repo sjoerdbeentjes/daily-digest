@@ -1,5 +1,156 @@
 [
   {
+    "date": "October 1st, 2025",
+    "introText": "Today's digest covers technology and AI developments, major political and governance news in the United States, and notable business and startup activity, along with recent science and health research findings. It highlights new AI apps, hardware announcements, government funding debates, startup investments, and scientific advances.",
+    "categories": [
+      {
+        "category": "Technology & AI",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "OpenAI is launching the Sora app, its own TikTok competitor, alongside the Sora 2 model",
+            "url": "https://techcrunch.com/2025/09/30/openai-is-launching-the-sora-app-its-own-tiktok-competitor-alongside-the-sora-2-model/",
+            "source": "TechCrunch",
+            "summary": "OpenAI announced Sora, a social video app intended as a TikTok-style competitor, released alongside the Sora 2 AI model. The article notes AI-assisted video creation and the app's integration within OpenAI's consumer product lineup."
+          },
+          {
+            "title": "You can now preorder LG’s 6K 32-inch Thunderbolt 5 display for $2,000",
+            "url": "https://www.theverge.com/news/788916/lg-ultrafine-32u990a-32-inch-6k-monitor-thunderbolt-5-preorder",
+            "source": "The Verge",
+            "summary": "LG’s 32-inch 6K Thunderbolt 5 monitor is available to preorder for about $2,000. The article highlights its Thunderbolt 5 connectivity and its suitability for professional workflows."
+          },
+          {
+            "title": "Ring launches upgraded cameras with Retinal Vision 4K recording",
+            "url": "https://www.theverge.com/news/788290/ring-amazon-hardware-event-price-specs",
+            "source": "The Verge",
+            "summary": "Ring announced upgraded cameras featuring Retinal Vision 4K recording and familiar-face recognition. The article discusses new capabilities and related privacy considerations."
+          },
+          {
+            "title": "Amazon’s 2025 hardware event: the 8 biggest announcements",
+            "url": "https://www.theverge.com/news/788297/amazon-fall-2025-hardware-announcements-echo-alexa-kindle-ring",
+            "source": "The Verge",
+            "summary": "The Verge outlines eight major announcements from Amazon's 2025 hardware event, including Echo devices, Kindle updates, Ring products, Fire TV, and related accessories. It notes expected release timelines and price points."
+          },
+          {
+            "title": "Logitech MX Master 4 adds haptic feedback, mostly just for fun",
+            "url": "https://www.theverge.com/news/787339/logitech-mx-master-4-mouse-haptics-specs-features-price",
+            "source": "The Verge",
+            "summary": "Logitech MX Master 4 adds haptic feedback. The article mentions the feature and discusses potential implications for productivity and available specs."
+          }
+        ]
+      },
+      {
+        "category": "Politics & Policy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "U.S. Begins Shutdown That May Lead to Mass Layoffs and Cuts",
+            "url": "https://www.nytimes.com/live/2025/09/30/us/trump-government-shutdown-hegseth",
+            "source": "The New York Times",
+            "summary": "Federal government shutdown begins after Congress fails to pass a new funding bill; nonessential services may halt and payrolls could be affected."
+          },
+          {
+            "title": "What a government shutdown could mean for air travel",
+            "url": "https://axios.com/2025/09/30/government-shutdown-air-travel-disruptions",
+            "source": "Axios",
+            "summary": "Axios analyzes potential disruptions to air travel due to a government shutdown, including possible furloughs and service delays depending on funding timing."
+          },
+          {
+            "title": "Scoop: Schumer's caucus rally",
+            "url": "https://axios.com/2025/09/30/schumer-democrats-senate-shutdown-rally",
+            "source": "Axios",
+            "summary": "Schumer-led caucus meeting discussed unity and strategy amid funding negotiations; describes mood and messaging."
+          },
+          {
+            "title": "Trump officials targeted pro-Palestinian activists to stoke fear, judge rules",
+            "url": "https://axios.com/2025/09/30/trump-pro-palestinian-speech-ruling",
+            "source": "Axios",
+            "summary": "A judge ruled that Trump officials targeted pro-Palestinian activists to stoke fear; discusses civil liberties implications."
+          },
+          {
+            "title": "Trump orders $50M for AI in pediatric cancer research",
+            "url": "https://axios.com/2025/09/30/trump-ai-pediatric-cancer-research",
+            "source": "Axios",
+            "summary": "Trump directs $50 million to AI-driven pediatric cancer research; describes potential impacts on funding and interagency coordination."
+          }
+        ]
+      },
+      {
+        "category": "Business & Startups",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Former OpenAI and DeepMind researchers raise whopping $300M seed to automate science",
+            "url": "https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/",
+            "source": "TechCrunch",
+            "summary": "A group of former OpenAI and DeepMind researchers raised $300 million in seed funding to automate scientific discovery, aiming to design experiments, analyze results, and run simulations using AI."
+          },
+          {
+            "title": "Venmo and PayPal users will finally be able to send money to each other",
+            "url": "https://techcrunch.com/2025/09/30/venmo-and-paypal-users-will-finally-be-able-to-send-money-to-each-other/",
+            "source": "TechCrunch",
+            "summary": "Venmo and PayPal users will be able to transfer money cross-platform; linking accounts and faster settlements."
+          },
+          {
+            "title": "Toyota adds another $1.5B to its bet on startups at every stage",
+            "url": "https://techcrunch.com/2025/09/30/toyota-adds-another-1-5b-to-its-bet-on-startups-at-every-stage/",
+            "source": "TechCrunch",
+            "summary": "Toyota invests $1.5B in startups across multiple growth stages; targets mobility, AI, manufacturing, and energy tech."
+          },
+          {
+            "title": "A comprehensive list of 2025 tech layoffs",
+            "url": "https://techcrunch.com/2025/09/30/tech-layoffs-2025-list/",
+            "source": "TechCrunch",
+            "summary": "The article lists tech layoffs across 2025, including companies, affected roles, and macro drivers behind workforce reductions."
+          },
+          {
+            "title": "Sora launches on App Store for video creation from ChatGPT maker",
+            "url": "https://9to5mac.com/2025/09/30/sora-launches-on-app-store-for-video-creation-from-chatgpt-maker/",
+            "source": "9to5Mac",
+            "summary": "OpenAI launches Sora on the App Store for AI-powered video creation, released alongside its ChatGPT ecosystem."
+          }
+        ]
+      },
+      {
+        "category": "Science & Health",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Inflammation now predicts heart disease more strongly than cholesterol",
+            "url": "https://www.empirical.health/blog/inflammation-and-heart-health/",
+            "source": "Hacker News",
+            "summary": "Research indicates inflammation biomarkers may predict cardiovascular disease risk more strongly than traditional cholesterol measures."
+          },
+          {
+            "title": "Scientists turn human skin cells into functional eggs",
+            "url": "https://axios.com/2025/10/01/human-skin-cells-eggs-fertility-research",
+            "source": "Axios",
+            "summary": "Scientists reprogram human skin cells into functional eggs; discusses potential implications and regulatory considerations."
+          },
+          {
+            "title": "After Vesuvius Buried Pompeii, Some Survivors Moved Back In",
+            "url": "https://www.nytimes.com/2025/09/30/science/archaeology-vesuvius-pompeii.html",
+            "source": "The New York Times",
+            "summary": "A study reports that some residents returned to the Pompeii area after the eruption, describing post-eruption life."
+          },
+          {
+            "title": "Earthquake in Philippines Kills Dozens, Officials Say",
+            "url": "https://www.nytimes.com/2025/09/30/world/asia/philippines-earthquake-cebu.html",
+            "source": "The New York Times",
+            "summary": "A 6.9-magnitude earthquake in Cebu province killed dozens and injured hundreds; rescue efforts are ongoing."
+          },
+          {
+            "title": "Washi: The Japanese paper crafted to last 1,000 years [video]",
+            "url": "https://www.bbc.com/reel/video/p0m4mg2j/washi-the-japanese-paper-crafted-to-last-1-000-years",
+            "source": "BBC Reel",
+            "summary": "BBC Reel explores Washi, a traditional Japanese paper noted for longevity, detailing its production fibers and durability."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759292062863
+  },
+  {
     "date": "September 30th, 2025",
     "introText": "Today's digest highlights AI and technology developments, major corporate deals and funding, international diplomacy and security issues, and U.S. policy moves. It presents coverage across Technology & AI, Business & Markets, International Affairs, and U.S. Politics & Policy.",
     "categories": [
