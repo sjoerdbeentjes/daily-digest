@@ -1,5 +1,156 @@
 [
   {
+    "date": "October 2nd, 2025",
+    "introText": "Today’s digest covers technology and AI policy developments, U.S. political and policy actions, international and humanitarian affairs, and major sports and entertainment events. It highlights new product previews, regulatory moves, and notable global developments across these areas.",
+    "categories": [
+      {
+        "category": "Technology, AI & Digital Policy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Google’s Home Speaker looks and sounds better — but you can’t get it yet",
+            "url": "https://www.theverge.com/tech/788085/hands-on-google-home-speaker",
+            "source": "The Verge",
+            "summary": "The Verge previews Google's upcoming Home Speaker with a $99 price point and a 2026 launch window powered by Gemini AI; improvements in audio and deeper integration into Google’s ecosystem are noted, though exact specs and features are not disclosed in the teaser."
+          },
+          {
+            "title": "OpenAI made a TikTok for deepfakes, and it’s getting hard to tell what’s real",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/789126/openai-made-a-tiktok-for-deepfakes-and-its-getting-hard-to-tell-whats-real",
+            "source": "The Verge",
+            "summary": "The Verge discusses OpenAI’s TikTok videos described as deepfakes and examines authenticity challenges and platform moderation responsibilities."
+          },
+          {
+            "title": "California’s new AI safety law shows regulation and innovation don’t have to clash",
+            "url": "https://techcrunch.com/2025/10/01/californias-new-ai-safety-law-shows-regulation-and-innovation-dont-have-to-clash/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch analyzes California's AI safety law, detailing safety testing, labeling, accountability requirements, and how governance aims to balance safety with innovation."
+          },
+          {
+            "title": "Meta will use your chats with AI to sell hyper-targeted ads",
+            "url": "https://9to5mac.com/2025/10/01/meta-will-use-your-chats-with-ai-to-sell-hyper-targeted-ads/#more-1022150",
+            "source": "9to5Mac",
+            "summary": "Meta updated its policy to use chats with AI products to tailor ads; the update notes there is no opt-out described in the text."
+          },
+          {
+            "title": "Apple Vision Pro next-gen revealed in new regulatory filing",
+            "url": "https://www.theverge.com/news/789801/apple-vision-pro-fcc-filing-leak",
+            "source": "The Verge",
+            "summary": "A regulatory filing reveals details about a next-generation Vision Pro, suggesting hardware updates and implications for release timelines or features."
+          }
+        ]
+      },
+      {
+        "category": "Politics, Economy & Policy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "White House Uses Shutdown to Maximize Pain and Punish Political Foes",
+            "url": "https://www.nytimes.com/2025/10/01/us/politics/white-house-shutdown-punishment.html",
+            "source": "The New York Times",
+            "summary": "The White House signals a hard-line approach in the budget standoff, aiming to pressure Democrats; expected consequences include agency disruptions and visa-processing delays."
+          },
+          {
+            "title": "U.S. to Withhold $18 Billion for New York-Area Transit Projects",
+            "url": "https://www.nytimes.com/2025/10/01/nyregion/trump-nyc-subway-gateway-infrastructure-funding.html",
+            "source": "The New York Times",
+            "summary": "The administration withholds about $18 billion for Gateway infrastructure and related projects as leverage in the shutdown fight, potentially delaying major transit work."
+          },
+          {
+            "title": "Trump admin adds banner attacking ‘Radical Left Democrats’ to government websites",
+            "url": "https://www.theverge.com/news/790280/trump-admin-government-shutdown-banner-democrats",
+            "source": "The Verge",
+            "summary": "A banner attacking 'Radical Left Democrats' is displayed on government sites amid the shutdown, reflecting the administration’s messaging strategy."
+          },
+          {
+            "title": "DOE ends billions in clean-energy awards after Vought post",
+            "url": "https://axios.com/2025/10/02/doe-ends-awards-vought-tweet",
+            "source": "Axios",
+            "summary": "The Energy Department terminates $7.56 billion in awards for 223 projects, marking a reversal in Biden-era clean-energy funding."
+          },
+          {
+            "title": "Inside TrumpRx and its unusual launch",
+            "url": "https://axios.com/2025/10/01/trumprx-website-drug-prices-trump-pfizer",
+            "source": "Axios",
+            "summary": "Axios reports on TrumpRx, a government drug-pricing website with Pfizer as partner, offering discounts but with skepticism about the size of potential savings."
+          }
+        ]
+      },
+      {
+        "category": "International & Global Affairs",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Activisten: nog tientallen boten op weg naar Gaza, dertien schepen geënterd",
+            "url": "https://nos.nl/artikel/2584845-activisten-nog-tientallen-boten-op-weg-naar-gaza-dertien-schepen-geenterd",
+            "source": "NOS",
+            "summary": "Dozens of boats remain en route to Gaza; thirteen ships have been intercepted; the protest aims to deliver humanitarian aid and draw international attention."
+          },
+          {
+            "title": "Voor Palestijnen uit Gaza is in Egypte onvoldoende medische hulp: ‘Ik wil niet dat mijn benen worden geamputeerd’",
+            "url": "https://nrc.nl/nieuws/2025/10/01/voor-palestijnen-uit-gaza-is-in-egypte-onvoldoende-medische-hulp-a4908153",
+            "source": "NRC",
+            "summary": "Palestinians from Gaza in Egypt face insufficient medical care, with physicians and patients describing urgent needs and logistical challenges in evacuation and ongoing treatment."
+          },
+          {
+            "title": "EU onderzoekt optie om bevroren Russisch geld aan Oekraïne te lenen",
+            "url": "https://nos.nl/artikel/2584820-eu-onderzoekt-optie-om-bevroren-russisch-geld-aan-oekraine-te-lenen",
+            "source": "NOS",
+            "summary": "The EU considers using frozen Russian assets to lend to Ukraine, discussing legal and geopolitical implications and potential impacts on member states."
+          },
+          {
+            "title": "Nederland wil Houthi's op EU-terreurlijst, hoop op sleepactie aangevallen schip",
+            "url": "https://nos.nl/artikel/2584823-nederland-wil-houthi-s-op-eu-terreurlijst-hoop-op-sleepactie-aangevallen-schip",
+            "source": "NOS",
+            "summary": "The Netherlands seeks to add Houthis to the EU terrorist list and discusses diplomatic and operational challenges around an attacked vessel and salvage action."
+          },
+          {
+            "title": "Jongerenprotesten in Marokko slaan om, twee doden bij bestorming politiebureau",
+            "url": "https://nos.nl/artikel/2584844-jongerenprotesten-in-marokko-slaan-om-twee-doden-bij-bestorming-politiebureau",
+            "source": "NOS",
+            "summary": "Youth protests in Morocco escalate, resulting in two deaths during the storming of a police station; context includes governance and social grievances."
+          }
+        ]
+      },
+      {
+        "category": "Sports & Culture",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "PSG verslaat Barcelona in Champions League-topper, puntenverlies City ondanks Haaland",
+            "url": "https://nos.nl/artikel/2584835-psg-verslaat-barcelona-in-champions-league-topper-puntenverlies-city-ondanks-haaland",
+            "source": "NOS",
+            "summary": "PSG defeated Barcelona in a Champions League top clash; Manchester City’s late penalty caused a 2-2 result against Monaco, affecting group standings."
+          },
+          {
+            "title": "PSV pakt bij Leverkusen eerste punt in Champions League",
+            "url": "https://nrc.nl/nieuws/2025/10/01/psv-pakt-bij-leverkusen-eerste-punt-in-champions-league-a4908193",
+            "source": "NRC",
+            "summary": "PSV earned a first Champions League point at Leverkusen after Saibari equalized following a late error by a Leverkusen player."
+          },
+          {
+            "title": "Martin Scorsese docuseries trailer",
+            "url": "https://9to5mac.com/2025/10/01/apple-tv-docuseries-on-martin-scorsese-gets-an-exciting-first-trailer/#more-1022270",
+            "source": "9to5Mac",
+            "summary": "Apple TV+ released the trailer for a Scorsese docuseries, with October premiere confirmed."
+          },
+          {
+            "title": "Jane Goodall, Eminent Primatologist Who Chronicled Lives of Chimps, Dies at 91",
+            "url": "https://www.nytimes.com/2025/10/01/obituaries/jane-goodall-dead.html",
+            "source": "The New York Times",
+            "summary": "Obituary honoring Jane Goodall’s chimpanzee research, conservation advocacy, and impact on science and policy."
+          },
+          {
+            "title": "Behold: The Lego Game Boy has already been modded to play games for real",
+            "url": "https://www.theverge.com/tech/790093/lego-game-boy-natalie-the-nerd",
+            "source": "The Verge",
+            "summary": "Feature on a Lego-based Game Boy modification that is functional enough to play games, highlighting build craft and hardware hacks."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759378467632
+  },
+  {
     "date": "October 1st, 2025",
     "introText": "Today's digest covers technology and AI developments, major political and governance news in the United States, and notable business and startup activity, along with recent science and health research findings. It highlights new AI apps, hardware announcements, government funding debates, startup investments, and scientific advances.",
     "categories": [
