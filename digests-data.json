@@ -1,5 +1,156 @@
 [
   {
+    "date": "October 3rd, 2025",
+    "introText": "Today's digest covers technology and AI developments, global politics and security issues, economics and energy policy, and culture, science and health. It summarizes 20 selected articles from major outlets and presents the main facts of each.",
+    "categories": [
+      {
+        "category": "Technology & AI",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "OpenAI is the world’s most valuable private company after private stock sale",
+            "url": "https://techcrunch.com/2025/10/02/openai-is-the-worlds-most-valuable-private-company-after-private-stock-sale/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports that OpenAI became the world's most valuable private company after a private stock sale."
+          },
+          {
+            "title": "OpenAI’s New Video App Is Jaw-Dropping (for Better and Worse)",
+            "url": "https://www.nytimes.com/2025/10/02/technology/openai-sora-video-app.html",
+            "source": "The New York Times",
+            "summary": "OpenAI released a new video app named Sora enabling AI-generated nine-second clips; raises safety and privacy concerns."
+          },
+          {
+            "title": "The good, the bad, and the future of AI agents",
+            "url": "https://www.theverge.com/podcast/789772/ai-agents-anthropic-claude-sonnet-autonomous-coding",
+            "source": "The Verge",
+            "summary": "Verge podcast discusses the current state of AI agents, including capabilities and safety considerations, and potential applications."
+          },
+          {
+            "title": "OpenAI made a TikTok for deepfakes, and it’s getting hard to tell what’s real",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/789126/openai-made-a-tiktok-for-deepfakes-and-its-getting-hard-to-tell-whats-real",
+            "source": "The Verge",
+            "summary": "The Verge reports OpenAI has created a TikTok-style platform for deepfakes; concerns about deception and safeguards."
+          },
+          {
+            "title": "Google’s Jules enters developers’ toolchains as AI coding agent competition heats up",
+            "url": "https://techcrunch.com/2025/10/02/googles-jules-enters-developers-toolchains-as-ai-coding-agent-competition-heats-up/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch notes Google’s Jules expanding into developers’ toolchains amid AI coding-agent competition and potential productivity impacts."
+          }
+        ]
+      },
+      {
+        "category": "Global Politics & Security",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "How Israeli actions caused famine in Gaza, visualized",
+            "url": "https://www.cnn.com/2025/10/02/middleeast/gaza-famine-causes-vis-intl",
+            "source": "Hacker News",
+            "summary": "CNN reports visualizations showing how Israeli actions contributed to famine conditions in Gaza, including access challenges and food insecurity."
+          },
+          {
+            "title": "Hoe Trump het land en het leger voorbereidt op oorlog tegen de binnenlandse vijand",
+            "url": "https://nrc.nl/nieuws/2025/10/02/hoe-trump-het-land-en-het-leger-voorbereidt-op-oorlog-tegen-de-binnenlandse-vijand-a4908302",
+            "source": "NRC",
+            "summary": "NRC describes Trump and allies' framing of a domestic 'enemy' and discusses potential military action against internal opponents."
+          },
+          {
+            "title": "What Trump and Republicans keep sharing videos of Democrats in sombreros",
+            "url": "https://www.axios.com/2025/10/02/trump-sombrero-videos-explained",
+            "source": "Axios",
+            "summary": "Axios analyzes the tactic of sharing videos of Democrats in sombreros to frame opponents and notes misinformation concerns."
+          },
+          {
+            "title": "Pro-Palestijnse betogers bezetten spoor Den Haag: 205 arrestaties en geen treinverkeer mogelijk",
+            "url": "https://nrc.nl/nieuws/2025/10/02/pro-palestijnse-betogers-bezetten-spoor-den-haag-205-arrestaties-en-geen-treinverkeer-mogelijk-a4908312",
+            "source": "NRC",
+            "summary": "Pro-Palestinian protesters occupied rail tracks in Den Haag, leading to 205 arrests and disrupted train traffic."
+          },
+          {
+            "title": "Deadly Attack Outside U.K. Synagogue on Yom Kippur Is Declared Terrorism",
+            "url": "https://www.nytimes.com/2025/10/02/world/europe/terrorist-attack-uk-synagogue-manchester.html",
+            "source": "The New York Times",
+            "summary": "Counterterrorism police identified the attacker as a 35-year-old British citizen of Syrian descent; two people were killed and the incident is treated as terrorism."
+          }
+        ]
+      },
+      {
+        "category": "Economy & Policy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "US government takes equity stake in one of the world’s largest lithium mines",
+            "url": "https://www.theverge.com/news/790057/lithium-mine-us-trump-us-government-stake-thacker-pass",
+            "source": "The Verge",
+            "summary": "The U.S. government takes an equity stake in Thacker Pass, one of the world’s largest lithium mines, to secure critical minerals."
+          },
+          {
+            "title": "Department of Energy cancels $7.5B of clean energy projects in mostly blue states",
+            "url": "https://techcrunch.com/2025/10/02/department-of-energy-cancels-7-5b-of-clean-energy-projects-in-mostly-blue-states/",
+            "source": "TechCrunch",
+            "summary": "DOE cancels about $7.5 billion of clean-energy projects largely in blue states."
+          },
+          {
+            "title": "Stablecoin hype grows, total supply cracks $300 billion",
+            "url": "https://www.axios.com/2025/10/02/stablecoin-supply-300-billion",
+            "source": "Axios",
+            "summary": "Stablecoins’ total supply exceeds $300 billion; drivers include merchant adoption and cross-border transfers; regulatory scrutiny noted."
+          },
+          {
+            "title": "FICO's direct sale plan jolts credit reporting stocks",
+            "url": "https://www.axios.com/2025/10/02/fico-credit-reports",
+            "source": "Axios",
+            "summary": "FICO announces a direct-sale plan that could change how consumers access credit data and how lenders price risk."
+          },
+          {
+            "title": "Renewables, hydrogen, transmission projects eyed for DOE cuts",
+            "url": "https://www.axios.com/2025/10/02/doe-cuts-renewables-hydrogen-blue-states",
+            "source": "Axios",
+            "summary": "DOE considers budget or policy cuts affecting renewables, hydrogen initiatives, and transmission projects; discusses potential impacts on energy development and jobs."
+          }
+        ]
+      },
+      {
+        "category": "Culture, Science & Health",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Jane Goodall leefde voor haar chimpansees",
+            "url": "https://www.nrc.nl/nieuws/2025/10/01/jane-goodall-leefde-voor-haar-chimpansees-a4908191",
+            "source": "NRC",
+            "summary": "NRC obituary honors Jane Goodall for her chimpanzee research and conservation advocacy; notes her legacy."
+          },
+          {
+            "title": "Spinvis maakte met zijn zoon een VR-installatie over ‘die eindeloze stroom van zooi die mensen achter zich aanslepen’",
+            "url": "https://nrc.nl/nieuws/2025/10/02/vader-en-zoon-spinvis-van-waterval-van-fietsbellen-tot-surrealistische-lawine-van-kartonnen-dozen-a4908269",
+            "source": "NRC",
+            "summary": "NRC reports on a VR installation by Spinvis and his son about the abundance of belongings and its reflection on human relationships with objects."
+          },
+          {
+            "title": "250 culturele organisaties Nederland en België besluiten tot boycot Israël",
+            "url": "https://nos.nl/artikel/2584966-250-culturele-organisaties-nederland-en-belgie-besluiten-tot-boycot-israel",
+            "source": "NOS",
+            "summary": "NOS reports that 250 cultural organizations in the Netherlands and Belgium decided to boycott Israel."
+          },
+          {
+            "title": "The Lost Bus movie streaming today",
+            "url": "https://9to5mac.com/2025/10/02/the-lost-bus-movie-streaming-apple-tv/",
+            "source": "9to5Mac",
+            "summary": "The Lost Bus, starring Matthew McConaughey, is streaming today on Apple TV+; based on the book Paradise and about Kevin McKay who saved 22 schoolchildren."
+          },
+          {
+            "title": "The history of cataract surgery",
+            "url": "https://www.asimov.press/p/cataracts",
+            "source": "Hacker News",
+            "summary": "Asimov Press traces the history of cataract surgery from ancient techniques to modern methods and milestones."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759464888195
+  },
+  {
     "date": "October 2nd, 2025",
     "introText": "Today’s digest covers technology and AI policy developments, U.S. political and policy actions, international and humanitarian affairs, and major sports and entertainment events. It highlights new product previews, regulatory moves, and notable global developments across these areas.",
     "categories": [
