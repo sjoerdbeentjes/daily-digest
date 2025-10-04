@@ -1,5 +1,156 @@
 [
   {
+    "date": "October 4th, 2025",
+    "introText": "Major topics today include tech platform enforcement and security incidents, global political and policy developments, and high-profile AI and startup business news. The digest also covers science, space, and environmental topics.",
+    "categories": [
+      {
+        "category": "Technology & AI",
+        "commentary": "Technology and AI policy, platforms, and security news",
+        "articles": [
+          {
+            "title": "Apple pulls ICEBlock from the App Store",
+            "url": "https://www.theverge.com/news/791170/iceblock-app-store-removed-by-apple",
+            "source": "The Verge",
+            "summary": "Apple removed the ICEBlock app from the App Store amid a crackdown on ICE-tracking tools. The article discusses platform governance, policy considerations for watchdog apps, and potential user impact."
+          },
+          {
+            "title": "Google removes ICE-spotting app following Apple’s ICEBlock crackdown",
+            "url": "https://www.theverge.com/news/791533/google-apple-ice-tracking-app-store-red-dot-iceblock",
+            "source": "The Verge",
+            "summary": "Google removed an ICE-spotting app after Apple’s crackdown on ICE-tracking tools. The piece highlights cross-platform enforcement, platform policies, and user privacy and safety considerations."
+          },
+          {
+            "title": "Discord customer service data breach leaks user info and scanned photo IDs",
+            "url": "https://www.theverge.com/news/792032/discord-customer-service-data-breach-hack",
+            "source": "The Verge",
+            "summary": "A data breach affected Discord’s customer-service systems, exposing user information and scanned photo IDs. The article covers data accessed, potential risks, and recommended precautions for affected users."
+          },
+          {
+            "title": "Unity discloses a years-old security exploit and urges developers to update their games",
+            "url": "https://www.theverge.com/news/791609/unity-security-exploit-developers-update-games",
+            "source": "The Verge",
+            "summary": "Unity disclosed a long-standing security vulnerability and urges developers to apply updates to mitigate risk. The article describes the vulnerability’s scope, affected products, and remediation steps."
+          },
+          {
+            "title": "Microsoft is about to launch free Xbox Cloud Gaming with ads",
+            "url": "https://www.theverge.com/report/791213/xbox-cloud-gaming-free-ad-supported-version",
+            "source": "The Verge",
+            "summary": "Microsoft plans to launch a free, ad-supported Xbox Cloud Gaming option. The article discusses the service scope, ad integration, availability, and potential impact on gamers."
+          }
+        ]
+      },
+      {
+        "category": "Politics & Global Affairs",
+        "commentary": "Global politics, diplomacy, and domestic policy developments",
+        "articles": [
+          {
+            "title": "Trump Says Hamas Is Ready for Peace and Tells Israel to Stop Bombing",
+            "url": "https://www.nytimes.com/2025/10/03/world/hamas-hostages-israel-gaza",
+            "source": "The New York Times",
+            "summary": "Hamas indicated willingness to release Israeli hostages. President Trump urged Israel to stop bombing and to incorporate elements of his peace framework, with coverage of statements and diplomatic dynamics."
+          },
+          {
+            "title": "How Fury Over Israel’s Qatar Attack Pushed Netanyahu on Gaza",
+            "url": "https://www.nytimes.com/2025/10/03/us/politics/trump-israel-qatar-gaza.html",
+            "source": "The New York Times",
+            "summary": "The article analyzes how a controversial Israeli attack linked to Qatar affected Prime Minister Netanyahu’s stance toward Gaza, including pressure from U.S. officials and regional allies."
+          },
+          {
+            "title": "Supreme Court Lets Trump Revoke Deportation Protections for Venezuelans",
+            "url": "https://www.nytimes.com/2025/10/03/us/politics/supreme-court-deportation-protections-venezuelans.html",
+            "source": "The New York Times",
+            "summary": "The Supreme Court allowed the Trump administration to revoke deportation protections for Venezuelans, outlining the legal reasoning and potential consequences for affected migrants."
+          },
+          {
+            "title": "Plans to End Government Shutdown Fail in Senate for 4th Time",
+            "url": "https://www.nytimes.com/2025/10/03/us/politics/trump-news-government-shutdown",
+            "source": "The New York Times",
+            "summary": "The report covers the latest failed bipartisan attempts to avert a government shutdown, detailing proposed funding plans, partisan divides, and deadlines."
+          },
+          {
+            "title": "The Fuel Behind Trump’s $100,000 Visa Fee: Lost U.S. Tech Jobs",
+            "url": "https://www.nytimes.com/2025/10/03/us/politics/h1b-visas-tech-jobs-layoffs.html",
+            "source": "The New York Times",
+            "summary": "The analysis examines the proposed $100,000 visa fee for H-1B visas and argues the policy is connected to broader questions about U.S. technology jobs and immigration, detailing potential impacts on tech companies, foreign workers, and domestic workers."
+          }
+        ]
+      },
+      {
+        "category": "Business & Economy & Tech Industry",
+        "commentary": "Startup funding, industry analysis, and cybersecurity in tech",
+        "articles": [
+          {
+            "title": "Supabase nabs $5B valuation, four months after hitting $2B",
+            "url": "https://techcrunch.com/2025/10/03/supabase-nabs-5b-valuation-four-months-after-hitting-2b/",
+            "source": "TechCrunch",
+            "summary": "Supabase raised funding at a $5B valuation, four months after a $2B valuation. The article discusses investors, growth metrics, and the implications for the open-source backend ecosystem."
+          },
+          {
+            "title": "After nine years of grinding, Replit finally found its market. Can it keep it?",
+            "url": "https://techcrunch.com/2025/10/02/after-nine-years-of-grinding-replit-finally-found-its-market-can-it-keep-it/",
+            "source": "TechCrunch",
+            "summary": "Replit profiles its path to product-market fit after nearly a decade, examining growth, pricing, and competitive dynamics in the developer tools space."
+          },
+          {
+            "title": "Hacking group claims theft of 1 billion records from Salesforce customer databases",
+            "url": "https://techcrunch.com/2025/10/03/hacking-group-claims-theft-of-1-billion-records-from-salesforce-customer-databases/",
+            "source": "TechCrunch",
+            "summary": "A hacking group claims to have stolen about 1 billion Salesforce customer records; the article discusses scope, potential data types, and Salesforce’s response."
+          },
+          {
+            "title": "A new a16z report looks at which AI companies startups are actually paying for",
+            "url": "https://techcrunch.com/2025/10/02/a-new-a16z-report-looks-at-which-ai-companies-startups-are-actually-paying-for/",
+            "source": "TechCrunch",
+            "summary": "An a16z report analyzes what AI startups actually pay for, highlighting vendor categories and cost patterns in AI tooling and infrastructure."
+          },
+          {
+            "title": "The AI services transformation may be harder than VCs think",
+            "url": "https://techcrunch.com/2025/09/28/the-ai-services-transformation-may-be-harder-than-vcs-think/",
+            "source": "TechCrunch",
+            "summary": "The article argues that shifting to AI-enabled services faces challenges like integration, governance, and ROI timelines, with implications for investors and enterprise adoption."
+          }
+        ]
+      },
+      {
+        "category": "Science, Health & Environment",
+        "commentary": "Science discoveries, space news, and environmental topics",
+        "articles": [
+          {
+            "title": "AI predicts antibiotic's IBD mechanism–scientists later confirm",
+            "url": "https://healthsci.mcmaster.ca/new-antibiotic-targets-ibd-and-ai-predicted-how-it-would-work-before-scientists-could-prove-it/",
+            "source": "Hacker News",
+            "summary": "An AI-driven prediction suggested an antibiotic mechanism for inflammatory bowel disease, later confirmed by scientists."
+          },
+          {
+            "title": "Interstellar Object 3I/Atlas Passed Mars Last Night",
+            "url": "https://earthsky.org/space/new-interstellar-object-candidate-heading-toward-the-sun-a11pl3z/",
+            "source": "Hacker News",
+            "summary": "Report on the interstellar object 3I/Atlas passing near Mars and its trajectory implications."
+          },
+          {
+            "title": "Jane Goodall leefde voor haar chimpansees",
+            "url": "https://nrc.nl/nieuws/2025/10/01/jane-goodall-leefde-voor-haar-chimpansees-a4908191",
+            "source": "NRC",
+            "summary": "Necrology detailing the life and impact of primatologist Jane Goodall and her contributions to anthropology and conservation."
+          },
+          {
+            "title": "Drones al weken een plaag op vliegvelden: 'Europa staat op scherp'",
+            "url": "https://nos.nl/artikel/2585042-drones-al-weken-een-plaag-op-vliegvelden-europa-staat-op-scherp",
+            "source": "NOS",
+            "summary": "Drones have disrupted multiple European airports for weeks, with flight restrictions and airport closures reported; discusses security and regulatory responses."
+          },
+          {
+            "title": "Open Printer is an open source inkjet printer with DRM-free ink",
+            "url": "https://www.notebookcheck.net/Open-Printer-is-an-open-source-inkjet-printer-with-DRM-free-ink-and-roll-paper-support.1126929.0.html",
+            "source": "Notebookcheck",
+            "summary": "Announcement of an open-source inkjet printer with DRM-free ink and roll-paper support."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759551213783
+  },
+  {
     "date": "October 3rd, 2025",
     "introText": "Today's digest covers technology and AI developments, global politics and security issues, economics and energy policy, and culture, science and health. It summarizes 20 selected articles from major outlets and presents the main facts of each.",
     "categories": [
