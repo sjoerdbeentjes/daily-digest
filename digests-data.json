@@ -1,5 +1,156 @@
 [
   {
+    "date": "October 5th, 2025",
+    "introText": "Top stories today cover tech policy and AI developments, notable data-security incidents, and major global affairs from the Middle East to Europe, along with domestic political dynamics in the U.S. and Europe. The four categories below organize the stories by topic.",
+    "categories": [
+      {
+        "category": "Technology & AI",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Breaking up (Google) is hard to do",
+            "url": "https://www.theverge.com/policy/792055/google-doj-ad-tech-remedies-trial-defense",
+            "source": "The Verge",
+            "summary": "The Verge reports Google warned that a court-ordered breakup of its ad-tech tools could backfire on publishers and discusses potential remedies for restoring competition in digital advertising."
+          },
+          {
+            "title": "Instagram wants me to make content — I just want to post a photo",
+            "url": "https://www.theverge.com/tech/791595/instagram-uploading-features-content",
+            "source": "The Verge",
+            "summary": "The Verge analyzes Instagram’s move toward AI-assisted content creation and creator-focused features and contrasts this with a user’s goal of simply posting a photo."
+          },
+          {
+            "title": "Google’s Gemini AI app could soon be getting a big makeover",
+            "url": "https://techcrunch.com/2025/10/03/googles-gemini-ai-app-could-soon-be-getting-a-big-makeover/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports Gemini AI app may be redesigned with changes to interface, features, and privacy controls."
+          },
+          {
+            "title": "Sam Altman says Sora will add ‘granular,’ opt-in copyright controls",
+            "url": "https://techcrunch.com/2025/10/04/sam-altman-says-sora-will-add-granular-opt-in-copyright-controls/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports Sam Altman said Sora will add granular opt-in copyright controls for AI-generated content."
+          },
+          {
+            "title": "With its latest acqui-hire, OpenAI is doubling down on personalized consumer AI",
+            "url": "https://techcrunch.com/2025/10/03/with-its-latest-acqui-hire-openai-is-doubling-down-on-personalized-consumer-ai/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch notes OpenAI’s latest acqui-hire to bolster personalized consumer AI offerings."
+          }
+        ]
+      },
+      {
+        "category": "Security & Privacy",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Discord customer service data breach leaks user info and scanned photo IDs",
+            "url": "https://www.theverge.com/news/792032/discord-customer-service-data-breach-hack",
+            "source": "The Verge",
+            "summary": "The Verge reports a data breach at Discord exposed customer service data and scanned photo IDs and outlines affected data and advised responses."
+          },
+          {
+            "title": "Google removes ICE-spotting app following Apple’s ICEBlock crackdown",
+            "url": "https://www.theverge.com/news/791533/google-ice-block-iceblock-app-store-ban",
+            "source": "The Verge",
+            "summary": "The Verge reports Google removed an ICE-spotting app in response to Apple’s ICEBlock crackdown and platform policies."
+          },
+          {
+            "title": "Partiful wasn’t stripping GPS locations from user-uploaded photos",
+            "url": "https://techcrunch.com/2025/10/04/event-startup-partiful-wasnt-stripping-gps-locations-from-user-uploaded-photos/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch reports Partiful did not strip GPS location data from user-uploaded photos and discusses privacy implications."
+          },
+          {
+            "title": "A breach every month raises doubts about South Korea’s digital defenses",
+            "url": "https://techcrunch.com/2025/10/04/a-breach-every-month-raises-doubts-about-south-koreas-digital-defenses/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch analyzes frequent data breaches in South Korea and questions the state of digital defenses."
+          },
+          {
+            "title": "The UK is still trying backdoor encryption for Apple users",
+            "url": "https://www.eff.org/deeplinks/2025/10/uk-still-trying-backdoor-encryption-apple-users",
+            "source": "Hacker News",
+            "summary": "The Hacker News summary discusses UK government attempts to mandate backdoor access to encrypted communications and privacy concerns."
+          }
+        ]
+      },
+      {
+        "category": "Global Affairs",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Netanyahu Says Israel and Hamas Are on the Brink of a Hostage Deal",
+            "url": "https://www.nytimes.com/live/2025/10/04/world/israel-hamas-gaza-trump",
+            "source": "The New York Times",
+            "summary": "Netanyahu signaled a negotiated hostage-prisoner exchange could be finalized soon, with Hamas not publicly confirming terms."
+          },
+          {
+            "title": "What to Know About the Gaza Peace Plan",
+            "url": "https://www.nytimes.com/2025/10/04/world/middleeast/gaza-plan.html",
+            "source": "The New York Times",
+            "summary": "An explainer outlining core components of a Gaza peace plan, including ceasefire framework, security guarantees, governance, and humanitarian access."
+          },
+          {
+            "title": "The Chaos of Driving in Lebanon Tells a Story of a Country Unraveled",
+            "url": "https://www.nytimes.com/2025/10/04/opinion/lebanon-driving-chaos-resilience.html",
+            "source": "The New York Times",
+            "summary": "Nada Bakri uses driving as a lens to discuss Lebanon’s political and economic crisis."
+          },
+          {
+            "title": "Syria Holds First Parliamentary Elections Since End of Civil War",
+            "url": "https://www.nytimes.com/2025/10/04/world/middleeast/syria-elections.html",
+            "source": "The New York Times",
+            "summary": "Syria held its first parliamentary elections since the civil war, with discussion of ballot rules and reactions."
+          },
+          {
+            "title": "Pro-Palestina demonstraties trekken duizenden mensen door heel Europa",
+            "url": "https://nrc.nl/nieuws/2025/10/04/pro-palestina-demonstraties-trekken-duizenden-mensen-door-heel-europa-a4908489",
+            "source": "NRC",
+            "summary": "Pro-Palestine demonstrations across Europe drew thousands, with coverage of variations in tone and authorities’ responses."
+          }
+        ]
+      },
+      {
+        "category": "Politics & Elections",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "House GOP cancels more votes in escalation of shutdown strategy",
+            "url": "https://axios.com/2025/10/03/mike-johnson-government-shutdown-house-votes",
+            "source": "Axios",
+            "summary": "House Republicans canceled plans to vote next week as the federal government shutdown extends, reflecting a hardline stance by Speaker Johnson."
+          },
+          {
+            "title": "Democrats are fretting about N.J. governor's race",
+            "url": "https://axios.com/2025/10/04/democrats-worry-new-jerseys-governors-race",
+            "source": "Axios",
+            "summary": "Democrats are concerned about the New Jersey gubernatorial race."
+          },
+          {
+            "title": "Judge Blocks Trump’s Deployment of National Guard in Portland",
+            "url": "https://www.nytimes.com/2025/10/04/us/politics/judge-blocks-national-guard-portland.html",
+            "source": "The New York Times",
+            "summary": "A federal judge issued a temporary restraining order blocking Trump’s plan to deploy the National Guard in Portland."
+          },
+          {
+            "title": "Line-up eerste grote televisiedebat: VVD komt met de schrik vrij en grote verliezer is BBB",
+            "url": "https://nrc.nl/nieuws/2025/10/02/line-up-eerste-grote-televisiedebat-vvd-komt-met-de-schrik-vrij-en-grote-verliezer-is-bbb-a4908227",
+            "source": "NRC",
+            "summary": "The lineup for the first major TV debate was announced; VVD relieved to participate, BBB seen as a big loser in early polling."
+          },
+          {
+            "title": "Trump stuurt 300 leden van de Nationale Garde naar Chicago",
+            "url": "https://nos.nl/artikel/2585230-trump-stuurt-300-leden-van-de-nationale-garde-naar-chicago",
+            "source": "NOS",
+            "summary": "NOS reports Trump is sending 300 National Guard members to Chicago; the mayor calls it 'un-American' and 'scandalous'."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759637492920
+  },
+  {
     "date": "October 4th, 2025",
     "introText": "Major topics today include tech platform enforcement and security incidents, global political and policy developments, and high-profile AI and startup business news. The digest also covers science, space, and environmental topics.",
     "categories": [
