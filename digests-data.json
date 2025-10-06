@@ -1,5 +1,156 @@
 [
   {
+    "date": "October 6th, 2025",
+    "introText": "This digest covers technology and consumer electronics news, international politics and diplomacy, entertainment and gaming, and business and markets. It highlights new devices and software, geopolitical developments, cultural and media events, and startup and market activity.",
+    "categories": [
+      {
+        "category": "Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Tesla’s cheaper Model Y finally breaks cover",
+            "url": "https://www.theverge.com/tech/791414/tesla-model-y-cheap-affordable-photos-leak",
+            "source": "The Verge",
+            "summary": "The Verge reports that Tesla has introduced a cheaper Model Y variant. The article’s teaser does not provide full details."
+          },
+          {
+            "title": "Sony shrinks PS5 Slim storage in the US, too",
+            "url": "https://www.theverge.com/tech/791380/sony-ps5-slim-reduced-storage-2100-model-series",
+            "source": "The Verge",
+            "summary": "Sony reduces storage on the PS5 Slim lineup in the United States. The snippet does not include the full article."
+          },
+          {
+            "title": "Hori’s new Switch 2 controller lets you deactivate its home and screenshot buttons",
+            "url": "https://www.theverge.com/tech/791438/hori-wireless-horipad-turbo-nintendo-switch-2-controller",
+            "source": "The Verge",
+            "summary": "Hori announces a Switch 2 controller with a mode to disable home and screenshot buttons."
+          },
+          {
+            "title": "Amazon’s Fire TV Stick 4K is getting a new name soon",
+            "url": "https://www.theverge.com/news/791504/amazons-fire-tv-stick-4k-is-getting-a-new-name-soon",
+            "source": "The Verge",
+            "summary": "Amazon plans to rename the Fire TV Stick 4K; the article snippet lacks further details."
+          },
+          {
+            "title": "If you can get past the terrible logo, Audacity 4 looks pretty great",
+            "url": "https://www.theverge.com/news/792368/if-you-can-get-past-the-terrible-logo-audacity-4-looks-pretty-great",
+            "source": "The Verge",
+            "summary": "The Verge reviews Audacity 4, noting improvements despite controversy over the logo."
+          }
+        ]
+      },
+      {
+        "category": "World News",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Strong-Armed by Trump, Netanyahu Embraces Gaza Deal as a Personal Win",
+            "url": "https://www.nytimes.com/2025/10/05/world/middleeast/trump-netanyahu-gaza-deal.html",
+            "source": "The New York Times",
+            "summary": "The Times reports that Netanyahu embraced a Gaza deal influenced by Trump; the specifics and civilian impact remain contested."
+          },
+          {
+            "title": "U.S. cedes propaganda war to China",
+            "url": "https://www.axios.com/2025/10/04/us-cedes-propaganda-war-to-china",
+            "source": "Axios",
+            "summary": "Axios reports that the United States appears to be losing information battles to China, with implications for diplomacy and strategic messaging."
+          },
+          {
+            "title": "Overal in het Europese luchtruim duiken drones op. Maar hoe kunnen EU-landen zich ertegen wapenen?",
+            "url": "https://nrc.nl/nieuws/2025/10/03/overal-in-het-europees-luchtruim-duiken-drones-op-maar-hoe-kunnen-eu-landen-zich-ertegen-wapenen-a4908432",
+            "source": "NRC",
+            "summary": "NRC examines the rise of drone activity across EU airspace and discusses defensive options, including a drone-security strategy and a potential 'drone wall'."
+          },
+          {
+            "title": "Oude en nieuwe kibboetsbewoners in Zuid-Israël wonen weer naast Gaza: ‘Het antwoord op terreur is ons hier te vestigen’",
+            "url": "https://nrc.nl/nieuws/2025/10/05/oude-en-nieuwe-kibboetsbewoners-in-zuid-israel-wonen-weer-naast-gaza-het-antwoord-op-terreur-is-ons-hier-te-vestigen-a4908539",
+            "source": "NRC",
+            "summary": "NRC reports that older evacuees from Gaza and hundreds of new settlers are living near Gaza in southern Israel; discusses safety and demographic changes."
+          },
+          {
+            "title": "Schouderklopjes bij pro-Palestinademonstratie voor Joodse medebetogers. ‘Nu zijn we één groep, bewust zichtbaar’",
+            "url": "https://nrc.nl/nieuws/2025/10/05/schouderklopjes-bij-pro-palestinademonstratie-voor-joodse-medebetogers-nu-zijn-we-een-groep-bewust-zichtbaar-a4908537",
+            "source": "NRC",
+            "summary": "NRC covers a pro-Palestinian demonstration at the Museumplein with Jewish participants, examining solidarity and safety dynamics."
+          }
+        ]
+      },
+      {
+        "category": "Entertainment",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Version History is live — here’s how to find it",
+            "url": "https://www.theverge.com/podcast/792339/version-history-podcast-hoverboards",
+            "source": "The Verge",
+            "summary": "The Verge introduces a new podcast feature Version History; the first episode covers hoverboards."
+          },
+          {
+            "title": "Jane Goodall’s death triggered the premiere of Netflix’s new show",
+            "url": "https://www.theverge.com/news/792477/jane-goodall-s-death-triggered-the-premiere-of-netflix-s-new-show",
+            "source": "The Verge",
+            "summary": "The Verge teaser indicates Jane Goodall’s death prompted Netflix to premiere a show connected to her legacy."
+          },
+          {
+            "title": "The developers behind a hit sausage-dueling game hope Steam launch will take it furter",
+            "url": "https://www.theverge.com/entertainment/791353/sausage-legend-steam-launch-interview",
+            "source": "The Verge",
+            "summary": "The Verge features an interview about the creators of a sausage-dueling game and their hopes for a Steam release."
+          },
+          {
+            "title": "Taylor Swift sweeps Apple Music’s top charts with new album ‘The Life of a Showgirl’",
+            "url": "https://9to5mac.com/2025/10/03/taylor-swift-the-life-of-a-showgirl-apple-music-charts/",
+            "source": "9to5Mac",
+            "summary": "Taylor Swift’s new album quickly tops Apple Music’s US Top Songs list."
+          },
+          {
+            "title": "Rumor Replay: M5 MacBook Pro, Siri app, Apple Glasses, and more",
+            "url": "https://9to5mac.com/2025/10/02/rumor-replay-m5-macbook-pro-siri-app-apple-glasses-and-more/",
+            "source": "9to5Mac",
+            "summary": "Rumor Replay surveys rumors about M5 MacBook Pro, Siri app, and Apple Glasses."
+          }
+        ]
+      },
+      {
+        "category": "Business & Markets",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Heidi Health raises $65M Series B led by Steve Cohen’s Point72",
+            "url": "https://techcrunch.com/2025/10/05/heidi-health-raises-65m-series-b-led-by-steve-cohens-point72/",
+            "source": "TechCrunch",
+            "summary": "Heidi Health raises $65M Series B led by Point72; funds will support product development and market expansion."
+          },
+          {
+            "title": "TechCrunch Mobility: Toyota makes a $1.5B bet on the startup ecosystem",
+            "url": "https://techcrunch.com/2025/10/05/techcrunch-mobility-toyota-makes-a-1-5b-bet-on-the-startup-ecosystem/",
+            "source": "TechCrunch",
+            "summary": "Toyota invests $1.5B in the startup ecosystem as part of its mobility strategy; aims to accelerate development and partnerships."
+          },
+          {
+            "title": "Craft Breweries Struggle as Sales and Appetites Wane",
+            "url": "https://www.nytimes.com/2025/10/05/business/craft-breweries-close-sales-decline.html",
+            "source": "The New York Times",
+            "summary": "Craft breweries face declining sales and market saturation; many small producers are closing or pivoting."
+          },
+          {
+            "title": "Yen Plummets and Stocks Rally: Markets Greet Japan’s Next Leader",
+            "url": "https://www.nytimes.com/2025/10/05/business/japan-stocks-yen-takaichi.html",
+            "source": "The New York Times",
+            "summary": "Markets react to Japan’s leadership transition, with the yen weakening and stocks rising as reforms are anticipated."
+          },
+          {
+            "title": "Startups and the U.S. government: It’s getting complicated",
+            "url": "https://techcrunch.com/2025/10/04/startups-and-the-u-s-government-its-getting-complicated/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch discusses how startups navigate regulatory changes, funding programs, and compliance costs in the evolving U.S. policy landscape."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759724323678
+  },
+  {
     "date": "October 5th, 2025",
     "introText": "Top stories today cover tech policy and AI developments, notable data-security incidents, and major global affairs from the Middle East to Europe, along with domestic political dynamics in the U.S. and Europe. The four categories below organize the stories by topic.",
     "categories": [
