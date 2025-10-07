@@ -1,5 +1,156 @@
 [
   {
+    "date": "October 7th, 2025",
+    "introText": "OpenAI is expanding its app ecosystem and developer tooling, with new in-chat apps and DevDay announcements. Global policy and security developments are also in focus, including Gaza talks, insurrection Act discussions, and Arctic geostrategic tensions. The set also includes culture, education, and science/engineering stories from major outlets.",
+    "categories": [
+      {
+        "category": "Technology & AI",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "OpenAI launches apps inside of ChatGPT",
+            "url": "https://techcrunch.com/2025/10/06/openai-launches-apps-inside-of-chatgpt/",
+            "source": "TechCrunch",
+            "summary": "OpenAI announces Apps inside ChatGPT via an Apps SDK, enabling apps to run within the chat interface and enabling integrations with external services and enterprise workflows; governance and safety considerations are discussed."
+          },
+          {
+            "title": "All updates from OpenAI DevDay 2025",
+            "url": "https://www.theverge.com/news/640086/openai-chat-gpt-news-updates",
+            "source": "The Verge",
+            "summary": "The Verge provides a roundup of OpenAI's DevDay 2025 announcements, highlighting major developments, new tools or APIs, and developer-focused features unveiled at the event."
+          },
+          {
+            "title": "OpenAI AgentKit to help developers build and ship AI agents",
+            "url": "https://techcrunch.com/2025/10/06/openai-launches-agentkit-to-help-developers-build-and-ship-ai-agents/",
+            "source": "TechCrunch",
+            "summary": "OpenAI launches AgentKit, a developer toolkit designed to streamline the creation, testing, and deployment of AI-powered agents that can operate across apps and services."
+          },
+          {
+            "title": "AMD to supply 6GW of compute capacity to OpenAI in chip deal worth tens of billions",
+            "url": "https://techcrunch.com/2025/10/06/amd-to-supply-6gw-of-compute-capacity-to-openai-in-chip-deal-worth-tens-of-billions/",
+            "source": "TechCrunch",
+            "summary": "TechCrunch analyzes a large compute agreement where AMD will supply 6GW of compute capacity to OpenAI, with implications for AI training, cloud infrastructure, and semiconductor markets."
+          },
+          {
+            "title": "Sam Altman says ChatGPT has hit 800M weekly active users",
+            "url": "https://techcrunch.com/2025/10/06/sam-altman-says-chatgpt-has-hit-800m-weekly-active-users/",
+            "source": "TechCrunch",
+            "summary": "Sam Altman announces that ChatGPT has reached 800 million weekly active users; the article discusses potential implications for developers, monetization, and competition."
+          }
+        ]
+      },
+      {
+        "category": "World & Politics",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Gaza Peace Talks Take Place Just Ahead of 2nd Anniversary of Oct. 7",
+            "url": "https://www.nytimes.com/2025/10/06/world/middleeast/israel-gaza-hamas-peace-talks.html",
+            "source": "The New York Times",
+            "summary": "Negotiators for Israel and Hamas, with mediators in Egypt, met to discuss ending the war as the second anniversary of Oct. 7 approaches."
+          },
+          {
+            "title": "In opwarmend Noordpoolgebied dreigt een nieuwe Koude Oorlog",
+            "url": "https://nos.nl/artikel/2585491-in-opwarmend-noordpoolgebied-dreigt-een-nieuwe-koude-oorlog",
+            "source": "NOS",
+            "summary": "Arctic warming could intensify competition among major powers over sea routes and resources, potentially elevating geopolitical tensions."
+          },
+          {
+            "title": "Is het internationaal recht nog relevant na Gaza? ‘We gaan een donker decennium tegemoet’",
+            "url": "https://nrc.nl/nieuws/2025/10/06/is-het-internationaal-recht-nog-relevant-na-gaza-we-gaan-een-donker-decennium-tegemoet-a4908607",
+            "source": "NRC",
+            "summary": "NRC interviews six international-law experts about whether international law remains relevant in the Gaza context, with divergent views on norms and accountability."
+          },
+          {
+            "title": "What Is the Insurrection Act That Trump Says He’s Considering?",
+            "url": "https://www.nytimes.com/2025/10/06/us/politics/insurrection-act-national-guard.html",
+            "source": "The New York Times",
+            "summary": "Policy analysis explains the Insurrection Act, its historical origins, legal thresholds, and potential implications if invoked."
+          },
+          {
+            "title": "Pentagon Relaxes Press Access Rules",
+            "url": "https://www.nytimes.com/2025/10/06/us/politics/shutdown-republicans-trump-government.html",
+            "source": "The New York Times",
+            "summary": "The Pentagon eases press-access rules, detailing changes to credentials and briefing access and noting reactions from press groups and officials."
+          }
+        ]
+      },
+      {
+        "category": "Culture & Society",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "Edison oeuvreprijzen voor Gregory Porter en Janine Jansen",
+            "url": "https://nos.nl/artikel/2585508-edison-oeuvreprijzen-voor-gregory-porter-en-janine-jansen",
+            "source": "NOS",
+            "summary": "Edison oeuvre prizes awarded to Gregory Porter and Janine Jansen; Porter traveled to the Netherlands to accept the bronze statue and performed during the ceremony."
+          },
+          {
+            "title": "Can Sweet Songs Prevail Over Bloody Ones? Mexico Is Giving It a Try.",
+            "url": "https://www.nytimes.com/2025/10/06/world/can-sweet-songs-prevail-over-bloody-ones-mexico.html",
+            "source": "The New York Times",
+            "summary": "Mexico Sings contest crowns winners and promotes songs without drug-cartel imagery, exploring cultural policy amid security concerns."
+          },
+          {
+            "title": "Harvard Students Skip Class and Still Get High Grades",
+            "url": "https://nrc.nl/nieuws/2025/10/06/harvard-students-absenteeism.html",
+            "source": "NRC",
+            "summary": "Harvard faculty report students skipping readings yet achieving high grades; discusses attendance and learning outcomes."
+          },
+          {
+            "title": "A Harvard Professor Is Placed on Leave After Firing a Pellet Gun",
+            "url": "https://www.nytimes.com/2025/10/06/us/harvard-professor-pellet-gun-synagogue.html",
+            "source": "The New York Times",
+            "summary": "Harvard professor placed on administrative leave after firing a pellet gun; investigations and campus safety considerations are underway."
+          },
+          {
+            "title": "Journalisten in Gaza blikken terug: 'De wereld lijkt doof voor onze pijn'",
+            "url": "https://nos.nl/artikel/2585489-journalisten-in-gaza-blikken-terug-de-wereld-lijkt-doof-voor-onze-pijn",
+            "source": "NOS",
+            "summary": "Gaza journalists reflect on danger and access, with IFJ noting around 250 media workers have died since the war began."
+          }
+        ]
+      },
+      {
+        "category": "Science & Technology",
+        "commentary": "",
+        "articles": [
+          {
+            "title": "The Very Hungry Microbes That Could, Just Maybe, Cool the Planet",
+            "url": "https://www.nytimes.com/2025/10/06/climate/methane-eating-microbes-bacteria.html",
+            "source": "The New York Times",
+            "summary": "The article discusses methane-eating microbes in the ocean and their potential to mitigate methane emissions, including feasibility and research needs."
+          },
+          {
+            "title": "Kirigami-inspired parachute falls on target",
+            "url": "https://physicsworld.com/a/kirigami-inspired-parachute-falls-on-target/",
+            "source": "Physics World",
+            "summary": "A kirigami-based parachute design uses patterned cuts to enable tunable drag and smoother deployment, with test results and potential applications."
+          },
+          {
+            "title": "OpenZL: An open source format-aware compression framework",
+            "url": "https://engineering.fb.com/2025/10/06/developer-tools/openzl-open-source-format-aware-compression-framework/",
+            "source": "Facebook Engineering",
+            "summary": "OpenZL presents a format-aware compression framework with architecture, API design, and benchmarks showing efficiency improvements over generic compressors."
+          },
+          {
+            "title": "What makes 5% of AI agents work in production?",
+            "url": "https://www.motivenotes.ai/p/what-makes-5-of-ai-agents-actually",
+            "source": "Motivenotes",
+            "summary": "MotivNotes analyzes factors differentiating AI agents that succeed in production versus those that fail, offering practical recommendations for teams."
+          },
+          {
+            "title": "CodeMender: an AI agent for code security",
+            "url": "https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/",
+            "source": "DeepMind / Google",
+            "summary": "DeepMind introduces CodeMender, an AI agent designed to identify vulnerabilities, suggest secure coding practices, and integrate with CI/CD workflows."
+          }
+        ]
+      }
+    ],
+    "timestamp": 1759810486126
+  },
+  {
     "date": "October 6th, 2025",
     "introText": "This digest covers technology and consumer electronics news, international politics and diplomacy, entertainment and gaming, and business and markets. It highlights new devices and software, geopolitical developments, cultural and media events, and startup and market activity.",
     "categories": [
